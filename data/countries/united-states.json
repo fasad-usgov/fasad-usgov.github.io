@@ -4,7 +4,16 @@
   "region": "Global",
   "summary": "Primary global superpower following World War II, conducting global military interventions, covert regime change operations, intelligence alliances, and economic sanctions across Latin America, Asia, and the Middle East.",
   "historical_context": "Following the National Security Act of 1947, the United States developed a vast apparatus of global military command structures and intelligence agencies (CIA, NSA, DoD). Motivated initially by Cold War anti-communism and later by control over global petroleum corridors and counter-terrorism mandates ('Global War on Terror'), the US engaged in direct invasions (Vietnam, Afghanistan, Iraq) and covert overthrows of sovereign governments (Iran 1953, Guatemala 1954, Chile 1973), with massive corporate participation from its defense and energy industrial base.",
-  "key_operations": ["iran-coup-1953", "iraq-invasion-2003", "gaza-war-2023"],
+  "key_operations": [
+    "iran-coup-1953",
+    "guatemala-coup-1954",
+    "indonesia-killings-1965",
+    "vietnam-war-1964-1975",
+    "chile-coup-1973",
+    "iraq-invasion-2003",
+    "venezuela-interventions-2002-present",
+    "gaza-war-2023"
+  ],
   "primary_institutions_involved": [
     "Central Intelligence Agency (CIA)",
     "Department of Defense (DoD)",

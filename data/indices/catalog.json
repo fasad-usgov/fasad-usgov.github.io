@@ -2,12 +2,32 @@
   "version": "1.0.0",
   "generated_at": "2026-11-05",
   "counts": {
-    "events": 4,
-    "companies": 13,
-    "countries": 7,
-    "sources": 19
+    "events": 9,
+    "companies": 17,
+    "countries": 12,
+    "sources": 29
   },
   "events": [
+    {
+      "id": "chile-coup-1973",
+      "title": "The 1973 Chilean Coup d'\u00c9tat and the Overthrow of Salvador Allende",
+      "date_start": "1973-09-11",
+      "date_end": "1973-09-11",
+      "era": "Cold War",
+      "region": "Latin America",
+      "countries": [
+        "Chile",
+        "United States"
+      ],
+      "topics": [
+        "Covert Operations",
+        "Regime Change",
+        "Military Dictatorship",
+        "Economic Destabilization",
+        "Cold War"
+      ],
+      "summary": "The violent military overthrow of Chile's democratically elected socialist President Salvador Allende on September 11, 1973, orchestrated by the Chilean Armed Forces under General Augusto Pinochet following a multi-year covert destabilization and economic warfare campaign directed by US President Richard Nixon, National Security Advisor Henry Kissinger, and the Central Intelligence Agency (CIA Project FUBELT). The coup inaugurated a 17-year military dictatorship characterized by mass executions, concentration camps, systematic torture, and the transnational state-terror network known as Operation Condor."
+    },
     {
       "id": "gaza-war-2023",
       "title": "The 2023\u2013Present Gaza War, Regional Escalation, and International Supply Chains",
@@ -32,6 +52,46 @@
         "War Crimes Allegations"
       ],
       "summary": "The ongoing conventional military offensive conducted by the Israel Defense Forces ('Operation Swords of Iron') in the Gaza Strip following the October 7, 2023 Hamas-led attacks on southern Israel. The campaign has been characterized by unprecedented levels of aerial bombardment, total naval, land, and aerial blockade, mass forced displacement of over 1.9 million people (85\u201390% of the population), and widespread destruction of civic, educational, and medical infrastructure. The operation has been directly sustained by emergency diplomatic protection, logistical airlifts, and arms transfers from the United States (tens of thousands of precision bombs, 155mm shells, and bunker busters) and the United Kingdom (F-35 component manufacturing and daily RAF Akrotiri aerial surveillance flights). Crucially, the campaign is powered by an extensive corporate technological architecture: sovereign cloud computing and AI under 'Project Nimbus' (Google Cloud and Amazon Web Services), battlefield AI battle-management software from Palantir Technologies, enterprise cloud systems from Microsoft, and military networking hardware from Cisco and HPE. Whistleblower intelligence reports documented the deployment of automated AI targeting programs\u2014notably 'Lavender' (generating kill lists of tens of thousands of suspected targets with pre-authorized civilian collateral thresholds), 'The Gospel' (generating structural targets at industrial speed), and 'Where's Daddy?' (tracking targets to family homes before striking)\u2014prompting formal genocide proceedings at the International Court of Justice (ICJ) and corporate complicity filings at the International Criminal Court (ICC)."
+    },
+    {
+      "id": "guatemala-coup-1954",
+      "title": "The 1954 Guatemalan Coup d'\u00c9tat (Operation PBSuccess)",
+      "date_start": "1954-06-18",
+      "date_end": "1954-06-27",
+      "era": "Cold War",
+      "region": "Latin America",
+      "countries": [
+        "Guatemala",
+        "United States"
+      ],
+      "topics": [
+        "Covert Operations",
+        "Regime Change",
+        "Corporate Monopoly",
+        "Cold War",
+        "CIA Psychological Warfare"
+      ],
+      "summary": "The covert paramilitary and psychological warfare operation planned and executed by the United States Central Intelligence Agency (Operation PBSuccess) that overthrew the democratically elected government of Guatemalan President Jacobo \u00c1rbenz. Orchestrated in direct defense of the commercial landholdings of the American United Fruit Company (UFCO) following \u00c1rbenz's progressive agrarian land reform (Decree 900), the coup installed a brutal military dictatorship under Carlos Castillo Armas, rolling back land reforms, outlawing labor unions, and precipitating a 36-year civil war in which over 200,000 predominantly indigenous Mayan civilians were murdered or disappeared by US-backed military regimes."
+    },
+    {
+      "id": "indonesia-killings-1965",
+      "title": "The 1965\u20131966 Indonesian Mass Killings and CIA Involvement",
+      "date_start": "1965-10-01",
+      "date_end": "1966-03-31",
+      "era": "Cold War",
+      "region": "Southeast Asia",
+      "countries": [
+        "Indonesia",
+        "United States"
+      ],
+      "topics": [
+        "Covert Operations",
+        "Regime Change",
+        "Mass Killings & Atrocities",
+        "CIA Kill Lists",
+        "Cold War"
+      ],
+      "summary": "The systematic anti-communist purge and extermination of between 500,000 and 1,000,000+ suspected leftists, trade unionists, peasant organizers, and ethnic Chinese in Indonesia, orchestrated by the Indonesian military under Major General Suharto with covert financial, logistical, and intelligence assistance from the United States government and the Central Intelligence Agency (CIA). Declassified diplomatic cables confirmed that US Embassy officials compiled and provided comprehensive execution lists containing thousands of names of Communist Party of Indonesia (PKI) leaders and members to Indonesian army death squads, while US radio equipment and covert funds facilitated nationwide extermination operations."
     },
     {
       "id": "iran-coup-1953",
@@ -92,6 +152,46 @@
         "Official Commissions of Inquiry"
       ],
       "summary": "The slaughter of between 700 and 3,500 predominantly Palestinian and Lebanese Shiite civilians in the Sabra and Shatila refugee camps in West Beirut by Lebanese Christian Phalangist (Kataeb) militia forces, conducted while the perimeter was controlled and illuminated by the Israel Defense Forces (IDF) under Defense Minister Ariel Sharon following the 1982 Israeli invasion of Lebanon."
+    },
+    {
+      "id": "venezuela-interventions-2002-present",
+      "title": "US Covert Operations, the 2002 Coup Attempt, and Economic Sanctions Against Venezuela",
+      "date_start": "2002-04-11",
+      "date_end": "2026-11-05",
+      "era": "Contemporary Conflict & War on Terror",
+      "region": "Latin America",
+      "countries": [
+        "Venezuela",
+        "United States"
+      ],
+      "topics": [
+        "Regime Change",
+        "Covert Operations",
+        "Economic Sanctions as Warfare",
+        "Resource Politics"
+      ],
+      "summary": "A multi-decade campaign of diplomatic isolation, covert destabilization, and comprehensive unilateral economic sanctions waged by successive United States administrations against the Bolivarian Republic of Venezuela. Key episodes include the April 2002 military coup attempt against democratically elected President Hugo Ch\u00e1vez backed by US-funded opposition entities, followed from 2017 onward by sweeping financial and petroleum embargoes ('Maximum Pressure') that crippled Venezuela's oil export revenues, restricted life-saving imports of food and medicine, and caused an estimated 40,000+ excess civilian deaths according to peer-reviewed economic and United Nations human rights studies."
+    },
+    {
+      "id": "vietnam-war-1964-1975",
+      "title": "The Vietnam War, Indochina Bombing Campaigns, and Chemical Defoliation",
+      "date_start": "1964-08-04",
+      "date_end": "1975-04-30",
+      "era": "Cold War",
+      "region": "Southeast Asia",
+      "countries": [
+        "Vietnam",
+        "United States"
+      ],
+      "topics": [
+        "Military Interventions",
+        "Civilian Casualties",
+        "Chemical Warfare",
+        "Aerial Bombardment",
+        "Targeted Assassination (Phoenix Program)",
+        "Cold War"
+      ],
+      "summary": "The massive military intervention conducted by the United States Armed Forces in Southeast Asia from 1964 to 1975, initiated under the pretext of the fabricated Gulf of Tonkin incident. The conflict involved the deployment of over 540,000 American combat troops, the expenditure of more than 7.5 million tons of aerial munitions across Vietnam, Laos, and Cambodia (more than double the total tonnage used in World War II), widespread chemical ecocide via Agent Orange dioxin defoliants manufactured by Dow Chemical and Monsanto, and CIA targeted assassination operations (the Phoenix Program). Demographic and governmental inquiries estimate total deaths between 2 and 3.8 million people, including up to 2 million civilians."
     }
   ],
   "companies": [
@@ -131,11 +231,25 @@
       "operational_role": "Primary provider of high-security networking hardware, encrypted switches, routers, and server infrastructure powering the core communication grids of the Israel Defense Forces and Ministry of Defense."
     },
     {
+      "id": "dow-chemical",
+      "name": "The Dow Chemical Company",
+      "industry": "Military Contracting & Logistics",
+      "headquarters": "Midland, Michigan, United States",
+      "operational_role": "Primary industrial chemical manufacturer under contract with the United States Department of Defense during the Vietnam War, producing chemical defoliants (Agent Orange) and incendiary munitions (Napalm-B)."
+    },
+    {
       "id": "elbit-systems",
       "name": "Elbit Systems Ltd.",
       "industry": "Arms & Aerospace",
       "headquarters": "Haifa, Israel",
       "operational_role": "Israel's largest domestic defense contractor; manufacturer of over 85% of Israel's unmanned aerial vehicles (UAVs), tactical intelligence systems, guided mortar munitions (Iron Sting), and land warfare optics."
+    },
+    {
+      "id": "freeport-mcmoran",
+      "name": "Freeport-McMoRan Inc. (formerly Freeport Sulphur)",
+      "industry": "Agriculture & Commodity Extraction",
+      "headquarters": "Phoenix, Arizona / New Orleans, Louisiana, United States",
+      "operational_role": "American natural resources and mining conglomerate granted the very first foreign investment concession by General Suharto's new military dictatorship in 1967 to exploit the massive Ertsberg and Grasberg gold and copper deposits in West Papua."
     },
     {
       "id": "general-dynamics",
@@ -166,6 +280,13 @@
       "operational_role": "Long-term prime enterprise server, storage architecture, and IT infrastructure provider for the Israeli Ministry of Defense, Israel Defense Forces, and the Israel Prison Service (IPS)."
     },
     {
+      "id": "itt-corporation",
+      "name": "International Telephone & Telegraph (ITT Corporation)",
+      "industry": "Telecommunications & Infrastructure",
+      "headquarters": "New York City / White Plains, New York, United States",
+      "operational_role": "American multinational telecommunications conglomerate owning a 70% controlling interest in Chiltelco (Compa\u00f1\u00eda de Tel\u00e9fonos de Chile), controlling the national communications network of Chile."
+    },
+    {
       "id": "lockheed-martin",
       "name": "Lockheed Martin Corporation",
       "industry": "Arms & Aerospace",
@@ -185,9 +306,34 @@
       "industry": "Cloud Computing & Artificial Intelligence",
       "headquarters": "Denver, Colorado, United States",
       "operational_role": "Specialized defense intelligence software vendor supplying battle-management systems, intelligence fusion platforms (Gotham, Foundry), and the Palantir Artificial Intelligence Platform (AIP) for military targeting and operational decision-making."
+    },
+    {
+      "id": "united-fruit-company",
+      "name": "United Fruit Company (UFCO)",
+      "industry": "Agriculture & Commodity Extraction",
+      "headquarters": "Boston, Massachusetts / Fort Lauderdale, Florida, United States",
+      "operational_role": "Dominant agricultural conglomerate and infrastructure monopoly across Central America, owning vast plantations, Puerto Barrios (Guatemala's only Atlantic port), and the International Railways of Central America."
     }
   ],
   "countries": [
+    {
+      "id": "chile",
+      "name": "Chile",
+      "region": "Latin America",
+      "summary": "South American nation with one of the longest continuous democratic traditions in the hemisphere, destroyed in September 1973 by a CIA-supported military coup that installed General Augusto Pinochet's 17-year dictatorship."
+    },
+    {
+      "id": "guatemala",
+      "name": "Guatemala",
+      "region": "Latin America",
+      "summary": "Central American nation where a 1954 CIA covert coup toppled a democratically elected reformist government, initiating a 36-year armed conflict in which over 200,000 predominantly indigenous civilians were killed by US-backed military dictatorships."
+    },
+    {
+      "id": "indonesia",
+      "name": "Indonesia",
+      "region": "Southeast Asia",
+      "summary": "Southeast Asian archipelago of over 17,000 islands, site of one of the deadliest covert operations of the Cold War\u2014the 1965\u20131966 slaughter of 500,000 to 1,000,000 leftists, unionists, and civilians supported by the CIA and US Embassy."
+    },
     {
       "id": "iran",
       "name": "Iran",
@@ -229,6 +375,18 @@
       "name": "United States",
       "region": "Global",
       "summary": "Primary global superpower following World War II, conducting global military interventions, covert regime change operations, intelligence alliances, and economic sanctions across Latin America, Asia, and the Middle East."
+    },
+    {
+      "id": "venezuela",
+      "name": "Venezuela",
+      "region": "Latin America",
+      "summary": "South American nation possessing the world's largest proven petroleum reserves, subjected to continuous US covert destabilization, diplomatic isolation, support for the April 2002 military coup attempt, and comprehensive unilateral economic sanctions."
+    },
+    {
+      "id": "vietnam",
+      "name": "Vietnam",
+      "region": "Southeast Asia",
+      "summary": "Southeast Asian nation subjected to massive US military escalation between 1964 and 1975, resulting in an estimated 2 to 3.8 million total deaths, widespread chemical defoliation, and extensive carpet-bombing campaigns across Indochina."
     }
   ],
   "sources": [
@@ -262,6 +420,16 @@
       "type": "international_court_ruling"
     },
     {
+      "id": "source-bitter-fruit-schlesinger-kinzer-1982",
+      "title": "Bitter Fruit: The Story of the American Coup in Guatemala",
+      "authors": [
+        "Stephen Schlesinger",
+        "Stephen Kinzer"
+      ],
+      "year": 1982,
+      "type": "academic_book"
+    },
+    {
       "id": "source-bloomberg-palantir-israel-defense-partnership-2024",
       "title": "Palantir Agrees to Strategic Partnership With Israel for War Effort",
       "authors": [
@@ -270,6 +438,28 @@
       ],
       "year": 2024,
       "type": "investigative_journalism"
+    },
+    {
+      "id": "source-ceh-guatemala-memory-of-silence-1999",
+      "title": "Guatemala: Memory of Silence (Tz'inil Na'tab'al) - Report of the Commission for Historical Clarification",
+      "authors": [
+        "Commission for Historical Clarification (CEH)",
+        "Christian Tomuschat",
+        "Otilia Lux de Cot\u00ed",
+        "Alfredo Balsells Tojo"
+      ],
+      "year": 1999,
+      "type": "official_inquiry_report"
+    },
+    {
+      "id": "source-cepr-venezuela-sanctions-2019",
+      "title": "Economic Sanctions as Collective Punishment: The Case of Venezuela",
+      "authors": [
+        "Mark Weisbrot",
+        "Jeffrey Sachs"
+      ],
+      "year": 2019,
+      "type": "peer_reviewed_journal"
     },
     {
       "id": "source-chilcot-iraq-inquiry-2016",
@@ -285,6 +475,16 @@
       "type": "official_inquiry_report"
     },
     {
+      "id": "source-church-committee-chile-1975",
+      "title": "Covert Action in Chile: 1963\u20131973 (Staff Report of the Select Committee to Study Governmental Operations with Respect to Intelligence Activities)",
+      "authors": [
+        "Select Committee on Intelligence, United States Senate (Church Committee)",
+        "Frank Church"
+      ],
+      "year": 1975,
+      "type": "official_inquiry_report"
+    },
+    {
       "id": "source-frus-iran-1951-1954",
       "title": "Foreign Relations of the United States (FRUS), 1951\u20131954: Iran, 1951\u20131954 (Retrospective Volume)",
       "authors": [
@@ -292,6 +492,17 @@
       ],
       "year": 2017,
       "type": "declassified_government_document"
+    },
+    {
+      "id": "source-hirschman-vietnam-casualties-1995",
+      "title": "Vietnamese Casualties During the American War: A New Estimate",
+      "authors": [
+        "Charles Hirschman",
+        "Samuel Preston",
+        "Vu Manh Loi"
+      ],
+      "year": 1995,
+      "type": "peer_reviewed_journal"
     },
     {
       "id": "source-icc-prosecutor-warrants-2024",
@@ -313,6 +524,15 @@
       "type": "international_court_ruling"
     },
     {
+      "id": "source-jakarta-method-bevins-2020",
+      "title": "The Jakarta Method: Washington's Anticommunist Crusade and the Mass Murder Program that Shaped Our World",
+      "authors": [
+        "Vincent Bevins"
+      ],
+      "year": 2020,
+      "type": "academic_book"
+    },
+    {
       "id": "source-kahan-commission-1983",
       "title": "Report of the Commission of Inquiry into the Events at the Refugee Camps in Beirut (Kahan Commission)",
       "authors": [
@@ -331,6 +551,15 @@
       ],
       "year": 2003,
       "type": "academic_book"
+    },
+    {
+      "id": "source-komnas-ham-indonesia-1965",
+      "title": "Executive Summary of the Report of the Commission of Inquiry into Serious Human Rights Violations in 1965\u20131966",
+      "authors": [
+        "National Commission on Human Rights of Indonesia (Komnas HAM)"
+      ],
+      "year": 2012,
+      "type": "official_inquiry_report"
     },
     {
       "id": "source-lancet-gaza-mortality-2024",
@@ -354,6 +583,26 @@
       ],
       "year": 1983,
       "type": "international_court_ruling"
+    },
+    {
+      "id": "source-pentagon-papers-1971",
+      "title": "Report of the Office of the Secretary of Defense Vietnam Task Force (The Pentagon Papers)",
+      "authors": [
+        "Office of the Secretary of Defense",
+        "United States Department of Defense"
+      ],
+      "year": 1971,
+      "type": "declassified_government_document"
+    },
+    {
+      "id": "source-pinochet-file-kornbluh-2003",
+      "title": "The Pinochet File: A Declassified Dossier on Atrocity and Accountability",
+      "authors": [
+        "Peter Kornbluh",
+        "National Security Archive"
+      ],
+      "year": 2003,
+      "type": "academic_book"
     },
     {
       "id": "source-senate-intel-wmd-2004",
@@ -408,6 +657,16 @@
         "United Nations Human Rights Council"
       ],
       "year": 2024,
+      "type": "official_inquiry_report"
+    },
+    {
+      "id": "source-un-special-rapporteur-venezuela-sanctions-2021",
+      "title": "Report of the Special Rapporteur on the Negative Impact of Unilateral Coercive Measures on the Enjoyment of Human Rights on Her Mission to the Bolivarian Republic of Venezuela",
+      "authors": [
+        "Alena Douhan",
+        "United Nations Human Rights Council"
+      ],
+      "year": 2021,
       "type": "official_inquiry_report"
     },
     {

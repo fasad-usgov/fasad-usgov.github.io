@@ -1,0 +1,12 @@
+{
+  "id": "source-hirschman-vietnam-casualties-1995",
+  "title": "Vietnamese Casualties During the American War: A New Estimate",
+  "authors": ["Charles Hirschman", "Samuel Preston", "Vu Manh Loi"],
+  "year": 1995,
+  "type": "peer_reviewed_journal",
+  "publisher_or_archive": "Population and Development Review (Vol. 21, No. 4)",
+  "isbn_or_id": "DOI:10.2307/2137774",
+  "summary": "Authoritative demographic census analysis evaluating excess wartime mortality in Vietnam between 1965 and 1975, estimating that total Vietnamese war deaths were approximately 1 million adults (with total civilian and military mortality ranging between 2 and 3 million when combined with North and South Vietnamese government surveys).",
+  "url": "https://www.jstor.org/stable/2137774",
+  "cited_in": ["vietnam-war-1964-1975"]
+}

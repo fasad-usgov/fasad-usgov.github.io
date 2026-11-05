@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "venezuela-interventions-2002-present",
+  "title": "US Covert Operations, the 2002 Coup Attempt, and Economic Sanctions Against Venezuela",
+  "date_start": "2002-04-11",
+  "date_end": "2026-11-05",
+  "era": "Contemporary Conflict & War on Terror",
+  "region": "Latin America",
+  "countries": ["Venezuela", "United States"],
+  "topics": [
+    "Regime Change",
+    "Covert Operations",
+    "Economic Sanctions as Warfare",
+    "Resource Politics"
+  ],
+  "summary": "A multi-decade campaign of diplomatic isolation, covert destabilization, and comprehensive unilateral economic sanctions waged by successive United States administrations against the Bolivarian Republic of Venezuela. Key episodes include the April 2002 military coup attempt against democratically elected President Hugo Chávez backed by US-funded opposition entities, followed from 2017 onward by sweeping financial and petroleum embargoes ('Maximum Pressure') that crippled Venezuela's oil export revenues, restricted life-saving imports of food and medicine, and caused an estimated 40,000+ excess civilian deaths according to peer-reviewed economic and United Nations human rights studies.",
+  "background": "In December 1998, Hugo Chávez was democratically elected President of Venezuela on a progressive platform of redirecting Venezuela's vast petroleum reserves—the largest proven reserves globally—into state social programs, land reform, and regional sovereignty. Chávez spearheaded OPEC production quotas that quadrupled global oil prices, opposed the US invasion of Afghanistan, and blocked the US-backed Free Trade Area of the Americas (FTAA). The Bush Administration viewed Venezuela as a strategic threat to US hegemony in the Western Hemisphere. Washington channeled millions of dollars through the National Endowment for Democracy (NED) and USAID to opposition labor federations, private television networks, and dissident military officers.",
+  "chronology": [
+    {
+      "date": "2002-04-11",
+      "headline": "Military Coup Attempt Against Hugo Chávez",
+      "detail": "Dissident military officers and business leader Pedro Carmona stage a coup following staged sniper gunfire at a protest march. Carmona dissolves the National Assembly, the Supreme Court, and the 1999 Constitution. The White House publicly endorses Carmona's junta, blaming Chávez for his own overthrow."
+    },
+    {
+      "date": "2002-04-13",
+      "headline": "Popular Uprising Restores Constitutional Government",
+      "detail": "Hundreds of thousands of working-class citizens surround the Miraflores presidential palace, joined by loyalist military units. Carmona flees; Chávez is returned to office within 48 hours. Declassified CIA memos confirm senior US officials had advance knowledge of the coup plot."
+    },
+    {
+      "date": "2015-03-08",
+      "headline": "Obama Declares Venezuela 'National Security Threat'",
+      "detail": "President Barack Obama signs Executive Order 13692 declaring a national emergency with respect to the 'unusual and extraordinary threat' posed by Venezuela, establishing the statutory authority for subsequent sectoral sanctions."
+    },
+    {
+      "date": "2017-08-25",
+      "headline": "Trump Imposes Broad Financial Embargo",
+      "detail": "Executive Order 13808 cuts off the Venezuelan government and state oil firm PDVSA from access to US financial markets, prohibiting debt restructuring and foreign currency transactions."
+    },
+    {
+      "date": "2019-01-23",
+      "headline": "Recognition of Parallel 'Interim Government'",
+      "detail": "The US recognizes opposition leader Juan Guaidó as 'interim president' and freezes billions of dollars in Venezuelan state assets abroad, including oil subsidiary CITGO and gold reserves held at the Bank of England."
+    },
+    {
+      "date": "2020-05-03",
+      "headline": "Operation Gideon Mercenary Incursion Foiled",
+      "detail": "A failed maritime mercenary raid led by Florida-based private security firm Silvercorp USA attempts to infiltrate Venezuela to capture or assassinate President Nicolás Maduro. The raid is intercepted by Venezuelan security forces, resulting in 8 mercenaries killed."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "Executive Office of the President (Bush, Obama, Trump, and Biden Administrations)",
+      "Department of State",
+      "Department of the Treasury (Office of Foreign Assets Control - OFAC)",
+      "Central Intelligence Agency (CIA)",
+      "National Endowment for Democracy (NED)"
+    ],
+    "foreign_institutions": [
+      "Bolivarian Republic of Venezuela (Chávez and Maduro Administrations)",
+      "Petróleos de Venezuela, S.A. (PDVSA)",
+      "Venezuelan Armed Forces (FANB)",
+      "Fedecámaras (Venezuelan Chamber of Commerce)",
+      "Silvercorp USA (Private Security Contractor)"
+    ],
+    "key_figures": [
+      "Hugo Chávez (President of Venezuela 1999–2013)",
+      "Nicolás Maduro (President of Venezuela 2013–present)",
+      "Pedro Carmona (Head of April 2002 Coup Junta)",
+      "Juan Guaidó (US-recognized 'Interim President' 2019–2023)",
+      "Donald Trump (US President)",
+      "John Bolton (US National Security Advisor)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Severe political polarization; erosion of constitutional norms; diplomatic deadlock; unilateral confiscation of billions of dollars in sovereign state overseas assets (CITGO, bank deposits, gold reserves); massive out-migration of over 7 million Venezuelan nationals.",
+    "civilian_toll": "Direct violent casualties in the April 2002 coup included 19 dead and over 100 injured. The subsequent 2017–present sectoral economic sanctions inflicted catastrophic human consequences: a landmark demographic and econometric study by Jeffrey Sachs and Mark Weisbrot (CEPR) documented over 40,000 excess civilian deaths in 2017–2018 alone, as sanctions blocked imports of insulin, cardiovascular medication, dialyzers, and vaccine supplies. The United Nations Special Rapporteur on Unilateral Coercive Measures documented that sanctions crippled public water purification and hospital power grids, depriving millions of essential health rights.",
+    "long_term": "A 99% collapse in Venezuela's official petroleum export revenues between 2014 and 2020; extensive normalization of economic warfare and financial asset seizures as standard tools of US foreign policy in Latin America."
+  },
+  "disputed_aspects": [
+    "The relative contribution of internal economic mismanagement and currency price controls versus external US financial sanctions in precipitating Venezuela's hyperinflation and economic collapse between 2014 and 2020.",
+    "The degree of official US intelligence operational backing behind the May 2020 Silvercorp USA mercenary raid (Operation Gideon)."
+  ],
+  "corporate_involvement": [],
+  "related_events": [
+    "chile-coup-1973",
+    "guatemala-coup-1954",
+    "iran-coup-1953"
+  ],
+  "sources": [
+    "source-cepr-venezuela-sanctions-2019",
+    "source-un-special-rapporteur-venezuela-sanctions-2021"
+  ],
+  "last_updated": "2026-11-05"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "united-fruit-company",
+  "name": "United Fruit Company (UFCO)",
+  "historical_names": [
+    "United Fruit Company (1899–1970)",
+    "United Brands Company (1970–1989)",
+    "Chiquita Brands International (1989–present)"
+  ],
+  "headquarters": "Boston, Massachusetts / Fort Lauderdale, Florida, United States",
+  "industry": "Agriculture & Commodity Extraction",
+  "active_period": "1899–present",
+  "operational_role": "Dominant agricultural conglomerate and infrastructure monopoly across Central America, owning vast plantations, Puerto Barrios (Guatemala's only Atlantic port), and the International Railways of Central America.",
+  "government_liaisons": [
+    "Central Intelligence Agency (CIA Director Allen Dulles)",
+    "United States Department of State (Secretary John Foster Dulles)",
+    "Executive Office of the President (Eisenhower Administration)"
+  ],
+  "documented_activities": "Following the 1952 enactment of Decree 900 (Agrarian Reform Law) by democratically elected President Jacobo Árbenz, which expropriated uncultivated plantation land to distribute to 100,000 landless peasants with financial compensation based on UFCO's own tax declarations, UFCO launched an aggressive corporate lobbying and public relations campaign orchestrated by Edward Bernays. Framing Árbenz as a Soviet puppet, UFCO utilized its intimate personal connections with Secretary of State John Foster Dulles (whose former law firm Sullivan & Cromwell represented UFCO) and CIA Director Allen Dulles (former UFCO board member) to directly procure presidential authorization for CIA Operation PBSuccess to overthrow the government.",
+  "documented_consequences": "Restored corporate tax exemptions and returned expropriated plantation land to UFCO under the Castillo Armas military junta, while initiating a 36-year civil war in which more than 200,000 Guatemalans (predominantly indigenous Maya) were murdered or disappeared by military regimes.",
+  "associated_events": ["guatemala-coup-1954"],
+  "sources": [
+    "source-bitter-fruit-schlesinger-kinzer-1982",
+    "source-ceh-guatemala-memory-of-silence-1999"
+  ]
+}

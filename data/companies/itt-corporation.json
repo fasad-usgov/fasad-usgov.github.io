@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "itt-corporation",
+  "name": "International Telephone & Telegraph (ITT Corporation)",
+  "historical_names": ["ITT Inc."],
+  "headquarters": "New York City / White Plains, New York, United States",
+  "industry": "Telecommunications & Infrastructure",
+  "active_period": "1920–present",
+  "operational_role": "American multinational telecommunications conglomerate owning a 70% controlling interest in Chiltelco (Compañía de Teléfonos de Chile), controlling the national communications network of Chile.",
+  "government_liaisons": [
+    "Central Intelligence Agency (Director Richard Helms)",
+    "National Security Council (Henry Kissinger)",
+    "White House (Nixon Administration)"
+  ],
+  "documented_activities": "In 1970, when Salvador Allende was elected President on a platform of nationalizing strategic natural monopolies including copper and telecommunications, ITT CEO Harold Geneen met directly with CIA Director Richard Helms and offered up to $1 million in corporate funds to block Allende's inauguration. ITT collaborated with the CIA's 'Track II' covert operation to induce economic collapse in Chile, coordinated with American banks to cut off international commercial credit, and funded anti-Allende propaganda in Chilean newspapers. When the US Senate Church Committee conducted hearings in 1975, internal ITT memos exposed the deep corporate-intelligence conspiracy to subvert Chilean democracy.",
+  "documented_consequences": "Facilitated the September 11, 1973 military coup led by General Augusto Pinochet, which resulted in the extrajudicial execution or forced disappearance of over 3,200 dissidents, the systematic torture of over 38,000 citizens, and the restitution of privatized corporate assets.",
+  "associated_events": ["chile-coup-1973"],
+  "sources": [
+    "source-church-committee-chile-1975",
+    "source-pinochet-file-kornbluh-2003"
+  ]
+}

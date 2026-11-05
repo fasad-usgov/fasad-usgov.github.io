@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "chile-coup-1973",
+  "title": "The 1973 Chilean Coup d'État and the Overthrow of Salvador Allende",
+  "date_start": "1973-09-11",
+  "date_end": "1973-09-11",
+  "era": "Cold War",
+  "region": "Latin America",
+  "countries": ["Chile", "United States"],
+  "topics": [
+    "Covert Operations",
+    "Regime Change",
+    "Military Dictatorship",
+    "Economic Destabilization",
+    "Cold War"
+  ],
+  "summary": "The violent military overthrow of Chile's democratically elected socialist President Salvador Allende on September 11, 1973, orchestrated by the Chilean Armed Forces under General Augusto Pinochet following a multi-year covert destabilization and economic warfare campaign directed by US President Richard Nixon, National Security Advisor Henry Kissinger, and the Central Intelligence Agency (CIA Project FUBELT). The coup inaugurated a 17-year military dictatorship characterized by mass executions, concentration camps, systematic torture, and the transnational state-terror network known as Operation Condor.",
+  "background": "In September 1970, physician and senator Salvador Allende won the Chilean presidential election at the head of the Unidad Popular coalition, proposing a democratic transition toward democratic socialism within Chile's constitutional framework. Allende's program included the nationalization of strategic US-dominated copper mines (Kennecott and Anaconda) and telecommunications monopolies (ITT), alongside universal child nutrition, wage increases, and agrarian reform. Days after the election, President Richard Nixon ordered CIA Director Richard Helms to intervene: 'No concern about risks involved... Make the economy scream.' The CIA orchestrated 'Track I' (political bribery and congressional lobbying) and 'Track II' (direct military coup plotting), including the October 1970 assassination of constitutionalist Army Commander-in-Chief General René Schneider, who opposed military coups.",
+  "chronology": [
+    {
+      "date": "1970-09-15",
+      "headline": "Nixon Orders CIA to Block Allende",
+      "detail": "In an Oval Office meeting, President Nixon orders CIA Director Richard Helms to organize covert action to prevent Allende from taking office or unseat him, allocating an initial $10 million."
+    },
+    {
+      "date": "1970-10-22",
+      "headline": "Assassination of General René Schneider",
+      "detail": "CIA-supplied weapons are used by right-wing plotters in an attempt to kidnap Army Commander René Schneider, who is mortally wounded, outraging the public and ensuring Allende's congressional confirmation."
+    },
+    {
+      "date": "1971–1973",
+      "headline": "Covert Economic Warfare and Media Funding",
+      "detail": "The CIA pours millions into right-wing newspaper El Mercurio, covertly finances private trucker and shopkeeper strikes to paralyze food distribution, and cuts off international Export-Import Bank and World Bank credit lines."
+    },
+    {
+      "date": "1973-08-23",
+      "headline": "Pinochet Appointed Army Commander",
+      "detail": "Following right-wing pressure and the resignation of General Carlos Prats, Allende appoints General Augusto Pinochet as Commander-in-Chief, unaware of Pinochet's imminent participation in the coup conspiracy."
+    },
+    {
+      "date": "1973-09-11",
+      "headline": "Bombardment of La Moneda and Allende's Death",
+      "detail": "Chilean Air Force British-built Hawker Hunter jets bomb the presidential palace (La Moneda). Allende delivers a historic final radio address to the nation, refusing to surrender to fascism, and dies inside the burning palace. Pinochet establishes a military junta."
+    },
+    {
+      "date": "1973-09-12",
+      "headline": "National Stadium Mass Detention Center Established",
+      "detail": "The military rounds up over 40,000 citizens in the Estadio Nacional, Estadio Chile, and military ships, executing hundreds of political organizers, folk musicians (including Víctor Jara), and students without trial."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "Central Intelligence Agency (CIA Project FUBELT)",
+      "National Security Council (40 Committee / Henry Kissinger)",
+      "Executive Office of the President (Nixon Administration)",
+      "Department of State"
+    ],
+    "foreign_institutions": [
+      "Chilean Armed Forces (Army, Navy, Air Force, and Carabineros)",
+      "DINA (National Intelligence Directorate of Chile)",
+      "Patria y Libertad (Neo-fascist Paramilitary Organization)"
+    ],
+    "key_figures": [
+      "Salvador Allende (President of Chile, died in coup)",
+      "General Augusto Pinochet (Military Dictator 1973–1990)",
+      "Richard Nixon (US President)",
+      "Henry Kissinger (US National Security Advisor / Secretary of State)",
+      "Richard Helms (CIA Director)",
+      "Harold Geneen (CEO of ITT Corporation)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Destruction of South America's most stable constitutional democracy; 17 years of autocratic military dictatorship; implementation of radical free-market 'shock therapy' under the Chicago Boys; establishment of Operation Condor transnational assassination squads.",
+    "civilian_toll": "Official judicial truth commissions (the Rettig Commission and Valech Commission) formally documented 3,216 people murdered or forcibly disappeared by the military regime, over 38,254 verified political prisoners subjected to severe torture in secret detention centers, and over 200,000 citizens driven into political exile across Europe and the Americas.",
+    "long_term": "A profound, generational trauma in Chilean society; institutionalization of the 1980 Pinochet Constitution protecting privatized pensions, water rights, and military prerogatives; international criminal indictments of Pinochet in London in 1998 under universal jurisdiction."
+  },
+  "disputed_aspects": [
+    "Direct Tactical vs Strategic Involvement: The US Church Committee concluded in 1975 that while the CIA created the economic, psychological, and political conditions for the coup and funded plotters, there was no direct evidence of US military units directly participating in the September 11 palace assault itself.",
+    "Salvador Allende's Cause of Death: Long a matter of political controversy, a 2011 Chilean court-ordered exhumation and international forensic autopsy confirmed Allende died by suicide using an AK-47 assault rifle as troops stormed the burning palace."
+  ],
+  "corporate_involvement": ["itt-corporation"],
+  "related_events": [
+    "iran-coup-1953",
+    "guatemala-coup-1954",
+    "indonesia-killings-1965"
+  ],
+  "sources": [
+    "source-church-committee-chile-1975",
+    "source-pinochet-file-kornbluh-2003"
+  ],
+  "last_updated": "2026-11-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "source-bitter-fruit-schlesinger-kinzer-1982",
+  "title": "Bitter Fruit: The Story of the American Coup in Guatemala",
+  "authors": ["Stephen Schlesinger", "Stephen Kinzer"],
+  "year": 1982,
+  "type": "academic_book",
+  "publisher_or_archive": "Harvard University Press / Doubleday",
+  "isbn_or_id": "978-0674019300",
+  "summary": "Classic academic historical investigation based on declassified government documents detailing how the CIA, in direct collaboration with the United Fruit Company (UFCO) and senior Eisenhower officials, orchestrated Operation PBSuccess to overthrow Guatemala's democratically elected President Jacobo Árbenz.",
+  "url": "https://www.hup.harvard.edu/books/9780674019300",
+  "cited_in": ["guatemala-coup-1954"]
+}

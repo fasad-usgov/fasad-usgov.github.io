@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "freeport-mcmoran",
+  "name": "Freeport-McMoRan Inc. (formerly Freeport Sulphur)",
+  "historical_names": [
+    "Freeport Sulphur Company",
+    "Freeport Minerals Company",
+    "Freeport-McMoRan Copper & Gold Inc."
+  ],
+  "headquarters": "Phoenix, Arizona / New Orleans, Louisiana, United States",
+  "industry": "Agriculture & Commodity Extraction",
+  "active_period": "1912–present",
+  "operational_role": "American natural resources and mining conglomerate granted the very first foreign investment concession by General Suharto's new military dictatorship in 1967 to exploit the massive Ertsberg and Grasberg gold and copper deposits in West Papua.",
+  "government_liaisons": [
+    "Indonesian Military Regime (General Suharto)",
+    "United States Department of State",
+    "United States Embassy in Jakarta"
+  ],
+  "documented_activities": "Under left-leaning President Sukarno, Western mining firms were excluded and natural resources were nationalized under sovereign state ownership. Following the 1965–1966 CIA-backed military coup and mass extermination of the left, General Suharto enacted Foreign Investment Law No. 1 of 1967, personally drafted with American corporate and legal advisors. In April 1967, Freeport signed a lucrative 30-year concession granting extraordinary tax holidays and sovereign resource rights, becoming the largest taxpayer and foreign investor in post-coup Indonesia while providing direct operational security stipends to Indonesian military units accused of human rights abuses in West Papua.",
+  "documented_consequences": "Solidified the economic foundation of Suharto's 32-year authoritarian 'New Order' regime, which came to power through the slaughter of hundreds of thousands of citizens, while precipitating decades of military repression and environmental devastation in West Papua.",
+  "associated_events": ["indonesia-killings-1965"],
+  "sources": [
+    "source-jakarta-method-bevins-2020",
+    "source-komnas-ham-indonesia-1965"
+  ]
+}

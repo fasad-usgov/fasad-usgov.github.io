@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/country.schema.json",
+  "id": "vietnam",
+  "name": "Vietnam",
+  "region": "Southeast Asia",
+  "summary": "Southeast Asian nation subjected to massive US military escalation between 1964 and 1975, resulting in an estimated 2 to 3.8 million total deaths, widespread chemical defoliation, and extensive carpet-bombing campaigns across Indochina.",
+  "historical_context": "Following the defeat of French colonial forces at Dien Bien Phu in 1954, Vietnam was temporarily divided at the 17th parallel pending national reunification elections that the US blocked. In 1964, citing the fabricated Gulf of Tonkin incident, President Lyndon B. Johnson launched full-scale conventional military intervention, deploying over 500,000 American troops. US forces dropped over 7 million tons of bombs across Indochina—more than double the total tonnage dropped by all combatants in World War II. The campaign incorporated chemical warfare (Operation Ranch Hand), rural forced displacement (Strategic Hamlets), and CIA targeted assassination programs (Operation Phoenix). The war concluded with the withdrawal of US forces and the fall of Saigon in April 1975, leaving catastrophic human, ecological, and infrastructural devastation.",
+  "key_operations": ["vietnam-war-1964-1975"],
+  "primary_institutions_involved": [
+    "United States Military Assistance Command, Vietnam (MACV)",
+    "United States Department of Defense",
+    "Central Intelligence Agency (Special Activities Division / Phoenix Program)",
+    "Army of the Republic of Vietnam (ARVN)",
+    "United States Air Force"
+  ],
+  "corporate_presence": [
+    "The Dow Chemical Company",
+    "Monsanto Company",
+    "Bell Helicopter (Textron)",
+    "McDonnell Douglas",
+    "Lockheed Corporation",
+    "DuPont"
+  ]
+}

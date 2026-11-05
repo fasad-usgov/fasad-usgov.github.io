@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "vietnam-war-1964-1975",
+  "title": "The Vietnam War, Indochina Bombing Campaigns, and Chemical Defoliation",
+  "date_start": "1964-08-04",
+  "date_end": "1975-04-30",
+  "era": "Cold War",
+  "region": "Southeast Asia",
+  "countries": ["Vietnam", "United States"],
+  "topics": [
+    "Military Interventions",
+    "Civilian Casualties",
+    "Chemical Warfare",
+    "Aerial Bombardment",
+    "Targeted Assassination (Phoenix Program)",
+    "Cold War"
+  ],
+  "summary": "The massive military intervention conducted by the United States Armed Forces in Southeast Asia from 1964 to 1975, initiated under the pretext of the fabricated Gulf of Tonkin incident. The conflict involved the deployment of over 540,000 American combat troops, the expenditure of more than 7.5 million tons of aerial munitions across Vietnam, Laos, and Cambodia (more than double the total tonnage used in World War II), widespread chemical ecocide via Agent Orange dioxin defoliants manufactured by Dow Chemical and Monsanto, and CIA targeted assassination operations (the Phoenix Program). Demographic and governmental inquiries estimate total deaths between 2 and 3.8 million people, including up to 2 million civilians.",
+  "background": "Following the Vietnamese defeat of French colonial forces at Dien Bien Phu in 1954, the Geneva Accords temporarily divided the country at the 17th parallel, scheduling nationwide democratic reunification elections for 1956. Recognizing that communist nationalist leader Ho Chi Minh would win over 80% of the vote, the United States installed and funded an authoritarian anti-communist regime in Saigon under Ngo Dinh Diem and blocked the elections. Facing widespread rural rebellion led by the National Liberation Front (NLF / Viet Cong), US involvement escalated from financial and military advisership under Eisenhower and Kennedy to massive conventional warfare under Lyndon B. Johnson and Richard Nixon.",
+  "chronology": [
+    {
+      "date": "1964-08-04",
+      "headline": "Fabricated Gulf of Tonkin Incident",
+      "detail": "The Johnson Administration falsely alleges that North Vietnamese torpedo boats launched an unprovoked second attack on the destroyer USS Maddox. The subsequent Gulf of Tonkin Resolution authorizes full presidential war powers without a formal declaration of war."
+    },
+    {
+      "date": "1965-03-02",
+      "headline": "Operation Rolling Thunder Initiated",
+      "detail": "US launches continuous strategic aerial bombardment of North Vietnam lasting over three years, dropping 643,000 tons of bombs and targeting bridges, railways, and industrial infrastructure."
+    },
+    {
+      "date": "1965–1971",
+      "headline": "Operation Ranch Hand Herbicide Spraying",
+      "detail": "US Air Force Fairchild C-123 aircraft spray over 20 million gallons of chemical defoliants, primarily Agent Orange contaminated with deadly TCDD dioxin, destroying 5 million acres of forests and food crops."
+    },
+    {
+      "date": "1968-03-16",
+      "headline": "My Lai Massacre",
+      "detail": "Soldiers of Charlie Company, 11th Brigade, systematically rape, torture, and execute 504 unarmed Vietnamese villagers (mostly women, children, and infants) in the village of Son My, covered up by military command for over a year."
+    },
+    {
+      "date": "1968–1972",
+      "headline": "CIA Phoenix Program Assassinations",
+      "detail": "The CIA coordinates a counter-insurgency targeted assassination and interrogation program that captures and executes between 26,000 and 41,000 suspected civilian political operatives without judicial trial."
+    },
+    {
+      "date": "1969–1973",
+      "headline": "Secret Bombing of Cambodia (Operation Menu)",
+      "detail": "President Nixon and Henry Kissinger order secret B-52 carpet-bombing of neutral Cambodia and Laos, dropping 2.7 million tons of bombs on rural villages, directly destabilizing Cambodia and precipitating the rise of Pol Pot's Khmer Rouge."
+    },
+    {
+      "date": "1975-04-30",
+      "headline": "Fall of Saigon and US Evacuation",
+      "detail": "North Vietnamese and NLF forces liberate Saigon, completing the reunification of Vietnam and ending 30 years of continuous foreign war."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "Military Assistance Command, Vietnam (MACV)",
+      "Department of Defense (McNamara & Laird)",
+      "Central Intelligence Agency (Phoenix Program / Special Activities Division)",
+      "United States Air Force (Strategic Air Command)",
+      "Executive Office of the President (Kennedy, Johnson, and Nixon Administrations)"
+    ],
+    "foreign_institutions": [
+      "Democratic Republic of Vietnam (North Vietnam / PAVN)",
+      "National Liberation Front (NLF / Viet Cong)",
+      "Republic of Vietnam (ARVN / Saigon Regime)",
+      "Royal Lao Government & Khmer Republic"
+    ],
+    "key_figures": [
+      "Ho Chi Minh (President of North Vietnam)",
+      "General Vo Nguyen Giap (Commander of PAVN)",
+      "Lyndon B. Johnson & Richard Nixon (US Presidents)",
+      "Robert McNamara (US Secretary of Defense)",
+      "General William Westmoreland (Commander of MACV)",
+      "Henry Kissinger (US National Security Advisor)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Unification of Vietnam under communist governance; collapse of US proxy regimes in South Vietnam, Cambodia, and Laos; profound domestic political trauma in the United States culminating in the War Powers Resolution of 1973; rise of the genocidal Khmer Rouge in bombed-out Cambodia.",
+    "civilian_toll": "Authoritative census and governmental inquiries (Hirschman et al., Vietnamese Ministry of Labour consensus) document between 2,000,000 and 3,800,000 total Vietnamese deaths during the conflict, including approximately 1,000,000 to 2,000,000 civilians. Secret carpet-bombing killed an estimated 250,000 to 300,000 civilians in Cambodia and 50,000 to 100,000 in Laos. Dioxin poisoning from Agent Orange resulted in an estimated 400,000 deaths and severe congenital birth defects (limb loss, blindness, neurological damage) in over 500,000 children born to exposed parents across multiple generations. US combat casualties totaled 58,220 dead and over 150,000 wounded.",
+    "long_term": "Decades of unexploded ordnance (UXO) contamination in rural farmland, killing thousands of farmers and children post-war; persistent dioxin environmental hotspots around former US air bases (Da Nang, Bien Hoa); severe multi-billion-dollar post-war economic isolation imposed by a 20-year US trade embargo until 1994."
+  },
+  "disputed_aspects": [
+    "Civilian vs Combatant Ratios: The US military's notorious 'body count' metric created institutional incentives to classify all dead Vietnamese, including women and children, as enemy combatants (KIA), obscuring the true civilian proportion.",
+    "The Gulf of Tonkin Incident: While the Johnson Administration claimed North Vietnam attacked US naval vessels on August 4, 1964, declassified NSA communications intercepts confirmed in 2005 that no North Vietnamese boats were present and no attack occurred on that date."
+  ],
+  "corporate_involvement": ["dow-chemical"],
+  "related_events": [
+    "indonesia-killings-1965",
+    "guatemala-coup-1954",
+    "iraq-invasion-2003"
+  ],
+  "sources": [
+    "source-pentagon-papers-1971",
+    "source-hirschman-vietnam-casualties-1995"
+  ],
+  "last_updated": "2026-11-05"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "source-pentagon-papers-1971",
+  "title": "Report of the Office of the Secretary of Defense Vietnam Task Force (The Pentagon Papers)",
+  "authors": ["Office of the Secretary of Defense", "United States Department of Defense"],
+  "year": 1971,
+  "type": "declassified_government_document",
+  "publisher_or_archive": "United States National Archives / Beacon Press (Gravel Edition)",
+  "isbn_or_id": "Pentagon-Papers-DoD-1971",
+  "summary": "Top-secret 7,000-page internal Department of Defense study commissioned by Robert McNamara detailing the history of US military and political involvement in Vietnam from 1945 to 1967, proving that four administrations systematically deceived the public and Congress regarding the scope of military operations, covert actions in Laos and Cambodia, and casualty expectations.",
+  "url": "https://www.archives.gov/research/pentagon-papers",
+  "cited_in": ["vietnam-war-1964-1975"]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/country.schema.json",
+  "id": "venezuela",
+  "name": "Venezuela",
+  "region": "Latin America",
+  "summary": "South American nation possessing the world's largest proven petroleum reserves, subjected to continuous US covert destabilization, diplomatic isolation, support for the April 2002 military coup attempt, and comprehensive unilateral economic sanctions.",
+  "historical_context": "Following the 1998 election of Hugo Chávez, Venezuela initiated the 'Bolivarian Revolution', nationalizing foreign oil concessions, diverting petroleum revenues into public healthcare and literacy programs, and establishing regional alliances (ALBA, Petrocaribe) that challenged US hegemony in Latin America. In April 2002, a military coup temporarily ousted Chávez and dissolved democratic institutions; declassified records confirmed that coup leaders received funding from the US National Endowment for Democracy (NED) and held prior consultations in Washington. From 2017 onward under the Trump and Biden administrations, the US enacted sweeping sectoral sanctions and financial embargoes against state oil company PDVSA and the central bank. Independent economic studies documented that these coercive economic measures caused severe collapses in medical imports and clean water supplies, resulting in tens of thousands of excess civilian deaths and exacerbating the migration crisis.",
+  "key_operations": ["venezuela-interventions-2002-present"],
+  "primary_institutions_involved": [
+    "Central Intelligence Agency (CIA)",
+    "United States Department of the Treasury (OFAC)",
+    "United States Department of State",
+    "National Endowment for Democracy (NED)",
+    "United States Southern Command (USSOUTHCOM)"
+  ],
+  "corporate_presence": [
+    "ExxonMobil",
+    "ConocoPhillips",
+    "Chevron Corporation",
+    "Silvercorp USA (private military contractor)"
+  ]
+}

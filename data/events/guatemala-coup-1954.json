@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "guatemala-coup-1954",
+  "title": "The 1954 Guatemalan Coup d'État (Operation PBSuccess)",
+  "date_start": "1954-06-18",
+  "date_end": "1954-06-27",
+  "era": "Cold War",
+  "region": "Latin America",
+  "countries": ["Guatemala", "United States"],
+  "topics": [
+    "Covert Operations",
+    "Regime Change",
+    "Corporate Monopoly",
+    "Cold War",
+    "CIA Psychological Warfare"
+  ],
+  "summary": "The covert paramilitary and psychological warfare operation planned and executed by the United States Central Intelligence Agency (Operation PBSuccess) that overthrew the democratically elected government of Guatemalan President Jacobo Árbenz. Orchestrated in direct defense of the commercial landholdings of the American United Fruit Company (UFCO) following Árbenz's progressive agrarian land reform (Decree 900), the coup installed a brutal military dictatorship under Carlos Castillo Armas, rolling back land reforms, outlawing labor unions, and precipitating a 36-year civil war in which over 200,000 predominantly indigenous Mayan civilians were murdered or disappeared by US-backed military regimes.",
+  "background": "In 1950, Jacobo Árbenz was elected President of Guatemala in free elections, continuing the progressive reforms of the 1944 October Revolution. In June 1952, Árbenz enacted Decree 900 (Agrarian Reform Law) aimed at modernizing feudal agricultural structures. The law expropriated uncultivated tracts on large plantations (paying landowners in 25-year government bonds at 3% interest based on their own self-reported tax valuation) and redistributed land to over 100,000 peasant families. The Boston-based United Fruit Company (UFCO), Guatemala's largest landowner, had routinely undervalued its vast uncultivated land to evade taxes. When the government expropriated 400,000 idle acres and offered the tax-assessed compensation of $1.18 million (instead of UFCO's demand of $16 million), UFCO leveraged its extensive personal ties with Secretary of State John Foster Dulles and CIA Director Allen Dulles to convince President Eisenhower to authorize direct covert intervention.",
+  "chronology": [
+    {
+      "date": "1952-06-17",
+      "headline": "Agrarian Reform Law Enacted",
+      "detail": "Guatemalan Congress passes Decree 900 to redistribute uncultivated land to rural indigenous and peasant families; United Fruit Company mobilizes intensive lobbying in Washington."
+    },
+    {
+      "date": "1953-08-12",
+      "headline": "Eisenhower Authorizes Operation PBSuccess",
+      "detail": "President Dwight D. Eisenhower approves a budget of $2.7 million for the CIA to conduct paramilitary training, psychological warfare, and political subversion against Árbenz."
+    },
+    {
+      "date": "1954-05-01",
+      "headline": "Clandestine Radio 'Voice of Liberation' Airs",
+      "detail": "CIA psychological warfare units broadcast simulated troop movements, defecting generals, and false reports of massive invading armies from clandestine transmitters in Honduras."
+    },
+    {
+      "date": "1954-06-18",
+      "headline": "Castillo Armas Invades with CIA Air Support",
+      "detail": "A small mercenary force of approximately 480 men led by exiled Colonel Carlos Castillo Armas crosses the border from Honduras. CIA-piloted P-47 Thunderbolt aircraft bomb Guatemala City, ammunition depots, and fuel tanks."
+    },
+    {
+      "date": "1954-06-27",
+      "headline": "Jacobo Árbenz Resigns Under Army Pressure",
+      "detail": "Terrified by the threat of a full-scale US Navy and Marine intervention, Guatemalan military officers refuse to distribute arms to peasant militias and demand Árbenz's resignation. Árbenz delivers a farewell radio address and seeks asylum in the Mexican Embassy."
+    },
+    {
+      "date": "1954-07-08",
+      "headline": "Castillo Armas Installed as Military Dictator",
+      "detail": "Flown to Guatemala City on US Ambassador John Peurifoy's plane, Castillo Armas takes power, repeals the Agrarian Reform Law, returns land to UFCO, strips voting rights from illiterate citizens (the indigenous majority), and executes hundreds of trade unionists."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "Central Intelligence Agency (Operation PBSuccess)",
+      "Department of State (John Foster Dulles & Ambassador John Peurifoy)",
+      "Executive Office of the President (Eisenhower Administration)"
+    ],
+    "foreign_institutions": [
+      "Government of the Republic of Guatemala (Árbenz Administration)",
+      "Guatemalan Armed Forces",
+      "National Liberation Movement (MLN / Proxy Rebel Force)"
+    ],
+    "key_figures": [
+      "Jacobo Árbenz (President of Guatemala, deposed)",
+      "Carlos Castillo Armas (CIA-installed Military Dictator)",
+      "Allen Dulles (Director of Central Intelligence)",
+      "John Foster Dulles (US Secretary of State)",
+      "John Peurifoy (US Ambassador to Guatemala)",
+      "Edward Bernays (UFCO Public Relations Counsel)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Destruction of a decadelong democratic transition; establishment of four decades of military dictatorship; eradication of rural labor unions and agrarian cooperatives; complete entrenchment of the military as the supreme arbiter of state power.",
+    "civilian_toll": "Direct deaths during the 1954 coup numbered in the hundreds, but the coup unleashed a devastating 36-year Guatemalan Civil War (1960–1996). The United Nations-sponsored Commission for Historical Clarification (CEH) documented over 200,000 people killed or forcibly disappeared, verifying that 93% of human rights violations were committed by the US-backed military and paramilitary death squads. The commission formally concluded that the state committed acts of genocide against Maya-Ixil, Maya-Achi, and other indigenous populations during counter-insurgency sweeps in the 1980s.",
+    "long_term": "Created chronic structural inequality, endemic rural poverty, and institutional impunity, making Guatemala one of the most violent and unequal societies in Central America and driving decades of refugee displacement."
+  },
+  "disputed_aspects": [
+    "Whether the Árbenz government had any genuine military or intelligence alliance with the Soviet Union: Post-Cold War declassified CIA files and Soviet archives confirmed that Guatemala had no formal diplomatic or military ties with Moscow and that Árbenz sought to build modern national capitalism, not communism.",
+    "The primary motivation: Whether US officials were driven purely by anti-communist Cold War paranoia or by direct financial conflicts of interest tied to United Fruit Company corporate stock."
+  ],
+  "corporate_involvement": ["united-fruit-company"],
+  "related_events": [
+    "iran-coup-1953",
+    "chile-coup-1973",
+    "indonesia-killings-1965"
+  ],
+  "sources": [
+    "source-bitter-fruit-schlesinger-kinzer-1982",
+    "source-ceh-guatemala-memory-of-silence-1999"
+  ],
+  "last_updated": "2026-11-05"
+}
