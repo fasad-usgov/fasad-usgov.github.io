@@ -1,0 +1,21 @@
+{
+  "id": "bae-systems",
+  "name": "BAE Systems plc",
+  "historical_names": [
+    "British Aerospace (BAe)",
+    "Marconi Electronic Systems (merged 1999)"
+  ],
+  "headquarters": "London, United Kingdom",
+  "industry": "Arms & Aerospace",
+  "active_period": "1999–present (merger)",
+  "operational_role": "Britain's largest defense contractor; tier-one global partner producing approximately 15% of the value of every F-35 Lightning II aircraft, including the rear fuselage, electronic warfare suite, and fuel systems.",
+  "government_liaisons": [
+    "United Kingdom Ministry of Defence",
+    "United States Department of Defense (Joint Program Office)",
+    "Israeli Ministry of Defense"
+  ],
+  "documented_activities": "Manufactures essential subcomponents for the F-35 fleet (designated 'Adir' in the Israeli Air Force), which conducted intense strategic bombardment operations across Gaza. When the UK government announced a suspension of approximately 30 arms export licenses to Israel in September 2024 due to clear risks of IHL violations, the F-35 program components were explicitly exempted from the embargo to preserve the global supply chain.",
+  "documented_consequences": "Continuous unbroken supply of advanced strike aircraft components used in air campaigns resulting in mass urban casualties and structural destruction in Gaza.",
+  "associated_events": ["gaza-war-2023"],
+  "sources": ["source-un-ocha-gaza-crisis-reports"]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "source-lancet-gaza-mortality-2024",
+  "title": "Counting the Dead in Gaza: Difficulties but Essential",
+  "authors": ["Rasha Khatib", "Martin McKee", "Salim Yusuf"],
+  "year": 2024,
+  "type": "peer_reviewed_journal",
+  "publisher_or_archive": "The Lancet (Vol. 404, Issue 10449)",
+  "isbn_or_id": "DOI:10.1016/S0140-6736(24)01169-3",
+  "summary": "Epidemiological correspondence evaluating armed conflict mortality dynamics in Gaza, projecting that indirect casualties from infectious disease, malnutrition, destroyed sanitation, and ruined medical systems could bring the total excess death toll to 186,000 or more (7–9% of the total population).",
+  "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01169-3/fulltext",
+  "cited_in": ["gaza-war-2023"]
+}

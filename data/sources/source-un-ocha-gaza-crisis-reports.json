@@ -1,0 +1,12 @@
+{
+  "id": "source-un-ocha-gaza-crisis-reports",
+  "title": "Hostilities in the Gaza Strip and Israel - Reported Impact Documentation & Field Updates",
+  "authors": ["United Nations Office for the Coordination of Humanitarian Affairs (OCHA)"],
+  "year": 2024,
+  "type": "official_inquiry_report",
+  "publisher_or_archive": "United Nations OCHA / World Health Organization",
+  "isbn_or_id": "UN-OCHA-Gaza-SitRep-2024",
+  "summary": "Continuous authoritative situational updates compiling casualty counts, hospital infrastructure damage, internally displaced persons tracking (over 1.9 million displaced), and border aid obstruction metrics in the Gaza Strip.",
+  "url": "https://www.ochaopt.org/crisis",
+  "cited_in": ["gaza-war-2023"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "elbit-systems",
+  "name": "Elbit Systems Ltd.",
+  "historical_names": ["Elbit Computers (origins)"],
+  "headquarters": "Haifa, Israel",
+  "industry": "Arms & Aerospace",
+  "active_period": "1966–present",
+  "operational_role": "Israel's largest domestic defense contractor; manufacturer of over 85% of Israel's unmanned aerial vehicles (UAVs), tactical intelligence systems, guided mortar munitions (Iron Sting), and land warfare optics.",
+  "government_liaisons": [
+    "Israeli Ministry of Defense",
+    "Israel Defense Forces (IDF)",
+    "United States Department of Defense"
+  ],
+  "documented_activities": "Developer and maintainer of the Hermes 450 and Hermes 900 armed reconnaissance drones, used continuously for persistent intelligence surveillance, targeting, and drone strikes across the Gaza Strip and Lebanon. Producer of precision-guided Iron Sting 120mm mortar systems introduced during the 2023 campaign.",
+  "documented_consequences": "Targeting strikes involving Hermes drones, including the April 2024 strike killing seven World Central Kitchen aid workers, prompting widespread international condemnations.",
+  "associated_events": ["gaza-war-2023"],
+  "sources": ["source-un-ocha-gaza-crisis-reports"]
+}

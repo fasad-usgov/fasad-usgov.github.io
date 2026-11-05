@@ -2,12 +2,35 @@
   "version": "1.0.0",
   "generated_at": "2026-11-05",
   "counts": {
-    "events": 3,
-    "companies": 3,
-    "countries": 6,
-    "sources": 9
+    "events": 4,
+    "companies": 7,
+    "countries": 7,
+    "sources": 14
   },
   "events": [
+    {
+      "id": "gaza-war-2023",
+      "title": "The 2023\u2013Present Gaza War, Regional Escalation, and International Supply Chains",
+      "date_start": "2023-10-07",
+      "date_end": "2026-11-05",
+      "era": "Contemporary Conflict & War on Terror",
+      "region": "Middle East",
+      "countries": [
+        "Palestine",
+        "Israel",
+        "United States",
+        "United Kingdom"
+      ],
+      "topics": [
+        "Military Interventions",
+        "Civilian Casualties",
+        "Arms Transfers & Supply Chains",
+        "Intelligence Sharing",
+        "International Law & ICJ",
+        "War Crimes Allegations"
+      ],
+      "summary": "The ongoing conventional military offensive conducted by the Israel Defense Forces ('Operation Swords of Iron') in the Gaza Strip following the October 7, 2023 Hamas-led attacks on southern Israel. The campaign has been characterized by unprecedented levels of aerial bombardment, total naval, land, and aerial blockade, mass forced displacement of over 1.9 million people (85\u201390% of the population), and widespread destruction of civic, educational, and medical infrastructure. The operation has been directly sustained by emergency diplomatic protection, logistical airlifts, and arms transfers from the United States (tens of thousands of precision bombs, 155mm shells, and bunker busters) and the United Kingdom (F-35 component manufacturing and daily RAF Akrotiri aerial surveillance flights providing operational intelligence), sparking landmark genocide proceedings at the International Court of Justice (ICJ) and arrest warrant applications at the International Criminal Court (ICC)."
+    },
     {
       "id": "iran-coup-1953",
       "title": "The 1953 Iranian Coup d'\u00c9tat (Operation Ajax / TPAJAX)",
@@ -78,6 +101,34 @@
       "operational_role": "Exclusive concessionaire operating Iran's oil extraction and the Abadan refinery under highly unfavorable royalty agreements for Iran."
     },
     {
+      "id": "bae-systems",
+      "name": "BAE Systems plc",
+      "industry": "Arms & Aerospace",
+      "headquarters": "London, United Kingdom",
+      "operational_role": "Britain's largest defense contractor; tier-one global partner producing approximately 15% of the value of every F-35 Lightning II aircraft, including the rear fuselage, electronic warfare suite, and fuel systems."
+    },
+    {
+      "id": "boeing-defense",
+      "name": "The Boeing Company (Boeing Defense, Space & Security)",
+      "industry": "Arms & Aerospace",
+      "headquarters": "Arlington, Virginia, United States",
+      "operational_role": "Primary manufacturer of precision-guided strike weapons kits, AH-64 Apache attack helicopters, and F-15 fighter aircraft utilized by the United States Air Force and Israeli Air Force."
+    },
+    {
+      "id": "elbit-systems",
+      "name": "Elbit Systems Ltd.",
+      "industry": "Arms & Aerospace",
+      "headquarters": "Haifa, Israel",
+      "operational_role": "Israel's largest domestic defense contractor; manufacturer of over 85% of Israel's unmanned aerial vehicles (UAVs), tactical intelligence systems, guided mortar munitions (Iron Sting), and land warfare optics."
+    },
+    {
+      "id": "general-dynamics",
+      "name": "General Dynamics Corporation",
+      "industry": "Arms & Aerospace",
+      "headquarters": "Reston, Virginia, United States",
+      "operational_role": "Primary prime manufacturer of heavy aerial bomb bodies (MK-84 2,000-lb and MK-82 500-lb) and 155mm M107/M795 artillery projectiles for the US military and allied foreign militaries."
+    },
+    {
       "id": "halliburton-kbr",
       "name": "Halliburton / Kellogg Brown & Root (KBR)",
       "industry": "Military Contracting & Logistics",
@@ -124,6 +175,12 @@
       "summary": "Territories comprising the West Bank, East Jerusalem, and the Gaza Strip, as well as the global diaspora of millions of Palestinian refugees displaced during successive regional wars."
     },
     {
+      "id": "united-kingdom",
+      "name": "United Kingdom",
+      "region": "Europe",
+      "summary": "Former imperial power in the Middle East and key NATO ally, collaborating closely with the United States and Israel through sovereign military staging bases, aerial intelligence gathering, and defense component manufacturing."
+    },
+    {
       "id": "united-states",
       "name": "United States",
       "region": "Global",
@@ -163,6 +220,25 @@
       "type": "declassified_government_document"
     },
     {
+      "id": "source-icc-prosecutor-warrants-2024",
+      "title": "Statement of ICC Prosecutor Karim A.A. Khan KC: Applications for Arrest Warrants in the Situation in the State of Palestine",
+      "authors": [
+        "Karim A.A. Khan KC",
+        "Office of the Prosecutor, International Criminal Court"
+      ],
+      "year": 2024,
+      "type": "international_court_ruling"
+    },
+    {
+      "id": "source-icj-gaza-provisional-measures-2024",
+      "title": "Application of the Convention on the Prevention and Punishment of the Crime of Genocide in the Gaza Strip (South Africa v. Israel) - Order on Provisional Measures",
+      "authors": [
+        "International Court of Justice (ICJ)"
+      ],
+      "year": 2024,
+      "type": "international_court_ruling"
+    },
+    {
       "id": "source-kahan-commission-1983",
       "title": "Report of the Commission of Inquiry into the Events at the Refugee Camps in Beirut (Kahan Commission)",
       "authors": [
@@ -181,6 +257,17 @@
       ],
       "year": 2003,
       "type": "academic_book"
+    },
+    {
+      "id": "source-lancet-gaza-mortality-2024",
+      "title": "Counting the Dead in Gaza: Difficulties but Essential",
+      "authors": [
+        "Rasha Khatib",
+        "Martin McKee",
+        "Salim Yusuf"
+      ],
+      "year": 2024,
+      "type": "peer_reviewed_journal"
     },
     {
       "id": "source-macbride-commission-1983",
@@ -220,6 +307,24 @@
       ],
       "year": 2007,
       "type": "academic_book"
+    },
+    {
+      "id": "source-un-ocha-gaza-crisis-reports",
+      "title": "Hostilities in the Gaza Strip and Israel - Reported Impact Documentation & Field Updates",
+      "authors": [
+        "United Nations Office for the Coordination of Humanitarian Affairs (OCHA)"
+      ],
+      "year": 2024,
+      "type": "official_inquiry_report"
+    },
+    {
+      "id": "source-us-state-dept-nsm20-report-2024",
+      "title": "Report to Congress on National Security Memorandum 20 (NSM-20)",
+      "authors": [
+        "United States Department of State"
+      ],
+      "year": 2024,
+      "type": "declassified_government_document"
     }
   ]
 }

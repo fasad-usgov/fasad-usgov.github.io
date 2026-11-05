@@ -16,6 +16,6 @@
   ],
   "documented_activities": "Manufacturer of weapons systems heavily deployed in US and Israeli military operations across the Middle East, including the F-16 Fighting Falcon, F-35 Lightning II (Adir), Hellfire missiles, PAC-3 Patriot missiles, and precision-guided standoff munitions used in Iraq, Lebanon, and Gaza.",
   "documented_consequences": "Record surges in defense revenues and shareholder capital returns during post-9/11 US military engagements in Iraq and Afghanistan, and recurring supply contracts during major regional military escalations.",
-  "associated_events": ["iraq-invasion-2003"],
-  "sources": ["source-chilcot-iraq-inquiry-2016"]
+  "associated_events": ["iraq-invasion-2003", "gaza-war-2023"],
+  "sources": ["source-chilcot-iraq-inquiry-2016", "source-us-state-dept-nsm20-report-2024"]
 }

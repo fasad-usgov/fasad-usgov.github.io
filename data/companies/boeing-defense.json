@@ -1,0 +1,21 @@
+{
+  "id": "boeing-defense",
+  "name": "The Boeing Company (Boeing Defense, Space & Security)",
+  "historical_names": [
+    "McDonnell Douglas (merged 1997)",
+    "Boeing Airplane Company"
+  ],
+  "headquarters": "Arlington, Virginia, United States",
+  "industry": "Arms & Aerospace",
+  "active_period": "1916–present",
+  "operational_role": "Primary manufacturer of precision-guided strike weapons kits, AH-64 Apache attack helicopters, and F-15 fighter aircraft utilized by the United States Air Force and Israeli Air Force.",
+  "government_liaisons": [
+    "United States Department of Defense",
+    "Defense Security Cooperation Agency (DSCA)",
+    "Israeli Ministry of Defense"
+  ],
+  "documented_activities": "Supplier of thousands of Joint Direct Attack Munition (JDAM) precision guidance kits and GBU-39 Small Diameter Bombs (SDB) rushed to Israel via emergency military airlifts and Foreign Military Sales (FMS) contracts following October 2023. Documented in forensic investigations by Amnesty International and Human Rights Watch in strikes on residential structures and refugee camps in Gaza.",
+  "documented_consequences": "Extensive civilian casualties and structural devastation in densely populated urban districts of Gaza resulting from precision-guided aerial strikes.",
+  "associated_events": ["gaza-war-2023"],
+  "sources": ["source-un-ocha-gaza-crisis-reports", "source-us-state-dept-nsm20-report-2024"]
+}

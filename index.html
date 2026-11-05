@@ -85,8 +85,19 @@
         <a href="events/index.html" style="font-family: var(--font-sans); font-size: var(--font-size-sm); font-weight: 600;">View All Records &rarr;</a>
       </div>
 
-      <div class="grid grid-3" id="featured-events-grid">
-        <!-- Dynamically populated or static fallback cards -->
+      <div class="grid grid-cards" id="featured-events-grid">
+        <article class="card" style="border-left: 3px solid var(--text-accent);">
+          <div class="card-meta">
+            <span class="badge badge-accent">2023–Present</span>
+            <span>Middle East • Palestine • Israel</span>
+          </div>
+          <h3 class="card-title">
+            <a href="events/?id=gaza-war-2023">The 2023–Present Gaza War &amp; Arms Pipeline</a>
+          </h3>
+          <p class="card-body">Israeli offensive in Gaza supported by emergency US and UK weapons transfers (JDAMs, 2,000-lb bombs, F-35s) and RAF Akrotiri surveillance flights, leading to ICJ genocide proceedings.</p>
+          <a href="events/?id=gaza-war-2023" class="btn btn-sm">Read Full Account &rarr;</a>
+        </article>
+
         <article class="card">
           <div class="card-meta">
             <span class="badge badge-accent">1953</span>
@@ -167,11 +178,15 @@
           <p>
             Foreign interventions are not conducted solely by standing armies. Private weapons manufacturers, defense logistics contractors, surveillance tech vendors, and petroleum concessionaires have played pivotal operational roles in sustaining operations, lobbying administrations, and profiting from wartime reconstruction.
           </p>
-          <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1.5rem;">
             <a href="companies.html" class="btn btn-primary">Browse Corporate Dossiers &rarr;</a>
-            <a href="companies/?id=lockheed-martin" class="btn">Lockheed Martin</a>
-            <a href="companies/?id=halliburton-kbr" class="btn">Halliburton / KBR</a>
-            <a href="companies/?id=anglo-iranian-oil-company" class="btn">Anglo-Iranian Oil (BP)</a>
+            <a href="companies/?id=lockheed-martin" class="btn btn-sm">Lockheed Martin</a>
+            <a href="companies/?id=boeing-defense" class="btn btn-sm">Boeing Defense</a>
+            <a href="companies/?id=general-dynamics" class="btn btn-sm">General Dynamics</a>
+            <a href="companies/?id=bae-systems" class="btn btn-sm">BAE Systems (UK)</a>
+            <a href="companies/?id=elbit-systems" class="btn btn-sm">Elbit Systems</a>
+            <a href="companies/?id=halliburton-kbr" class="btn btn-sm">Halliburton / KBR</a>
+            <a href="companies/?id=anglo-iranian-oil-company" class="btn btn-sm">Anglo-Iranian Oil (BP)</a>
           </div>
         </div>
       </div>

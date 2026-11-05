@@ -1,0 +1,19 @@
+{
+  "id": "united-kingdom",
+  "name": "United Kingdom",
+  "region": "Europe",
+  "summary": "Former imperial power in the Middle East and key NATO ally, collaborating closely with the United States and Israel through sovereign military staging bases, aerial intelligence gathering, and defense component manufacturing.",
+  "historical_context": "Following the mandate period in Palestine and the 1953 Iranian Coup (Operation Boot with the CIA), the United Kingdom transitioned to a primary coalition partner of the United States, participating in the 1991 Gulf War, the 2003 Iraq Invasion, and modern regional operations. In contemporary operations, the UK operates sovereign military base areas in Cyprus (RAF Akrotiri), which serve as critical strategic hubs for British surveillance and reconnaissance flights (Shadow R1) over Gaza and the Levant to collect and transmit operational intelligence, while British defense firms manufacture key airframe and electronic components for Israel's F-35 fighter fleet.",
+  "key_operations": ["iran-coup-1953", "iraq-invasion-2003", "gaza-war-2023"],
+  "primary_institutions_involved": [
+    "Ministry of Defence (MoD)",
+    "Royal Air Force (RAF Akrotiri, Cyprus)",
+    "Secret Intelligence Service (MI6)",
+    "Foreign, Commonwealth & Development Office (FCDO)"
+  ],
+  "corporate_presence": [
+    "BAE Systems plc",
+    "Rolls-Royce Defence",
+    "BP (formerly Anglo-Iranian Oil Company)"
+  ]
+}

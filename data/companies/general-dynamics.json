@@ -1,0 +1,21 @@
+{
+  "id": "general-dynamics",
+  "name": "General Dynamics Corporation",
+  "historical_names": [
+    "Electric Boat",
+    "Canadair"
+  ],
+  "headquarters": "Reston, Virginia, United States",
+  "industry": "Arms & Aerospace",
+  "active_period": "1899–present",
+  "operational_role": "Primary prime manufacturer of heavy aerial bomb bodies (MK-84 2,000-lb and MK-82 500-lb) and 155mm M107/M795 artillery projectiles for the US military and allied foreign militaries.",
+  "government_liaisons": [
+    "United States Department of the Army",
+    "United States Department of Defense",
+    "Israeli Defense Ministry Procurement Mission"
+  ],
+  "documented_activities": "Supplier of MK-80 series general-purpose bomb casings, including the 2,000-pound MK-84, which possess a lethal blast radius exceeding 350 meters and were extensively deployed in urban saturation bombing across northern and central Gaza. Also prime producer of 155mm high-explosive artillery ammunition supplied via emergency transfers.",
+  "documented_consequences": "Catastrophic fragmentation damage, widespread cratering of residential neighborhoods, and mass casualties in crowded refugee camps including Jabalia and al-Bureij.",
+  "associated_events": ["gaza-war-2023"],
+  "sources": ["source-un-ocha-gaza-crisis-reports", "source-us-state-dept-nsm20-report-2024"]
+}
