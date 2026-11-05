@@ -1,0 +1,21 @@
+{
+  "id": "anglo-iranian-oil-company",
+  "name": "Anglo-Iranian Oil Company (AIOC)",
+  "historical_names": [
+    "Anglo-Persian Oil Company (1909–1935)",
+    "The British Petroleum Company (BP, 1954–present)"
+  ],
+  "headquarters": "London, United Kingdom",
+  "industry": "Oil & Energy",
+  "active_period": "1909–1954 (as AIOC)",
+  "operational_role": "Exclusive concessionaire operating Iran's oil extraction and the Abadan refinery under highly unfavorable royalty agreements for Iran.",
+  "government_liaisons": [
+    "British Foreign Office",
+    "Secret Intelligence Service (MI6)",
+    "United States Department of State"
+  ],
+  "documented_activities": "Following the 1951 nationalization of Iranian oil by Prime Minister Mohammad Mosaddegh, AIOC enforced a worldwide boycott of Iranian crude, seized foreign tankers carrying Iranian oil, and actively lobbied the British and US governments for covert political and military intervention to overthrow Mosaddegh.",
+  "documented_consequences": "Total economic paralysis in Iran resulting from the oil embargo, which deepened social unrest and created economic pretexts utilized by the CIA and MI6 to orchestrate the August 1953 coup.",
+  "associated_events": ["iran-coup-1953"],
+  "sources": ["source-kinzer-all-the-shahs-men", "source-abrahamian-the-coup", "source-frus-iran-1951-1954"]
+}

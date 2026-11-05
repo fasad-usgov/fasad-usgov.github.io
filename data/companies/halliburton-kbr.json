@@ -1,0 +1,22 @@
+{
+  "id": "halliburton-kbr",
+  "name": "Halliburton / Kellogg Brown & Root (KBR)",
+  "historical_names": [
+    "Halliburton Energy Services",
+    "Brown & Root",
+    "KBR Inc. (spun off in 2007)"
+  ],
+  "headquarters": "Houston, Texas, United States",
+  "industry": "Military Contracting & Logistics",
+  "active_period": "1919–present",
+  "operational_role": "Primary prime logistics and infrastructure contractor under the US Army Logistics Civil Augmentation Program (LOGCAP III) during the 2003 invasion and occupation of Iraq.",
+  "government_liaisons": [
+    "United States Department of Defense (DoD)",
+    "Coalition Provisional Authority (CPA)",
+    "US Army Corps of Engineers"
+  ],
+  "documented_activities": "Awarded multi-billion dollar cost-plus, no-bid contracts (including Project RIO - Restore Iraqi Oil) to repair oil infrastructure, build and maintain military bases, supply troop dining, and provide theater fuel logistics during the 2003 Iraq campaign. Halliburton was previously led by Dick Cheney (CEO 1995–2000), who became US Vice President during the invasion.",
+  "documented_consequences": "Subject to extensive congressional investigations by the Commission on Wartime Contracting and Special Inspector General for Iraq Reconstruction (SIGIR), which documented billions of dollars in contract waste, billing overcharges, and unmonitored spending in post-invasion Iraq.",
+  "associated_events": ["iraq-invasion-2003"],
+  "sources": ["source-chilcot-iraq-inquiry-2016", "source-tripp-history-of-iraq"]
+}

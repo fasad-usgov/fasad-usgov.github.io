@@ -1,0 +1,19 @@
+{
+  "id": "iran",
+  "name": "Iran",
+  "region": "Middle East",
+  "summary": "Geopolitically critical Middle Eastern nation subject to intense foreign intervention over control of its vast petroleum reserves, strategically vital Persian Gulf coastline, and regional sphere of influence.",
+  "historical_context": "Following the 1951 nationalization of its petroleum industry by Prime Minister Mohammad Mosaddegh, Iran became the target of the CIA and MI6's first peacetime covert coup d'état in 1953 (Operation Ajax). The coup reinstated absolute monarchical rule under Mohammad Reza Shah Pahlavi, establishing a 26-year autocratic regime enforced by the SAVAK secret police. The resultant deep anti-imperialist backlash culminated in the 1979 Iranian Revolution, transforming Iran into an Islamic Republic and permanently realigning Middle Eastern geopolitics and US-Iranian relations into chronic confrontation.",
+  "key_operations": ["iran-coup-1953"],
+  "primary_institutions_involved": [
+    "Central Intelligence Agency (CIA)",
+    "British Secret Intelligence Service (MI6)",
+    "United States Department of State",
+    "Imperial Iranian Armed Forces",
+    "SAVAK (Ministry of State Security)"
+  ],
+  "corporate_presence": [
+    "Anglo-Iranian Oil Company (AIOC / BP)",
+    "Consortium for Iran (Standard Oil, Texaco, Gulf Oil, Mobil, Shell)"
+  ]
+}

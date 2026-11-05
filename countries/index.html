@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Country dossiers documenting foreign military interventions, covert operations, and civilian impacts across affected nations.">
+  <meta name="theme-color" content="#8b1e1e">
+  <title>Country Dossiers — History of Intervention</title>
+
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="../assets/icons/icon-192.svg">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/print.css" media="print">
+</head>
+<body>
+  <div id="offline-banner"></div>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-top">
+        <div class="brand-wrapper">
+          <a href="../index.html" class="brand-title">History of Intervention</a>
+          <span class="brand-subtitle">Country &amp; Regional Indexes</span>
+        </div>
+        <div class="header-controls">
+          <div class="theme-select-wrapper">
+            <span>Theme:</span>
+            <select class="theme-select">
+              <option value="light">Parchment</option>
+              <option value="sepia">Archival Sepia</option>
+              <option value="dark">Slate Dark</option>
+            </select>
+          </div>
+          <a href="../search.html" class="nav-search-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            Search <kbd>/</kbd>
+          </a>
+        </div>
+      </div>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="../index.html" class="nav-link">Home</a></li>
+          <li><a href="../timeline.html" class="nav-link">Timeline</a></li>
+          <li><a href="../regions.html" class="nav-link">Regions</a></li>
+          <li><a href="../countries.html" class="nav-link active">Countries</a></li>
+          <li><a href="../companies.html" class="nav-link">Corporate Accountability</a></li>
+          <li><a href="../sources.html" class="nav-link">Research Library</a></li>
+          <li><a href="../about.html" class="nav-link">Methodology &amp; About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="country-view-container">
+      <div class="callout" style="text-align: center; margin: 3rem 0;">
+        <p>Loading country dossier...</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2026 History of Intervention Project. Public Historical Education.</div>
+        <div>Offline PWA Enabled • Zero Tracking</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module">
+    import { App } from '../js/app.js';
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      const container = document.getElementById('country-view-container');
+      const countryId = App.getQueryParam('id');
+
+      if (!countryId) {
+        await renderCountriesCatalog(container);
+      } else {
+        await renderSingleCountry(container, countryId);
+      }
+    });
+
+    async function renderSingleCountry(container, ctryId) {
+      const ctry = await App.fetchJSON(`../data/countries/${ctryId}.json`);
+      if (!ctry) {
+        container.innerHTML = `
+          <div class="callout" style="margin: 3rem 0; text-align: center;">
+            <h2>Country Record Not Found</h2>
+            <p>The requested country ID <code>${App.escapeHTML(ctryId)}</code> could not be located in the archive.</p>
+            <a href="index.html" class="btn btn-primary" style="margin-top: 1rem;">View All Country Dossiers</a>
+          </div>
+        `;
+        return;
+      }
+
+      document.title = `${ctry.name} — Country Dossier`;
+
+      // Fetch linked events
+      const eventPromises = (ctry.key_operations || []).map(eId => App.fetchJSON(`../data/events/${eId}.json`));
+      const linkedEvents = (await Promise.all(eventPromises)).filter(Boolean);
+
+      const eventsHtml = linkedEvents.map(ev => `
+        <article class="card mb-2" style="border-left: 3px solid var(--text-accent);">
+          <div class="card-meta">
+            <span class="badge badge-accent">${App.escapeHTML((ev.date_start || '').substring(0, 4))}</span>
+          </div>
+          <h4 style="margin: 0 0 0.35rem 0;">
+            <a href="../events/?id=${ev.id}">${App.escapeHTML(ev.title)}</a>
+          </h4>
+          <p style="margin: 0; font-size: var(--font-size-xs); color: var(--text-muted);">${App.escapeHTML(ev.summary)}</p>
+        </article>
+      `).join('');
+
+      container.innerHTML = `
+        <div class="breadcrumbs">
+          <a href="../index.html">Home</a>
+          <span class="separator">/</span>
+          <a href="index.html">Countries</a>
+          <span class="separator">/</span>
+          <span>${App.escapeHTML(ctry.name)}</span>
+        </div>
+
+        <div class="article-layout">
+          <div class="article-content">
+            <header class="mb-3">
+              <span class="badge badge-accent mb-1">${App.escapeHTML(ctry.region)}</span>
+              <h1>${App.escapeHTML(ctry.name)}</h1>
+              <p class="hero-lead" style="font-size: var(--font-size-md);">${App.escapeHTML(ctry.summary)}</p>
+            </header>
+
+            <section class="mb-4">
+              <h2>Historical Context of Intervention</h2>
+              <p>${App.escapeHTML(ctry.historical_context)}</p>
+            </section>
+
+            <section class="mb-4">
+              <h2>Documented Operations &amp; Interventions</h2>
+              <div style="margin-top: 1rem;">
+                ${eventsHtml}
+              </div>
+            </section>
+
+            ${ctry.corporate_presence && ctry.corporate_presence.length > 0 ? `
+              <section class="mb-4">
+                <h2>Corporate Footprint &amp; Economic Actors</h2>
+                <ul>
+                  ${ctry.corporate_presence.map(cp => `<li>${App.escapeHTML(cp)}</li>`).join('')}
+                </ul>
+              </section>
+            ` : ''}
+          </div>
+
+          <aside class="article-sidebar">
+            <div class="sidebar-box">
+              <div class="sidebar-title">Institutional Footprint</div>
+              <ul class="meta-list">
+                ${(ctry.primary_institutions_involved || []).map(inst => `
+                  <li><span class="meta-val">${App.escapeHTML(inst)}</span></li>
+                `).join('')}
+              </ul>
+            </div>
+          </aside>
+        </div>
+      `;
+    }
+
+    async function renderCountriesCatalog(container) {
+      document.title = 'Country Dossiers — History of Intervention';
+      const catalog = await App.fetchJSON('../data/indices/catalog.json');
+      if (!catalog || !catalog.countries) {
+        container.innerHTML = '<p class="callout">Could not load country catalog.</p>';
+        return;
+      }
+
+      const countriesHtml = catalog.countries.map(c => `
+        <article class="card">
+          <div class="card-meta">
+            <span class="badge badge-accent">${App.escapeHTML(c.region)}</span>
+          </div>
+          <h3 class="card-title">
+            <a href="?id=${c.id}">${App.escapeHTML(c.name)}</a>
+          </h3>
+          <p class="card-body">${App.escapeHTML(c.summary)}</p>
+          <div>
+            <a href="?id=${c.id}" class="btn btn-sm">View Country Dossier &rarr;</a>
+          </div>
+        </article>
+      `).join('');
+
+      container.innerHTML = `
+        <div class="breadcrumbs">
+          <a href="../index.html">Home</a>
+          <span class="separator">/</span>
+          <span>Countries</span>
+        </div>
+
+        <section class="mb-3">
+          <h1>Country Dossiers</h1>
+          <p class="hero-lead">
+            Historical records indexed by nation, detailing the trajectory of foreign military operations, covert actions, and societal impacts.
+          </p>
+        </section>
+
+        <div class="grid grid-cards">
+          ${countriesHtml}
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>

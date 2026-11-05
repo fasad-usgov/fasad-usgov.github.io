@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Research library and verifiable bibliography of declassified government archives, official inquiries, and academic publications.">
+  <meta name="theme-color" content="#8b1e1e">
+  <title>Research Library — History of Intervention</title>
+
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="../assets/icons/icon-192.svg">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/print.css" media="print">
+</head>
+<body>
+  <div id="offline-banner"></div>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-top">
+        <div class="brand-wrapper">
+          <a href="../index.html" class="brand-title">History of Intervention</a>
+          <span class="brand-subtitle">Research Library &amp; Archives</span>
+        </div>
+        <div class="header-controls">
+          <div class="theme-select-wrapper">
+            <span>Theme:</span>
+            <select class="theme-select">
+              <option value="light">Parchment</option>
+              <option value="sepia">Archival Sepia</option>
+              <option value="dark">Slate Dark</option>
+            </select>
+          </div>
+          <a href="../search.html" class="nav-search-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            Search <kbd>/</kbd>
+          </a>
+        </div>
+      </div>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="../index.html" class="nav-link">Home</a></li>
+          <li><a href="../timeline.html" class="nav-link">Timeline</a></li>
+          <li><a href="../regions.html" class="nav-link">Regions</a></li>
+          <li><a href="../countries.html" class="nav-link">Countries</a></li>
+          <li><a href="../companies.html" class="nav-link">Corporate Accountability</a></li>
+          <li><a href="../sources.html" class="nav-link active">Research Library</a></li>
+          <li><a href="../about.html" class="nav-link">Methodology &amp; About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="source-view-container">
+      <div class="callout" style="text-align: center; margin: 3rem 0;">
+        <p>Loading bibliographic record...</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2026 History of Intervention Project. Public Historical Education.</div>
+        <div>Verifiable Primary Citations • Zero Tracking</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module">
+    import { App } from '../js/app.js';
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      const container = document.getElementById('source-view-container');
+      const sourceId = App.getQueryParam('id');
+
+      if (!sourceId) {
+        await renderSourcesCatalog(container);
+      } else {
+        await renderSingleSource(container, sourceId);
+      }
+    });
+
+    async function renderSingleSource(container, srcId) {
+      const src = await App.fetchJSON(`../data/sources/${srcId}.json`);
+      if (!src) {
+        container.innerHTML = `
+          <div class="callout" style="margin: 3rem 0; text-align: center;">
+            <h2>Bibliographic Record Not Found</h2>
+            <p>The requested source ID <code>${App.escapeHTML(srcId)}</code> could not be located in the archive.</p>
+            <a href="index.html" class="btn btn-primary" style="margin-top: 1rem;">View All Sources</a>
+          </div>
+        `;
+        return;
+      }
+
+      document.title = `${src.title} — Research Library`;
+
+      // Fetch linked events citing this source
+      const eventPromises = (src.cited_in || []).map(eId => App.fetchJSON(`../data/events/${eId}.json`));
+      const linkedEvents = (await Promise.all(eventPromises)).filter(Boolean);
+
+      const eventsHtml = linkedEvents.map(ev => `
+        <article class="card mb-2" style="border-left: 3px solid var(--text-accent);">
+          <div class="card-meta">
+            <span class="badge badge-accent">${App.escapeHTML((ev.date_start || '').substring(0, 4))}</span>
+          </div>
+          <h4 style="margin: 0 0 0.35rem 0;">
+            <a href="../events/?id=${ev.id}">${App.escapeHTML(ev.title)}</a>
+          </h4>
+          <p style="margin: 0; font-size: var(--font-size-xs); color: var(--text-muted);">${App.escapeHTML(ev.summary)}</p>
+        </article>
+      `).join('');
+
+      container.innerHTML = `
+        <div class="breadcrumbs">
+          <a href="../index.html">Home</a>
+          <span class="separator">/</span>
+          <a href="index.html">Research Library</a>
+          <span class="separator">/</span>
+          <span>${App.escapeHTML(src.title)}</span>
+        </div>
+
+        <div class="article-layout">
+          <div class="article-content">
+            <header class="mb-3">
+              <span class="badge badge-accent mb-1">${App.escapeHTML(src.type.replace(/_/g, ' '))}</span>
+              <h1>${App.escapeHTML(src.title)}</h1>
+              <p style="font-family: var(--font-sans); font-size: var(--font-size-md); color: var(--text-muted);">
+                <strong>Authors / Inquiring Body:</strong> ${App.escapeHTML((src.authors || []).join(', '))} (${src.year})
+              </p>
+              <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">
+                <strong>Publisher / Repository:</strong> ${App.escapeHTML(src.publisher_or_archive)}
+                ${src.isbn_or_id ? ` | <strong>Identifier / ISBN:</strong> <code>${App.escapeHTML(src.isbn_or_id)}</code>` : ''}
+              </p>
+            </header>
+
+            <section class="mb-4" style="background-color: var(--bg-card); border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 1.5rem;">
+              <h3 style="margin-top: 0; font-size: var(--font-size-md);">Document Summary &amp; Historical Value</h3>
+              <p style="margin: 0; font-size: var(--font-size-sm); line-height: var(--line-height-normal);">${App.escapeHTML(src.summary)}</p>
+            </section>
+
+            <section class="mb-4">
+              <h2>Cited in Archive Operations</h2>
+              <div style="margin-top: 1rem;">
+                ${eventsHtml}
+              </div>
+            </section>
+
+            ${src.url ? `
+              <section class="mb-4">
+                <h2>External Repository Access</h2>
+                <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">
+                  View original document metadata, official catalog entry, or institutional repository:
+                </p>
+                <a href="${src.url}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  Open External Source Repository &nearr;
+                </a>
+              </section>
+            ` : ''}
+          </div>
+
+          <aside class="article-sidebar">
+            <div class="sidebar-box">
+              <div class="sidebar-title">Source Classification</div>
+              <ul class="meta-list">
+                <li>
+                  <span class="meta-label">Type:</span>
+                  <span class="meta-val">${App.escapeHTML(src.type.replace(/_/g, ' '))}</span>
+                </li>
+                <li>
+                  <span class="meta-label">Publication Year:</span>
+                  <span class="meta-val">${src.year}</span>
+                </li>
+                <li>
+                  <span class="meta-label">Total Archive Citations:</span>
+                  <span class="meta-val">${(src.cited_in || []).length} operation(s)</span>
+                </li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      `;
+    }
+
+    async function renderSourcesCatalog(container) {
+      document.title = 'Research Library & Bibliography — History of Intervention';
+      const catalog = await App.fetchJSON('../data/indices/catalog.json');
+      if (!catalog || !catalog.sources) {
+        container.innerHTML = '<p class="callout">Could not load bibliography catalog.</p>';
+        return;
+      }
+
+      const sourcesHtml = catalog.sources.map(s => `
+        <article class="card">
+          <div class="card-meta">
+            <span class="badge badge-accent">${App.escapeHTML(s.type.replace(/_/g, ' '))}</span>
+            <span>${s.year}</span>
+          </div>
+          <h3 class="card-title">
+            <a href="?id=${s.id}">${App.escapeHTML(s.title)}</a>
+          </h3>
+          <p class="card-body">
+            <strong>Authors:</strong> ${(s.authors || []).join(', ')}
+          </p>
+          <div>
+            <a href="?id=${s.id}" class="btn btn-sm">View Citation &rarr;</a>
+          </div>
+        </article>
+      `).join('');
+
+      container.innerHTML = `
+        <div class="breadcrumbs">
+          <a href="../index.html">Home</a>
+          <span class="separator">/</span>
+          <span>Research Library</span>
+        </div>
+
+        <section class="mb-3">
+          <h1>Research Library &amp; Bibliography</h1>
+          <p class="hero-lead">
+            An annotated, searchable catalog of declassified cables, official government inquiries, academic monographs, and legal filings underpinning all entries in this archive.
+          </p>
+        </section>
+
+        <div class="grid grid-cards">
+          ${sourcesHtml}
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>

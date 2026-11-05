@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Detailed historical reference records of foreign policy, military interventions, covert operations, and civilian consequences.">
+  <meta name="theme-color" content="#8b1e1e">
+  <title>Historical Records — History of Intervention</title>
+
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="../assets/icons/icon-192.svg">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/print.css" media="print">
+</head>
+<body>
+  <div id="offline-banner"></div>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-top">
+        <div class="brand-wrapper">
+          <a href="../index.html" class="brand-title">History of Intervention</a>
+          <span class="brand-subtitle">Historical Event Archive</span>
+        </div>
+        <div class="header-controls">
+          <div class="theme-select-wrapper">
+            <span>Theme:</span>
+            <select class="theme-select">
+              <option value="light">Parchment</option>
+              <option value="sepia">Archival Sepia</option>
+              <option value="dark">Slate Dark</option>
+            </select>
+          </div>
+          <a href="../search.html" class="nav-search-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            Search <kbd>/</kbd>
+          </a>
+        </div>
+      </div>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="../index.html" class="nav-link">Home</a></li>
+          <li><a href="../timeline.html" class="nav-link">Timeline</a></li>
+          <li><a href="../regions.html" class="nav-link">Regions</a></li>
+          <li><a href="../countries.html" class="nav-link">Countries</a></li>
+          <li><a href="../companies.html" class="nav-link">Corporate Accountability</a></li>
+          <li><a href="../sources.html" class="nav-link">Research Library</a></li>
+          <li><a href="../about.html" class="nav-link">Methodology &amp; About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="event-view-container">
+      <div class="callout" style="text-align: center; margin: 3rem 0;">
+        <p>Loading historical documentation...</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2026 History of Intervention Project. Public Historical Education.</div>
+        <div>Verified Declassified &amp; Academic Documentation • Zero Tracking</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module">
+    import { App } from '../js/app.js';
+    import { Storage } from '../js/storage.js';
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      const container = document.getElementById('event-view-container');
+      const eventId = App.getQueryParam('id');
+
+      if (!eventId) {
+        // Render Catalog Index of all events
+        await renderEventsCatalog(container);
+      } else {
+        // Render Detailed Event Reader
+        await renderSingleEvent(container, eventId);
+      }
+    });
+
+    async function renderSingleEvent(container, eventId) {
+      const event = await App.fetchJSON(`../data/events/${eventId}.json`);
+      if (!event) {
+        container.innerHTML = `
+          <div class="callout" style="margin: 3rem 0; text-align: center;">
+            <h2>Historical Record Not Found</h2>
+            <p>The requested event ID <code>${App.escapeHTML(eventId)}</code> could not be located in the archive.</p>
+            <a href="index.html" class="btn btn-primary" style="margin-top: 1rem;">View All Event Records</a>
+          </div>
+        `;
+        return;
+      }
+
+      // Update page title
+      document.title = `${event.title} — History of Intervention`;
+
+      // Save to reading history
+      Storage.addHistory({ id: event.id, title: event.title, url: window.location.href });
+
+      const isBookmarked = Storage.isBookmarked(event.id);
+      const dateRange = event.date_start === event.date_end 
+        ? App.formatDate(event.date_start) 
+        : `${App.formatDate(event.date_start)} – ${App.formatDate(event.date_end)}`;
+
+      // Fetch sources for this event
+      const sourcePromises = (event.sources || []).map(srcId => App.fetchJSON(`../data/sources/${srcId}.json`));
+      const resolvedSources = (await Promise.all(sourcePromises)).filter(Boolean);
+
+      // Fetch corporate data for this event
+      const corpPromises = (event.corporate_involvement || []).map(cId => App.fetchJSON(`../data/companies/${cId}.json`));
+      const resolvedCompanies = (await Promise.all(corpPromises)).filter(Boolean);
+
+      // Render Chronology
+      const chronologyHtml = (event.chronology || []).map((step, idx) => `
+        <div style="margin-bottom: 1.25rem; padding-left: 1.25rem; border-left: 2px solid var(--border-medium); position: relative;">
+          <div style="position: absolute; left: -5px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background-color: var(--text-accent);"></div>
+          <div style="font-family: var(--font-sans); font-size: var(--font-size-xs); font-weight: 700; color: var(--text-accent); text-transform: uppercase;">
+            ${App.escapeHTML(step.date)}
+          </div>
+          <h4 style="margin: 0.2rem 0 0.4rem 0; font-size: var(--font-size-md);">${App.escapeHTML(step.headline)}</h4>
+          <p style="margin: 0; font-size: var(--font-size-sm); color: var(--text-secondary);">${App.escapeHTML(step.detail)}</p>
+        </div>
+      `).join('');
+
+      // Disputed Aspects
+      const disputedHtml = (event.disputed_aspects || []).map(d => `
+        <li style="margin-bottom: 0.6rem;">${App.escapeHTML(d)}</li>
+      `).join('');
+
+      // Sources HTML
+      const sourcesHtml = resolvedSources.map(s => `
+        <div style="background-color: var(--bg-card); border: 1px solid var(--border-light); border-radius: var(--radius-sm); padding: 1rem; margin-bottom: 0.75rem;">
+          <div style="font-family: var(--font-sans); font-size: var(--font-size-xs); color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.25rem;">
+            ${App.escapeHTML(s.type.replace(/_/g, ' '))} • ${s.year}
+          </div>
+          <h4 style="margin: 0 0 0.35rem 0; font-size: var(--font-size-sm);">
+            <a href="../sources/?id=${s.id}">${App.escapeHTML(s.title)}</a>
+          </h4>
+          <p style="margin: 0 0 0.5rem 0; font-size: var(--font-size-xs); color: var(--text-secondary);">
+            <strong>Authors/Inquiry:</strong> ${App.escapeHTML((s.authors || []).join(', '))} | <em>${App.escapeHTML(s.publisher_or_archive)}</em>
+          </p>
+          <p style="margin: 0; font-size: var(--font-size-xs); color: var(--text-muted);">
+            ${App.escapeHTML(s.summary)}
+          </p>
+        </div>
+      `).join('');
+
+      // Corporate Cards HTML
+      const corpCardsHtml = resolvedCompanies.length > 0 
+        ? resolvedCompanies.map(c => `
+          <div style="background-color: var(--bg-card); border: 1px solid var(--border-light); border-radius: var(--radius-sm); padding: 1rem; margin-bottom: 0.75rem;">
+            <div style="font-family: var(--font-sans); font-size: var(--font-size-xs); color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.25rem;">
+              ${App.escapeHTML(c.industry)} • HQ: ${App.escapeHTML(c.headquarters)}
+            </div>
+            <h4 style="margin: 0 0 0.35rem 0; font-size: var(--font-size-base);">
+              <a href="../companies/?id=${c.id}">${App.escapeHTML(c.name)}</a>
+            </h4>
+            <p style="margin: 0 0 0.5rem 0; font-size: var(--font-size-xs); color: var(--text-secondary);">
+              <strong>Documented Operational Role:</strong> ${App.escapeHTML(c.operational_role)}
+            </p>
+            <p style="margin: 0; font-size: var(--font-size-xs); color: var(--text-muted);">
+              ${App.escapeHTML(c.documented_activities)}
+            </p>
+          </div>
+        `).join('')
+        : `<p style="font-size: var(--font-size-sm); color: var(--text-muted); font-style: italic;">No direct corporate concessionaire or prime contractor documentation cited for this specific military operation.</p>`;
+
+      container.innerHTML = `
+        <div class="breadcrumbs">
+          <a href="../index.html">Home</a>
+          <span class="separator">/</span>
+          <a href="index.html">Historical Events</a>
+          <span class="separator">/</span>
+          <span>${App.escapeHTML(event.title)}</span>
+        </div>
+
+        <article class="article-layout">
+          <div class="article-content">
+            <header class="mb-3">
+              <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.75rem; flex-wrap: wrap;">
+                <span class="badge badge-accent">${App.escapeHTML(event.era)}</span>
+                <span class="badge">${App.escapeHTML(event.region)}</span>
+                <span class="status-pill status-declassified">Documented Historical Record</span>
+              </div>
+              <h1 style="margin-bottom: 0.75rem;">${App.escapeHTML(event.title)}</h1>
+              <div style="font-family: var(--font-sans); font-size: var(--font-size-sm); color: var(--text-muted); display: flex; gap: 1.5rem; flex-wrap: wrap;">
+                <span><strong>Historical Period:</strong> ${dateRange}</span>
+                <span><strong>Countries Involved:</strong> ${(event.countries || []).map(c => `<a href="../countries/?id=${c.toLowerCase().replace(/ /g, '-')}">${App.escapeHTML(c)}</a>`).join(', ')}</span>
+              </div>
+            </header>
+
+            <!-- Executive Summary -->
+            <section class="mb-3" style="background-color: var(--callout-bg); border-left: 4px solid var(--callout-border); padding: 1.25rem 1.5rem; border-radius: var(--radius-sm);">
+              <h3 style="margin-top: 0; font-size: var(--font-size-md); color: var(--text-accent);">Executive Historical Summary</h3>
+              <p style="margin: 0; font-size: var(--font-size-base); line-height: var(--line-height-normal);">${App.escapeHTML(event.summary)}</p>
+            </section>
+
+            <!-- Historical Background -->
+            <section class="mb-4">
+              <h2>Historical Background &amp; Precedents</h2>
+              <p>${App.escapeHTML(event.background)}</p>
+            </section>
+
+            <!-- Chronological Sequence -->
+            <section class="mb-4">
+              <h2>Documented Chronological Sequence</h2>
+              <div style="margin-top: 1.5rem;">
+                ${chronologyHtml}
+              </div>
+            </section>
+
+            <!-- Documented Consequences & Civilian Toll -->
+            <section class="mb-4">
+              <h2>Civilian Consequences &amp; Societal Impact</h2>
+              <div style="background-color: var(--bg-card); border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 1.5rem; margin-top: 1rem;">
+                <h4 style="margin-top: 0; color: var(--text-accent);">Documented Civilian Casualties &amp; Humanitarian Toll</h4>
+                <p style="font-size: var(--font-size-sm);">${App.escapeHTML(event.documented_consequences.civilian_toll)}</p>
+
+                <h4 style="color: var(--text-primary); margin-top: 1.25rem;">Political &amp; Institutional Disruption</h4>
+                <p style="font-size: var(--font-size-sm);">${App.escapeHTML(event.documented_consequences.political)}</p>
+
+                <h4 style="color: var(--text-primary); margin-top: 1.25rem;">Long-Term Regional Repercussions</h4>
+                <p style="font-size: var(--font-size-sm); margin-bottom: 0;">${App.escapeHTML(event.documented_consequences.long_term)}</p>
+              </div>
+            </section>
+
+            <!-- Corporate Accountability Section -->
+            <section class="mb-4">
+              <h2>Corporate Accountability &amp; Private Contractors</h2>
+              <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">
+                Private commercial entities, defense suppliers, or energy concessionaires with documented participation in or financial relationship to this operation:
+              </p>
+              ${corpCardsHtml}
+            </section>
+
+            <!-- Historiography & Disputed Aspects -->
+            ${disputedHtml ? `
+              <section class="mb-4">
+                <h2>Historiographical Debates &amp; Unresolved Disputes</h2>
+                <div class="callout" style="background-color: var(--bg-secondary); border-color: var(--border-dark);">
+                  <ul style="margin: 0; padding-left: 1.25rem; font-size: var(--font-size-sm);">
+                    ${disputedHtml}
+                  </ul>
+                </div>
+              </section>
+            ` : ''}
+
+            <!-- Bibliography & Archival Sources -->
+            <section class="mb-4">
+              <h2>Archival Documentation &amp; Bibliography</h2>
+              <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">
+                All statements in this record are derived from peer-reviewed academic literature, declassified state archives, official inquiry commissions, or authenticated court records:
+              </p>
+              ${sourcesHtml}
+            </section>
+          </div>
+
+          <!-- Sticky Sidebar -->
+          <aside class="article-sidebar">
+            <div class="sidebar-box">
+              <div class="sidebar-title">Record Information</div>
+              <ul class="meta-list">
+                <li>
+                  <span class="meta-label">Identifier:</span>
+                  <span class="meta-val"><code>${App.escapeHTML(event.id)}</code></span>
+                </li>
+                <li>
+                  <span class="meta-label">Geographic Region:</span>
+                  <span class="meta-val">${App.escapeHTML(event.region)}</span>
+                </li>
+                <li>
+                  <span class="meta-label">Topics:</span>
+                  <div style="display: flex; gap: 0.35rem; flex-wrap: wrap; margin-top: 0.25rem;">
+                    ${(event.topics || []).map(t => `<span class="badge">${App.escapeHTML(t)}</span>`).join('')}
+                  </div>
+                </li>
+                <li>
+                  <span class="meta-label">Last Audited / Updated:</span>
+                  <span class="meta-val">${App.escapeHTML(event.last_updated)}</span>
+                </li>
+              </ul>
+              <button id="bookmark-toggle-btn" class="btn btn-sm btn-primary" style="width: 100%; margin-top: 1rem; justify-content: center;">
+                ${isBookmarked ? '★ Bookmarked' : '☆ Save to Bookmarks'}
+              </button>
+            </div>
+
+            <div class="sidebar-box">
+              <div class="sidebar-title">Key Institutional Actors</div>
+              <ul class="meta-list">
+                <li>
+                  <span class="meta-label">US Agencies:</span>
+                  <span class="meta-val">${(event.actors.us_institutions || []).join('<br>')}</span>
+                </li>
+                <li style="margin-top: 0.5rem;">
+                  <span class="meta-label">Foreign Institutions:</span>
+                  <span class="meta-val">${(event.actors.foreign_institutions || []).join('<br>')}</span>
+                </li>
+                <li style="margin-top: 0.5rem;">
+                  <span class="meta-label">Key Decision Makers:</span>
+                  <span class="meta-val">${(event.actors.key_figures || []).join('<br>')}</span>
+                </li>
+              </ul>
+            </div>
+          </aside>
+        </article>
+      `;
+
+      // Hook up bookmark button
+      const bookmarkBtn = document.getElementById('bookmark-toggle-btn');
+      if (bookmarkBtn) {
+        bookmarkBtn.addEventListener('click', () => {
+          const added = Storage.toggleBookmark({ id: event.id, title: event.title, type: 'event', url: window.location.href });
+          bookmarkBtn.textContent = added ? '★ Bookmarked' : '☆ Save to Bookmarks';
+        });
+      }
+    }
+
+    async function renderEventsCatalog(container) {
+      document.title = 'Historical Events Directory — History of Intervention';
+      const catalog = await App.fetchJSON('../data/indices/catalog.json');
+      if (!catalog || !catalog.events) {
+        container.innerHTML = '<p class="callout">Could not load historical events catalog.</p>';
+        return;
+      }
+
+      const events = catalog.events;
+
+      const eventsCardsHtml = events.map(e => `
+        <article class="card">
+          <div class="card-meta">
+            <span class="badge badge-accent">${App.escapeHTML((e.date_start || '').substring(0, 4))}</span>
+            <span>${App.escapeHTML(e.region)} • ${(e.countries || []).join(', ')}</span>
+          </div>
+          <h3 class="card-title">
+            <a href="?id=${e.id}">${App.escapeHTML(e.title)}</a>
+          </h3>
+          <p class="card-body">${App.escapeHTML(e.summary)}</p>
+          <div>
+            <a href="?id=${e.id}" class="btn btn-sm">Read Full Event &rarr;</a>
+          </div>
+        </article>
+      `).join('');
+
+      container.innerHTML = `
+        <div class="breadcrumbs">
+          <a href="../index.html">Home</a>
+          <span class="separator">/</span>
+          <span>Historical Events Directory</span>
+        </div>
+
+        <section class="mb-3">
+          <h1>Historical Events &amp; Operations Directory</h1>
+          <p class="hero-lead">
+            Comprehensive historical accounts of foreign military interventions, covert regime change operations, and proxy conflicts from 1945 to the present.
+          </p>
+        </section>
+
+        <div class="grid grid-cards">
+          ${eventsCardsHtml}
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>

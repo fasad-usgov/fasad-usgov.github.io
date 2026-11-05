@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "iran-coup-1953",
+  "title": "The 1953 Iranian Coup d'État (Operation Ajax / TPAJAX)",
+  "date_start": "1953-08-15",
+  "date_end": "1953-08-19",
+  "era": "Cold War",
+  "region": "Middle East",
+  "countries": ["Iran", "United States"],
+  "topics": [
+    "Covert Operations",
+    "Regime Change",
+    "Resource Politics",
+    "Cold War",
+    "Intelligence Agency Operations"
+  ],
+  "summary": "The covert overthrow of the democratically elected Prime Minister of Iran, Mohammad Mosaddegh, orchestrated by the United States Central Intelligence Agency (Operation TPAJAX) and the British Secret Intelligence Service (Operation Boot). The coup restored absolute monarchical rule under Mohammad Reza Shah Pahlavi following Mosaddegh's nationalization of Iran's oil industry, which had been monopolized by the British Anglo-Iranian Oil Company.",
+  "background": "In April 1951, the Iranian parliament (Majlis) passed legislation nationalizing the country's petroleum industry, which had been exploited under terms heavily unfavorable to Iran by the British-owned Anglo-Iranian Oil Company (AIOC, later BP). Prime Minister Mohammad Mosaddegh insisted on national sovereign control over domestic natural resources. The British government retaliated by imposing a crippling worldwide embargo on Iranian oil exports, seizing tankers, freezing Iranian assets abroad, and appealing to the United States for covert assistance. While the Truman Administration initially favored diplomatic negotiation, the incoming Eisenhower Administration in 1953 embraced direct covert regime change, persuaded by arguments that economic deterioration in Iran could invite Soviet influence under the Tudeh party.",
+  "chronology": [
+    {
+      "date": "1951-04-28",
+      "headline": "Mosaddegh Appointed Prime Minister",
+      "detail": "The Iranian Majlis votes overwhelmingly to appoint Mosaddegh as Prime Minister, followed immediately by ratification of the Oil Nationalization Act."
+    },
+    {
+      "date": "1951-06-20",
+      "headline": "British AIOC Boycott Imposed",
+      "detail": "Britain withdraws technicians from the Abadan refinery, enforces a worldwide naval and financial embargo, and files suit at the International Court of Justice."
+    },
+    {
+      "date": "1953-03-04",
+      "headline": "CIA and MI6 Draft Joint Coup Plan",
+      "detail": "CIA Director Allen Dulles and Kermit Roosevelt Jr. approve operational blueprint 'TPAJAX' in collaboration with MI6 operative Norman Darbyshire."
+    },
+    {
+      "date": "1953-07-11",
+      "headline": "Eisenhower Signs Presidential Authorization",
+      "detail": "President Dwight D. Eisenhower approves funds ($1 million in operational cash) and operational authority for Kermit Roosevelt to deploy to Tehran."
+    },
+    {
+      "date": "1953-08-15",
+      "headline": "First Coup Attempt Fails",
+      "detail": "Imperial Guard commander Colonel Nematollah Nassiri attempts to deliver royal dismissals to Mosaddegh. The attempt is foiled; Nassiri is arrested, and the Shah flees Iran for Baghdad and Rome."
+    },
+    {
+      "date": "1953-08-16",
+      "headline": "Propaganda and Disinformation Campaign",
+      "detail": "Roosevelt mobilizes network of bribed journalists, clergymen, and street gang leaders to stage false-flag provocations purporting to be communist mobs attacking mosques."
+    },
+    {
+      "date": "1953-08-19",
+      "headline": "Military Takeover and Mosaddegh's Arrest",
+      "detail": "Royalist military units led by General Fazlollah Zahedi shell Mosaddegh's residence with tanks. Zahedi seizes the radio station; Mosaddegh surrenders the following day."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "Central Intelligence Agency (CIA)",
+      "Department of State",
+      "National Security Council (NSC)"
+    ],
+    "foreign_institutions": [
+      "Secret Intelligence Service (MI6)",
+      "Imperial Iranian Armed Forces",
+      "Imperial Guard of Iran"
+    ],
+    "key_figures": [
+      "Mohammad Mosaddegh (Prime Minister of Iran)",
+      "Kermit Roosevelt Jr. (CIA Station Chief / Operative)",
+      "Fazlollah Zahedi (Royalist General installed as PM)",
+      "Mohammad Reza Shah Pahlavi (Monarch)",
+      "John Foster Dulles (US Secretary of State)",
+      "Allen Dulles (Director of Central Intelligence)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Abolition of Iranian constitutional democracy; reinstatement of absolute monarchical power under the Shah for 26 years; establishment of the brutal SAVAK secret security and intelligence service with CIA and Mossad technical assistance in 1957.",
+    "civilian_toll": "Arrests of thousands of National Front and Tudeh party members; execution of Foreign Minister Hossein Fatemi and military officers; decades of political imprisonment, censorship, and torture of political dissidents under SAVAK.",
+    "long_term": "Replaced the British monopoly with a consortium of Western oil firms (40% American, 40% British, 14% French/Dutch); generated profound popular resentment against US interference that crystallized in the 1979 Iranian Revolution, the storming of the US Embassy, and decades of hostile geopolitical estrangement."
+  },
+  "disputed_aspects": [
+    "The relative balance of influence between CIA bribery and covert orchestration versus authentic internal Iranian political fragmentation and conservative clerical opposition to Mosaddegh.",
+    "The degree to which the communist Tudeh party posed a genuine threat of a Soviet takeover, which post-Cold War declassified records show was significantly exaggerated to justify the operation."
+  ],
+  "corporate_involvement": ["anglo-iranian-oil-company"],
+  "related_events": ["iraq-invasion-2003"],
+  "sources": [
+    "source-kinzer-all-the-shahs-men",
+    "source-frus-iran-1951-1954",
+    "source-abrahamian-the-coup"
+  ],
+  "last_updated": "2026-11-05"
+}

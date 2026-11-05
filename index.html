@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A free, public, offline-capable historical reference website documenting the foreign policy, military interventions, covert operations, and civilian consequences of the United States and Israel.">
+  <meta name="theme-color" content="#8b1e1e">
+  <title>History of Intervention — Global History, Civilian Consequences, and Corporate Accountability</title>
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/icon-192.svg">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+  <div id="offline-banner"></div>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-top">
+        <div class="brand-wrapper">
+          <a href="index.html" class="brand-title">History of Intervention</a>
+          <span class="brand-subtitle">Global History, Civilian Consequences, and Corporate Accountability</span>
+        </div>
+        <div class="header-controls">
+          <div class="theme-select-wrapper">
+            <label for="theme-select-header" class="sr-only">Reading Theme</label>
+            <span>Theme:</span>
+            <select id="theme-select-header" class="theme-select">
+              <option value="light">Parchment</option>
+              <option value="sepia">Archival Sepia</option>
+              <option value="dark">Slate Dark</option>
+            </select>
+          </div>
+          <a href="search.html" class="nav-search-btn" title="Search Archive (Press '/')">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            Search <kbd style="font-size: 10px; background: var(--bg-secondary); padding: 1px 4px; border-radius: 2px;">/</kbd>
+          </a>
+        </div>
+      </div>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="timeline.html" class="nav-link">Timeline</a></li>
+          <li><a href="regions.html" class="nav-link">Regions</a></li>
+          <li><a href="countries.html" class="nav-link">Countries</a></li>
+          <li><a href="companies.html" class="nav-link">Corporate Accountability</a></li>
+          <li><a href="sources.html" class="nav-link">Research Library</a></li>
+          <li><a href="about.html" class="nav-link">Methodology &amp; About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="container">
+        <h1 class="hero-title">An Independent Historical Archive of Modern Intervention</h1>
+        <p class="hero-lead">
+          Documenting the documented foreign policies, military interventions, covert operations, civilian consequences, and corporate relationships of the United States and Israel from 1945 to the present.
+        </p>
+
+        <form action="search.html" method="get" class="hero-search-box">
+          <input type="search" name="q" placeholder="Search operations, leaders, defense firms, primary sources..." aria-label="Search the archive" required autocomplete="off">
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Core Project Principles Banner -->
+    <section class="container mb-4">
+      <div style="background-color: var(--bg-card); border: 1px solid var(--border-light); border-left: 4px solid var(--text-accent); padding: 1.25rem 1.75rem; border-radius: var(--radius-sm);">
+        <h3 style="margin-top: 0; font-size: var(--font-size-md);">Historiographical Standards</h3>
+        <p style="margin-bottom: 0; font-size: var(--font-size-sm); color: var(--text-secondary);">
+          This project is a non-commercial digital historical reference work. We distinguish rigorously between <strong>established facts</strong>, <strong>declassified government files</strong>, <strong>corporate records</strong>, and <strong>scholarly debates</strong>. We reject collective responsibility and focus strictly on the decisions of institutions, state agencies, and corporate boards.
+        </p>
+      </div>
+    </section>
+
+    <!-- Featured Historical Entries -->
+    <section class="container mb-4">
+      <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1.25rem; border-bottom: 1px solid var(--border-light); padding-bottom: 0.5rem;">
+        <h2 style="margin: 0; border: none; padding: 0;">Featured Historical Records</h2>
+        <a href="events/index.html" style="font-family: var(--font-sans); font-size: var(--font-size-sm); font-weight: 600;">View All Records &rarr;</a>
+      </div>
+
+      <div class="grid grid-3" id="featured-events-grid">
+        <!-- Dynamically populated or static fallback cards -->
+        <article class="card">
+          <div class="card-meta">
+            <span class="badge badge-accent">1953</span>
+            <span>Middle East • Iran</span>
+          </div>
+          <h3 class="card-title">
+            <a href="events/?id=iran-coup-1953">The 1953 Iranian Coup (Operation Ajax)</a>
+          </h3>
+          <p class="card-body">The CIA and MI6 covert overthrow of democratically elected Prime Minister Mohammad Mosaddegh following the nationalization of the Anglo-Iranian Oil Company.</p>
+          <a href="events/?id=iran-coup-1953" class="btn btn-sm">Read Full Account &rarr;</a>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">
+            <span class="badge badge-accent">1982</span>
+            <span>Middle East • Lebanon</span>
+          </div>
+          <h3 class="card-title">
+            <a href="events/?id=sabra-shatila-1982">The Sabra &amp; Shatila Massacre</a>
+          </h3>
+          <p class="card-body">The slaughter of Palestinian refugees and Lebanese civilians by Phalangist militia while under IDF perimeter control, as investigated by the Israeli Kahan Commission.</p>
+          <a href="events/?id=sabra-shatila-1982" class="btn btn-sm">Read Full Account &rarr;</a>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">
+            <span class="badge badge-accent">2003</span>
+            <span>Middle East • Iraq</span>
+          </div>
+          <h3 class="card-title">
+            <a href="events/?id=iraq-invasion-2003">The 2003 Invasion of Iraq</a>
+          </h3>
+          <p class="card-body">The US and UK conventional invasion of Iraq over unverified WMD allegations, leading to the destruction of state institutions and major military contracting operations.</p>
+          <a href="events/?id=iraq-invasion-2003" class="btn btn-sm">Read Full Account &rarr;</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Browse By Decade & Region Navigation -->
+    <section class="container mb-4">
+      <div class="grid grid-2">
+        <div style="background-color: var(--bg-card); border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 1.5rem;">
+          <h3 style="margin-top: 0;">Explore Chronologically</h3>
+          <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">Browse foreign interventions across major post-WWII eras:</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem;">
+            <a href="timeline.html?decade=1940s" class="btn btn-sm">1940s</a>
+            <a href="timeline.html?decade=1950s" class="btn btn-sm">1950s</a>
+            <a href="timeline.html?decade=1960s" class="btn btn-sm">1960s</a>
+            <a href="timeline.html?decade=1970s" class="btn btn-sm">1970s</a>
+            <a href="timeline.html?decade=1980s" class="btn btn-sm">1980s</a>
+            <a href="timeline.html?decade=1990s" class="btn btn-sm">1990s</a>
+            <a href="timeline.html?decade=2000s" class="btn btn-sm">2000s</a>
+            <a href="timeline.html?decade=2010s" class="btn btn-sm">2010s</a>
+            <a href="timeline.html?decade=2020s" class="btn btn-sm">2020s</a>
+          </div>
+        </div>
+
+        <div style="background-color: var(--bg-card); border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 1.5rem;">
+          <h3 style="margin-top: 0;">Explore Geographically</h3>
+          <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">Examine interventions organized by regional theater:</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem;">
+            <a href="regions.html#middle-east" class="btn btn-sm">Middle East</a>
+            <a href="regions.html#north-africa" class="btn btn-sm">North Africa</a>
+            <a href="regions.html#latin-america" class="btn btn-sm">Latin America</a>
+            <a href="regions.html#south-east-asia" class="btn btn-sm">Asia &amp; Pacific</a>
+            <a href="regions.html#europe" class="btn btn-sm">Europe</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Corporate Accountability Highlight -->
+    <section class="container mb-4">
+      <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-medium); border-radius: var(--radius-md); padding: 2rem;">
+        <div style="max-width: var(--max-width-content);">
+          <span class="badge badge-accent mb-1">Corporate Accountability Dossiers</span>
+          <h2 style="border: none; padding: 0; margin-top: 0.5rem;">The Role of Private Contractors and Energy Conglomerates</h2>
+          <p>
+            Foreign interventions are not conducted solely by standing armies. Private weapons manufacturers, defense logistics contractors, surveillance tech vendors, and petroleum concessionaires have played pivotal operational roles in sustaining operations, lobbying administrations, and profiting from wartime reconstruction.
+          </p>
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
+            <a href="companies.html" class="btn btn-primary">Browse Corporate Dossiers &rarr;</a>
+            <a href="companies/?id=lockheed-martin" class="btn">Lockheed Martin</a>
+            <a href="companies/?id=halliburton-kbr" class="btn">Halliburton / KBR</a>
+            <a href="companies/?id=anglo-iranian-oil-company" class="btn">Anglo-Iranian Oil (BP)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h5>History of Intervention</h5>
+          <p style="font-size: var(--font-size-xs); line-height: 1.5; color: var(--text-muted);">
+            A public reference archive published under open educational licenses. Designed to work completely offline as a Progressive Web App on desktop, mobile, and low-bandwidth connections.
+          </p>
+          <p style="font-size: var(--font-size-xs); color: var(--text-muted); margin-top: 0.75rem;">
+            Offline status: <span id="footer-offline-status" style="font-weight: 600;">Online</span>
+          </p>
+        </div>
+        <div class="footer-col">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="timeline.html">Chronological Timeline</a></li>
+            <li><a href="regions.html">Regional Index</a></li>
+            <li><a href="countries.html">Country Dossiers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Research &amp; Data</h5>
+          <ul>
+            <li><a href="companies.html">Corporate Accountability</a></li>
+            <li><a href="sources.html">Research Library</a></li>
+            <li><a href="search.html">Offline Full-Text Search</a></li>
+            <li><a href="about.html">Editorial Standards</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Governance</h5>
+          <ul>
+            <li><a href="about.html#contact">Report an Error</a></li>
+            <li><a href="about.html#sources">Verification Criteria</a></li>
+            <li><a href="about.html#privacy">Zero-Tracking Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 History of Intervention Project. Public Historical Education.</div>
+        <div>No cookies • No user tracking • Zero external frameworks</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

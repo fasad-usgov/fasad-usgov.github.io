@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CorporateAccountability",
+  "description": "Schema for a documented corporate entity involved in military, intelligence, or economic intervention",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "historical_names",
+    "headquarters",
+    "industry",
+    "active_period",
+    "operational_role",
+    "government_liaisons",
+    "documented_activities",
+    "documented_consequences",
+    "associated_events",
+    "sources"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": { "type": "string" },
+    "historical_names": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "headquarters": { "type": "string" },
+    "industry": {
+      "type": "string",
+      "enum": [
+        "Arms & Aerospace",
+        "Oil & Energy",
+        "Military Contracting & Logistics",
+        "Surveillance & Cyber Intelligence",
+        "Agriculture & Commodity Extraction",
+        "Finance & Banking",
+        "Telecommunications & Infrastructure"
+      ]
+    },
+    "active_period": { "type": "string" },
+    "operational_role": { "type": "string" },
+    "government_liaisons": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "documented_activities": { "type": "string" },
+    "documented_consequences": { "type": "string" },
+    "associated_events": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "iraq",
+  "name": "Iraq",
+  "region": "Middle East",
+  "summary": "Mesopotamian state subjected to catastrophic foreign military interventions, including the 1991 Gulf War, twelve years of comprehensive economic sanctions, and the devastating 2003 US-led invasion and occupation.",
+  "historical_context": "Following tacit Western backing during the 1980–1988 Iran-Iraq War and the 1990 invasion of Kuwait, Iraq was subjected to Operation Desert Storm (1991) and the most stringent economic sanctions regime in modern history. In March 2003, the Bush Administration, supported by the United Kingdom, invaded Iraq under unverified allegations of weapons of mass destruction and purported ties to al-Qaeda. The invasion toppled Saddam Hussein, dismantled the Iraqi state apparatus (CPA Orders 1 and 2: De-Ba'athification and disbanding the Iraqi military), and ignited intense sectarian civil conflict, insurgency, widespread civilian casualties, and the eventual emergence of ISIS.",
+  "key_operations": ["iraq-invasion-2003"],
+  "primary_institutions_involved": [
+    "United States Department of Defense (US Central Command)",
+    "Coalition Provisional Authority (CPA)",
+    "British Armed Forces",
+    "Central Intelligence Agency (CIA)",
+    "Defense Intelligence Agency (DIA)"
+  ],
+  "corporate_presence": [
+    "Halliburton / KBR",
+    "Bechtel",
+    "Lockheed Martin Corporation",
+    "Blackwater (Xe / Academi)",
+    "CACI International",
+    "Titan Corporation"
+  ]
+}

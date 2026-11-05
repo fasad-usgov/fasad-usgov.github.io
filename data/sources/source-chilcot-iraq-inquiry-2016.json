@@ -1,0 +1,12 @@
+{
+  "id": "source-chilcot-iraq-inquiry-2016",
+  "title": "The Report of the Iraq Inquiry (The Chilcot Report)",
+  "authors": ["Sir John Chilcot", "Sir Lawrence Freedman", "Sir Martin Gilbert", "Baroness Prashar", "Sir Roderic Lyne"],
+  "year": 2016,
+  "type": "official_inquiry_report",
+  "publisher_or_archive": "Her Majesty's Stationery Office (HMSO) / UK National Archives",
+  "isbn_or_id": "UK-HC-264",
+  "summary": "Massive 2.6-million-word official British government inquiry concluding that the 2003 invasion of Iraq was launched before peaceful options were exhausted, based on flawed intelligence, and without adequate post-conflict planning.",
+  "url": "https://www.gov.uk/government/publications/the-report-of-the-iraq-inquiry",
+  "cited_in": ["iraq-invasion-2003"]
+}

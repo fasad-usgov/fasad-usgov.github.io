@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CountryDossier",
+  "description": "Schema for a country affected by or involved in foreign interventions",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "region",
+    "summary",
+    "historical_context",
+    "key_operations",
+    "primary_institutions_involved",
+    "corporate_presence"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": { "type": "string" },
+    "region": { "type": "string" },
+    "summary": { "type": "string" },
+    "historical_context": { "type": "string" },
+    "key_operations": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "primary_institutions_involved": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "corporate_presence": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

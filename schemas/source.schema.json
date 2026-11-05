@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BibliographicSource",
+  "description": "Schema for verifiable academic, archival, legal, or journalistic historical sources",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "authors",
+    "year",
+    "type",
+    "publisher_or_archive",
+    "summary",
+    "url",
+    "cited_in"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": { "type": "string" },
+    "authors": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "year": { "type": "integer" },
+    "type": {
+      "type": "string",
+      "enum": [
+        "academic_book",
+        "peer_reviewed_journal",
+        "declassified_government_document",
+        "official_inquiry_report",
+        "international_court_ruling",
+        "investigative_journalism",
+        "historical_documentary"
+      ]
+    },
+    "publisher_or_archive": { "type": "string" },
+    "summary": { "type": "string" },
+    "url": { "type": "string" },
+    "isbn_or_id": { "type": "string" },
+    "cited_in": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

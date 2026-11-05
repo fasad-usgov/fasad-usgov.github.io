@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HistoricalEvent",
+  "description": "Schema for a documented historical intervention or covert operation",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "date_start",
+    "date_end",
+    "era",
+    "region",
+    "countries",
+    "topics",
+    "summary",
+    "background",
+    "chronology",
+    "actors",
+    "documented_consequences",
+    "disputed_aspects",
+    "corporate_involvement",
+    "related_events",
+    "sources",
+    "last_updated"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "date_start": {
+      "type": "string"
+    },
+    "date_end": {
+      "type": "string"
+    },
+    "era": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string",
+      "enum": [
+        "Middle East",
+        "North Africa",
+        "Sub-Saharan Africa",
+        "South Asia",
+        "East Asia",
+        "Southeast Asia",
+        "Latin America",
+        "Europe",
+        "Global"
+      ]
+    },
+    "countries": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "topics": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "summary": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    },
+    "chronology": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "headline", "detail"],
+        "properties": {
+          "date": { "type": "string" },
+          "headline": { "type": "string" },
+          "detail": { "type": "string" }
+        }
+      }
+    },
+    "actors": {
+      "type": "object",
+      "required": ["us_institutions", "foreign_institutions", "key_figures"],
+      "properties": {
+        "us_institutions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "foreign_institutions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "key_figures": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "documented_consequences": {
+      "type": "object",
+      "required": ["political", "civilian_toll", "long_term"],
+      "properties": {
+        "political": { "type": "string" },
+        "civilian_toll": { "type": "string" },
+        "long_term": { "type": "string" }
+      }
+    },
+    "disputed_aspects": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "corporate_involvement": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "related_events": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "last_updated": {
+      "type": "string"
+    }
+  }
+}

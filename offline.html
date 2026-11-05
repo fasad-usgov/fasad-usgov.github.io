@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline Mode — History of Intervention</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/layout.css">
+</head>
+<body style="min-height: 100vh; display: flex; flex-direction: column;">
+  <header class="site-header">
+    <div class="container">
+      <div class="header-top">
+        <div class="brand-wrapper">
+          <a href="index.html" class="brand-title">History of Intervention</a>
+          <span class="brand-subtitle">Offline Historical Archive</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container container-narrow" style="margin-top: 4rem; text-align: center;">
+    <div style="font-size: 3rem; margin-bottom: 1rem;">📡</div>
+    <h1>You are currently browsing offline</h1>
+    <p class="hero-lead">
+      The specific historical page you requested has not yet been cached in your device's offline storage.
+    </p>
+
+    <div class="callout" style="text-align: left; margin: 2rem 0;">
+      <h4>Available Offline Resources</h4>
+      <p>The core historical dataset, search index, and cached records remain fully accessible:</p>
+      <ul style="margin-top: 0.75rem; margin-bottom: 0;">
+        <li><a href="index.html">Homepage &amp; Overview</a></li>
+        <li><a href="timeline.html">Interactive Chronological Timeline</a></li>
+        <li><a href="search.html">Offline Full-Text Search Engine</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <button onclick="window.history.back()" class="btn btn-primary">Return to Previous Page</button>
+      <button onclick="window.location.reload()" class="btn">Retry Connection</button>
+    </div>
+  </main>
+</body>
+</html>

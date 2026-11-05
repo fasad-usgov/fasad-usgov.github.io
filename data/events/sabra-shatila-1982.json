@@ -1,0 +1,80 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "sabra-shatila-1982",
+  "title": "The Sabra and Shatila Massacre (September 1982)",
+  "date_start": "1982-09-16",
+  "date_end": "1982-09-18",
+  "era": "Cold War",
+  "region": "Middle East",
+  "countries": ["Lebanon", "Israel", "Palestine"],
+  "topics": [
+    "Civilian Casualties",
+    "Military Interventions",
+    "War Crimes",
+    "Official Commissions of Inquiry"
+  ],
+  "summary": "The slaughter of between 700 and 3,500 predominantly Palestinian and Lebanese Shiite civilians in the Sabra and Shatila refugee camps in West Beirut by Lebanese Christian Phalangist (Kataeb) militia forces, conducted while the perimeter was controlled and illuminated by the Israel Defense Forces (IDF) under Defense Minister Ariel Sharon following the 1982 Israeli invasion of Lebanon.",
+  "background": "In June 1982, Israel launched 'Operation Peace for Galilee', invading Lebanon with the declared aim of stopping cross-border PLO shelling, but with the broader strategic objectives championed by Defense Minister Ariel Sharon of expelling the PLO from Beirut and installing a friendly Christian-led government under Bachir Gemayel. In August 1982, following a brutal Israeli siege and bombardment of West Beirut, US Special Envoy Philip Habib brokered an international agreement under which PLO fighters evacuated Lebanon under American, French, and Italian multinational protection. Habib explicitly provided written American guarantees for the safety and security of remaining Palestinian civilians. However, the multinational force departed early in early September. On September 14, President-elect Bachir Gemayel was assassinated in a massive bombing, triggering Israeli forces to enter and occupy West Beirut the following day in violation of the Habib accord.",
+  "chronology": [
+    {
+      "date": "1982-09-15",
+      "headline": "IDF Enters West Beirut and Encircles Camps",
+      "detail": "Violating prior ceasefire understandings, the IDF occupies West Beirut and surrounds the Sabra and Shatila refugee camps, establishing command observation posts atop the Kuwaiti Embassy."
+    },
+    {
+      "date": "1982-09-16 (18:00)",
+      "headline": "Phalangist Militiamen Enter Camps",
+      "detail": "Under direct authorization from Defense Minister Ariel Sharon and Chief of Staff Rafael Eitan, approximately 150 Phalangist fighters led by Elie Hobeika enter the camps under the pretext of clearing remaining armed elements."
+    },
+    {
+      "date": "1982-09-16 (Night)",
+      "headline": "IDF Fires Illumination Flares Over Camps",
+      "detail": "Throughout the night, Israeli mortar and artillery units fire illumination flares over Sabra and Shatila at the request of Phalangist commanders while widespread mass executions occur."
+    },
+    {
+      "date": "1982-09-17",
+      "headline": "Reports of Massacres Reach Israeli Officers",
+      "detail": "Israeli journalists and military officers relay eyewitness reports of civilian executions to senior commanders; Phalangist forces remain inside the camps for another 24 hours."
+    },
+    {
+      "date": "1982-09-18 (08:00)",
+      "headline": "Phalangists Ordered Out; Destruction Discovered",
+      "detail": "Phalangist forces withdraw, leaving behind hundreds of executed women, children, and elderly civilians, along with mass graves bulldozed inside the camp alleys."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "Department of State (Special Envoy Philip Habib)",
+      "Executive Office of the President (Reagan Administration)"
+    ],
+    "foreign_institutions": [
+      "Israel Defense Forces (IDF)",
+      "Israeli Ministry of Defense",
+      "Lebanese Forces / Kataeb (Phalange) Militia"
+    ],
+    "key_figures": [
+      "Ariel Sharon (Israeli Minister of Defense)",
+      "Rafael Eitan (IDF Chief of Staff)",
+      "Amir Drori (IDF Northern Command Chief)",
+      "Elie Hobeika (Phalangist Intelligence Chief / Field Commander)",
+      "Philip Habib (US Presidential Envoy)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Widespread international condemnation; resignation of Ariel Sharon as Defense Minister following the Israeli Kahan Commission findings; adoption of UN General Assembly Resolution 37/123 qualifying the event as an act of genocide.",
+    "civilian_toll": "Estimated death toll ranges between 700 and 3,500 Palestinian refugees and Lebanese civilians, with extensive forensic documentation of point-blank executions, mutilations, and sexual violence.",
+    "long_term": "Profoundly damaged the moral standing of the Israeli invasion; catalyzed the withdrawal of the IDF to southern Lebanon; solidified permanent Lebanese and Palestinian distrust of international protection guarantees."
+  },
+  "disputed_aspects": [
+    "Exact death toll figures: The Lebanese Red Cross documented 762 dead and 1,200 missing; Israeli military intelligence estimated 700–800; Palestinian and independent international investigators (such as Amnon Kapeliouk) estimated up to 3,000–3,500.",
+    "The extent of Israeli military awareness of the ongoing slaughter during the first 24 hours before orders were issued to halt operations."
+  ],
+  "corporate_involvement": [],
+  "related_events": ["iran-coup-1953"],
+  "sources": [
+    "source-kahan-commission-1983",
+    "source-macbride-commission-1983",
+    "source-shlaim-iron-wall"
+  ],
+  "last_updated": "2026-11-05"
+}

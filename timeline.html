@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chronological timeline of US and Israeli foreign policy, military interventions, and covert operations from 1945 to the present.">
+  <meta name="theme-color" content="#8b1e1e">
+  <title>Historical Timeline — History of Intervention</title>
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/icon-192.svg">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+  <div id="offline-banner"></div>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-top">
+        <div class="brand-wrapper">
+          <a href="index.html" class="brand-title">History of Intervention</a>
+          <span class="brand-subtitle">Chronological Historical Archive</span>
+        </div>
+        <div class="header-controls">
+          <div class="theme-select-wrapper">
+            <span>Theme:</span>
+            <select class="theme-select">
+              <option value="light">Parchment</option>
+              <option value="sepia">Archival Sepia</option>
+              <option value="dark">Slate Dark</option>
+            </select>
+          </div>
+          <a href="search.html" class="nav-search-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            Search <kbd>/</kbd>
+          </a>
+        </div>
+      </div>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="timeline.html" class="nav-link active">Timeline</a></li>
+          <li><a href="regions.html" class="nav-link">Regions</a></li>
+          <li><a href="countries.html" class="nav-link">Countries</a></li>
+          <li><a href="companies.html" class="nav-link">Corporate Accountability</a></li>
+          <li><a href="sources.html" class="nav-link">Research Library</a></li>
+          <li><a href="about.html" class="nav-link">Methodology &amp; About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a>
+      <span class="separator">/</span>
+      <span>Historical Timeline</span>
+    </div>
+
+    <section class="mb-3">
+      <h1>Historical Timeline (1945–Present)</h1>
+      <p class="hero-lead">
+        A chronological sequence of documented military interventions, covert operations, and diplomatic actions. Filter by decade, geographic theater, or thematic category to trace historical developments and institutional precedents.
+      </p>
+    </section>
+
+    <!-- Filter Controls Container -->
+    <div id="timeline-filters-container"></div>
+
+    <!-- Timeline Entries Container -->
+    <div id="timeline-entries-container">
+      <div class="callout" style="text-align: center;">
+        <p>Loading historical timeline data...</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2026 History of Intervention Project. Public Historical Education.</div>
+        <div>Offline PWA Enabled • Zero Tracking</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module">
+    import { App } from './js/app.js';
+    import { Timeline } from './js/timeline.js';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // Check if URL contains query parameter for initial filter
+      const urlDecade = App.getQueryParam('decade');
+      Timeline.init('timeline-entries-container', 'timeline-filters-container', 'data/indices/catalog.json')
+        .then(() => {
+          if (urlDecade) {
+            const decadeSelect = document.getElementById('timeline-filter-decade');
+            if (decadeSelect) {
+              decadeSelect.value = urlDecade;
+              Timeline.activeFilters.decade = urlDecade;
+              Timeline.renderTimeline();
+            }
+          }
+        });
+    });
+  </script>
+</body>
+</html>

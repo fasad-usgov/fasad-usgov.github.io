@@ -1,0 +1,18 @@
+{
+  "id": "lebanon",
+  "name": "Lebanon",
+  "region": "Middle East",
+  "summary": "East Mediterranean nation heavily destabilized by regional proxy conflicts, repeated Israeli military invasions (notably 1978, 1982, 1993, 1996, 2006), and prolonged foreign occupations.",
+  "historical_context": "Lebanon's delicate sectarian balance was severely strained following the arrival of displaced Palestinian refugees and the PLO following the 1948 Nakba and 1970 Black September. In June 1982, Israel launched 'Operation Peace for Galilee', besieging West Beirut and causing massive civilian casualties. Following the assassination of Lebanese President-elect Bachir Gemayel, Lebanese Christian Phalangist forces entered the Sabra and Shatila refugee camps under Israeli IDF encirclement, carrying out the massacre of thousands of Palestinian and Lebanese civilians. Israel maintained an 18-year military occupation of Southern Lebanon until 2000, which spurred the formation and militarization of Hezbollah.",
+  "key_operations": ["sabra-shatila-1982"],
+  "primary_institutions_involved": [
+    "Israel Defense Forces (IDF)",
+    "Israeli Ministry of Defense",
+    "Lebanese Forces / Kataeb (Phalange) Militia",
+    "United States Marine Corps (Multinational Force in Lebanon)"
+  ],
+  "corporate_presence": [
+    "Israeli state defense manufacturers (IAI, Rafael)",
+    "US arms suppliers"
+  ]
+}

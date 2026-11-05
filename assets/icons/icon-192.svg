@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="32" fill="#8b1e1e"/>
+  <rect x="24" y="24" width="144" height="144" rx="16" fill="#fcfbfa"/>
+  <!-- Historical Open Book / Pillar Icon -->
+  <path d="M48 64 C64 58, 88 58, 96 68 C104 58, 128 58, 144 64 L144 128 C128 122, 104 122, 96 132 C88 122, 64 122, 48 128 Z" fill="none" stroke="#8b1e1e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="96" y1="68" x2="96" y2="132" stroke="#8b1e1e" stroke-width="6"/>
+  <line x1="60" y1="84" x2="84" y2="84" stroke="#8b1e1e" stroke-width="4" stroke-linecap="round"/>
+  <line x1="60" y1="98" x2="84" y2="98" stroke="#8b1e1e" stroke-width="4" stroke-linecap="round"/>
+  <line x1="108" y1="84" x2="132" y2="84" stroke="#8b1e1e" stroke-width="4" stroke-linecap="round"/>
+  <line x1="108" y1="98" x2="132" y2="98" stroke="#8b1e1e" stroke-width="4" stroke-linecap="round"/>
+</svg>

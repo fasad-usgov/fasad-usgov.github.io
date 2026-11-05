@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "iraq-invasion-2003",
+  "title": "The 2003 Invasion of Iraq (Operation Iraqi Freedom)",
+  "date_start": "2003-03-20",
+  "date_end": "2003-05-01",
+  "era": "Post-Cold War / War on Terror",
+  "region": "Middle East",
+  "countries": ["Iraq", "United States"],
+  "topics": [
+    "Military Interventions",
+    "Regime Change",
+    "Preemptive War",
+    "Intelligence Failure & Disinformation",
+    "Corporate Contracting"
+  ],
+  "summary": "The conventional military invasion and occupation of the Republic of Iraq by a multinational coalition led by the United States and the United Kingdom. The operation overthrew the Ba'athist government of Saddam Hussein based on stated justifications concerning unverified stockpiles of weapons of mass destruction (WMD) and alleged ties to al-Qaeda, neither of which were substantiated by subsequent exhaustive post-invasion searches.",
+  "background": "In the aftermath of the September 11, 2001 terrorist attacks, senior officials in the Bush Administration, including Vice President Dick Cheney and Secretary of Defense Donald Rumsfeld, prioritized the overthrow of Saddam Hussein as part of a doctrine of preemptive regime change. In late 2002, the US and UK governments published intelligence dossiers alleging active Iraqi chemical, biological, and nuclear weapons programs. Despite UN weapons inspectors led by Hans Blix finding no evidence of prohibited weapons and requesting more time to complete inspections, and despite failing to obtain explicit UN Security Council authorization, the US-led coalition launched a full-scale assault on March 20, 2003.",
+  "chronology": [
+    {
+      "date": "2002-10-01",
+      "headline": "Classified US National Intelligence Estimate (NIE) Produced",
+      "detail": "US intelligence community produces disputed NIE alleging Iraq 'has continued its weapons of mass destruction programs', later repudiated by congressional inquiries."
+    },
+    {
+      "date": "2003-02-05",
+      "headline": "Colin Powell UN Security Council Address",
+      "detail": "Secretary of State Colin Powell presents satellite images, audio intercepts, and diagrams purporting to show active mobile biological labs and chemical weapons stockpiles."
+    },
+    {
+      "date": "2003-03-20",
+      "headline": "'Shock and Awe' Air Campaign Initiated",
+      "detail": "US forces launch decapitation strike targeting Dora Farms outside Baghdad, followed by thousands of precision-guided cruise missile strikes across Iraqi command and infrastructure targets."
+    },
+    {
+      "date": "2003-04-09",
+      "headline": "Fall of Baghdad",
+      "detail": "US Army and Marine Corps units enter central Baghdad; the iconic statue of Saddam Hussein in Firdos Square is pulled down amid widespread civil looting and institutional collapse."
+    },
+    {
+      "date": "2003-05-01",
+      "headline": "Bush 'Mission Accomplished' Speech",
+      "detail": "President George W. Bush lands on the aircraft carrier USS Abraham Lincoln and declares major combat operations have ended, just as widespread armed insurgency and sectarian warfare begin."
+    },
+    {
+      "date": "2003-05-23",
+      "headline": "CPA Orders 1 and 2 Issued",
+      "detail": "Coalition Provisional Authority chief L. Paul Bremer signs orders banning Ba'ath Party members from public sector jobs and dissolving the entire 400,000-man Iraqi military."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "Executive Office of the President (Bush Administration)",
+      "Department of Defense (USCENTCOM)",
+      "Central Intelligence Agency (CIA)",
+      "Defense Intelligence Agency (DIA)",
+      "Coalition Provisional Authority (CPA)"
+    ],
+    "foreign_institutions": [
+      "British Armed Forces",
+      "Iraqi Armed Forces / Special Republican Guard",
+      "Ba'ath Party of Iraq"
+    ],
+    "key_figures": [
+      "George W. Bush (US President)",
+      "Dick Cheney (US Vice President)",
+      "Donald Rumsfeld (US Secretary of Defense)",
+      "Tony Blair (UK Prime Minister)",
+      "Saddam Hussein (President of Iraq)",
+      "L. Paul Bremer (Head of Coalition Provisional Authority)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Complete destruction of the modern Iraqi state apparatus; catastrophic post-invasion sectarian civil war; rise of al-Qaeda in Iraq (AQI) and its evolution into the Islamic State of Iraq and Syria (ISIS); dramatic geopolitical expansion of Iranian influence across Iraq.",
+    "civilian_toll": "Peer-reviewed epidemiological studies (including The Lancet and PLOS Medicine surveys) and Iraq Body Count document between 150,000 and 600,000+ violent civilian deaths and excess mortality; displacement of over 4 million Iraqi civilians internally and abroad.",
+    "long_term": "Destabilization of the broader Middle East; normalization of unilateral preemptive warfare doctrines; systemic multi-billion dollar corruption in reconstruction contracts; severe degradation of US international diplomatic and legal standing."
+  },
+  "disputed_aspects": [
+    "Whether senior policymakers intentionally manipulated and falsified intelligence or genuinely suffered from institutional groupthink and confirmation bias regarding Iraqi WMD capabilities.",
+    "Statistical methodologies for measuring total excess wartime mortality (survey sampling versus passive media-reported body counts)."
+  ],
+  "corporate_involvement": [
+    "halliburton-kbr",
+    "lockheed-martin"
+  ],
+  "related_events": ["iran-coup-1953"],
+  "sources": [
+    "source-chilcot-iraq-inquiry-2016",
+    "source-senate-intel-wmd-2004",
+    "source-tripp-history-of-iraq"
+  ],
+  "last_updated": "2026-11-05"
+}

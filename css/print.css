@@ -1,0 +1,99 @@
+/* ==========================================================================
+   History of Intervention - Print Stylesheet
+   Clean, black & white, academic document output
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  html {
+    font-size: 12pt;
+  }
+
+  body {
+    font-family: "Georgia", "Times New Roman", serif;
+    line-height: 1.5;
+    background: #ffffff !important;
+  }
+
+  /* Suppress UI controls, headers, navs, footers */
+  .site-header,
+  .site-footer,
+  .nav-search-btn,
+  .theme-select-wrapper,
+  .btn,
+  #offline-banner,
+  .hero-search-box,
+  .timeline-axis,
+  .timeline-dot {
+    display: none !important;
+  }
+
+  /* Ensure main content takes full page width */
+  main {
+    padding: 0 !important;
+  }
+
+  .container,
+  .container-narrow {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .article-layout {
+    display: block !important;
+  }
+
+  .article-sidebar {
+    border-top: 1pt solid #ccc;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    page-break-before: auto;
+  }
+
+  /* Force display of URLs on printed links */
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: #333333 !important;
+  }
+
+  /* Do not show URL on internal anchor jumps */
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* Page-break rules */
+  h1, h2, h3, h4 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+
+  img, figure, table, blockquote, .card {
+    page-break-inside: avoid;
+  }
+
+  p, li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Print header citation mark */
+  .hero-title::after {
+    content: " — Historical Reference Document [History of Intervention Archive]";
+    display: block;
+    font-size: 10pt;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 0.5rem;
+    color: #444 !important;
+  }
+}

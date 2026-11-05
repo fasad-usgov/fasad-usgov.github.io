@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Offline full-text search across historical operations, corporations, countries, and declassified primary sources.">
+  <meta name="theme-color" content="#8b1e1e">
+  <title>Search Historical Archive — History of Intervention</title>
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/icon-192.svg">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+  <div id="offline-banner"></div>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-top">
+        <div class="brand-wrapper">
+          <a href="index.html" class="brand-title">History of Intervention</a>
+          <span class="brand-subtitle">Archive Search Engine</span>
+        </div>
+        <div class="header-controls">
+          <div class="theme-select-wrapper">
+            <span>Theme:</span>
+            <select class="theme-select">
+              <option value="light">Parchment</option>
+              <option value="sepia">Archival Sepia</option>
+              <option value="dark">Slate Dark</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="timeline.html" class="nav-link">Timeline</a></li>
+          <li><a href="regions.html" class="nav-link">Regions</a></li>
+          <li><a href="countries.html" class="nav-link">Countries</a></li>
+          <li><a href="companies.html" class="nav-link">Corporate Accountability</a></li>
+          <li><a href="sources.html" class="nav-link">Research Library</a></li>
+          <li><a href="about.html" class="nav-link">Methodology &amp; About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a>
+      <span class="separator">/</span>
+      <span>Search Archive</span>
+    </div>
+
+    <section class="mb-3">
+      <h1>Search the Historical Archive</h1>
+      <p class="hero-lead">
+        Search across historical events, corporations, regional dossiers, and verified citations. Operates entirely client-side with full offline functionality.
+      </p>
+
+      <!-- Search Controls Box -->
+      <div style="background-color: var(--bg-card); border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 1.5rem; margin-top: 1.5rem;">
+        <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+          <input type="search" id="archive-search-input" placeholder="Type keywords: e.g. Mosaddegh, Halliburton, 1982, CIA, Beirut, WMD..." autofocus style="font-size: 1.1rem; padding: 0.8rem 1rem;">
+          <button id="archive-search-clear" class="btn" type="button">Clear</button>
+        </div>
+
+        <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; font-family: var(--font-sans); font-size: var(--font-size-xs);">
+          <span style="font-weight: 700; color: var(--text-muted);">Filter By Type:</span>
+          <label style="display: flex; align-items: center; gap: 0.35rem; cursor: pointer;">
+            <input type="radio" name="search-type" value="all" checked> All Records
+          </label>
+          <label style="display: flex; align-items: center; gap: 0.35rem; cursor: pointer;">
+            <input type="radio" name="search-type" value="event"> Operations &amp; Events
+          </label>
+          <label style="display: flex; align-items: center; gap: 0.35rem; cursor: pointer;">
+            <input type="radio" name="search-type" value="company"> Corporate Entities
+          </label>
+          <label style="display: flex; align-items: center; gap: 0.35rem; cursor: pointer;">
+            <input type="radio" name="search-type" value="country"> Countries
+          </label>
+          <label style="display: flex; align-items: center; gap: 0.35rem; cursor: pointer;">
+            <input type="radio" name="search-type" value="source"> Bibliography
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search Results Output -->
+    <section id="search-results-container">
+      <div class="callout" style="text-align: center; margin-top: 2rem;">
+        <p>Enter a search query above to browse the historical archive.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2026 History of Intervention Project.</div>
+        <div>Offline Search Engine • Zero External Tracking</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module">
+    import { App } from './js/app.js';
+    import { Search } from './js/search.js';
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      const input = document.getElementById('archive-search-input');
+      const clearBtn = document.getElementById('archive-search-clear');
+      const resultsContainer = document.getElementById('search-results-container');
+      const typeRadios = document.querySelectorAll('input[name="search-type"]');
+
+      await Search.init('data/indices/search-index.json');
+
+      const executeSearch = () => {
+        const query = input.value.trim();
+        let selectedType = 'all';
+        typeRadios.forEach(r => { if (r.checked) selectedType = r.value; });
+
+        if (!query) {
+          resultsContainer.innerHTML = `
+            <div class="callout" style="text-align: center; margin-top: 2rem;">
+              <p>Enter a search query above to browse the historical archive.</p>
+            </div>
+          `;
+          return;
+        }
+
+        const results = Search.query(query, selectedType);
+        const tokens = Search.tokenize(query);
+        Search.renderSearchResults(results, resultsContainer, tokens, './');
+      };
+
+      input.addEventListener('input', executeSearch);
+      typeRadios.forEach(r => r.addEventListener('change', executeSearch));
+
+      clearBtn.addEventListener('click', () => {
+        input.value = '';
+        input.focus();
+        executeSearch();
+      });
+
+      // Check initial URL query param
+      const urlQuery = App.getQueryParam('q');
+      if (urlQuery) {
+        input.value = urlQuery;
+        executeSearch();
+      }
+    });
+  </script>
+</body>
+</html>

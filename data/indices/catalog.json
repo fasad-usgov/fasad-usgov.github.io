@@ -1,0 +1,225 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-11-05",
+  "counts": {
+    "events": 3,
+    "companies": 3,
+    "countries": 6,
+    "sources": 9
+  },
+  "events": [
+    {
+      "id": "iran-coup-1953",
+      "title": "The 1953 Iranian Coup d'\u00c9tat (Operation Ajax / TPAJAX)",
+      "date_start": "1953-08-15",
+      "date_end": "1953-08-19",
+      "era": "Cold War",
+      "region": "Middle East",
+      "countries": [
+        "Iran",
+        "United States"
+      ],
+      "topics": [
+        "Covert Operations",
+        "Regime Change",
+        "Resource Politics",
+        "Cold War",
+        "Intelligence Agency Operations"
+      ],
+      "summary": "The covert overthrow of the democratically elected Prime Minister of Iran, Mohammad Mosaddegh, orchestrated by the United States Central Intelligence Agency (Operation TPAJAX) and the British Secret Intelligence Service (Operation Boot). The coup restored absolute monarchical rule under Mohammad Reza Shah Pahlavi following Mosaddegh's nationalization of Iran's oil industry, which had been monopolized by the British Anglo-Iranian Oil Company."
+    },
+    {
+      "id": "iraq-invasion-2003",
+      "title": "The 2003 Invasion of Iraq (Operation Iraqi Freedom)",
+      "date_start": "2003-03-20",
+      "date_end": "2003-05-01",
+      "era": "Post-Cold War / War on Terror",
+      "region": "Middle East",
+      "countries": [
+        "Iraq",
+        "United States"
+      ],
+      "topics": [
+        "Military Interventions",
+        "Regime Change",
+        "Preemptive War",
+        "Intelligence Failure & Disinformation",
+        "Corporate Contracting"
+      ],
+      "summary": "The conventional military invasion and occupation of the Republic of Iraq by a multinational coalition led by the United States and the United Kingdom. The operation overthrew the Ba'athist government of Saddam Hussein based on stated justifications concerning unverified stockpiles of weapons of mass destruction (WMD) and alleged ties to al-Qaeda, neither of which were substantiated by subsequent exhaustive post-invasion searches."
+    },
+    {
+      "id": "sabra-shatila-1982",
+      "title": "The Sabra and Shatila Massacre (September 1982)",
+      "date_start": "1982-09-16",
+      "date_end": "1982-09-18",
+      "era": "Cold War",
+      "region": "Middle East",
+      "countries": [
+        "Lebanon",
+        "Israel",
+        "Palestine"
+      ],
+      "topics": [
+        "Civilian Casualties",
+        "Military Interventions",
+        "War Crimes",
+        "Official Commissions of Inquiry"
+      ],
+      "summary": "The slaughter of between 700 and 3,500 predominantly Palestinian and Lebanese Shiite civilians in the Sabra and Shatila refugee camps in West Beirut by Lebanese Christian Phalangist (Kataeb) militia forces, conducted while the perimeter was controlled and illuminated by the Israel Defense Forces (IDF) under Defense Minister Ariel Sharon following the 1982 Israeli invasion of Lebanon."
+    }
+  ],
+  "companies": [
+    {
+      "id": "anglo-iranian-oil-company",
+      "name": "Anglo-Iranian Oil Company (AIOC)",
+      "industry": "Oil & Energy",
+      "headquarters": "London, United Kingdom",
+      "operational_role": "Exclusive concessionaire operating Iran's oil extraction and the Abadan refinery under highly unfavorable royalty agreements for Iran."
+    },
+    {
+      "id": "halliburton-kbr",
+      "name": "Halliburton / Kellogg Brown & Root (KBR)",
+      "industry": "Military Contracting & Logistics",
+      "headquarters": "Houston, Texas, United States",
+      "operational_role": "Primary prime logistics and infrastructure contractor under the US Army Logistics Civil Augmentation Program (LOGCAP III) during the 2003 invasion and occupation of Iraq."
+    },
+    {
+      "id": "lockheed-martin",
+      "name": "Lockheed Martin Corporation",
+      "industry": "Arms & Aerospace",
+      "headquarters": "Bethesda, Maryland, United States",
+      "operational_role": "World's largest defense contractor; primary manufacturer of tactical aircraft, precision-guided missiles, radar systems, and air defense platforms for the US military and foreign military sales allies including Israel."
+    }
+  ],
+  "countries": [
+    {
+      "id": "iran",
+      "name": "Iran",
+      "region": "Middle East",
+      "summary": "Geopolitically critical Middle Eastern nation subject to intense foreign intervention over control of its vast petroleum reserves, strategically vital Persian Gulf coastline, and regional sphere of influence."
+    },
+    {
+      "id": "iraq",
+      "name": "Iraq",
+      "region": "Middle East",
+      "summary": "Mesopotamian state subjected to catastrophic foreign military interventions, including the 1991 Gulf War, twelve years of comprehensive economic sanctions, and the devastating 2003 US-led invasion and occupation."
+    },
+    {
+      "id": "israel",
+      "name": "Israel",
+      "region": "Middle East",
+      "summary": "State established in 1948 whose military, intelligence, and diplomatic interventions have shaped modern Middle Eastern history, foreign occupations, regional wars, and cross-border operations."
+    },
+    {
+      "id": "lebanon",
+      "name": "Lebanon",
+      "region": "Middle East",
+      "summary": "East Mediterranean nation heavily destabilized by regional proxy conflicts, repeated Israeli military invasions (notably 1978, 1982, 1993, 1996, 2006), and prolonged foreign occupations."
+    },
+    {
+      "id": "palestine",
+      "name": "Palestine",
+      "region": "Middle East",
+      "summary": "Territories comprising the West Bank, East Jerusalem, and the Gaza Strip, as well as the global diaspora of millions of Palestinian refugees displaced during successive regional wars."
+    },
+    {
+      "id": "united-states",
+      "name": "United States",
+      "region": "Global",
+      "summary": "Primary global superpower following World War II, conducting global military interventions, covert regime change operations, intelligence alliances, and economic sanctions across Latin America, Asia, and the Middle East."
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-abrahamian-the-coup",
+      "title": "The Coup: 1953, the CIA, and the Roots of Modern U.S.-Iranian Relations",
+      "authors": [
+        "Ervand Abrahamian"
+      ],
+      "year": 2013,
+      "type": "academic_book"
+    },
+    {
+      "id": "source-chilcot-iraq-inquiry-2016",
+      "title": "The Report of the Iraq Inquiry (The Chilcot Report)",
+      "authors": [
+        "Sir John Chilcot",
+        "Sir Lawrence Freedman",
+        "Sir Martin Gilbert",
+        "Baroness Prashar",
+        "Sir Roderic Lyne"
+      ],
+      "year": 2016,
+      "type": "official_inquiry_report"
+    },
+    {
+      "id": "source-frus-iran-1951-1954",
+      "title": "Foreign Relations of the United States (FRUS), 1951\u20131954: Iran, 1951\u20131954 (Retrospective Volume)",
+      "authors": [
+        "Office of the Historian, U.S. Department of State"
+      ],
+      "year": 2017,
+      "type": "declassified_government_document"
+    },
+    {
+      "id": "source-kahan-commission-1983",
+      "title": "Report of the Commission of Inquiry into the Events at the Refugee Camps in Beirut (Kahan Commission)",
+      "authors": [
+        "Yitzhak Kahan",
+        "Aharon Barak",
+        "Yona Efrat"
+      ],
+      "year": 1983,
+      "type": "official_inquiry_report"
+    },
+    {
+      "id": "source-kinzer-all-the-shahs-men",
+      "title": "All the Shah's Men: An American Coup and the Roots of Middle East Terror",
+      "authors": [
+        "Stephen Kinzer"
+      ],
+      "year": 2003,
+      "type": "academic_book"
+    },
+    {
+      "id": "source-macbride-commission-1983",
+      "title": "Israel in Lebanon: The Report of the International Commission to Enquire into Reported Violations of International Law by Israel during Its Invasion of Lebanon",
+      "authors": [
+        "Sean MacBride",
+        "Richard Falk",
+        "Kader Asmal",
+        "Brian Bercusson"
+      ],
+      "year": 1983,
+      "type": "international_court_ruling"
+    },
+    {
+      "id": "source-senate-intel-wmd-2004",
+      "title": "Report on the U.S. Intelligence Community's Prewar Intelligence Assessments on Iraq",
+      "authors": [
+        "Select Committee on Intelligence, United States Senate"
+      ],
+      "year": 2004,
+      "type": "official_inquiry_report"
+    },
+    {
+      "id": "source-shlaim-iron-wall",
+      "title": "The Iron Wall: Israel and the Arab World",
+      "authors": [
+        "Avi Shlaim"
+      ],
+      "year": 2001,
+      "type": "academic_book"
+    },
+    {
+      "id": "source-tripp-history-of-iraq",
+      "title": "A History of Iraq (Third Edition)",
+      "authors": [
+        "Charles Tripp"
+      ],
+      "year": 2007,
+      "type": "academic_book"
+    }
+  ]
+}
