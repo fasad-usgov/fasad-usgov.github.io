@@ -60,8 +60,7 @@
 - [ ] 2011 NATO Intervention in Libya.
 - [ ] 2011 Syrian Uprising and international intervention.
 - [ ] 2015 Saudi-led Yemen Campaign and US military backing.
-- [ ] 2018–2020 US-Iran Escalation and drone strikes.
-- [ ] 2023 Gaza War and regional hostilities.
+- [x] 2023–Present Gaza War and regional hostilities (including US/UK weapons pipeline, RAF surveillance flights, Big Tech cloud infrastructure [Google/AWS/Microsoft/Palantir], and AI targeting systems [Lavender/The Gospel]).
 
 ## Milestone 7: PWA Hardening & Publication
 - [x] Implement Web App Manifest (`manifest.webmanifest`).
