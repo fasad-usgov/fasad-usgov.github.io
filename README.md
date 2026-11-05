@@ -89,10 +89,10 @@ Since Service Workers and ES Modules require an HTTP server, run Python's built-
 
 ```bash
 # 1. Start local static server
-python3 -m http.server 8000
+python3 -m http.server 9898
 
 # 2. Open in your browser:
-# http://localhost:8000
+# http://localhost:9898
 ```
 
 #### Running Data Validation & Rebuilding Indices
