@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "palantir-technologies",
+  "name": "Palantir Technologies Inc.",
+  "historical_names": [],
+  "headquarters": "Denver, Colorado, United States",
+  "industry": "Cloud Computing & Artificial Intelligence",
+  "active_period": "2003–present",
+  "operational_role": "Specialized defense intelligence software vendor supplying battle-management systems, intelligence fusion platforms (Gotham, Foundry), and the Palantir Artificial Intelligence Platform (AIP) for military targeting and operational decision-making.",
+  "government_liaisons": [
+    "Israeli Ministry of Defense",
+    "Israel Defense Forces (IDF General Staff)",
+    "United States Department of Defense",
+    "Central Intelligence Agency (In-Q-Tel)",
+    "United Kingdom Ministry of Defence"
+  ],
+  "documented_activities": "In January 2024, Palantir convened its global board of directors in Tel Aviv and formally signed a strategic partnership with the Israeli Ministry of Defense to supply advanced technology to support Israel's active war operations. Palantir CEO Alex Karp publicly declared unwavering corporate alignment with the Israeli military campaign, affirming that Palantir's software platforms were operational within the theater of conflict. Palantir's AIP and Gotham platforms integrate disparate surveillance streams—including live drone feeds, intercepted telecommunications, satellite radar, and geospatial mapping—into real-time operational targeting interfaces for military commanders.",
+  "documented_consequences": "Dramatically accelerates the operational 'kill chain' by algorithmically synthesizing multi-source intelligence to identify human and infrastructural targets in urban warfare, cited in legal submissions to the ICC as an operational component of high-casualty bombardment in Gaza.",
+  "associated_events": ["gaza-war-2023"],
+  "sources": [
+    "source-bloomberg-palantir-israel-defense-partnership-2024",
+    "source-972-lavender-ai-investigation-2024",
+    "source-al-haq-corporate-complicity-icc-2024"
+  ]
+}

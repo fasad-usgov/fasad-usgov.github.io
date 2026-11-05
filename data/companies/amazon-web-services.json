@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "amazon-web-services",
+  "name": "Amazon Web Services (AWS)",
+  "historical_names": ["Amazon.com, Inc."],
+  "headquarters": "Seattle, Washington, United States",
+  "industry": "Cloud Computing & Artificial Intelligence",
+  "active_period": "2006–present",
+  "operational_role": "Joint prime contractor alongside Google under the $1.2 billion 'Project Nimbus' framework, providing scalable cloud infrastructure, elastic compute servers, and enterprise data repositories to the Israeli government and defense sector.",
+  "government_liaisons": [
+    "Israeli Ministry of Defense",
+    "Israeli Ministry of Finance",
+    "Israel Defense Forces (C4I Corps / Digital Transformation Directorate)",
+    "United States Department of Defense"
+  ],
+  "documented_activities": "In August 2023, AWS officially launched its dedicated 'AWS Israel (Tel Aviv) Region', fulfilling its contractual obligation under Project Nimbus to provide on-soil, sovereign hyperscale cloud infrastructure. The Nimbus contract explicitly includes non-discrimination and anti-boycott stipulations legally barring AWS from withholding cloud services from Israeli military or security agencies. AWS infrastructure hosts sensitive government datasets, population registries, and operational data pipelines used by defense and intelligence ministries.",
+  "documented_consequences": "Provides the high-availability server architecture, storage buckets, and computational backbone required to store and query massive civilian surveillance registries, biometric tracking databases, and military operational software deployed during the Gaza campaign.",
+  "associated_events": ["gaza-war-2023"],
+  "sources": [
+    "source-un-special-rapporteur-anatomy-genocide-2024",
+    "source-al-haq-corporate-complicity-icc-2024"
+  ]
+}

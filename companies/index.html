@@ -198,21 +198,29 @@
         return;
       }
 
-      const companiesHtml = catalog.companies.map(c => `
-        <article class="card">
-          <div class="card-meta">
-            <span class="badge badge-accent">${App.escapeHTML(c.industry)}</span>
-            <span>HQ: ${App.escapeHTML(c.headquarters)}</span>
-          </div>
-          <h3 class="card-title">
-            <a href="?id=${c.id}">${App.escapeHTML(c.name)}</a>
-          </h3>
-          <p class="card-body">${App.escapeHTML(c.operational_role)}</p>
-          <div>
-            <a href="?id=${c.id}" class="btn btn-sm">View Corporate Dossier &rarr;</a>
-          </div>
-        </article>
-      `).join('');
+      const renderCards = (selectedIndustry = 'all') => {
+        const filtered = selectedIndustry === 'all' 
+          ? catalog.companies 
+          : catalog.companies.filter(c => c.industry === selectedIndustry);
+
+        return filtered.map(c => `
+          <article class="card">
+            <div class="card-meta">
+              <span class="badge badge-accent">${App.escapeHTML(c.industry)}</span>
+              <span>HQ: ${App.escapeHTML(c.headquarters)}</span>
+            </div>
+            <h3 class="card-title">
+              <a href="?id=${c.id}">${App.escapeHTML(c.name)}</a>
+            </h3>
+            <p class="card-body">${App.escapeHTML(c.operational_role)}</p>
+            <div>
+              <a href="?id=${c.id}" class="btn btn-sm">View Corporate Dossier &rarr;</a>
+            </div>
+          </article>
+        `).join('');
+      };
+
+      const industries = Array.from(new Set(catalog.companies.map(c => c.industry))).sort();
 
       container.innerHTML = `
         <div class="breadcrumbs">
@@ -224,14 +232,33 @@
         <section class="mb-3">
           <h1>Corporate Accountability Directory</h1>
           <p class="hero-lead">
-            Documenting the specific roles of arms manufacturers, military logistics contractors, energy concessionaires, and surveillance firms in modern foreign interventions.
+            Documenting the specific roles of cloud &amp; AI conglomerates, weapons manufacturers, military logistics contractors, and surveillance firms in modern foreign interventions.
           </p>
+
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1.5rem;" id="industry-filter-bar">
+            <button class="btn btn-sm btn-primary filter-btn" data-industry="all">All Industries (${catalog.companies.length})</button>
+            ${industries.map(ind => `
+              <button class="btn btn-sm filter-btn" data-industry="${App.escapeHTML(ind)}">${App.escapeHTML(ind)}</button>
+            `).join('')}
+          </div>
         </section>
 
-        <div class="grid grid-cards">
-          ${companiesHtml}
+        <div class="grid grid-cards" id="companies-grid">
+          ${renderCards('all')}
         </div>
       `;
+
+      // Hook up interactive filter buttons
+      const buttons = container.querySelectorAll('.filter-btn');
+      const grid = container.getElementById ? container.getElementById('companies-grid') : document.getElementById('companies-grid');
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          buttons.forEach(b => b.classList.remove('btn-primary'));
+          btn.classList.add('btn-primary');
+          const ind = btn.getAttribute('data-industry');
+          grid.innerHTML = renderCards(ind);
+        });
+      });
     }
   </script>
 </body>

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "hewlett-packard-enterprise",
+  "name": "Hewlett Packard Enterprise (HPE) / HP Inc.",
+  "historical_names": ["Hewlett-Packard Company (split 2015)"],
+  "headquarters": "Spring, Texas / Palo Alto, California, United States",
+  "industry": "Telecommunications & Infrastructure",
+  "active_period": "1939–present",
+  "operational_role": "Long-term prime enterprise server, storage architecture, and IT infrastructure provider for the Israeli Ministry of Defense, Israel Defense Forces, and the Israel Prison Service (IPS).",
+  "government_liaisons": [
+    "Israeli Ministry of Defense",
+    "Israel Prison Service (IPS)",
+    "Israel Defense Forces",
+    "United States Department of Defense"
+  ],
+  "documented_activities": "HPE and HP Inc. have supplied data center hardware, server racks, and computing platforms to the Israeli security establishment over decades. Historically, HP maintained the 'Basel System', an automated biometric permit and identification tracking mechanism deployed at military checkpoints surrounding the Gaza Strip and occupied West Bank. HPE provides ongoing technical support and server infrastructure for the centralized computerized management systems of the Israel Prison Service, where thousands of Palestinian detainees are held, and server storage for military naval and land command centers.",
+  "documented_consequences": "Sustained the core server and biometric tracking database infrastructure utilized in administering military detention, checkpoint controls, and logistical data hosting for military commands.",
+  "associated_events": ["gaza-war-2023"],
+  "sources": [
+    "source-un-special-rapporteur-anatomy-genocide-2024",
+    "source-al-haq-corporate-complicity-icc-2024"
+  ]
+}

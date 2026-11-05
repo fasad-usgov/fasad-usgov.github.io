@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "google-alphabet",
+  "name": "Google LLC (Alphabet Inc.)",
+  "historical_names": ["Google Inc."],
+  "headquarters": "Mountain View, California, United States",
+  "industry": "Cloud Computing & Artificial Intelligence",
+  "active_period": "1998–present",
+  "operational_role": "Joint prime contractor with Amazon Web Services under 'Project Nimbus', a $1.2 billion contract providing localized sovereign cloud computing, data centers, and advanced artificial intelligence and machine learning platforms to the Israeli government and Ministry of Defense.",
+  "government_liaisons": [
+    "Israeli Ministry of Defense",
+    "Israeli Ministry of Finance (Government Procurement Administration)",
+    "Israel Defense Forces (IDF Intelligence Corps / Unit 8200)",
+    "United States Department of Defense"
+  ],
+  "documented_activities": "Under Project Nimbus (awarded in April 2021), Google built dedicated domestic cloud data centers in Israel to guarantee data sovereignty, prevent foreign regulatory oversight, and ensure continuous operational access for Israeli security agencies. In April 2024, Time Magazine published internal documents revealing that Google provided direct cloud services and specialized consulting to the Israeli Ministry of Defense during the Gaza campaign, including access to Google Cloud's AI tools, Vertex AI, and enterprise data frameworks. Internal worker protests organized under the 'No Tech for Apartheid' coalition led Google management to terminate more than 50 employees who protested the company's defense ties.",
+  "documented_consequences": "Supplied foundational cloud storage, processing throughput, and machine learning capabilities that support the Israeli military's data-intensive intelligence pipelines, which process drone video feeds, telecommunications metadata, and massive surveillance datasets used to identify and track targets in the Gaza Strip.",
+  "associated_events": ["gaza-war-2023"],
+  "sources": [
+    "source-time-google-nimbus-defense-contract-2024",
+    "source-un-special-rapporteur-anatomy-genocide-2024",
+    "source-al-haq-corporate-complicity-icc-2024"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "cisco-systems",
+  "name": "Cisco Systems, Inc.",
+  "historical_names": [],
+  "headquarters": "San Jose, California, United States",
+  "industry": "Telecommunications & Infrastructure",
+  "active_period": "1984–present",
+  "operational_role": "Primary provider of high-security networking hardware, encrypted switches, routers, and server infrastructure powering the core communication grids of the Israel Defense Forces and Ministry of Defense.",
+  "government_liaisons": [
+    "Israeli Ministry of Defense",
+    "Israel Defense Forces (Lotem / C4I Telecommunications Division)",
+    "United States Department of Defense"
+  ],
+  "documented_activities": "Supplier of core optical networking hardware and secure telecommunication exchanges for the IDF's dedicated military communications backbone (the 'Prism' fiber-optic network). Cisco equipment links military headquarters in the Kirya (Tel Aviv) with tactical brigade command posts, southern military outposts bordering Gaza, and field command vehicles during active military operations.",
+  "documented_consequences": "Maintains the high-bandwidth, redundant data routing essential for the transmission of live drone video feeds, battlefield sensor data, and automated targeting coordination across military units operating in Gaza.",
+  "associated_events": ["gaza-war-2023"],
+  "sources": [
+    "source-al-haq-corporate-complicity-icc-2024",
+    "source-un-special-rapporteur-anatomy-genocide-2024"
+  ]
+}

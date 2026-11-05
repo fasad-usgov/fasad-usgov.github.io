@@ -12,10 +12,12 @@
     "Civilian Casualties",
     "Arms Transfers & Supply Chains",
     "Intelligence Sharing",
+    "Artificial Intelligence & Automated Targeting",
+    "Cloud Computing & Tech Complicity",
     "International Law & ICJ",
     "War Crimes Allegations"
   ],
-  "summary": "The ongoing conventional military offensive conducted by the Israel Defense Forces ('Operation Swords of Iron') in the Gaza Strip following the October 7, 2023 Hamas-led attacks on southern Israel. The campaign has been characterized by unprecedented levels of aerial bombardment, total naval, land, and aerial blockade, mass forced displacement of over 1.9 million people (85–90% of the population), and widespread destruction of civic, educational, and medical infrastructure. The operation has been directly sustained by emergency diplomatic protection, logistical airlifts, and arms transfers from the United States (tens of thousands of precision bombs, 155mm shells, and bunker busters) and the United Kingdom (F-35 component manufacturing and daily RAF Akrotiri aerial surveillance flights providing operational intelligence), sparking landmark genocide proceedings at the International Court of Justice (ICJ) and arrest warrant applications at the International Criminal Court (ICC).",
+  "summary": "The ongoing conventional military offensive conducted by the Israel Defense Forces ('Operation Swords of Iron') in the Gaza Strip following the October 7, 2023 Hamas-led attacks on southern Israel. The campaign has been characterized by unprecedented levels of aerial bombardment, total naval, land, and aerial blockade, mass forced displacement of over 1.9 million people (85–90% of the population), and widespread destruction of civic, educational, and medical infrastructure. The operation has been directly sustained by emergency diplomatic protection, logistical airlifts, and arms transfers from the United States (tens of thousands of precision bombs, 155mm shells, and bunker busters) and the United Kingdom (F-35 component manufacturing and daily RAF Akrotiri aerial surveillance flights). Crucially, the campaign is powered by an extensive corporate technological architecture: sovereign cloud computing and AI under 'Project Nimbus' (Google Cloud and Amazon Web Services), battlefield AI battle-management software from Palantir Technologies, enterprise cloud systems from Microsoft, and military networking hardware from Cisco and HPE. Whistleblower intelligence reports documented the deployment of automated AI targeting programs—notably 'Lavender' (generating kill lists of tens of thousands of suspected targets with pre-authorized civilian collateral thresholds), 'The Gospel' (generating structural targets at industrial speed), and 'Where's Daddy?' (tracking targets to family homes before striking)—prompting formal genocide proceedings at the International Court of Justice (ICJ) and corporate complicity filings at the International Criminal Court (ICC).",
   "background": "The escalation occurred against the backdrop of a 16-year continuous Israeli land, air, and sea blockade of the Gaza Strip instituted after Hamas assumed administrative power in 2007. The blockade severely restricted civilian movement, clean water access, power generation, and commercial trade, prompting United Nations declarations that Gaza had become unlivable. Recurring military operations (notably in 2008–09, 2012, 2014, and 2021) caused thousands of civilian deaths without altering the structural reality of military occupation across the Palestinian territories. Throughout 2022 and 2023, tensions heightened with record expansion of Israeli settlements in the West Bank and repeated clashes at the Al-Aqsa Mosque compound, while US diplomatic efforts focused on brokering normalization agreements between Israel and Arab monarchies (the Abraham Accords) that bypassed the unresolved Palestinian national question.",
   "chronology": [
     {
@@ -34,6 +36,11 @@
       "detail": "US President Joe Biden visits Israel, pledging unconditional military and political support. The US vetoes multiple UN Security Council ceasefire resolutions and initiates hundreds of cargo flights carrying over 50,000 tons of weaponry."
     },
     {
+      "date": "2023-11-30",
+      "headline": "'The Gospel' AI Targeting Machine Revealed",
+      "detail": "Investigative reports reveal the IDF's deployment of 'Habsora' (The Gospel), an AI-based system capable of generating residential and structural targets at a rate outpacing human intelligence analysts, transforming target production into an automated industrial process."
+    },
+    {
       "date": "2023-12-09",
       "headline": "US Emergency Executive Bypasses of Congress",
       "detail": "The Biden Administration repeatedly invokes emergency provisions under the Arms Export Control Act to immediately transfer tank ammunition, 155mm artillery shells, and bomb guidance kits to Israel without congressional review."
@@ -44,9 +51,24 @@
       "detail": "The UK Ministry of Defence deploys RAF Shadow R1 intelligence aircraft from RAF Akrotiri in Cyprus to fly daily surveillance and reconnaissance missions over Gaza, sharing collected intelligence with Israeli command structures."
     },
     {
+      "date": "2024-01-11",
+      "headline": "Palantir Enters War-Fighting Partnership in Tel Aviv",
+      "detail": "Palantir Technologies convenes its board of directors in Tel Aviv and enters into a formal strategic partnership with the Israeli Ministry of Defense to supply its Artificial Intelligence Platform (AIP) for active war-fighting and targeting integration."
+    },
+    {
       "date": "2024-01-26",
       "headline": "ICJ Issues Landmark Genocide Injunction",
       "detail": "In South Africa v. Israel, the International Court of Justice finds that Palestinians face a plausible risk of irreparable harm under the Genocide Convention, ordering Israel to prevent genocidal acts and allow urgent humanitarian relief."
+    },
+    {
+      "date": "2024-04-03",
+      "headline": "'Lavender' AI and 'Where's Daddy?' Systems Exposed",
+      "detail": "Investigative reporting reveals that the IDF used 'Lavender' AI to designate up to 37,000 Palestinians as potential targets with as little as 20 seconds of human oversight, linked to 'Where's Daddy?' automated tracking software that waited for individuals to enter their family homes before launching strikes with unguided bombs, killing entire families."
+    },
+    {
+      "date": "2024-04-12",
+      "headline": "Time Magazine Exposes Google Nimbus Defense Contracts",
+      "detail": "Internal corporate documents reveal Google negotiated expanded cloud computing and AI services directly for the Israeli Ministry of Defense during the war under Project Nimbus, culminating in Google firing over 50 tech workers who organized peaceful sit-in protests against military contracts."
     },
     {
       "date": "2024-05-20",
@@ -73,8 +95,10 @@
       "Department of State"
     ],
     "foreign_institutions": [
-      "Israel Defense Forces (IDF)",
+      "Israel Defense Forces (IDF General Staff)",
       "Israeli Ministry of Defense",
+      "IDF Intelligence Corps (Unit 8200)",
+      "IDF C4I Directorate",
       "Shin Bet & Mossad",
       "United Kingdom Ministry of Defence",
       "Royal Air Force (RAF Akrotiri, Cyprus)",
@@ -88,24 +112,32 @@
       "Lloyd Austin (US Secretary of Defense)",
       "Antony Blinken (US Secretary of State)",
       "Keir Starmer / Rishi Sunak (UK Prime Ministers)",
-      "Karim Khan (ICC Prosecutor)"
+      "Karim Khan (ICC Prosecutor)",
+      "Alex Karp (CEO of Palantir Technologies)"
     ]
   },
   "documented_consequences": {
-    "political": "Unprecedented global diplomatic crisis; formal legal charges of genocide at the International Court of Justice; ICC applications for arrest warrants for heads of government; direct military confrontations between Israel, Iran, Hezbollah in Lebanon, and the Houthis in Yemen; severe isolation of the United States in the UN General Assembly.",
+    "political": "Unprecedented global diplomatic crisis; formal legal charges of genocide at the International Court of Justice; ICC applications for arrest warrants for heads of government; direct military confrontations between Israel, Iran, Hezbollah in Lebanon, and the Houthis in Yemen; severe isolation of the United States in the UN General Assembly; worldwide employee walkouts and divestment campaigns targeting tech and defense conglomerates.",
     "civilian_toll": "Over 43,000+ confirmed Palestinian deaths documented by the Gaza Ministry of Health and verified by the UN (over 70% women and children); over 100,000 injured; over 10,000 missing under rubble; complete collapse of healthcare systems; acute catastrophic famine (IPC Phase 5) documented by UN agencies; Lancet epidemiological assessment projecting that indirect deaths from disease and malnutrition could bring total excess mortality to over 186,000.",
     "long_term": "Total physical destruction of over 60% of all residential structures in the Gaza Strip; destruction of all 12 universities; widespread unexploded ordnance contamination requiring decades to clear; permanent disruption of civilian land registries and generational psychological trauma across the entire population."
   },
   "disputed_aspects": [
     "Casualty attribution methodologies: The Israeli military claims that a substantial proportion of those killed were combatants, while human rights organizations, UN agencies, and independent forensic reviews note that the proportion of documented women, children, and elderly victims indicates widespread, indiscriminate urban bombardment.",
-    "The legality of third-party arms supplier states (specifically the US, Germany, and the UK) under Article III(e) of the 1948 Genocide Convention regarding complicity, as argued in Nicaragua v. Germany at the ICJ."
+    "The legality of third-party arms supplier states (specifically the US, Germany, and the UK) under Article III(e) of the 1948 Genocide Convention regarding complicity, as argued in Nicaragua v. Germany at the ICJ.",
+    "Corporate legal liability under Rome Statute Article 25(3)(c): Whether tech executives providing dual-use cloud computing, AI targeting models, and infrastructure can be held criminally liable for aiding and abetting international crimes."
   ],
   "corporate_involvement": [
     "boeing-defense",
     "general-dynamics",
     "lockheed-martin",
     "elbit-systems",
-    "bae-systems"
+    "bae-systems",
+    "google-alphabet",
+    "amazon-web-services",
+    "microsoft-corporation",
+    "palantir-technologies",
+    "cisco-systems",
+    "hewlett-packard-enterprise"
   ],
   "related_events": [
     "sabra-shatila-1982",
@@ -116,7 +148,12 @@
     "source-icc-prosecutor-warrants-2024",
     "source-us-state-dept-nsm20-report-2024",
     "source-lancet-gaza-mortality-2024",
-    "source-un-ocha-gaza-crisis-reports"
+    "source-un-ocha-gaza-crisis-reports",
+    "source-un-special-rapporteur-anatomy-genocide-2024",
+    "source-972-lavender-ai-investigation-2024",
+    "source-time-google-nimbus-defense-contract-2024",
+    "source-al-haq-corporate-complicity-icc-2024",
+    "source-bloomberg-palantir-israel-defense-partnership-2024"
   ],
   "last_updated": "2026-11-05"
 }

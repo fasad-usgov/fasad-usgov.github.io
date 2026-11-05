@@ -3,9 +3,9 @@
   "generated_at": "2026-11-05",
   "counts": {
     "events": 4,
-    "companies": 7,
+    "companies": 13,
     "countries": 7,
-    "sources": 14
+    "sources": 19
   },
   "events": [
     {
@@ -26,10 +26,12 @@
         "Civilian Casualties",
         "Arms Transfers & Supply Chains",
         "Intelligence Sharing",
+        "Artificial Intelligence & Automated Targeting",
+        "Cloud Computing & Tech Complicity",
         "International Law & ICJ",
         "War Crimes Allegations"
       ],
-      "summary": "The ongoing conventional military offensive conducted by the Israel Defense Forces ('Operation Swords of Iron') in the Gaza Strip following the October 7, 2023 Hamas-led attacks on southern Israel. The campaign has been characterized by unprecedented levels of aerial bombardment, total naval, land, and aerial blockade, mass forced displacement of over 1.9 million people (85\u201390% of the population), and widespread destruction of civic, educational, and medical infrastructure. The operation has been directly sustained by emergency diplomatic protection, logistical airlifts, and arms transfers from the United States (tens of thousands of precision bombs, 155mm shells, and bunker busters) and the United Kingdom (F-35 component manufacturing and daily RAF Akrotiri aerial surveillance flights providing operational intelligence), sparking landmark genocide proceedings at the International Court of Justice (ICJ) and arrest warrant applications at the International Criminal Court (ICC)."
+      "summary": "The ongoing conventional military offensive conducted by the Israel Defense Forces ('Operation Swords of Iron') in the Gaza Strip following the October 7, 2023 Hamas-led attacks on southern Israel. The campaign has been characterized by unprecedented levels of aerial bombardment, total naval, land, and aerial blockade, mass forced displacement of over 1.9 million people (85\u201390% of the population), and widespread destruction of civic, educational, and medical infrastructure. The operation has been directly sustained by emergency diplomatic protection, logistical airlifts, and arms transfers from the United States (tens of thousands of precision bombs, 155mm shells, and bunker busters) and the United Kingdom (F-35 component manufacturing and daily RAF Akrotiri aerial surveillance flights). Crucially, the campaign is powered by an extensive corporate technological architecture: sovereign cloud computing and AI under 'Project Nimbus' (Google Cloud and Amazon Web Services), battlefield AI battle-management software from Palantir Technologies, enterprise cloud systems from Microsoft, and military networking hardware from Cisco and HPE. Whistleblower intelligence reports documented the deployment of automated AI targeting programs\u2014notably 'Lavender' (generating kill lists of tens of thousands of suspected targets with pre-authorized civilian collateral thresholds), 'The Gospel' (generating structural targets at industrial speed), and 'Where's Daddy?' (tracking targets to family homes before striking)\u2014prompting formal genocide proceedings at the International Court of Justice (ICJ) and corporate complicity filings at the International Criminal Court (ICC)."
     },
     {
       "id": "iran-coup-1953",
@@ -94,6 +96,13 @@
   ],
   "companies": [
     {
+      "id": "amazon-web-services",
+      "name": "Amazon Web Services (AWS)",
+      "industry": "Cloud Computing & Artificial Intelligence",
+      "headquarters": "Seattle, Washington, United States",
+      "operational_role": "Joint prime contractor alongside Google under the $1.2 billion 'Project Nimbus' framework, providing scalable cloud infrastructure, elastic compute servers, and enterprise data repositories to the Israeli government and defense sector."
+    },
+    {
       "id": "anglo-iranian-oil-company",
       "name": "Anglo-Iranian Oil Company (AIOC)",
       "industry": "Oil & Energy",
@@ -115,6 +124,13 @@
       "operational_role": "Primary manufacturer of precision-guided strike weapons kits, AH-64 Apache attack helicopters, and F-15 fighter aircraft utilized by the United States Air Force and Israeli Air Force."
     },
     {
+      "id": "cisco-systems",
+      "name": "Cisco Systems, Inc.",
+      "industry": "Telecommunications & Infrastructure",
+      "headquarters": "San Jose, California, United States",
+      "operational_role": "Primary provider of high-security networking hardware, encrypted switches, routers, and server infrastructure powering the core communication grids of the Israel Defense Forces and Ministry of Defense."
+    },
+    {
       "id": "elbit-systems",
       "name": "Elbit Systems Ltd.",
       "industry": "Arms & Aerospace",
@@ -129,6 +145,13 @@
       "operational_role": "Primary prime manufacturer of heavy aerial bomb bodies (MK-84 2,000-lb and MK-82 500-lb) and 155mm M107/M795 artillery projectiles for the US military and allied foreign militaries."
     },
     {
+      "id": "google-alphabet",
+      "name": "Google LLC (Alphabet Inc.)",
+      "industry": "Cloud Computing & Artificial Intelligence",
+      "headquarters": "Mountain View, California, United States",
+      "operational_role": "Joint prime contractor with Amazon Web Services under 'Project Nimbus', a $1.2 billion contract providing localized sovereign cloud computing, data centers, and advanced artificial intelligence and machine learning platforms to the Israeli government and Ministry of Defense."
+    },
+    {
       "id": "halliburton-kbr",
       "name": "Halliburton / Kellogg Brown & Root (KBR)",
       "industry": "Military Contracting & Logistics",
@@ -136,11 +159,32 @@
       "operational_role": "Primary prime logistics and infrastructure contractor under the US Army Logistics Civil Augmentation Program (LOGCAP III) during the 2003 invasion and occupation of Iraq."
     },
     {
+      "id": "hewlett-packard-enterprise",
+      "name": "Hewlett Packard Enterprise (HPE) / HP Inc.",
+      "industry": "Telecommunications & Infrastructure",
+      "headquarters": "Spring, Texas / Palo Alto, California, United States",
+      "operational_role": "Long-term prime enterprise server, storage architecture, and IT infrastructure provider for the Israeli Ministry of Defense, Israel Defense Forces, and the Israel Prison Service (IPS)."
+    },
+    {
       "id": "lockheed-martin",
       "name": "Lockheed Martin Corporation",
       "industry": "Arms & Aerospace",
       "headquarters": "Bethesda, Maryland, United States",
       "operational_role": "World's largest defense contractor; primary manufacturer of tactical aircraft, precision-guided missiles, radar systems, and air defense platforms for the US military and foreign military sales allies including Israel."
+    },
+    {
+      "id": "microsoft-corporation",
+      "name": "Microsoft Corporation",
+      "industry": "Cloud Computing & Artificial Intelligence",
+      "headquarters": "Redmond, Washington, United States",
+      "operational_role": "Primary enterprise technology, cloud computing (Microsoft Azure), and defense software supplier to the Israeli Ministry of Defense, Israeli security agencies, and the Israel Defense Forces."
+    },
+    {
+      "id": "palantir-technologies",
+      "name": "Palantir Technologies Inc.",
+      "industry": "Cloud Computing & Artificial Intelligence",
+      "headquarters": "Denver, Colorado, United States",
+      "operational_role": "Specialized defense intelligence software vendor supplying battle-management systems, intelligence fusion platforms (Gotham, Foundry), and the Palantir Artificial Intelligence Platform (AIP) for military targeting and operational decision-making."
     }
   ],
   "countries": [
@@ -189,6 +233,15 @@
   ],
   "sources": [
     {
+      "id": "source-972-lavender-ai-investigation-2024",
+      "title": "'Lavender': The AI Machine Directing Israel's Bombing in Gaza",
+      "authors": [
+        "Yuval Abraham"
+      ],
+      "year": 2024,
+      "type": "investigative_journalism"
+    },
+    {
       "id": "source-abrahamian-the-coup",
       "title": "The Coup: 1953, the CIA, and the Roots of Modern U.S.-Iranian Relations",
       "authors": [
@@ -196,6 +249,27 @@
       ],
       "year": 2013,
       "type": "academic_book"
+    },
+    {
+      "id": "source-al-haq-corporate-complicity-icc-2024",
+      "title": "Corporate Complicity in War Crimes and Genocide in Gaza: Submission to the Office of the Prosecutor of the International Criminal Court",
+      "authors": [
+        "Al-Haq",
+        "Al-Mezan Center for Human Rights",
+        "Palestinian Centre for Human Rights (PCHR)"
+      ],
+      "year": 2024,
+      "type": "international_court_ruling"
+    },
+    {
+      "id": "source-bloomberg-palantir-israel-defense-partnership-2024",
+      "title": "Palantir Agrees to Strategic Partnership With Israel for War Effort",
+      "authors": [
+        "Mark Bergen",
+        "Bloomberg News"
+      ],
+      "year": 2024,
+      "type": "investigative_journalism"
     },
     {
       "id": "source-chilcot-iraq-inquiry-2016",
@@ -300,6 +374,15 @@
       "type": "academic_book"
     },
     {
+      "id": "source-time-google-nimbus-defense-contract-2024",
+      "title": "Google Cloud Deal with Israeli Military Revealed in Document",
+      "authors": [
+        "Billy Perrigo"
+      ],
+      "year": 2024,
+      "type": "investigative_journalism"
+    },
+    {
       "id": "source-tripp-history-of-iraq",
       "title": "A History of Iraq (Third Edition)",
       "authors": [
@@ -313,6 +396,16 @@
       "title": "Hostilities in the Gaza Strip and Israel - Reported Impact Documentation & Field Updates",
       "authors": [
         "United Nations Office for the Coordination of Humanitarian Affairs (OCHA)"
+      ],
+      "year": 2024,
+      "type": "official_inquiry_report"
+    },
+    {
+      "id": "source-un-special-rapporteur-anatomy-genocide-2024",
+      "title": "Anatomy of a Genocide: Report of the Special Rapporteur on the Situation of Human Rights in the Palestinian Territories Occupied Since 1967",
+      "authors": [
+        "Francesca Albanese",
+        "United Nations Human Rights Council"
       ],
       "year": 2024,
       "type": "official_inquiry_report"

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "microsoft-corporation",
+  "name": "Microsoft Corporation",
+  "historical_names": [],
+  "headquarters": "Redmond, Washington, United States",
+  "industry": "Cloud Computing & Artificial Intelligence",
+  "active_period": "1975–present",
+  "operational_role": "Primary enterprise technology, cloud computing (Microsoft Azure), and defense software supplier to the Israeli Ministry of Defense, Israeli security agencies, and the Israel Defense Forces.",
+  "government_liaisons": [
+    "Israeli Ministry of Defense",
+    "Israel Defense Forces (C4I Directorate)",
+    "Israeli Civil Administration (COGAT)",
+    "United States Department of Defense"
+  ],
+  "documented_activities": "Operates extensive corporate research and development centers in Israel (Microsoft Israel R&D) that interface closely with former Unit 8200 military intelligence veterans. Provides Azure cloud infrastructure, AI services, and enterprise software to the Israeli Ministry of Defense under multi-year procurement pacts. Historically invested in Israeli facial recognition startup AnyVision (now Oosto), which supplied biometric scanning cameras deployed at military checkpoints in the occupied West Bank, before divesting in 2020 following an audit conducted by former US Attorney General Eric Holder. During the 2023–2024 conflict, Azure cloud instances were scaled up to support Israeli military logistical and intelligence command networks.",
+  "documented_consequences": "Facilitated administrative surveillance, military command-and-control communication, and biometric tracking systems utilized across the occupied Palestinian territories and active military operational theaters.",
+  "associated_events": ["gaza-war-2023"],
+  "sources": [
+    "source-un-special-rapporteur-anatomy-genocide-2024",
+    "source-al-haq-corporate-complicity-icc-2024"
+  ]
+}
