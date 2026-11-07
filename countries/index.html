@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Country dossiers documenting foreign military interventions, covert operations, and civilian impacts across affected nations.">
   <meta name="theme-color" content="#8b1e1e">
-  <title>Country Dossiers — History of Intervention</title>
+  <title>Country Dossiers — History of US atrocities &amp; Intervention</title>
 
   <link rel="manifest" href="../manifest.webmanifest">
   <link rel="icon" type="image/svg+xml" href="../assets/icons/icon-192.svg">
@@ -20,7 +20,7 @@
     <div class="container">
       <div class="header-top">
         <div class="brand-wrapper">
-          <a href="../index.html" class="brand-title">History of Intervention</a>
+          <a href="../index.html" class="brand-title">History of US atrocities &amp; Intervention</a>
           <span class="brand-subtitle">Country &amp; Regional Indexes</span>
         </div>
         <div class="header-controls">
@@ -66,7 +66,7 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-bottom">
-        <div>&copy; 2026 History of Intervention Project. Public Historical Education.</div>
+        <div>&copy; 2026 History of US atrocities &amp; Intervention Project. Public Historical Education.</div>
         <div>Offline PWA Enabled • Zero Tracking</div>
       </div>
     </div>
@@ -171,7 +171,7 @@
     }
 
     async function renderCountriesCatalog(container) {
-      document.title = 'Country Dossiers — History of Intervention';
+      document.title = 'Country Dossiers — History of US atrocities & Intervention';
       const catalog = await App.fetchJSON('../data/indices/catalog.json');
       if (!catalog || !catalog.countries) {
         container.innerHTML = '<p class="callout">Could not load country catalog.</p>';

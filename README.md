@@ -1,4 +1,4 @@
-# History of Intervention
+# History of US atrocities & Intervention
 ## Global History, Civilian Consequences, and Corporate Accountability
 
 A free, public, offline-capable historical reference website documenting the foreign policy, military interventions, covert operations, civilian consequences, and corporate relationships of the United States and Israel from 1945 to the present.
@@ -7,7 +7,7 @@ A free, public, offline-capable historical reference website documenting the for
 
 ### Project Mission & Editorial Direction
 
-The **History of Intervention** is an educational, non-commercial digital reference work designed like an open digital history book.
+The **History of US atrocities & Intervention** is an educational, non-commercial digital reference work designed like an open digital history book.
 
 - **Objective Factuality**: Distinguishes strictly between established historical events, documented government and corporate actions, allegations that remain disputed, historiographical debates, and unresolved historical questions.
 - **Institutional Focus**: Focuses on the decisions, policies, command structures, and commercial contracts of state agencies, armed forces, and corporations.

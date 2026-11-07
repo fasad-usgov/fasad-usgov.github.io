@@ -1,6 +1,6 @@
-# Contributing to History of Intervention
+# Contributing to History of US atrocities & Intervention
 
-Thank you for your interest in contributing to the **History of Intervention** archive. 
+Thank you for your interest in contributing to the **History of US atrocities & Intervention** archive. 
 
 This project is dedicated to producing an accurate, non-commercial, verifiable historical reference work. To maintain academic and legal integrity, all contributions must adhere to the standards outlined below.
 

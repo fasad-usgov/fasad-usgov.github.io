@@ -1,9 +1,9 @@
 /**
- * History of Intervention - Service Worker
+ * History of US atrocities & Intervention - Service Worker
  * Offline-first PWA caching strategy
  */
 
-const CACHE_NAME = 'hoi-archive-v1.3.0';
+const CACHE_NAME = 'hoi-archive-v1.3.1';
 
 const PRECACHE_ASSETS = [
   './',
