@@ -3,7 +3,7 @@
  * Offline-first PWA caching strategy
  */
 
-const CACHE_NAME = 'hoi-archive-v1.3.1';
+const CACHE_NAME = 'hoi-archive-v1.3.2';
 
 const PRECACHE_ASSETS = [
   './',
