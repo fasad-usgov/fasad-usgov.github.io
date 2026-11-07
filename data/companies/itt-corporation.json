@@ -14,7 +14,10 @@
   ],
   "documented_activities": "In 1970, when Salvador Allende was elected President on a platform of nationalizing strategic natural monopolies including copper and telecommunications, ITT CEO Harold Geneen met directly with CIA Director Richard Helms and offered up to $1 million in corporate funds to block Allende's inauguration. ITT collaborated with the CIA's 'Track II' covert operation to induce economic collapse in Chile, coordinated with American banks to cut off international commercial credit, and funded anti-Allende propaganda in Chilean newspapers. When the US Senate Church Committee conducted hearings in 1975, internal ITT memos exposed the deep corporate-intelligence conspiracy to subvert Chilean democracy.",
   "documented_consequences": "Facilitated the September 11, 1973 military coup led by General Augusto Pinochet, which resulted in the extrajudicial execution or forced disappearance of over 3,200 dissidents, the systematic torture of over 38,000 citizens, and the restitution of privatized corporate assets.",
-  "associated_events": ["chile-coup-1973"],
+  "associated_events": [
+    "chile-coup-1973",
+    "operation-condor-1975-1983"
+  ],
   "sources": [
     "source-church-committee-chile-1975",
     "source-pinochet-file-kornbluh-2003"

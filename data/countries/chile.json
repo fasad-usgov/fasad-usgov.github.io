@@ -5,7 +5,10 @@
   "region": "Latin America",
   "summary": "South American nation with one of the longest continuous democratic traditions in the hemisphere, destroyed in September 1973 by a CIA-supported military coup that installed General Augusto Pinochet's 17-year dictatorship.",
   "historical_context": "In 1970, socialist physician Salvador Allende was democratically elected President leading the Popular Unity coalition. Allende enacted constitutional reforms nationalizing foreign-owned copper mines and expanding public education and agrarian land distribution. President Richard Nixon and Henry Kissinger immediately ordered the CIA to 'make the economy scream' under Project FUBELT. The CIA spent millions funding opposition newspapers, orchestrating transport strikes, and forging ties with military plotters. On September 11, 1973, military forces bombarded the presidential palace (La Moneda), Allende died, and General Augusto Pinochet established a military junta that dissolved Congress, banned trade unions, murdered over 3,200 dissidents, and tortured tens of thousands.",
-  "key_operations": ["chile-coup-1973"],
+  "key_operations": [
+    "chile-coup-1973",
+    "operation-condor-1975-1983"
+  ],
   "primary_institutions_involved": [
     "Central Intelligence Agency (CIA Station Santiago / Project FUBELT)",
     "National Security Council (40 Committee)",

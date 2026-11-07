@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "castle-bank-tradewinds-1973",
+  "title": "Operation Tradewinds, Castle Bank & CIA Offshore Shielding",
+  "date_start": "1973-01-15",
+  "date_end": "1980-06-23",
+  "era": "Cold War Offshore Banking & Intelligence Conduits",
+  "region": "Global",
+  "countries": ["united-states"],
+  "topics": [
+    "Oligarchy",
+    "Offshore Tax Havens",
+    "Intelligence Black Budgets",
+    "Wealth Defense",
+    "State Secrecy"
+  ],
+  "summary": "The landmark collision between federal tax enforcement and the intelligence community, in which an IRS investigation into hundreds of ultra-wealthy Americans evading taxes through Castle Bank & Trust in the Bahamas was shut down after the CIA intervened to protect its secret covert action funding conduits, setting the stage for 50 years of explosive offshore wealth concentration.",
+  "background": "In the early 1970s, the IRS launched Operation Tradewinds and Project Haven to investigate how wealthy Americans, corporate executives, and organized crime figures were systematically utilizing shell trusts and secret accounts in Caribbean tax havens. In January 1973, IRS informants obtained the confidential depositor records of Castle Bank & Trust (Bahamas) Ltd., identifying 308 prominent Americans hiding hundreds of millions of dollars offshore. However, Castle Bank had been founded in 1962 by Paul Helliwell, a former OSS intelligence officer who served as a primary paymaster for CIA covert black operations (including anti-Castro paramilitary strikes and arms conduits in Southeast Asia). When federal prosecutors prepared grand jury indictments, the CIA asserted national security privilege, warning that public trials would expose classified agency accounts. The Justice Department and IRS Commissioner Donald Alexander subsequently quashed the active investigation, establishing a lasting precedent of state protection for elite offshore wealth defense.",
+  "chronology": [
+    {
+      "date": "1962-01",
+      "headline": "Paul Helliwell incorporates Castle Bank & Trust in the Bahamas",
+      "detail": "Veteran OSS and CIA operative Paul Helliwell co-founds Castle Bank & Trust in Nassau, establishing a dual-purpose institution that manages secret offshore accounts for wealthy American elites while providing clandestine conduits for CIA covert operations in Latin America and the Far East."
+    },
+    {
+      "date": "1973-01-15",
+      "headline": "The 'Briefcase Caper' in Miami",
+      "detail": "IRS informants secretly photograph the personal briefcase of Castle Bank managing director Michael Wolstencroft while he is dining in Key Biscayne, Florida, capturing a computer printout of 308 prominent American clients holding over a quarter-billion dollars in untaxed assets."
+    },
+    {
+      "date": "1973-05",
+      "headline": "Donald Alexander appointed IRS Commissioner",
+      "detail": "Former elite tax attorney Donald Alexander takes leadership of the IRS amidst Watergate investigations and halts aggressive intelligence-gathering methodologies, ordering suspensions of key aspects of Project Haven."
+    },
+    {
+      "date": "1975-06",
+      "headline": "CIA intervenes to halt federal prosecutions",
+      "detail": "The CIA officially approaches the Department of Justice, asserting that prosecuting Castle Bank would compromise sensitive national security intelligence operations, leading federal prosecutors to drop major felony tax evasion cases against wealthy account holders."
+    },
+    {
+      "date": "1980-04-18",
+      "headline": "The Wall Street Journal exposes the coverup",
+      "detail": "Investigative reporter Jim Drinkhall publishes a front-page exposé in The Wall Street Journal detailing how the CIA quashed the IRS's most promising offshore tax prosecution to safeguard its black-budget banking apparatus."
+    },
+    {
+      "date": "1980-06-23",
+      "headline": "Supreme Court decides United States v. Payner",
+      "detail": "The US Supreme Court rules in United States v. Payner that federal courts cannot use their supervisory power to suppress tainted evidence obtained from third parties, effectively dismantling subsequent attempts to hold Castle Bank depositors accountable."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "Central Intelligence Agency (CIA)",
+      "Internal Revenue Service (IRS / Operation Tradewinds / Project Haven)",
+      "United States Department of Justice (DOJ)",
+      "United States Supreme Court"
+    ],
+    "foreign_institutions": [
+      "Castle Bank & Trust (Bahamas) Ltd.",
+      "Bahamian Financial Authorities"
+    ],
+    "key_figures": [
+      "Paul L.E. Helliwell (OSS/CIA officer and Castle Bank founder)",
+      "Donald C. Alexander (IRS Commissioner)",
+      "Richard Jaffe (IRS Special Agent running Operation Tradewinds)",
+      "Jim Drinkhall (Wall Street Journal investigative journalist)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Subordination of domestic tax enforcement and constitutional rule of law to intelligence agency black-budget secrecy; dismantling of aggressive IRS offshore investigative units.",
+    "civilian_toll": "Systemic redistribution of the domestic tax burden onto middle-class and working-class wage earners; over five decades, the wealth share of the top 0.1% more than doubled while IRS corporate audit rates fell by over 80%.",
+    "long_term": "Institutional normalization of the global 'Wealth Defense Industry' (lawyers, trust companies, offshore secrecy havens) protecting trillions of dollars in elite capital from democratic taxation."
+  },
+  "disputed_aspects": [
+    "The CIA officially denied that it actively obstructed justice, maintaining that it only protected legitimate intelligence sources and methods under statutory authority.",
+    "Contested legal ethics surrounding the 1973 warrantless search of Wolstencroft's briefcase, which IRS leadership cited as the primary reason for abandoning prosecution."
+  ],
+  "corporate_involvement": [],
+  "related_events": [
+    "chile-coup-1973",
+    "operation-condor-1975-1983"
+  ],
+  "sources": [
+    "source-wsj-castle-bank-cia-1980",
+    "source-winters-oligarchy-2011",
+    "source-johnny-harris-oligarchy-2024",
+    "source-gilens-page-oligarchy-2014",
+    "source-forbidden-stories-team-jorge-2023",
+    "source-zuboff-surveillance-capitalism-2019"
+  ],
+  "last_updated": "2026-11-06"
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "panama-invasion-1989",
+  "title": "US Military Invasion of Panama (Operation Just Cause)",
+  "date_start": "1989-12-20",
+  "date_end": "1990-01-31",
+  "era": "Post-Cold War Unipolarity & Latin American Interventions",
+  "region": "Latin America",
+  "countries": ["panama", "united-states"],
+  "topics": [
+    "Military Invasion",
+    "Regime Change",
+    "Urban Bombardment",
+    "Civilian Casualties",
+    "International Law Violations"
+  ],
+  "summary": "The massive military invasion of Panama launched by the Bush administration involving over 27,000 US troops, heavy artillery, and air strikes to capture de facto military ruler General Manuel Noriega (a long-time CIA asset), resulting in the devastation of the densely populated civilian neighborhood of El Chorrillo and formal condemnation by the UN General Assembly and the Inter-American Commission on Human Rights.",
+  "background": "General Manuel Antonio Noriega was a graduate of the US Army School of the Americas who was recruited into the CIA's payroll in the late 1960s. For nearly two decades, Noriega served as a key clandestine liaison, facilitating US arms shipments to the Nicaraguan Contras and providing intelligence on left-wing movements across Central America, while US intelligence agencies tolerated his lucrative involvement in international drug trafficking. By the late 1980s, Noriega's refusal to comply with US geopolitical demands, his diplomatic overtures to Cuba and Europe, and his suppression of domestic political opponents led Washington to declare him an adversary. In 1988, Noriega was indicted by federal grand juries in Florida for drug racketeering. The Bush administration imposed strict economic sanctions, freezing Panamanian assets and halting canal revenue, before launching a full-scale assault in December 1989.",
+  "chronology": [
+    {
+      "date": "1989-05-07",
+      "headline": "Panamanian national elections annulled",
+      "detail": "General Noriega annuls presidential election results after opposition candidate Guillermo Endara wins by a large margin; violent clashes erupt between Noriega's Dignity Battalions and opposition leaders."
+    },
+    {
+      "date": "1989-10-03",
+      "headline": "Failed military coup by Major Moisés Giroldi",
+      "detail": "Panamanian officers attempt a coup and take Noriega prisoner, requesting US military intervention. The Bush administration hesitates, allowing loyalist troops to rescue Noriega and execute the coup leaders."
+    },
+    {
+      "date": "1989-12-16",
+      "headline": "Shooting incident at military checkpoint",
+      "detail": "A US Marine officer is shot and killed by Panamanian soldiers at a roadblock near the PDF headquarters in El Chorrillo; President George H.W. Bush cites the incident as a casus belli."
+    },
+    {
+      "date": "1989-12-20",
+      "headline": "Launch of Operation Just Cause",
+      "detail": "At 1:00 AM, 27,000 US troops supported by AC-130 gunships, F-117A stealth fighters, and Apache attack helicopters launch simultaneous assaults on 27 strategic locations across Panama City and Colón."
+    },
+    {
+      "date": "1989-12-20",
+      "headline": "Leveling of El Chorrillo neighborhood",
+      "detail": "Intense aerial bombing and heavy artillery fire concentrated on the PDF headquarters ignites catastrophic fires that engulf the surrounding densely populated, wooden-tenement neighborhood of El Chorrillo, displacing over 20,000 residents and killing hundreds of civilians."
+    },
+    {
+      "date": "1989-12-24",
+      "headline": "Noriega seeks asylum at the Apostolic Nunciature",
+      "detail": "General Noriega evades capture and takes refuge in the Vatican Embassy; US troops surround the mission and subject it to round-the-clock deafening psychological warfare operations utilizing high-volume rock music."
+    },
+    {
+      "date": "1989-12-29",
+      "headline": "UN General Assembly condemns invasion",
+      "detail": "The UN General Assembly passes Resolution 44/240 by a wide margin (75 to 20), deploring the military invasion as a 'flagrant violation of international law and of the independence, sovereignty, and territorial integrity of states'."
+    },
+    {
+      "date": "1990-01-03",
+      "headline": "Noriega surrenders and is extradited to Miami",
+      "detail": "General Noriega surrenders to US Drug Enforcement Administration agents, is flown to Miami to face trial, and Guillermo Endara is sworn in as President on a US military base."
+    },
+    {
+      "date": "2018-10-05",
+      "headline": "IACHR finds US liable for civilian rights violations",
+      "detail": "The Inter-American Commission on Human Rights issues Report No. 121/18, concluding the US violated the American Declaration of the Rights and Duties of Man and directing Washington to pay full reparations to civilian victims."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "Executive Office of the President (George H.W. Bush Administration)",
+      "United States Southern Command (USSOUTHCOM / General Maxwell Thurman)",
+      "Joint Chiefs of Staff (General Colin Powell)",
+      "Central Intelligence Agency (CIA)"
+    ],
+    "foreign_institutions": [
+      "Panamanian Defense Forces (PDF)",
+      "Dignity Battalions (Batallones de la Dignidad)",
+      "Vatican Apostolic Nunciature"
+    ],
+    "key_figures": [
+      "Manuel Antonio Noriega (de facto Military Leader of Panama)",
+      "George H.W. Bush (US President)",
+      "General Colin Powell (Chairman of the Joint Chiefs of Staff)",
+      "Guillermo Endara (President sworn in on US base)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Complete abolition of the Panamanian Defense Forces; installation of Guillermo Endara's administration; restoration of direct US influence over Panamanian banking and security policies.",
+    "civilian_toll": "Widespread civilian casualties: official Panamanian Commission of the 20th of December documents between 500 and 3,000 civilians killed; total destruction of El Chorrillo leaving 20,000 civilians homeless; mass unmarked graves at Jardín de Paz.",
+    "long_term": "Enduring trauma in Panamanian working-class communities; delayed state truth commissions established in 2016 to identify remains; landmark 2018 OAS human rights liability judgment against the United States."
+  },
+  "disputed_aspects": [
+    "Contested casualty figures: the Pentagon reported 202 Panamanian civilians killed, while Panamanian human rights organizations, the Catholic Church, and independent inquiries estimated the civilian death toll between 1,000 and 3,000.",
+    "Legal justification: the US claimed self-defense and protection of American lives under Article 51 of the UN Charter, a rationale overwhelmingly rejected by the UN General Assembly and international legal scholars."
+  ],
+  "corporate_involvement": [],
+  "related_events": [
+    "venezuela-interventions-2002-present",
+    "libya-intervention-2011",
+    "iraq-invasion-2003"
+  ],
+  "sources": [
+    "source-iachr-panama-report-2018",
+    "source-un-general-assembly-panama-1989",
+    "source-kinzer-overthrow-2006"
+  ],
+  "last_updated": "2026-11-06"
+}

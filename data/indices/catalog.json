@@ -2,12 +2,94 @@
   "version": "1.0.0",
   "generated_at": "2026-11-05",
   "counts": {
-    "events": 9,
-    "companies": 17,
-    "countries": 12,
-    "sources": 29
+    "events": 22,
+    "companies": 18,
+    "countries": 21,
+    "sources": 61
   },
   "events": [
+    {
+      "id": "bangladesh-genocide-1971",
+      "title": "The 1971 Bangladesh Genocide and US Complicity",
+      "date_start": "1971-03-25",
+      "date_end": "1971-12-16",
+      "era": "Cold War",
+      "region": "South Asia",
+      "countries": [
+        "Bangladesh",
+        "Pakistan",
+        "United States"
+      ],
+      "topics": [
+        "Genocide & Atrocities",
+        "Complicity",
+        "Covert Support",
+        "Cold War",
+        "The Blood Telegram"
+      ],
+      "summary": "The systematic mass murder and genocidal campaign conducted by the Pakistan Armed Forces and allied paramilitary death squads (Razakars, Al-Badr) against the Bengali population in East Pakistan (now Bangladesh) between March and December 1971. Despite detailed internal warnings of selective genocide from US Consul General Archer Blood in Dhaka ('The Blood Telegram'), US President Richard Nixon and National Security Advisor Henry Kissinger actively shielded Pakistan's military dictator, General Yahya Khan. The Nixon administration bypassed congressional arms embargoes by orchestrating covert third-party weapons transfers via Jordan, Iran, and Turkey, provided diplomatic cover at the United Nations, and deployed the nuclear-powered aircraft carrier USS Enterprise (Task Force 74) to the Bay of Bengal in an effort to deter Indian intervention."
+    },
+    {
+      "id": "brazil-coup-1964",
+      "title": "The 1964 Brazilian Coup d'\u00c9tat (Operation Brother Sam)",
+      "date_start": "1964-03-31",
+      "date_end": "1964-04-01",
+      "era": "Cold War",
+      "region": "Latin America",
+      "countries": [
+        "Brazil",
+        "United States"
+      ],
+      "topics": [
+        "Covert Operations",
+        "Regime Change",
+        "Military Dictatorship",
+        "Operation Brother Sam",
+        "Cold War",
+        "Latin America"
+      ],
+      "summary": "The military overthrow of democratically elected Brazilian President Jo\u00e3o Goulart on March 31\u2013April 1, 1964, orchestrated by right-wing Brazilian armed forces generals with direct diplomatic, logistical, and military backing from the United States under 'Operation Brother Sam.' Alarmed by Goulart's progressive domestic reforms\u2014including land redistribution, literacy enfranchisement, and restrictions on foreign corporate profit remittances\u2014the Kennedy and Johnson administrations actively supported anti-government conspirators. Declassified White House recordings confirm President Lyndon B. Johnson ordered the deployment of a US Navy aircraft carrier strike group, destroyers, ammunition, and aviation fuel to the Brazilian coast to intervene if rebel forces met resistance. The coup installed a 21-year military dictatorship that dissolved congress, institutionalized torture, and pioneered transnational state-terror networks later integrated into Operation Condor."
+    },
+    {
+      "id": "castle-bank-tradewinds-1973",
+      "title": "Operation Tradewinds, Castle Bank & CIA Offshore Shielding",
+      "date_start": "1973-01-15",
+      "date_end": "1980-06-23",
+      "era": "Cold War Offshore Banking & Intelligence Conduits",
+      "region": "Global",
+      "countries": [
+        "united-states"
+      ],
+      "topics": [
+        "Oligarchy",
+        "Offshore Tax Havens",
+        "Intelligence Black Budgets",
+        "Wealth Defense",
+        "State Secrecy"
+      ],
+      "summary": "The landmark collision between federal tax enforcement and the intelligence community, in which an IRS investigation into hundreds of ultra-wealthy Americans evading taxes through Castle Bank & Trust in the Bahamas was shut down after the CIA intervened to protect its secret covert action funding conduits, setting the stage for 50 years of explosive offshore wealth concentration."
+    },
+    {
+      "id": "chagos-expulsion-1968-1973",
+      "title": "The Expulsion of the Chagossians and Diego Garcia Military Base",
+      "date_start": "1968-03-01",
+      "date_end": "1973-05-31",
+      "era": "Cold War",
+      "region": "Sub-Saharan Africa",
+      "countries": [
+        "Mauritius",
+        "United Kingdom",
+        "United States"
+      ],
+      "topics": [
+        "Forced Displacement",
+        "Military Basing",
+        "Crimes Against Humanity",
+        "Decolonization",
+        "Covert Agreements"
+      ],
+      "summary": "The systematic forced expulsion and deportation of the entire indigenous Chagossian population (between 1,500 and 2,000 people) from the Chagos Archipelago\u2014most notably the central atoll of Diego Garcia\u2014in the Indian Ocean by the British government on behalf of the United States. Under a secret 1966 bilateral agreement, the UK agreed to 'depopulate' the islands to facilitate the construction of a major US naval and air base (Naval Support Facility Diego Garcia) in exchange for an unannounced $14 million discount on Polaris submarine-launched nuclear missiles. British officials deliberately deceived the United Nations and the public by falsely categorizing the multi-generational Chagossian population as temporary contract laborers. In 2019, the International Court of Justice (ICJ) ruled that the detachment of the archipelago and the expulsion were illegal under international law."
+    },
     {
       "id": "chile-coup-1973",
       "title": "The 1973 Chilean Coup d'\u00c9tat and the Overthrow of Salvador Allende",
@@ -27,6 +109,48 @@
         "Cold War"
       ],
       "summary": "The violent military overthrow of Chile's democratically elected socialist President Salvador Allende on September 11, 1973, orchestrated by the Chilean Armed Forces under General Augusto Pinochet following a multi-year covert destabilization and economic warfare campaign directed by US President Richard Nixon, National Security Advisor Henry Kissinger, and the Central Intelligence Agency (CIA Project FUBELT). The coup inaugurated a 17-year military dictatorship characterized by mass executions, concentration camps, systematic torture, and the transnational state-terror network known as Operation Condor."
+    },
+    {
+      "id": "congo-coup-1960-1961",
+      "title": "The 1960\u20131961 Congo Coup and the Assassination of Patrice Lumumba",
+      "date_start": "1960-06-30",
+      "date_end": "1961-01-17",
+      "era": "Cold War",
+      "region": "Sub-Saharan Africa",
+      "countries": [
+        "Democratic Republic of the Congo",
+        "United States"
+      ],
+      "topics": [
+        "Covert Operations",
+        "Regime Change",
+        "Assassinations",
+        "Decolonization",
+        "Cold War",
+        "Strategic Minerals"
+      ],
+      "summary": "The covert overthrow and assassination of the Democratic Republic of the Congo's first democratically elected Prime Minister, Patrice Lumumba, orchestrated by the Central Intelligence Agency (CIA) and Belgian intelligence services between July 1960 and January 1961. Driven by determination to maintain Western control over the Congo's vital strategic mineral wealth\u2014specifically the Shinkolobwe uranium deposits that fueled the Manhattan Project's atomic bombs, as well as cobalt and copper\u2014CIA Director Allen Dulles designated Lumumba's removal an 'urgent and prime objective.' The CIA deployed lethal biological toxins to L\u00e9opoldville, subsidized military opposition figures including Army Chief of Staff Colonel Joseph-D\u00e9sir\u00e9 Mobutu, and facilitated Lumumba's abduction and delivery to Belgian-backed Katangese secessionist firing squads, inaugurating 32 years of kleptocratic military dictatorship under Mobutu Sese Seko."
+    },
+    {
+      "id": "east-timor-genocide-1975-1999",
+      "title": "The 1975\u20131999 East Timor Genocide and Western Complicity",
+      "date_start": "1975-12-07",
+      "date_end": "1999-10-25",
+      "era": "Cold War & Post-Cold War",
+      "region": "Southeast Asia",
+      "countries": [
+        "East Timor",
+        "Indonesia",
+        "United States"
+      ],
+      "topics": [
+        "Genocide & Atrocities",
+        "Military Invasion",
+        "Complicity",
+        "Weapons Pipelines",
+        "Cold War"
+      ],
+      "summary": "The 24-year military invasion, occupation, and genocidal campaign waged by the Indonesian Armed Forces against the population of Timor-Leste (East Timor) between December 1975 and late 1999. The invasion was initiated hours after US President Gerald Ford and Secretary of State Henry Kissinger met with Indonesian dictator Suharto in Jakarta, giving explicit advance approval. The United States provided approximately 90% of the weaponry used in the initial assault\u2014including OV-10 Bronco counter-insurgency aircraft, M16 rifles, and naval support\u2014while utilizing diplomatic influence in the United Nations Security Council to obstruct enforcement of international resolutions calling for Indonesia's withdrawal."
     },
     {
       "id": "gaza-war-2023",
@@ -72,6 +196,45 @@
         "CIA Psychological Warfare"
       ],
       "summary": "The covert paramilitary and psychological warfare operation planned and executed by the United States Central Intelligence Agency (Operation PBSuccess) that overthrew the democratically elected government of Guatemalan President Jacobo \u00c1rbenz. Orchestrated in direct defense of the commercial landholdings of the American United Fruit Company (UFCO) following \u00c1rbenz's progressive agrarian land reform (Decree 900), the coup installed a brutal military dictatorship under Carlos Castillo Armas, rolling back land reforms, outlawing labor unions, and precipitating a 36-year civil war in which over 200,000 predominantly indigenous Mayan civilians were murdered or disappeared by US-backed military regimes."
+    },
+    {
+      "id": "guatemala-maya-genocide-1981-1983",
+      "title": "Guatemalan Maya Genocide & Operation Sof\u00eda",
+      "date_start": "1981-03",
+      "date_end": "1983-08",
+      "era": "Cold War Proxy Conflicts & State Terror",
+      "region": "Latin America",
+      "countries": [
+        "guatemala",
+        "united-states"
+      ],
+      "topics": [
+        "Genocide",
+        "State Terror",
+        "Indigenous Rights",
+        "Cold War Counterinsurgency",
+        "Military Dictatorship"
+      ],
+      "summary": "The systematic campaign of mass slaughter, scorched-earth destruction, and forced displacement perpetrated by the Guatemalan military dictatorship under General Efra\u00edn R\u00edos Montt against the indigenous Maya-Ixil and Maya-K'iche' populations, formally recognized as acts of genocide by the UN-sponsored Historical Clarification Commission and Guatemalan criminal courts."
+    },
+    {
+      "id": "hawaii-overthrow-1893",
+      "title": "Overthrow of the Hawaiian Kingdom",
+      "date_start": "1893-01-14",
+      "date_end": "1898-08-12",
+      "era": "Corporate Frontier & Pacific Annexation",
+      "region": "Global",
+      "countries": [
+        "united-states"
+      ],
+      "topics": [
+        "Coup d'\u00c9tat",
+        "Corporate Imperialism",
+        "Indigenous Sovereignty",
+        "Naval Gunboat Diplomacy",
+        "Colonial Annexation"
+      ],
+      "summary": "The illegal overthrow of Queen Lili\u02bbuokalani and the sovereign constitutional monarchy of the Hawaiian Kingdom by a syndicate of American sugar barons and corporate elites, executed with the direct complicity of US diplomatic minister John L. Stevens and 162 armed US Marines and sailors from the USS Boston, establishing the foundational prototype for 20th-century American regime change operations."
     },
     {
       "id": "indonesia-killings-1965",
@@ -134,6 +297,88 @@
       "summary": "The conventional military invasion and occupation of the Republic of Iraq by a multinational coalition led by the United States and the United Kingdom. The operation overthrew the Ba'athist government of Saddam Hussein based on stated justifications concerning unverified stockpiles of weapons of mass destruction (WMD) and alleged ties to al-Qaeda, neither of which were substantiated by subsequent exhaustive post-invasion searches."
     },
     {
+      "id": "korean-war-bombing-massacres-1950-1953",
+      "title": "Korean War Aerial Bombing Campaign & Civilian Massacres",
+      "date_start": "1950-06-25",
+      "date_end": "1953-07-27",
+      "era": "Early Cold War & Containment",
+      "region": "East Asia",
+      "countries": [
+        "korea",
+        "united-states"
+      ],
+      "topics": [
+        "Aerial Bombing",
+        "Civilian Massacres",
+        "Scorched-Earth Warfare",
+        "Cold War Proxy War",
+        "Infrastructure Destruction"
+      ],
+      "summary": "The catastrophic air bombardment campaign conducted by the US Far East Air Force destroying an estimated 85% of all building structures across North Korea, accompanied by targeted destruction of agricultural irrigation dams and widespread civilian massacres executed by US troops and allied South Korean forces (including No Gun Ri and the Bodo League massacres)."
+    },
+    {
+      "id": "libya-intervention-2011",
+      "title": "The 2011 NATO Intervention in Libya and the Fall of Gaddafi",
+      "date_start": "2011-03-19",
+      "date_end": "2011-10-31",
+      "era": "Post-Cold War & War on Terror",
+      "region": "North Africa",
+      "countries": [
+        "Libya",
+        "United States",
+        "United Kingdom"
+      ],
+      "topics": [
+        "Military Intervention",
+        "Regime Change",
+        "NATO Air Campaign",
+        "State Collapse",
+        "War on Terror"
+      ],
+      "summary": "A multi-nation military intervention in Libya led by the North Atlantic Treaty Organization (NATO)\u2014under operational command of the United States, France, and the United Kingdom\u2014between March and October 2011 (Operation Unified Protector / Operation Odyssey Dawn). Ostensibly authorized under United Nations Security Council Resolution 1973 to establish a no-fly zone and protect civilians in Benghazi, NATO rapidly converted the mission into an aggressive regime-change air campaign, executing over 9,600 strike sorties, providing covert ground arms transfers and special forces advisers to rebel militias, and destroying the command infrastructure of the Libyan state. The intervention culminated on October 20, 2011, when a US Predator drone and French fighter jets struck the fleeing convoy of long-time Libyan leader Muammar Gaddafi in Sirte, leading to his capture, torture, and extrajudicial killing by rebel fighters. The collapse of the Libyan government precipitated a decade of catastrophic civil war, institutional fragmentation, the proliferation of heavy weaponry across the Sahel, and the re-emergence of open-air chattel slave markets."
+    },
+    {
+      "id": "operation-condor-1975-1983",
+      "title": "Operation Condor: The Transnational State Terror Network",
+      "date_start": "1975-11-25",
+      "date_end": "1983-12-10",
+      "era": "Cold War",
+      "region": "Latin America",
+      "countries": [
+        "Chile",
+        "Argentina",
+        "United States"
+      ],
+      "topics": [
+        "Covert Operations",
+        "Transnational State Terror",
+        "Assassinations",
+        "CIA Intelligence Sharing",
+        "Dirty War"
+      ],
+      "summary": "A covert, formalized campaign of transnational political repression, cross-border abductions, systematic torture, and extrajudicial assassinations coordinated by the military intelligence agencies of South America's Southern Cone (Chile, Argentina, Uruguay, Paraguay, Bolivia, and Brazil) between 1975 and the mid-1980s. The network operated with technical telecommunications infrastructure (the Condortel encrypted communications network based in the US Panama Canal Zone), surveillance data sharing, and high-level diplomatic shielding provided by the United States Central Intelligence Agency (CIA) and Secretary of State Henry Kissinger. Condor operatives deployed specialized hit squads ('Phase III') to eliminate prominent political exiles, constitutionalist military officers, and human rights defenders across Latin America, North America, and Europe."
+    },
+    {
+      "id": "panama-invasion-1989",
+      "title": "US Military Invasion of Panama (Operation Just Cause)",
+      "date_start": "1989-12-20",
+      "date_end": "1990-01-31",
+      "era": "Post-Cold War Unipolarity & Latin American Interventions",
+      "region": "Latin America",
+      "countries": [
+        "panama",
+        "united-states"
+      ],
+      "topics": [
+        "Military Invasion",
+        "Regime Change",
+        "Urban Bombardment",
+        "Civilian Casualties",
+        "International Law Violations"
+      ],
+      "summary": "The massive military invasion of Panama launched by the Bush administration involving over 27,000 US troops, heavy artillery, and air strikes to capture de facto military ruler General Manuel Noriega (a long-time CIA asset), resulting in the devastation of the densely populated civilian neighborhood of El Chorrillo and formal condemnation by the UN General Assembly and the Inter-American Commission on Human Rights."
+    },
+    {
       "id": "sabra-shatila-1982",
       "title": "The Sabra and Shatila Massacre (September 1982)",
       "date_start": "1982-09-16",
@@ -152,6 +397,27 @@
         "Official Commissions of Inquiry"
       ],
       "summary": "The slaughter of between 700 and 3,500 predominantly Palestinian and Lebanese Shiite civilians in the Sabra and Shatila refugee camps in West Beirut by Lebanese Christian Phalangist (Kataeb) militia forces, conducted while the perimeter was controlled and illuminated by the Israel Defense Forces (IDF) under Defense Minister Ariel Sharon following the 1982 Israeli invasion of Lebanon."
+    },
+    {
+      "id": "south-vietnam-coup-1963",
+      "title": "The 1963 South Vietnamese Coup and Assassination of Ngo Dinh Diem",
+      "date_start": "1963-11-01",
+      "date_end": "1963-11-02",
+      "era": "Cold War",
+      "region": "Southeast Asia",
+      "countries": [
+        "Vietnam",
+        "United States"
+      ],
+      "topics": [
+        "Covert Operations",
+        "Regime Change",
+        "Assassinations",
+        "Vietnam War",
+        "Cold War",
+        "Cable 243"
+      ],
+      "summary": "The military overthrow and summary execution of South Vietnamese President Ngo Dinh Diem and his brother Ngo Dinh Nhu on November 1\u20132, 1963, orchestrated by senior generals of the Army of the Republic of Vietnam (ARVN) with explicit advance authorization, operational encouragement, and financial backing from the United States government and the Central Intelligence Agency (CIA). Facing global public outrage over the Diem regime's brutal crackdowns on Buddhist monks and civilian dissidents, and convinced that Diem was losing the war against the Viet Cong, the Kennedy administration issued 'Cable 243' authorizing US Ambassador Henry Cabot Lodge Jr. and CIA operative Lucien Conein to signal to rebel generals that Washington would support Diem's ouster and maintain full military and economic aid. The coup eliminated South Vietnam's chief political figure, locked the United States into direct moral ownership of the war, and precipitated a series of unstable military juntas that prompted massive conventional US military escalation."
     },
     {
       "id": "venezuela-interventions-2002-present",
@@ -229,6 +495,13 @@
       "industry": "Telecommunications & Infrastructure",
       "headquarters": "San Jose, California, United States",
       "operational_role": "Primary provider of high-security networking hardware, encrypted switches, routers, and server infrastructure powering the core communication grids of the Israel Defense Forces and Ministry of Defense."
+    },
+    {
+      "id": "dole-food-company",
+      "name": "Dole Food Company / Hawaiian Pineapple Co.",
+      "industry": "Agriculture & Commodity Extraction",
+      "headquarters": "Honolulu, Hawaii / Westlake Village, California, United States",
+      "operational_role": "Dominant agricultural and landholding syndicate established by descendants of American Protestant missionaries in the Kingdom of Hawaii, dominating sugar cane and pineapple production and controlling key island shipping, banking, and commercial infrastructure."
     },
     {
       "id": "dow-chemical",
@@ -317,10 +590,40 @@
   ],
   "countries": [
     {
+      "id": "argentina",
+      "name": "Argentina",
+      "region": "Latin America",
+      "summary": "South American nation that endured the 'Dirty War' (1976\u20131983) under a military junta, serving as a primary operational center for the transnational state-terror assassination and torture network known as Operation Condor."
+    },
+    {
+      "id": "bangladesh",
+      "name": "Bangladesh",
+      "region": "South Asia",
+      "summary": "South Asian nation (formerly East Pakistan), site of the 1971 Bangladesh Liberation War and genocide in which hundreds of thousands to millions of civilians were murdered by the Pakistani military with diplomatic and military backing from the Nixon-Kissinger administration."
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "region": "Latin America",
+      "summary": "Largest nation in South America, where the democratically elected government of Jo\u00e3o Goulart was overthrown in a US-backed military coup on April 1, 1964, establishing a 21-year military dictatorship supported by Operation Brother Sam."
+    },
+    {
       "id": "chile",
       "name": "Chile",
       "region": "Latin America",
       "summary": "South American nation with one of the longest continuous democratic traditions in the hemisphere, destroyed in September 1973 by a CIA-supported military coup that installed General Augusto Pinochet's 17-year dictatorship."
+    },
+    {
+      "id": "dr-congo",
+      "name": "Democratic Republic of the Congo",
+      "region": "Sub-Saharan Africa",
+      "summary": "Mineral-rich nation in Central Africa, subjected to intense Cold War interference culminated in the CIA-orchestrated overthrow and assassination of Prime Minister Patrice Lumumba in 1960\u20131961 and the installation of Mobutu Sese Seko's 32-year dictatorship."
+    },
+    {
+      "id": "east-timor",
+      "name": "Timor-Leste (East Timor)",
+      "region": "Southeast Asia",
+      "summary": "Southeast Asian nation occupying the eastern half of the island of Timor, subjected to a brutal 24-year occupation and genocide (1975\u20131999) by the Indonesian military with American diplomatic shielding and weaponry following the Carnation Revolution."
     },
     {
       "id": "guatemala",
@@ -353,16 +656,40 @@
       "summary": "State established in 1948 whose military, intelligence, and diplomatic interventions have shaped modern Middle Eastern history, foreign occupations, regional wars, and cross-border operations."
     },
     {
+      "id": "korea",
+      "name": "Korea (Democratic People's Republic & Republic of Korea)",
+      "region": "East Asia",
+      "summary": "East Asian peninsula divided following World War II, devastated by the 1950\u20131953 Korean War during which intensive US aerial carpet bombing destroyed 85% of northern infrastructure and widespread civilian massacres occurred under wartime military command."
+    },
+    {
       "id": "lebanon",
       "name": "Lebanon",
       "region": "Middle East",
       "summary": "East Mediterranean nation heavily destabilized by regional proxy conflicts, repeated Israeli military invasions (notably 1978, 1982, 1993, 1996, 2006), and prolonged foreign occupations."
     },
     {
+      "id": "libya",
+      "name": "Libya",
+      "region": "North Africa",
+      "summary": "North African petro-state subjected to the 2011 NATO military intervention that toppled the government of Muammar Gaddafi, precipitating catastrophic state collapse, regional destabilization, and ongoing militia conflicts."
+    },
+    {
+      "id": "mauritius",
+      "name": "Mauritius (Chagos Archipelago)",
+      "region": "Sub-Saharan Africa",
+      "summary": "Island nation in the Indian Ocean whose Chagos Archipelago was unlawfully detached by the British colonial administration in 1965 to construct the US strategic military installation on Diego Garcia, resulting in the forced expulsion of the entire native Chagossian population."
+    },
+    {
       "id": "palestine",
       "name": "Palestine",
       "region": "Middle East",
       "summary": "Territories comprising the West Bank, East Jerusalem, and the Gaza Strip, as well as the global diaspora of millions of Palestinian refugees displaced during successive regional wars."
+    },
+    {
+      "id": "panama",
+      "name": "Panama",
+      "region": "Latin America",
+      "summary": "Central American nation constructed around the strategic interoceanic canal, subject to decades of US military occupation, covert intelligence manipulation, and the devastating December 1989 US military invasion (Operation Just Cause)."
     },
     {
       "id": "united-kingdom",
@@ -420,6 +747,15 @@
       "type": "international_court_ruling"
     },
     {
+      "id": "source-bass-blood-telegram-2013",
+      "title": "The Blood Telegram: Nixon, Kissinger, and a Forgotten Genocide",
+      "authors": [
+        "Gary J. Bass"
+      ],
+      "year": 2013,
+      "type": "academic_book"
+    },
+    {
       "id": "source-bitter-fruit-schlesinger-kinzer-1982",
       "title": "Bitter Fruit: The Story of the American Coup in Guatemala",
       "authors": [
@@ -430,6 +766,16 @@
       "type": "academic_book"
     },
     {
+      "id": "source-blood-telegram-1971",
+      "title": "Dissent from U.S. Policy Toward East Pakistan (The Blood Telegram)",
+      "authors": [
+        "Archer K. Blood",
+        "US Consulate General Dacca Staff"
+      ],
+      "year": 1971,
+      "type": "declassified_government_document"
+    },
+    {
       "id": "source-bloomberg-palantir-israel-defense-partnership-2024",
       "title": "Palantir Agrees to Strategic Partnership With Israel for War Effort",
       "authors": [
@@ -438,6 +784,15 @@
       ],
       "year": 2024,
       "type": "investigative_journalism"
+    },
+    {
+      "id": "source-cavr-chega-east-timor-2005",
+      "title": "Chega! The Report of the Commission for Reception, Truth and Reconciliation in Timor-Leste (CAVR)",
+      "authors": [
+        "Commission for Reception, Truth and Reconciliation in Timor-Leste (CAVR)"
+      ],
+      "year": 2005,
+      "type": "official_inquiry_report"
     },
     {
       "id": "source-ceh-guatemala-memory-of-silence-1999",
@@ -475,6 +830,15 @@
       "type": "official_inquiry_report"
     },
     {
+      "id": "source-church-committee-alleged-assassination-plots-1975",
+      "title": "Alleged Assassination Plots Involving Foreign Leaders (Church Committee Interim Report)",
+      "authors": [
+        "United States Senate Select Committee to Study Governmental Operations with Respect to Intelligence Activities"
+      ],
+      "year": 1975,
+      "type": "official_inquiry_report"
+    },
+    {
       "id": "source-church-committee-chile-1975",
       "title": "Covert Action in Chile: 1963\u20131973 (Staff Report of the Select Committee to Study Governmental Operations with Respect to Intelligence Activities)",
       "authors": [
@@ -485,6 +849,67 @@
       "type": "official_inquiry_report"
     },
     {
+      "id": "source-court-rios-montt-genocide-verdict-2013",
+      "title": "Sentencia de Genocidio y Delitos Contra los Deberes de Humanidad contra Efra\u00edn R\u00edos Montt",
+      "authors": [
+        "Tribunal Primero de Sentencia Penal de Mayor Riesgo A",
+        "Yassmin Barrios",
+        "Patricia Bustamante",
+        "Pablo Xitumul"
+      ],
+      "year": 2013,
+      "type": "official_inquiry_report"
+    },
+    {
+      "id": "source-cumings-korean-war-2010",
+      "title": "The Korean War: A History",
+      "authors": [
+        "Bruce Cumings"
+      ],
+      "year": 2010,
+      "type": "academic_book"
+    },
+    {
+      "id": "source-de-witte-assassination-lumumba-2001",
+      "title": "The Assassination of Lumumba",
+      "authors": [
+        "Ludo De Witte"
+      ],
+      "year": 2001,
+      "type": "academic_book"
+    },
+    {
+      "id": "source-dinges-condor-years-2004",
+      "title": "The Condor Years: How Pinochet and His Allies Brought Terrorism to Three Continents",
+      "authors": [
+        "John Dinges"
+      ],
+      "year": 2004,
+      "type": "academic_book"
+    },
+    {
+      "id": "source-eisenhower-farewell-address-1961",
+      "title": "Farewell Address to the Nation: The Military-Industrial Complex Warning",
+      "authors": [
+        "Dwight D. Eisenhower"
+      ],
+      "year": 1961,
+      "type": "official_inquiry_report"
+    },
+    {
+      "id": "source-forbidden-stories-team-jorge-2023",
+      "title": "Story Killers: The Global Disinformation-for-Hire Industry and Team Jorge",
+      "authors": [
+        "Forbidden Stories Consortium",
+        "The Guardian",
+        "Le Monde",
+        "Der Spiegel",
+        "El Pa\u00eds"
+      ],
+      "year": 2023,
+      "type": "investigative_journalism"
+    },
+    {
       "id": "source-frus-iran-1951-1954",
       "title": "Foreign Relations of the United States (FRUS), 1951\u20131954: Iran, 1951\u20131954 (Retrospective Volume)",
       "authors": [
@@ -492,6 +917,16 @@
       ],
       "year": 2017,
       "type": "declassified_government_document"
+    },
+    {
+      "id": "source-gilens-page-oligarchy-2014",
+      "title": "Testing Theories of American Politics: Elites, Interest Groups, and Average Citizens",
+      "authors": [
+        "Martin Gilens",
+        "Benjamin I. Page"
+      ],
+      "year": 2014,
+      "type": "peer_reviewed_journal"
     },
     {
       "id": "source-hirschman-vietnam-casualties-1995",
@@ -505,6 +940,25 @@
       "type": "peer_reviewed_journal"
     },
     {
+      "id": "source-hrw-meta-censorship-2023",
+      "title": "Meta's Broken Promises: Systemic Censorship of Palestine Content on Instagram and Facebook",
+      "authors": [
+        "Human Rights Watch"
+      ],
+      "year": 2023,
+      "type": "official_inquiry_report"
+    },
+    {
+      "id": "source-iachr-panama-report-2018",
+      "title": "Report No. 121/18, Case 10.573: Jos\u00e9 Isabel Salas Galindo et al. (Panama v. United States)",
+      "authors": [
+        "Inter-American Commission on Human Rights (IACHR)",
+        "Organization of American States"
+      ],
+      "year": 2018,
+      "type": "official_inquiry_report"
+    },
+    {
       "id": "source-icc-prosecutor-warrants-2024",
       "title": "Statement of ICC Prosecutor Karim A.A. Khan KC: Applications for Arrest Warrants in the Situation in the State of Palestine",
       "authors": [
@@ -512,6 +966,15 @@
         "Office of the Prosecutor, International Criminal Court"
       ],
       "year": 2024,
+      "type": "international_court_ruling"
+    },
+    {
+      "id": "source-icj-chagos-advisory-opinion-2019",
+      "title": "Legal Consequences of the Separation of the Chagos Archipelago from Mauritius in 1965 (Advisory Opinion)",
+      "authors": [
+        "International Court of Justice (ICJ)"
+      ],
+      "year": 2019,
       "type": "international_court_ruling"
     },
     {
@@ -533,6 +996,24 @@
       "type": "academic_book"
     },
     {
+      "id": "source-johnny-harris-oligarchy-2024",
+      "title": "Oligarchy is worse than you think",
+      "authors": [
+        "Johnny Harris"
+      ],
+      "year": 2024,
+      "type": "historical_documentary"
+    },
+    {
+      "id": "source-johnny-harris-war-machine-2024",
+      "title": "How Capitalism Changed the Face of War / The American War Machine, Explained",
+      "authors": [
+        "Johnny Harris"
+      ],
+      "year": 2024,
+      "type": "historical_documentary"
+    },
+    {
       "id": "source-kahan-commission-1983",
       "title": "Report of the Commission of Inquiry into the Events at the Refugee Camps in Beirut (Kahan Commission)",
       "authors": [
@@ -550,6 +1031,15 @@
         "Stephen Kinzer"
       ],
       "year": 2003,
+      "type": "academic_book"
+    },
+    {
+      "id": "source-kinzer-overthrow-2006",
+      "title": "Overthrow: America's Century of Regime Change from Hawaii to Iraq",
+      "authors": [
+        "Stephen Kinzer"
+      ],
+      "year": 2006,
       "type": "academic_book"
     },
     {
@@ -585,6 +1075,46 @@
       "type": "international_court_ruling"
     },
     {
+      "id": "source-nsa-brazil-coup-1964",
+      "title": "Brazil Marks 50th Anniversary of Military Coup: Declassified Documents on U.S. Role",
+      "authors": [
+        "Peter Kornbluh",
+        "National Security Archive"
+      ],
+      "year": 2014,
+      "type": "declassified_government_document"
+    },
+    {
+      "id": "source-nsa-ford-kissinger-east-timor-1975",
+      "title": "East Timor Revisited: Ford, Kissinger and the Indonesian Invasion, 1975\u201376",
+      "authors": [
+        "William Burr",
+        "Michael L. Evans"
+      ],
+      "year": 2001,
+      "type": "declassified_government_document"
+    },
+    {
+      "id": "source-nsa-operation-condor-chile-2001",
+      "title": "Operation Condor: Cable from FBI Attach\u00e9 Robert Scherrer to Amb. George Landau",
+      "authors": [
+        "Robert W. Scherrer",
+        "Federal Bureau of Investigation (FBI)"
+      ],
+      "year": 1976,
+      "type": "declassified_government_document"
+    },
+    {
+      "id": "source-nye-committee-report-1936",
+      "title": "Report of the Special Committee on Investigation of the Munitions Industry (The Nye Committee)",
+      "authors": [
+        "Gerald P. Nye",
+        "United States Senate Special Committee"
+      ],
+      "year": 1936,
+      "type": "official_inquiry_report"
+    },
+    {
       "id": "source-pentagon-papers-1971",
       "title": "Report of the Office of the Secretary of Defense Vietnam Task Force (The Pentagon Papers)",
       "authors": [
@@ -605,6 +1135,16 @@
       "type": "academic_book"
     },
     {
+      "id": "source-pogo-revolving-door-pentagon-2023",
+      "title": "Brass Parachutes: The Department of Defense Revolving Door",
+      "authors": [
+        "Project On Government Oversight (POGO)",
+        "Mandy Smithberger"
+      ],
+      "year": 2023,
+      "type": "official_inquiry_report"
+    },
+    {
       "id": "source-senate-intel-wmd-2004",
       "title": "Report on the U.S. Intelligence Community's Prewar Intelligence Assessments on Iraq",
       "authors": [
@@ -623,6 +1163,17 @@
       "type": "academic_book"
     },
     {
+      "id": "source-sipri-arms-transfers-2024",
+      "title": "Trends in International Arms Transfers, 2023\u20132024",
+      "authors": [
+        "Stockholm International Peace Research Institute (SIPRI)",
+        "Mathew George",
+        "Pieter D. Wezeman"
+      ],
+      "year": 2024,
+      "type": "official_inquiry_report"
+    },
+    {
       "id": "source-time-google-nimbus-defense-contract-2024",
       "title": "Google Cloud Deal with Israeli Military Revealed in Document",
       "authors": [
@@ -632,6 +1183,16 @@
       "type": "investigative_journalism"
     },
     {
+      "id": "source-trc-south-korea-2009",
+      "title": "Truth and Reconciliation Commission of the Republic of Korea: Consolidated Report",
+      "authors": [
+        "Truth and Reconciliation Commission of Korea (TRCK)",
+        "Ahn Byung-wook"
+      ],
+      "year": 2009,
+      "type": "official_inquiry_report"
+    },
+    {
       "id": "source-tripp-history-of-iraq",
       "title": "A History of Iraq (Third Edition)",
       "authors": [
@@ -639,6 +1200,24 @@
       ],
       "year": 2007,
       "type": "academic_book"
+    },
+    {
+      "id": "source-uk-parliament-libya-inquiry-2016",
+      "title": "Libya: Examination of Intervention and UK Foreign Policy, the Ninth Report of Session 2016-17",
+      "authors": [
+        "House of Commons Foreign Affairs Committee"
+      ],
+      "year": 2016,
+      "type": "official_inquiry_report"
+    },
+    {
+      "id": "source-un-general-assembly-panama-1989",
+      "title": "United Nations General Assembly Resolution 44/240: Effects of the Military Intervention by the United States of America in Panama on the Situation in Central America",
+      "authors": [
+        "United Nations General Assembly"
+      ],
+      "year": 1989,
+      "type": "official_inquiry_report"
     },
     {
       "id": "source-un-ocha-gaza-crisis-reports",
@@ -670,6 +1249,27 @@
       "type": "official_inquiry_report"
     },
     {
+      "id": "source-us-army-no-gun-ri-review-2001",
+      "title": "Report of the No Gun Ri Review",
+      "authors": [
+        "Office of the Inspector General",
+        "Department of the Army"
+      ],
+      "year": 2001,
+      "type": "official_inquiry_report"
+    },
+    {
+      "id": "source-us-congress-apology-resolution-1993",
+      "title": "Joint Resolution to Acknowledge the 100th Anniversary of the January 17, 1893 Overthrow of the Kingdom of Hawaii",
+      "authors": [
+        "103rd United States Congress",
+        "Daniel Akaka",
+        "Daniel Inouye"
+      ],
+      "year": 1993,
+      "type": "official_inquiry_report"
+    },
+    {
       "id": "source-us-state-dept-nsm20-report-2024",
       "title": "Report to Congress on National Security Memorandum 20 (NSM-20)",
       "authors": [
@@ -677,6 +1277,42 @@
       ],
       "year": 2024,
       "type": "declassified_government_document"
+    },
+    {
+      "id": "source-vine-island-of-shame-2009",
+      "title": "Island of Shame: The Secret History of the U.S. Military Base on Diego Garcia",
+      "authors": [
+        "David Vine"
+      ],
+      "year": 2009,
+      "type": "academic_book"
+    },
+    {
+      "id": "source-winters-oligarchy-2011",
+      "title": "Oligarchy",
+      "authors": [
+        "Jeffrey A. Winters"
+      ],
+      "year": 2011,
+      "type": "academic_book"
+    },
+    {
+      "id": "source-wsj-castle-bank-cia-1980",
+      "title": "CIA Halted IRS Probe of Offshore Bank: National Security Cited to Quash Tax Investigation of Bahamas Institution",
+      "authors": [
+        "Jim Drinkhall"
+      ],
+      "year": 1980,
+      "type": "investigative_journalism"
+    },
+    {
+      "id": "source-zuboff-surveillance-capitalism-2019",
+      "title": "The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power",
+      "authors": [
+        "Shoshana Zuboff"
+      ],
+      "year": 2019,
+      "type": "academic_book"
     }
   ]
 }

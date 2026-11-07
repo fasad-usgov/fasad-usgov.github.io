@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/country.schema.json",
+  "id": "argentina",
+  "name": "Argentina",
+  "region": "Latin America",
+  "summary": "South American nation that endured the 'Dirty War' (1976–1983) under a military junta, serving as a primary operational center for the transnational state-terror assassination and torture network known as Operation Condor.",
+  "historical_context": "Following a US-backed military coup on March 24, 1976, that deposed Isabel Perón, a military junta led by General Jorge Rafael Videla instituted the 'National Reorganization Process.' Security forces conducted systematic abductions, extrajudicial executions, and forced disappearances of up to 30,000 citizens in clandestine detention centers (such as ESMA). Argentina played a leading operational role in Operation Condor, dispatching assassination squads to hunt down and murder dissidents across Latin America, the United States, and Europe, while coordinating intelligence with the CIA via the Condortel communications network.",
+  "key_operations": ["operation-condor-1975-1983"],
+  "primary_institutions_involved": [
+    "Argentine Armed Forces (Military Junta / Batallón de Inteligencia 601)",
+    "Central Intelligence Agency (CIA)",
+    "United States Department of State (Secretary Henry Kissinger)",
+    "Madres de Plaza de Mayo"
+  ],
+  "corporate_presence": [
+    "Ford Motor Company (Pacheco plant detention collaboration)",
+    "Citibank / Chase Manhattan (syndicated sovereign debt restructuring)",
+    "ITT Corporation"
+  ]
+}

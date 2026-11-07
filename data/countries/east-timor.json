@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/country.schema.json",
+  "id": "east-timor",
+  "name": "Timor-Leste (East Timor)",
+  "region": "Southeast Asia",
+  "summary": "Southeast Asian nation occupying the eastern half of the island of Timor, subjected to a brutal 24-year occupation and genocide (1975–1999) by the Indonesian military with American diplomatic shielding and weaponry following the Carnation Revolution.",
+  "historical_context": "Administered as Portuguese Timor until decolonization in 1975, the revolutionary independence movement Fretilin declared East Timor's independence on November 28, 1975. Nine days later, on December 7, 1975, the Indonesian military launched a massive amphibious and airborne invasion (Operasi Seroja), hours after US President Gerald Ford and Secretary of State Henry Kissinger personally gave President Suharto the green light in Jakarta. Over the subsequent two decades, approximately 102,800 to 183,000 East Timorese civilians—out of a pre-invasion population of 650,000—perished from mass executions, aerial bombings using US-supplied aircraft, and forced starvation. Resistance led by Falintil and civil solidarity eventually secured an independent referendum in 1999.",
+  "key_operations": ["east-timor-genocide-1975-1999"],
+  "primary_institutions_involved": [
+    "Indonesian Armed Forces (ABRI / Kopassus)",
+    "United States Department of State",
+    "United States National Security Council",
+    "Fretilin / Falintil Liberation Army"
+  ],
+  "corporate_presence": [
+    "Rockwell International (OV-10 Bronco counter-insurgency aircraft)",
+    "Western petroleum consortiums (Timor Gap treaty concessionaires)"
+  ]
+}

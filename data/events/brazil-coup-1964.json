@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "brazil-coup-1964",
+  "title": "The 1964 Brazilian Coup d'État (Operation Brother Sam)",
+  "date_start": "1964-03-31",
+  "date_end": "1964-04-01",
+  "era": "Cold War",
+  "region": "Latin America",
+  "countries": ["Brazil", "United States"],
+  "topics": [
+    "Covert Operations",
+    "Regime Change",
+    "Military Dictatorship",
+    "Operation Brother Sam",
+    "Cold War",
+    "Latin America"
+  ],
+  "summary": "The military overthrow of democratically elected Brazilian President João Goulart on March 31–April 1, 1964, orchestrated by right-wing Brazilian armed forces generals with direct diplomatic, logistical, and military backing from the United States under 'Operation Brother Sam.' Alarmed by Goulart's progressive domestic reforms—including land redistribution, literacy enfranchisement, and restrictions on foreign corporate profit remittances—the Kennedy and Johnson administrations actively supported anti-government conspirators. Declassified White House recordings confirm President Lyndon B. Johnson ordered the deployment of a US Navy aircraft carrier strike group, destroyers, ammunition, and aviation fuel to the Brazilian coast to intervene if rebel forces met resistance. The coup installed a 21-year military dictatorship that dissolved congress, institutionalized torture, and pioneered transnational state-terror networks later integrated into Operation Condor.",
+  "background": "In August 1961, following the sudden resignation of conservative President Jânio Quadros, Vice President João 'Jango' Goulart, a progressive nationalist and labor minister under former President Getúlio Vargas, ascended to the presidency despite strenuous military objections. Goulart introduced the 'Basic Reforms' (Reformas de Base), aimed at addressing Brazil's deep socio-economic inequalities through agrarian land reform, electoral rights for millions of illiterate citizens, nationalization of foreign-owned utilities (such as ITT subsidiaries), and curbs on corporate capital flight. Washington perceived these nationalist measures as a dangerous drift toward communism in Latin America's largest nation. US Ambassador Lincoln Gordon, CIA Station Chief in Rio, and military attaché Vernon Walters forged intimate operational ties with conspiratorial Brazilian army commanders under General Humberto Castelo Branco.",
+  "chronology": [
+    {
+      "date": "1962-07-30",
+      "headline": "Kennedy Orders Covert Plan Against Goulart",
+      "detail": "In a recorded Oval Office meeting, President John F. Kennedy discusses the need to 'prevent Brazil from going to the communists,' approving millions in covert CIA funding to anti-Goulart politicians, trade unions, and media organizations in state and congressional elections."
+    },
+    {
+      "date": "1964-03-13",
+      "headline": "The Central do Brasil Rally for Basic Reforms",
+      "detail": "President João Goulart addresses 300,000 workers in Rio de Janeiro, signing decrees expropriating unused private lands along federal highways and nationalizing domestic oil refineries, provoking furious opposition from the Brazilian elite and military."
+    },
+    {
+      "date": "1964-03-27",
+      "headline": "Ambassador Gordon Urges US Military Prepositioning",
+      "detail": "US Ambassador Lincoln Gordon cables Washington that Goulart is working with communists to seize dictatorial power, recommending that the US prepare clandestine weapons and fuel shipments to assist anti-Goulart military commanders: 'We may have to intervene directly to protect Brazil.'"
+    },
+    {
+      "date": "1964-03-31",
+      "headline": "LBJ Authorizes Operation Brother Sam",
+      "detail": "President Lyndon B. Johnson tells aides in taped calls to 'take every step that we can' to ensure the coup succeeds. Defense Secretary Robert McNamara dispatches a US Navy task force (including the aircraft carrier USS Forrestal, guided missile destroyers, and four petroleum tankers) and prepares 110 tons of munitions and tear gas."
+    },
+    {
+      "date": "1964-04-01",
+      "headline": "Goulart Deposed and Forced Into Exile",
+      "detail": "General Olímpio Mourão Filho mobilizes troops from Minas Gerais toward Rio de Janeiro. Refusing to plunge the country into civil war, Goulart declines loyalist military resistance and flees to Rio Grande do Sul, then into exile in Uruguay. The military junta takes power, and Washington formally recognizes the regime within 24 hours."
+    },
+    {
+      "date": "1964-04-15",
+      "headline": "Castelo Branco Inaugurates 21-Year Dictatorship",
+      "detail": "General Humberto Castelo Branco is sworn in as President, issuing the First Institutional Act (AI-1), which revokes the mandates of progressive politicians, strips civil rights from dissidents, and establishes military control that lasted until 1985."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "The White House (Johnson and Kennedy Administrations)",
+      "Department of State (Ambassador Lincoln Gordon)",
+      "Central Intelligence Agency (Rio de Janeiro Station)",
+      "United States Navy (Operation Brother Sam / USS Forrestal Task Force)"
+    ],
+    "foreign_institutions": [
+      "Brazilian Armed Forces (General Humberto Castelo Branco / General Olímpio Mourão Filho)",
+      "Institute of Research and Social Studies (IPÊS / CIA-funded business front)",
+      "Constitutional Government of Brazil (President João Goulart)"
+    ],
+    "key_figures": [
+      "João Goulart (President of Brazil, deposed)",
+      "Humberto Castelo Branco (Army Chief of Staff / Military Dictator)",
+      "Lyndon B. Johnson (President of the United States)",
+      "Lincoln Gordon (United States Ambassador to Brazil)",
+      "Vernon A. Walters (US Defense Attaché, later Deputy Director of CIA)",
+      "Robert McNamara (US Secretary of Defense)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Installation of a 21-year right-wing military dictatorship (1964–1985); abolition of direct presidential elections; dissolution of existing political parties; institutionalization of censorship and state surveillance through the SNI (National Intelligence Service).",
+    "civilian_toll": "Brazil's National Truth Commission (CNV, 2014) verified that the dictatorship was responsible for 434 direct political killings and forced disappearances, the arbitrary arrest and torture of over 20,000 citizens in clandestine centers (DOI-CODI), and the extermination of an estimated 8,300 indigenous people during aggressive Amazonian infrastructural expansions.",
+    "long_term": "The Brazilian coup established the modern template for national security doctrine military dictatorships in South America, directly influencing the 1973 Chilean coup, the 1973 Uruguayan coup, and the 1976 Argentine coup, and providing operational foundations for Operation Condor."
+  },
+  "disputed_aspects": [
+    "Necessity of US direct military intervention: While US naval forces under Operation Brother Sam were steaming toward Brazil, Goulart's swift decision to avoid bloodshed meant US troops and supplies did not need to land on Brazilian soil, allowing US diplomats to deny direct participation for decades until declassified audio tapes were released.",
+    "Communist threat allegations: Subsequent historical inquiries confirmed that Goulart was a wealthy constitutionalist rancher and nationalist reformer rather than a communist agent, and that allegations of an imminent communist revolution were fabricated by military plotters to justify treason."
+  ],
+  "corporate_involvement": ["itt-corporation"],
+  "related_events": [
+    "guatemala-coup-1954",
+    "chile-coup-1973",
+    "operation-condor-1975-1983"
+  ],
+  "sources": [
+    "source-kinzer-overthrow-2006",
+    "source-nsa-brazil-coup-1964"
+  ],
+  "last_updated": "2026-11-06"
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/country.schema.json",
+  "id": "brazil",
+  "name": "Brazil",
+  "region": "Latin America",
+  "summary": "Largest nation in South America, where the democratically elected government of João Goulart was overthrown in a US-backed military coup on April 1, 1964, establishing a 21-year military dictatorship supported by Operation Brother Sam.",
+  "historical_context": "Following the resignation of Jânio Quadros in 1961, Vice President João Goulart assumed the presidency, advocating the 'Basic Reforms' (Reformas de Base)—an ambitious agenda of agrarian land redistribution, electoral enfranchisement for illiterate citizens, nationalization of strategic oil refineries and foreign utility concessions, and limits on foreign corporate profit remittances. The Kennedy and Johnson administrations viewed Goulart's independent foreign policy and progressive domestic reforms with alarm. US Ambassador Lincoln Gordon and military attaché Vernon Walters maintained extensive covert liaisons with conspiratorial military officers. In late March 1964, as General Olímpio Mourão Filho initiated troop movements against Rio de Janeiro, President Lyndon B. Johnson authorized 'Operation Brother Sam'—dispatching an aircraft carrier battle group, destroyers, ammunition, and 16 tons of tear gas to ensure the coup's success. The resulting military junta dissolved democratic institutions, purged universities, murdered hundreds of dissidents, and tortured thousands, pioneering state-terror methods later shared through Operation Condor.",
+  "key_operations": ["brazil-coup-1964"],
+  "primary_institutions_involved": [
+    "United States Department of State (Ambassador Lincoln Gordon)",
+    "United States Armed Forces (Operation Brother Sam / Carrier Strike Group)",
+    "Central Intelligence Agency (CIA Station Rio de Janeiro)",
+    "Brazilian Armed Forces (General Humberto Castelo Branco)"
+  ],
+  "corporate_presence": [
+    "American & Foreign Power Company (AMFORP)",
+    "Standard Oil of New Jersey (Esso)",
+    "Hanna Mining Company",
+    "International Telephone & Telegraph (ITT Corporation)"
+  ]
+}

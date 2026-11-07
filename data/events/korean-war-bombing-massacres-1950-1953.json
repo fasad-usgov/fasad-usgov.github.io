@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "korean-war-bombing-massacres-1950-1953",
+  "title": "Korean War Aerial Bombing Campaign & Civilian Massacres",
+  "date_start": "1950-06-25",
+  "date_end": "1953-07-27",
+  "era": "Early Cold War & Containment",
+  "region": "East Asia",
+  "countries": ["korea", "united-states"],
+  "topics": [
+    "Aerial Bombing",
+    "Civilian Massacres",
+    "Scorched-Earth Warfare",
+    "Cold War Proxy War",
+    "Infrastructure Destruction"
+  ],
+  "summary": "The catastrophic air bombardment campaign conducted by the US Far East Air Force destroying an estimated 85% of all building structures across North Korea, accompanied by targeted destruction of agricultural irrigation dams and widespread civilian massacres executed by US troops and allied South Korean forces (including No Gun Ri and the Bodo League massacres).",
+  "background": "When full-scale conflict erupted along the 38th parallel in June 1950, US military forces operating under the United Nations Command commanded by General Douglas MacArthur initiated a doctrine of unlimited air bombardment. General Curtis LeMay, commander of Strategic Air Command, later acknowledged: 'Over a period of three years or so, we killed off—what—twenty percent of the population of Korea as direct casualties of war, or from starvation and exposure.' US aircraft dropped 635,000 tons of bombs and 32,557 tons of napalm—more than the entire Pacific theater of World War II. In May 1953, targeting moved to major irrigation dams (Toksan and Kusong) to submerge rice crops and cause agricultural collapse. Concurrently, retreating US forces viewed South Korean civilian refugees with deep suspicion as potential infiltrated guerillas, issuing standing orders to fire upon refugees approaching US defensive lines.",
+  "chronology": [
+    {
+      "date": "1950-06-25",
+      "headline": "Outbreak of the Korean War",
+      "detail": "North Korean Korean People's Army forces cross the 38th parallel following months of border skirmishes; President Harry S. Truman commits US military forces under UN auspices."
+    },
+    {
+      "date": "1950-07",
+      "headline": "Bodo League massacres across South Korea",
+      "detail": "South Korean military police, counterintelligence, and right-wing paramilitaries systematically execute an estimated 100,000 to 200,000 suspected leftists and peasants enrolled in the National Guidance League, under the operational authority of US Far East Command."
+    },
+    {
+      "date": "1950-07-26",
+      "headline": "No Gun Ri refugee massacre",
+      "detail": "Soldiers of the US 2nd Battalion, 7th Cavalry Regiment dig in at a railroad bridge near No Gun Ri, South Korea, and open fire with machine guns and mortars on hundreds of unarmed civilian refugees trapped in the culverts, killing an estimated 250 to 400 people."
+    },
+    {
+      "date": "1950-11-05",
+      "headline": "General MacArthur orders destruction of northern communications and cities",
+      "detail": "US Far East Air Force begins systematic incendiary raids targeting all urban centers, industrial sites, and transportation corridors across North Korea with napalm and high-explosive bombs."
+    },
+    {
+      "date": "1952-07-11",
+      "headline": "Operation Pressure Pump levels Pyongyang",
+      "detail": "A joint armada of US, British, and Australian aircraft carries out massive air raids on the capital Pyongyang, dropping thousands of tons of explosives and flattening government, residential, and medical structures."
+    },
+    {
+      "date": "1953-05-13",
+      "headline": "US bombers attack Toksan and Kusong irrigation dams",
+      "detail": "US Air Force B-29 and F-84 Thunderjets strike major agricultural reservoirs, sending wall-of-water flash floods across thousands of acres of valley farmland to destroy North Korea's primary rice food supply shortly before the armistice."
+    },
+    {
+      "date": "2001-01-11",
+      "headline": "US Army releases official No Gun Ri Review",
+      "detail": "President Bill Clinton issues a statement of regret, and the Department of the Army confirms that US soldiers fired on and killed unarmed refugees, though claiming it was not pursuant to a deliberate top-down order."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "United States Far East Command (General Douglas MacArthur / Matthew Ridgway)",
+      "United States Far East Air Force (Fifth Air Force)",
+      "United States Army (7th Cavalry Regiment, 1st Cavalry Division)",
+      "Strategic Air Command (General Curtis LeMay)"
+    ],
+    "foreign_institutions": [
+      "Republic of Korea Armed Forces and National Police",
+      "Korean People's Army (DPRK)",
+      "Chinese People's Volunteer Army (PVA)"
+    ],
+    "key_figures": [
+      "Harry S. Truman (US President)",
+      "General Douglas MacArthur (Supreme Commander UNC)",
+      "General Curtis LeMay (Commander Strategic Air Command)",
+      "Syngman Rhee (President of South Korea)",
+      "Kim Il Sung (Premier of North Korea)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Permanent division of the Korean peninsula along the Demilitarized Zone (DMZ), militarization of both Korean states, and enduring geopolitical standoff.",
+    "civilian_toll": "Estimated 2 to 3 million civilian deaths across both North and South Korea; total devastation of North Korean urban infrastructure (85% of buildings destroyed); 250–400 refugees killed at No Gun Ri; 100,000–200,000 executed in Bodo League massacres.",
+    "long_term": "Deep societal trauma embedded in North Korean defense architecture and nuclear weapons doctrine; prolonged suppression of truth in South Korea until the 2005–2010 Truth and Reconciliation Commission."
+  },
+  "disputed_aspects": [
+    "US official military reports maintain that the No Gun Ri killings were a tragic accident driven by panic rather than an authorized policy, despite surviving veterans and declassified Air Force memos instructing units to treat refugees as combatants.",
+    "Divergent scholarly estimates of total direct civilian deaths caused by the aerial campaign versus ground operations and famine."
+  ],
+  "corporate_involvement": [
+    "boeing-defense",
+    "dow-chemical",
+    "lockheed-martin"
+  ],
+  "related_events": [
+    "vietnam-war-1964-1975"
+  ],
+  "sources": [
+    "source-cumings-korean-war-2010",
+    "source-us-army-no-gun-ri-review-2001",
+    "source-trc-south-korea-2009",
+    "source-nye-committee-report-1936"
+  ],
+  "last_updated": "2026-11-06"
+}

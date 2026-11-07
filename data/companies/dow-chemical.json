@@ -14,7 +14,10 @@
   ],
   "documented_activities": "Under Operation Ranch Hand (1961–1971), Dow Chemical was the sole supplier of Napalm-B from 1965 to 1969 and a primary producer of 'Agent Orange', an herbicide containing extremely high levels of 2,3,7,8-TCDD dioxin—one of the most toxic synthetic compounds known to science. Over 20 million gallons of chemical defoliants were sprayed across southern Vietnam, Laos, and Cambodia to destroy forest canopies and rural agricultural crops.",
   "documented_consequences": "Caused devastating immediate burn casualties and acute poisoning, as well as catastrophic multi-generational birth defects, limb deformities, miscarriages, and cancers affecting an estimated 3 to 4 million Vietnamese civilians and military veterans.",
-  "associated_events": ["vietnam-war-1964-1975"],
+  "associated_events": [
+    "korean-war-bombing-massacres-1950-1953",
+    "vietnam-war-1964-1975"
+  ],
   "sources": [
     "source-pentagon-papers-1971",
     "source-hirschman-vietnam-casualties-1995"

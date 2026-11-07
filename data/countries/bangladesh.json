@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/country.schema.json",
+  "id": "bangladesh",
+  "name": "Bangladesh",
+  "region": "South Asia",
+  "summary": "South Asian nation (formerly East Pakistan), site of the 1971 Bangladesh Liberation War and genocide in which hundreds of thousands to millions of civilians were murdered by the Pakistani military with diplomatic and military backing from the Nixon-Kissinger administration.",
+  "historical_context": "Following the 1947 partition of British India, Pakistan was divided into two geographically separated wings—West Pakistan and East Pakistan. Despite comprising the majority of Pakistan's population, East Pakistan suffered systematic economic exploitation and political disenfranchisement. In the December 1970 general elections, the East Pakistani Awami League, led by Sheikh Mujibur Rahman, won an absolute majority. General Yahya Khan's military junta refused to transfer power, launching 'Operation Searchlight' on March 25, 1971. Over the next nine months, Pakistani forces and allied militias slaughtered between 300,000 and 3,000,000 Bengalis and subjected hundreds of thousands of women to systematic rape. The United States government, prioritizing its secret opening to China through Islamabad, provided diplomatic protection, arms shipments, and naval deterrence on behalf of the Pakistani military regime.",
+  "key_operations": ["bangladesh-genocide-1971"],
+  "primary_institutions_involved": [
+    "United States Department of State",
+    "National Security Council (Nixon Administration)",
+    "Pakistan Armed Forces (Eastern Command)",
+    "Mukti Bahini (Bengali Liberation Forces)"
+  ],
+  "corporate_presence": [
+    "American arms manufacturers (subsidized military sales)"
+  ]
+}

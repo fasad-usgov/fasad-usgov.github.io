@@ -5,7 +5,10 @@
   "region": "Latin America",
   "summary": "Central American nation where a 1954 CIA covert coup toppled a democratically elected reformist government, initiating a 36-year armed conflict in which over 200,000 predominantly indigenous civilians were killed by US-backed military dictatorships.",
   "historical_context": "Between 1944 and 1954, Guatemala experienced the 'Ten Years of Spring', a period of progressive constitutional democracy. President Jacobo Árbenz passed agrarian reforms redistributing idle land owned by the American United Fruit Company (UFCO) to peasant farmers with compensation. In June 1954, the CIA launched Operation PBSuccess, using psychological warfare, air strikes, and a proxy invasion force to force Árbenz into exile and install Colonel Carlos Castillo Armas. The subsequent military regimes revoked agrarian reforms, disenfranchised indigenous populations, and instituted state death squads (supported by US military advisers and equipment through the School of the Americas), culminatng in what the UN Commission for Historical Clarification formally recognized as acts of genocide against the Maya population in the 1980s.",
-  "key_operations": ["guatemala-coup-1954"],
+  "key_operations": [
+    "guatemala-coup-1954",
+    "guatemala-maya-genocide-1981-1983"
+  ],
   "primary_institutions_involved": [
     "Central Intelligence Agency (CIA Operation PBSuccess)",
     "United States Department of State",

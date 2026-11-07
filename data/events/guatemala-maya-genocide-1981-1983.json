@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "guatemala-maya-genocide-1981-1983",
+  "title": "Guatemalan Maya Genocide & Operation Sofía",
+  "date_start": "1981-03",
+  "date_end": "1983-08",
+  "era": "Cold War Proxy Conflicts & State Terror",
+  "region": "Latin America",
+  "countries": ["guatemala", "united-states"],
+  "topics": [
+    "Genocide",
+    "State Terror",
+    "Indigenous Rights",
+    "Cold War Counterinsurgency",
+    "Military Dictatorship"
+  ],
+  "summary": "The systematic campaign of mass slaughter, scorched-earth destruction, and forced displacement perpetrated by the Guatemalan military dictatorship under General Efraín Ríos Montt against the indigenous Maya-Ixil and Maya-K'iche' populations, formally recognized as acts of genocide by the UN-sponsored Historical Clarification Commission and Guatemalan criminal courts.",
+  "background": "Following the 1954 CIA coup (Operation PBSuccess) that overthrew democratic president Jacobo Árbenz, Guatemala was ruled by successive US-backed military dictatorships. In the late 1970s, as revolutionary guerrilla movements gained support among rural indigenous peasants suffering under extreme land inequality, the military high command implemented a doctrine of total war. Viewing the entire indigenous Maya population as an internal enemy and guerrilla base, the military launched scorched-earth operations ('tierra arrasada') under the leadership of General Romeo Lucas García and, following a March 1982 coup, General Efraín Ríos Montt. The Reagan administration strongly backed Ríos Montt, dismissing human rights documentation, certifying progress to bypass congressional weapons embargoes, and providing radar equipment, helicopter spare parts, and military intelligence training.",
+  "chronology": [
+    {
+      "date": "1981-03",
+      "headline": "Launch of Plan Ceniza scorched-earth policy",
+      "detail": "General Romeo Lucas García's military staff initiates comprehensive counterinsurgency sweep in the western highlands, deliberately targeting rural Maya communities to destroy their food crops, villages, and community leadership."
+    },
+    {
+      "date": "1982-03-23",
+      "headline": "General Efraín Ríos Montt seizes power in military coup",
+      "detail": "An evangelical army general, Ríos Montt forms a military junta and proclaims 'Plan Victoria 82', instituting sweeping 'Fusiles y Frijoles' (Rifles and Beans) pacification and mobilizing 900,000 rural men into mandatory Civil Defense Patrols (PAC)."
+    },
+    {
+      "date": "1982-07",
+      "headline": "Operation Sofía military offensive in the Ixil Triangle",
+      "detail": "Declassified military operational logs reveal secret plan 'Operación Sofía', ordering elite Kaibiles airborne units to execute scorched-earth extermination in Santa María Nebaj, San Juan Cotzal, and San Gaspar Chajul, executing civilians regardless of age or gender."
+    },
+    {
+      "date": "1982-12-04",
+      "headline": "President Ronald Reagan praises Ríos Montt",
+      "detail": "Meeting Ríos Montt in Honduras, President Reagan publicly describes him as a man of 'great personal integrity' who is getting 'a bum rap' on human rights, moving immediately to lift congressional embargoes on military sales."
+    },
+    {
+      "date": "1982-12-06",
+      "headline": "Dos Erres massacre by elite Kaibiles commandos",
+      "detail": "US-trained Kaibiles commandos systematically execute over 250 men, women, and children in the village of Las Dos Erres, bludgeoning victims and throwing bodies into a community well."
+    },
+    {
+      "date": "1999-02-25",
+      "headline": "UN CEH truth commission publishes 'Memory of Silence'",
+      "detail": "The UN Commission for Historical Clarification formally concludes that the state committed 'acts of genocide' against the Maya-Ixil, Maya-Achi, Maya-Q'anjob'al, and Maya-K'iche', and that US military and CIA assistance directly sustained state terror."
+    },
+    {
+      "date": "2013-05-10",
+      "headline": "Ríos Montt convicted of genocide in Guatemalan court",
+      "detail": "A Guatemalan criminal court sentences 86-year-old Ríos Montt to 80 years in prison for genocide and crimes against humanity in the killing of 1,771 Maya-Ixil civilians—the first time a former head of state was convicted of genocide by a domestic court."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "Executive Office of the President (Ronald Reagan Administration)",
+      "Central Intelligence Agency (CIA)",
+      "United States Department of Defense (MilGroup Guatemala)",
+      "United States Army School of the Americas (training Kaibiles officers)"
+    ],
+    "foreign_institutions": [
+      "Guatemalan Armed Forces (General Staff / Kaibiles)",
+      "Civil Defense Patrols (Patrullas de Autodefensa Civil - PAC)",
+      "Guatemalan Military Intelligence (D-2)"
+    ],
+    "key_figures": [
+      "General Efraín Ríos Montt (de facto President of Guatemala)",
+      "General Romeo Lucas García (former President)",
+      "Ronald Reagan (US President)",
+      "General Héctor Gramajo (Guatemalan Vice-Chief of Staff)",
+      "Judge Yassmin Barrios (presiding genocide trial judge)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Extermination of rural civil leadership, destruction of over 400 Maya villages, militarization of the Guatemalan countryside via mandatory PAC militias, and systemic institutional impunity.",
+    "civilian_toll": "Over 200,000 people killed or forcibly disappeared during the armed conflict (83% indigenous Maya; 93% perpetrated by state forces and paramilitaries according to the UN CEH); over 1 million people internally displaced or fled to Mexico as refugees.",
+    "long_term": "Generational devastation of indigenous Maya language and communal fabric; 2013 historic domestic genocide conviction later suspended by constitutional court under elite business pressure before Ríos Montt died in 2018."
+  },
+  "disputed_aspects": [
+    "Guatemalan military veterans and conservative oligarchs continue to deny the legal classification of genocide, claiming operations were purely anti-guerrilla counterinsurgency.",
+    "US diplomatic records dispute the degree of direct White House foreknowledge of specific rural massacres during the 1982 certification push."
+  ],
+  "corporate_involvement": [
+    "united-fruit-company"
+  ],
+  "related_events": [
+    "guatemala-coup-1954",
+    "operation-condor-1975-1983"
+  ],
+  "sources": [
+    "source-ceh-guatemala-memory-of-silence-1999",
+    "source-court-rios-montt-genocide-verdict-2013"
+  ],
+  "last_updated": "2026-11-06"
+}

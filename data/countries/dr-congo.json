@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/country.schema.json",
+  "id": "dr-congo",
+  "name": "Democratic Republic of the Congo",
+  "region": "Sub-Saharan Africa",
+  "summary": "Mineral-rich nation in Central Africa, subjected to intense Cold War interference culminated in the CIA-orchestrated overthrow and assassination of Prime Minister Patrice Lumumba in 1960–1961 and the installation of Mobutu Sese Seko's 32-year dictatorship.",
+  "historical_context": "Following brutal Belgian colonial exploitation that decimated its population, the Congo achieved independence on June 30, 1960, under elected anti-colonial nationalist Prime Minister Patrice Lumumba. The new nation possessed strategic mineral reserves of paramount importance to the Western powers, most notably the Shinkolobwe mine in Katanga, which supplied the uranium for the Manhattan Project's atomic bombs at Hiroshima and Nagasaki, as well as vast deposits of cobalt, copper, and diamonds. When Belgian troops intervened to back a secessionist rebellion in Katanga, Lumumba requested United Nations assistance and, upon receiving no enforcement, appealed to the Soviet Union for logistics. Washington viewed Lumumba's non-aligned stance as an unacceptable threat. CIA Director Allen Dulles authorized an urgent covert assassination plot, deploying CIA chemist Sydney Gottlieb with lethal biological toxins and coordinating with Colonel Joseph Mobutu to execute a military coup, leading directly to Lumumba's execution and decades of devastating kleptocratic rule.",
+  "key_operations": ["congo-coup-1960-1961"],
+  "primary_institutions_involved": [
+    "Central Intelligence Agency (CIA Leopoldville Station / Chief Larry Devlin)",
+    "Belgian Military Intelligence & Ministry of African Affairs",
+    "United States National Security Council (Eisenhower & Kennedy Administrations)",
+    "Congolese Armed Forces (Colonel Joseph Mobutu)"
+  ],
+  "corporate_presence": [
+    "Union Minière du Haut-Katanga (Belgian mining cartel)",
+    "Western defense mineral procurement syndicates"
+  ]
+}

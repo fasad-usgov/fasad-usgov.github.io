@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/country.schema.json",
+  "id": "panama",
+  "name": "Panama",
+  "region": "Latin America",
+  "summary": "Central American nation constructed around the strategic interoceanic canal, subject to decades of US military occupation, covert intelligence manipulation, and the devastating December 1989 US military invasion (Operation Just Cause).",
+  "historical_context": "Seceding from Colombia in 1903 with direct US naval backing to secure the Panama Canal Zone under the Hay-Bunau-Varilla Treaty, Panama was long governed as a US protectorate. In the 1970s and 1980s, Panamanian military commander General Manuel Noriega served as a long-time paid CIA asset and School of the Americas collaborator, assisting US covert operations across Central America (including the Contras in Nicaragua). When Noriega pursued independent foreign policy maneuvers and refused US demands to resign, the US imposed debilitating financial sanctions and, on December 20, 1989, launched Operation Just Cause—a massive invasion by 27,000 US troops utilizing heavy artillery and airstrikes in densely populated working-class neighborhoods such as El Chorrillo. The invasion installed Guillermo Endara, caused hundreds to thousands of civilian deaths, and was formally condemned by the UN General Assembly and the Inter-American Commission on Human Rights.",
+  "key_operations": ["panama-invasion-1989"],
+  "primary_institutions_involved": [
+    "United States Department of Defense (US Southern Command)",
+    "Central Intelligence Agency (CIA)",
+    "Executive Office of the President (George H.W. Bush Administration)",
+    "Panamanian Defense Forces (PDF)"
+  ],
+  "corporate_presence": [
+    "Panama Canal Company",
+    "United Fruit Company",
+    "First National City Bank (Citigroup)"
+  ]
+}

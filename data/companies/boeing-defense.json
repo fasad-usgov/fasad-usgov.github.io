@@ -16,6 +16,9 @@
   ],
   "documented_activities": "Supplier of thousands of Joint Direct Attack Munition (JDAM) precision guidance kits and GBU-39 Small Diameter Bombs (SDB) rushed to Israel via emergency military airlifts and Foreign Military Sales (FMS) contracts following October 2023. Documented in forensic investigations by Amnesty International and Human Rights Watch in strikes on residential structures and refugee camps in Gaza.",
   "documented_consequences": "Extensive civilian casualties and structural devastation in densely populated urban districts of Gaza resulting from precision-guided aerial strikes.",
-  "associated_events": ["gaza-war-2023"],
+  "associated_events": [
+    "korean-war-bombing-massacres-1950-1953",
+    "gaza-war-2023"
+  ],
   "sources": ["source-un-ocha-gaza-crisis-reports", "source-us-state-dept-nsm20-report-2024"]
 }

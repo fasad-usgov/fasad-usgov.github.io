@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "libya-intervention-2011",
+  "title": "The 2011 NATO Intervention in Libya and the Fall of Gaddafi",
+  "date_start": "2011-03-19",
+  "date_end": "2011-10-31",
+  "era": "Post-Cold War & War on Terror",
+  "region": "North Africa",
+  "countries": ["Libya", "United States", "United Kingdom"],
+  "topics": [
+    "Military Intervention",
+    "Regime Change",
+    "NATO Air Campaign",
+    "State Collapse",
+    "War on Terror"
+  ],
+  "summary": "A multi-nation military intervention in Libya led by the North Atlantic Treaty Organization (NATO)—under operational command of the United States, France, and the United Kingdom—between March and October 2011 (Operation Unified Protector / Operation Odyssey Dawn). Ostensibly authorized under United Nations Security Council Resolution 1973 to establish a no-fly zone and protect civilians in Benghazi, NATO rapidly converted the mission into an aggressive regime-change air campaign, executing over 9,600 strike sorties, providing covert ground arms transfers and special forces advisers to rebel militias, and destroying the command infrastructure of the Libyan state. The intervention culminated on October 20, 2011, when a US Predator drone and French fighter jets struck the fleeing convoy of long-time Libyan leader Muammar Gaddafi in Sirte, leading to his capture, torture, and extrajudicial killing by rebel fighters. The collapse of the Libyan government precipitated a decade of catastrophic civil war, institutional fragmentation, the proliferation of heavy weaponry across the Sahel, and the re-emergence of open-air chattel slave markets.",
+  "background": "In February 2011, following the popular ousters of autocratic rulers in neighboring Tunisia and Egypt, protests erupted in Benghazi against the 42-year regime of Colonel Muammar Gaddafi. When government forces moved to suppress the armed rebellion, Gaddafi delivered fiery speeches warning rebels of retaliation. Western governments and Gulf monarchies seized on reports that Gaddafi was preparing a mass slaughter in Benghazi—claims later found by the UK House of Commons Foreign Affairs Committee to be heavily exaggerated by rebel propaganda. On March 17, 2011, the UN Security Council passed Resolution 1973, with Russia, China, Germany, Brazil, and India abstaining. Two days later, American and British warships fired over 110 Tomahawk cruise missiles, initiating an unrelenting seven-month aerial bombardment.",
+  "chronology": [
+    {
+      "date": "2011-03-17",
+      "headline": "UN Security Council Passes Resolution 1973",
+      "detail": "The UNSC authorizes member states to take 'all necessary measures' to protect civilians under threat of attack in Libya, while explicitly excluding a foreign occupation force of any form."
+    },
+    {
+      "date": "2011-03-19",
+      "headline": "Operation Odyssey Dawn Commences",
+      "detail": "US and UK naval vessels launch 112 Tomahawk cruise missiles against Libyan air defense radar sites, and French fighter jets strike government armored columns outside Benghazi, preventing the regime's advance."
+    },
+    {
+      "date": "2011-04-14",
+      "headline": "Obama, Cameron, and Sarkozy Mandate Regime Change",
+      "detail": "In a joint op-ed published in the International Herald Tribune, President Barack Obama, Prime Minister David Cameron, and President Nicolas Sarkozy declare that NATO's mission cannot end while Gaddafi remains in power: 'It is impossible to imagine a future for Libya with Qaddafi in power.'"
+    },
+    {
+      "date": "2011-08-20",
+      "headline": "Rebel Assault on Tripoli with NATO Close Air Support",
+      "detail": "Rebel militias capture the capital of Tripoli, supported by British SAS and French special forces operatives on the ground and intensive NATO tactical airstrikes destroying government compounds and communications."
+    },
+    {
+      "date": "2011-10-20",
+      "headline": "Airstrike on Sirte Convoy and Lynching of Gaddafi",
+      "detail": "A US Predator drone and French Mirage fighters strike an armed convoy of loyalists attempting to break out of besieged Sirte. Injured and disoriented, Muammar Gaddafi is captured by Misrata rebel fighters, tortured, sodomized with a bayonet, and executed. Secretary of State Hillary Clinton responds to the news in a televised interview with: 'We came, we saw, he died.'"
+    },
+    {
+      "date": "2011-10-31",
+      "headline": "NATO Declares End of Operation Unified Protector",
+      "detail": "NATO Secretary General Anders Fogh Rasmussen formally concludes the military campaign, declaring Libya 'liberated,' while leaving thousands of competing armed militias in control of unsecured weapons depots across the country."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "The White House (Obama Administration)",
+      "Department of Defense (US Africa Command / AFRICOM)",
+      "Central Intelligence Agency (Special Activities Division)",
+      "United States Department of State (Secretary Hillary Clinton)"
+    ],
+    "foreign_institutions": [
+      "North Atlantic Treaty Organization (NATO / Allied Joint Force Command Naples)",
+      "Armed Forces of the Libyan Arab Jamahiriya",
+      "National Transitional Council of Libya (NTC)",
+      "British Ministry of Defence & French Armed Forces"
+    ],
+    "key_figures": [
+      "Muammar al-Gaddafi (Leader of the Libyan Arab Jamahiriya, killed)",
+      "Barack Obama (President of the United States)",
+      "Hillary Clinton (US Secretary of State)",
+      "David Cameron (Prime Minister of the United Kingdom)",
+      "Nicolas Sarkozy (President of France)",
+      "Mustafa Abdul Jalil (Chairman of the National Transitional Council)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Total annihilation of the Libyan central state; division of the country into two rival governing authorities (the Tripoli-based GNA/GNU and Khalifa Haftar's LNA in Tobruk); widespread governance collapse, power blackouts, economic paralysis, and proxy interventions by Turkey, UAE, Egypt, and Russia.",
+    "civilian_toll": "Between 25,000 and 30,000 Libyans died during the 2011 war and subsequent civil conflicts; NATO airstrikes directly killed hundreds of civilians according to Human Rights Watch and Amnesty International; over 400,000 civilians were internally displaced.",
+    "long_term": "Uncontrolled looting of Gaddafi's massive armories (including thousands of shoulder-fired anti-aircraft missiles) destabilized the entire Sahel region, sparking the 2012 Mali war, fueling Boko Haram in Nigeria, and supplying ISIS in Syria. Lawlessness transformed coastal Libya into a hub for transnational human trafficking, where sub-Saharan migrants are openly bought and sold in modern-day slave markets."
+  },
+  "disputed_aspects": [
+    "Benghazi civilian massacre claims: The 2016 UK House of Commons Foreign Affairs Committee report found no evidence that the Libyan regime had carried out or planned a mass slaughter of civilians in Benghazi, concluding that Gaddafi had explicitly targeted rebel combatants rather than civilians.",
+    "Mission creep and UNSC resolution abuse: Russia, China, and the African Union asserted that NATO abused UNSC Resolution 1973 by converting a limited civilian protection mandate into an unprincipled regime change operation, setting back multilateral cooperation on subsequent crises."
+  ],
+  "corporate_involvement": [],
+  "related_events": [
+    "iraq-invasion-2003",
+    "sabra-shatila-1982"
+  ],
+  "sources": [
+    "source-uk-parliament-libya-inquiry-2016"
+  ],
+  "last_updated": "2026-11-06"
+}

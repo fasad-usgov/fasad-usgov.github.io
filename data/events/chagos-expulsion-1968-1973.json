@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "chagos-expulsion-1968-1973",
+  "title": "The Expulsion of the Chagossians and Diego Garcia Military Base",
+  "date_start": "1968-03-01",
+  "date_end": "1973-05-31",
+  "era": "Cold War",
+  "region": "Sub-Saharan Africa",
+  "countries": ["Mauritius", "United Kingdom", "United States"],
+  "topics": [
+    "Forced Displacement",
+    "Military Basing",
+    "Crimes Against Humanity",
+    "Decolonization",
+    "Covert Agreements"
+  ],
+  "summary": "The systematic forced expulsion and deportation of the entire indigenous Chagossian population (between 1,500 and 2,000 people) from the Chagos Archipelago—most notably the central atoll of Diego Garcia—in the Indian Ocean by the British government on behalf of the United States. Under a secret 1966 bilateral agreement, the UK agreed to 'depopulate' the islands to facilitate the construction of a major US naval and air base (Naval Support Facility Diego Garcia) in exchange for an unannounced $14 million discount on Polaris submarine-launched nuclear missiles. British officials deliberately deceived the United Nations and the public by falsely categorizing the multi-generational Chagossian population as temporary contract laborers. In 2019, the International Court of Justice (ICJ) ruled that the detachment of the archipelago and the expulsion were illegal under international law.",
+  "background": "In the early 1960s, the US Department of Defense sought a strategic, unpopulated island base in the Indian Ocean to project air and naval power across South Asia, the Middle East, and East Africa. The Chagos Archipelago, a dependency of colonial Mauritius, was chosen. In 1965, the UK severed the archipelago from Mauritius prior to granting it independence, forming the new colony known as the British Indian Ocean Territory (BIOT). The US insisted that the islands be completely cleared of their inhabitants to ensure total base security and secrecy. Between 1968 and 1973, British colonial authorities systematically coerced, starved, and loaded the islanders onto overcrowded cargo vessels, abandoning them in the slums of Port Louis, Mauritius, and Victoria, Seychelles.",
+  "chronology": [
+    {
+      "date": "1966-12-30",
+      "headline": "Secret UK-US Exchange of Notes Signed",
+      "detail": "The British and American governments sign a classified 50-year lease agreement for Diego Garcia. In exchange for securing the island without inhabitants, Washington covertly waives $14 million in research and development charges on British purchases of Polaris nuclear submarine missiles."
+    },
+    {
+      "date": "1968-03-12",
+      "headline": "Mauritian Independence and Territory Severance",
+      "detail": "Mauritius gains formal independence, but the British government retains administrative control over the detached Chagos Archipelago, barring Chagossians from returning."
+    },
+    {
+      "date": "1971-04-16",
+      "headline": "Immigration Ordinance No. 1 Enacted",
+      "detail": "BIOT Commissioner Bruce Greatbatch issues Immigration Ordinance No. 1, making it a criminal offense for any person to enter or remain in the Chagos Archipelago without a permit. British authorities order the gassing and execution of all pet dogs on Diego Garcia with exhaust fumes to terrorize the remaining population."
+    },
+    {
+      "date": "1973-04-27",
+      "headline": "Final Evacuation of Peros Banhos and Diego Garcia",
+      "detail": "The final group of Chagossians is loaded onto the cargo ship Nordvaer and transported to Mauritius. Families are forced to sleep on the open deck among cargo and arrive in Port Louis with no financial compensation, housing, or medical support."
+    },
+    {
+      "date": "2000-11-03",
+      "headline": "British High Court Rules Expulsion Unlawful",
+      "detail": "In a historic ruling, the UK High Court quashes the 1971 Immigration Ordinance, ruling that the expulsion of the Chagossians was an egregious abuse of executive prerogative. The British government responds in 2004 by invoking royal prerogative Orders in Council to re-impose the ban on return."
+    },
+    {
+      "date": "2019-02-25",
+      "headline": "International Court of Justice Renders Landmark Advisory Opinion",
+      "detail": "The ICJ rules by 13 votes to 1 that the decolonization of Mauritius was not lawfully completed in 1965 and that the UK is under an international legal obligation to end its administration of the Chagos Archipelago as rapidly as possible."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "Department of Defense (United States Navy)",
+      "National Security Council (Johnson and Nixon Administrations)",
+      "Joint Chiefs of Staff"
+    ],
+    "foreign_institutions": [
+      "United Kingdom Foreign and Commonwealth Office (FCO)",
+      "British Indian Ocean Territory (BIOT) Administration",
+      "Government of Mauritius",
+      "Chagossian Social Committee / Olivier Bancoult"
+    ],
+    "key_figures": [
+      "Bruce Greatbatch (British Governor of Seychelles and BIOT Commissioner)",
+      "Harold Wilson (Prime Minister of the United Kingdom)",
+      "Robert McNamara (US Secretary of Defense)",
+      "Olivier Bancoult (Leader of the Chagos Refugees Group)",
+      "Sir Seewoosagur Ramgoolam (Prime Minister of Mauritius)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Establishment of Naval Support Facility Diego Garcia, which served as a crucial logistics hub, submarine tender station, and strategic staging area for B-52 and B-2 stealth bomber strikes during the 1991 Gulf War, 2001 Afghanistan Invasion, and 2003 Iraq Invasion, as well as a covert CIA 'black site' detention facility for War on Terror prisoners.",
+    "civilian_toll": "Between 1,500 and 2,000 native Chagossians were forcibly uprooted, stripped of their ancestral lands, cultural identity, and livelihoods, and condemned to extreme poverty, chronic illness, and social marginalization in the slums of Mauritius and Seychelles.",
+    "long_term": "The expulsion led to a 50-year international legal battle. The UN General Assembly voted 116–6 in May 2019 demanding the UK withdraw from the islands. In 2024, the UK announced an agreement in principle to recognize Mauritian sovereignty while leasing the Diego Garcia base for an initial 99-year period."
+  },
+  "disputed_aspects": [
+    "Legal status of Chagossians: British colonial memos referred to the Chagossians as 'Tarzans or Man Fridays' whose presence could be dismissed to avoid UN reporting requirements under Article 73 of the UN Charter, a fiction later debunked in international court rulings.",
+    "CIA Black Site Allegations: Following investigative reporting and European parliamentary inquiries, the UK government conceded in 2008 that two US rendition flights carrying terrorism suspects had refueled at Diego Garcia in 2002, contrary to prior categorical denials."
+  ],
+  "corporate_involvement": [],
+  "related_events": [
+    "iraq-invasion-2003",
+    "vietnam-war-1964-1975"
+  ],
+  "sources": [
+    "source-icj-chagos-advisory-opinion-2019",
+    "source-vine-island-of-shame-2009"
+  ],
+  "last_updated": "2026-11-06"
+}

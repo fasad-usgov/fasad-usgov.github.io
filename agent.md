@@ -256,16 +256,36 @@ Do not treat the above list as an exhaustive account of either country's foreign
 
 After the Middle East collection is established, expand into:
 
-- US involvement in the 1954 Guatemala coup.
+- US involvement in the 1954 Guatemala coup (Operation PBSuccess).
+- The 1960–1961 Congo coup and assassination of Patrice Lumumba.
+- The 1963 South Vietnamese coup and assassination of Ngo Dinh Diem.
+- The 1964 Brazilian coup d'état (Operation Brother Sam).
 - The Vietnam War.
-- The 1973 Chilean coup.
+- The 1973 Chilean coup (Operation FUBELT).
 - The 1965–1966 Indonesian mass killings and foreign involvement.
-- US interventions and covert operations in Central America.
-- US military involvement in Afghanistan before 2001.
+- US interventions and covert operations in Central America (Nicaragua, Honduras, Grenada, Panama).
+- US military involvement in Afghanistan before 2001 (Operation Cyclone).
+- The 2011 NATO intervention in Libya and fall of Gaddafi.
 - US involvement in the Balkans during the 1990s.
 - Relevant Israeli military, intelligence, diplomatic, and commercial activities outside the Middle East.
 
 Include other countries and institutions when they are relevant to the historical record.
+
+#### Phase D: International atrocity crimes, genocides, and state terror
+
+Investigate documented episodes of direct intervention, military aid, and legal/diplomatic complicity in international atrocity crimes, massacres, and genocides:
+
+- **1971 Bangladesh Genocide (Complicity)**: Pakistan military crackdown (Operation Searchlight) resulting in 300,000 to 3,000,000 deaths. US diplomatic shielding and weapons transfers directed by Richard Nixon and Henry Kissinger despite Archer Blood's internal State Department dissent ("The Blood Telegram") and naval deterrence via Task Force 74 in the Bay of Bengal.
+- **1975–1999 East Timor Genocide (Complicity)**: Indonesian invasion and 24-year occupation of East Timor following Suharto's direct clearance with Gerald Ford and Henry Kissinger. US provided ~90% of arms during the assault (including OV-10 Bronco aircraft) and blocked UN Security Council action; Commission for Reception, Truth and Reconciliation in East Timor (CAVR) documented 102,800+ conflict-related deaths.
+- **1968–1973 Expulsion of the Chagossians**: Joint UK-US forced deportation of the entire indigenous Chagossian population from Diego Garcia and surrounding islands to construct the Naval Support Facility Diego Garcia, ruled unlawful by the International Court of Justice (ICJ 2019 Advisory Opinion) and the UN General Assembly.
+- **1960–Present United States Embargo Against Cuba**: Six-decade unilateral commercial, economic, and financial blockade. Legal, academic, and UN debate assessing coercive deprivation of essential food and medical supplies under Article II(c) of the UN Genocide Convention, condemned for over 30 consecutive years by the UN General Assembly.
+- **1986–1989 Anfal Campaign (Complicity)**: Genocidal Ba'athist Iraqi military campaign against Iraqi Kurds led by Ali Hassan al-Majid ("Chemical Ali") under Saddam Hussein, including widespread mustard and nerve gas strikes (Halabja 1988), executed while the US Reagan and Bush administrations provided military satellite intelligence, agricultural credit guarantees (CCC), and authorized dual-use chemical exports.
+- **1987–1989 Isaaq Genocide (Complicity)**: Systematic state-sponsored extermination of 50,000 to 100,000 Isaaq civilians and systematic aerial bombing of Hargeisa by the Siad Barre dictatorship in Somalia, supported by tens of millions of dollars in US military weaponry, operational training, and budgetary defense subsidies.
+- **1975–1983 Operation Condor**: Formalized covert transnational intelligence and state-terror alliance between South American military juntas (Chile, Argentina, Uruguay, Paraguay, Bolivia, Brazil) with US CIA technical telecommunications infrastructure (Condortel) and diplomatic clearance, resulting in 60,000+ cross-border assassinations and disappearances.
+- **1981–1983 Guatemalan Maya Genocide**: Scorched-earth military counterinsurgency campaign ("Operation Sofía") against the indigenous Maya-Ixil population under General Efraín Ríos Montt, legally adjudicated as genocide by the UN Commission for Historical Clarification (CEH), sustained by US training (Kaibiles) and covert military equipment shipments.
+- **1950–1953 Korean War Atrocities & Aerial Bombing**: Civilian devastation during the Korean War, including documented massacres by US ground forces (such as the No Gun Ri massacre of South Korean refugees) and widespread aerial firebombing campaigns that destroyed the vast majority of urban centers.
+- **2026 Minab School Attack**: Investigation of modern aerial/drone strikes resulting in civilian casualties at a school facility in Minab, Hormozgan Province, Iran, subject to verification against international humanitarian law.
+- **1945 Atomic Bombings of Hiroshima and Nagasaki**: The first and only operational use of nuclear weapons, causing 110,000–210,000 immediate and radiation deaths; historical evaluation of military justifications versus civilian consequences and international legal debates regarding indiscriminate weapons.
 
 ### 6. Research and source collection
 

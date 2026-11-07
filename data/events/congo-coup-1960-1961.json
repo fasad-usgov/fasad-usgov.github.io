@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "congo-coup-1960-1961",
+  "title": "The 1960–1961 Congo Coup and the Assassination of Patrice Lumumba",
+  "date_start": "1960-06-30",
+  "date_end": "1961-01-17",
+  "era": "Cold War",
+  "region": "Sub-Saharan Africa",
+  "countries": ["Democratic Republic of the Congo", "United States"],
+  "topics": [
+    "Covert Operations",
+    "Regime Change",
+    "Assassinations",
+    "Decolonization",
+    "Cold War",
+    "Strategic Minerals"
+  ],
+  "summary": "The covert overthrow and assassination of the Democratic Republic of the Congo's first democratically elected Prime Minister, Patrice Lumumba, orchestrated by the Central Intelligence Agency (CIA) and Belgian intelligence services between July 1960 and January 1961. Driven by determination to maintain Western control over the Congo's vital strategic mineral wealth—specifically the Shinkolobwe uranium deposits that fueled the Manhattan Project's atomic bombs, as well as cobalt and copper—CIA Director Allen Dulles designated Lumumba's removal an 'urgent and prime objective.' The CIA deployed lethal biological toxins to Léopoldville, subsidized military opposition figures including Army Chief of Staff Colonel Joseph-Désiré Mobutu, and facilitated Lumumba's abduction and delivery to Belgian-backed Katangese secessionist firing squads, inaugurating 32 years of kleptocratic military dictatorship under Mobutu Sese Seko.",
+  "background": "On June 30, 1960, the Republic of the Congo gained independence from Belgium. During the official ceremonies in Léopoldville, Prime Minister Patrice Lumumba delivered a famous, unscripted address recounting the humiliation, forced labor, and racial segregation suffered under Belgian colonial rule. Within days, the army mutinied against Belgian officers, and Belgium dispatched paratroopers to support the secession of the mineral-rich southern province of Katanga, led by Moïse Tshombe and funded by the Belgian mining syndicate Union Minière du Haut-Katanga. When the United Nations peacekeeping force refused to use force to suppress the Katangese rebellion, Lumumba requested logistical transport from the Soviet Union. In Washington, President Dwight D. Eisenhower and CIA Director Allen Dulles viewed Lumumba's pan-African non-alignment as a conduit for Soviet expansion in Africa.",
+  "chronology": [
+    {
+      "date": "1960-06-30",
+      "headline": "Congolese Independence and Lumumba's Speech",
+      "detail": "In the presence of King Baudouin of Belgium, Prime Minister Patrice Lumumba delivers his historic independence address proclaiming an end to colonial servitude and economic exploitation."
+    },
+    {
+      "date": "1960-08-26",
+      "headline": "Allen Dulles Cables CIA Station: Lumumba Must Be Removed",
+      "detail": "CIA Director Allen Dulles sends a top-secret cable to CIA Station Chief Larry Devlin in Léopoldville, stating that Lumumba's 'removal must be an urgent and prime objective... our high priority target.' Dulles authorizes Devlin to operate with wide discretion, including lethal action."
+    },
+    {
+      "date": "1960-09-14",
+      "headline": "Mobutu Seizes Power with CIA Backing",
+      "detail": "With financial backing from CIA Station Chief Larry Devlin and Belgian intelligence, Army Chief of Staff Colonel Joseph-Désiré Mobutu announces a military coup, suspending parliament and placing Lumumba under house arrest guarded by UN peacekeepers."
+    },
+    {
+      "date": "1960-09-26",
+      "headline": "CIA Scientist Delivers Biological Poison Kit",
+      "detail": "CIA chemist Dr. Sidney Gottlieb ('Joseph Scheider') arrives in Léopoldville carrying biological poisons designed to produce a fatal disease indigenous to Central Africa, instructing Devlin to introduce the toxins into Lumumba's food or toothpaste."
+    },
+    {
+      "date": "1960-11-27",
+      "headline": "Lumumba Escapes and is Captured",
+      "detail": "Lumumba slips past Mobutu's encircling soldiers to journey toward his political stronghold in Stanleyville. He is captured by Mobutu's troops at Lodi on the Sankuru River, savagely beaten in front of television cameras, and imprisoned at Thysville military barracks."
+    },
+    {
+      "date": "1961-01-17",
+      "headline": "Execution and Dissolution in Katanga",
+      "detail": "On orders from Mobutu and Belgian advisers, Lumumba is flown to Elisabethville, Katanga. After hours of torture, he is executed by a firing squad under Belgian supervision. Belgian police commissioner Gérard Soete and his brother subsequently exhume the bodies, hack them into pieces, and dissolve them in barrels of sulfuric acid to destroy all physical evidence."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "Central Intelligence Agency (Director Allen Dulles / Station Chief Larry Devlin)",
+      "National Security Council (Eisenhower Administration)",
+      "Technical Services Staff (Dr. Sidney Gottlieb)"
+    ],
+    "foreign_institutions": [
+      "Congolese National Army (ANC / Colonel Joseph-Désiré Mobutu)",
+      "Belgian Ministry of African Affairs & Military Intelligence",
+      "Katangese Gendarmerie (Moïse Tshombe)",
+      "Mouvement National Congolais (MNC-Lumumba)"
+    ],
+    "key_figures": [
+      "Patrice Lumumba (Prime Minister of the DRC, assassinated)",
+      "Joseph-Désiré Mobutu / Mobutu Sese Seko (Army Chief of Staff / Dictator)",
+      "Allen Dulles (Director of Central Intelligence)",
+      "Larry Devlin (CIA Station Chief in Léopoldville)",
+      "Dwight D. Eisenhower (President of the United States)",
+      "Moïse Tshombe (President of Secessionist Katanga)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Extinction of the Congo's first democratic government; establishment of Mobutu Sese Seko's 32-year pro-Western military dictatorship (Zaire), characterized by systematic embezzlement of billions in public revenues, institutional collapse, and brutal political repression.",
+    "civilian_toll": "Direct execution of Lumumba and cabinet colleagues Maurice Mpolo and Joseph Okito; subsequent military suppression of Lumumbist rebellions (Simba rebellion) claimed an estimated 100,000 to 200,000 Congolese lives between 1961 and 1965.",
+    "long_term": "The 1975 US Senate Church Committee documented the White House authorization and CIA delivery of poison to murder Lumumba. The assassination crippled Central African democratic development and fueled regional resource wars (First and Second Congo Wars) that caused over 5 million excess deaths from 1996 onward."
+  },
+  "disputed_aspects": [
+    "Direct presidential assassination order: Church Committee testimony established that Robert Johnson, a member of the NSC staff, recalled President Eisenhower ordering Lumumba eliminated during an August 1960 meeting, though official NSC minutes omitted the exact phrase.",
+    "CIA role on the day of execution: While Belgian officers and Katangese firing squads pulled the triggers, declassified files prove CIA officers tracked Lumumba's movements, assisted Mobutu's forces, and failed to notify authorities to prevent the impending execution."
+  ],
+  "corporate_involvement": [],
+  "related_events": [
+    "iran-coup-1953",
+    "guatemala-coup-1954",
+    "chile-coup-1973"
+  ],
+  "sources": [
+    "source-de-witte-assassination-lumumba-2001",
+    "source-church-committee-alleged-assassination-plots-1975"
+  ],
+  "last_updated": "2026-11-06"
+}

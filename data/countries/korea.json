@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/country.schema.json",
+  "id": "korea",
+  "name": "Korea (Democratic People's Republic & Republic of Korea)",
+  "region": "East Asia",
+  "summary": "East Asian peninsula divided following World War II, devastated by the 1950–1953 Korean War during which intensive US aerial carpet bombing destroyed 85% of northern infrastructure and widespread civilian massacres occurred under wartime military command.",
+  "historical_context": "Liberated from Japanese colonial rule in 1945 and partitioned at the 38th parallel by the United States and the Soviet Union, the Korean peninsula erupted into full-scale war in June 1950. Operating under the United Nations Command headed by General Douglas MacArthur, the US Air Force launched an unprecedented strategic bombing campaign dropping over 635,000 tons of explosives and 32,557 tons of napalm, obliterating virtually every major urban center and town in North Korea. In the final months of the war, US bombers breached major agricultural dams (Toksan and Kusong) to submerge rice fields and trigger mass starvation. Concurrently in the South, retreating US forces and South Korean military police executed widespread civilian massacres—most notably the July 1950 slaughter of unoffending refugees at No Gun Ri and the summary executions of 100,000 to 200,000 suspected leftists during the Bodo League massacres under US operational oversight.",
+  "key_operations": ["korean-war-bombing-massacres-1950-1953"],
+  "primary_institutions_involved": [
+    "United States Department of Defense (Far East Command / Fifth Air Force)",
+    "United Nations Command (UNC)",
+    "Central Intelligence Agency (CIA)",
+    "Republic of Korea Armed Forces and National Police"
+  ],
+  "corporate_presence": [
+    "Boeing Company (B-29 Superfortress bombers)",
+    "Lockheed Corporation (F-80 Shooting Star)",
+    "Dow Chemical (Napalm formulation supply)"
+  ]
+}

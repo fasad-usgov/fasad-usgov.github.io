@@ -1,0 +1,12 @@
+{
+  "id": "source-dinges-condor-years-2004",
+  "title": "The Condor Years: How Pinochet and His Allies Brought Terrorism to Three Continents",
+  "authors": ["John Dinges"],
+  "year": 2004,
+  "type": "academic_book",
+  "publisher_or_archive": "The New Press",
+  "isbn_or_id": "978-1565849303",
+  "summary": "Authoritative investigation based on thousands of declassified FBI, CIA, and South American military files detailing the origins, cross-border infrastructure, and international assassinations of Operation Condor, including US knowledge and failure to act on planned assassinations.",
+  "url": "https://thenewpress.com/books/condor-years",
+  "cited_in": ["operation-condor-1975-1983"]
+}

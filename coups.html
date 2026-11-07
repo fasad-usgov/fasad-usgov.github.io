@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Analytical historical dossier mapping US-led, backed, and orchestrated coups d'état, covert regime change operations, and foreign interventions from 1893 to the present.">
+  <meta name="theme-color" content="#8b1e1e">
+  <title>US-Led Coups &amp; Regime Change — History of Intervention</title>
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/icon-192.svg">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+  <style>
+    .coup-filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 1.5rem 0 2rem 0;
+    }
+    .coup-filter-btn {
+      font-family: var(--font-sans);
+      font-size: var(--font-size-xs);
+      font-weight: 600;
+      padding: 0.4rem 0.8rem;
+      border: 1px solid var(--border-medium);
+      border-radius: var(--radius-sm);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all var(--transition-fast);
+    }
+    .coup-filter-btn:hover,
+    .coup-filter-btn.active {
+      background: var(--text-accent);
+      color: #ffffff;
+      border-color: var(--text-accent);
+    }
+    .playbook-step {
+      background: var(--bg-card);
+      border: 1px solid var(--border-light);
+      border-top: 3px solid var(--text-accent);
+      border-radius: var(--radius-sm);
+      padding: 1.25rem;
+    }
+    .playbook-step h4 {
+      margin-top: 0;
+      font-size: var(--font-size-sm);
+      color: var(--text-accent);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .coup-meta-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-family: var(--font-mono);
+      padding: 0.15rem 0.4rem;
+      border-radius: 2px;
+      margin-right: 0.3rem;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+    }
+    .blowback-tag {
+      background: rgba(139, 30, 30, 0.1);
+      color: var(--text-accent);
+      border: 1px solid rgba(139, 30, 30, 0.2);
+      font-size: var(--font-size-xs);
+      padding: 0.2rem 0.5rem;
+      border-radius: var(--radius-sm);
+      margin-top: 0.75rem;
+      display: inline-block;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div id="offline-banner"></div>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-top">
+        <div class="brand-wrapper">
+          <a href="index.html" class="brand-title">History of Intervention</a>
+          <span class="brand-subtitle">Special Dossier: US-Led Coups &amp; Covert Regime Change</span>
+        </div>
+        <div class="header-controls">
+          <div class="theme-select-wrapper">
+            <label for="theme-select-header" class="sr-only">Reading Theme</label>
+            <span>Theme:</span>
+            <select id="theme-select-header" class="theme-select">
+              <option value="light">Parchment</option>
+              <option value="sepia">Archival Sepia</option>
+              <option value="dark">Slate Dark</option>
+            </select>
+          </div>
+          <a href="search.html" class="nav-search-btn" title="Search Archive (Press '/')">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            Search <kbd>/</kbd>
+          </a>
+        </div>
+      </div>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="timeline.html" class="nav-link">Timeline</a></li>
+          <li><a href="coups.html" class="nav-link active">Coups</a></li>
+          <li><a href="oligarchy.html" class="nav-link">Oligarchy State</a></li>
+          <li><a href="military-industrial-complex.html" class="nav-link">War Machine</a></li>
+          <li><a href="regions.html" class="nav-link">Regions</a></li>
+          <li><a href="countries.html" class="nav-link">Countries</a></li>
+          <li><a href="companies.html" class="nav-link">Corporate Accountability</a></li>
+          <li><a href="sources.html" class="nav-link">Research Library</a></li>
+          <li><a href="about.html" class="nav-link">Methodology &amp; About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a>
+      <span class="separator">/</span>
+      <span>Coups &amp; Regime Change</span>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="mb-4">
+      <span class="badge badge-accent mb-1">Foundational Investigative Research</span>
+      <h1 style="margin-top: 0.5rem;">US-Led Coups, Regime Change &amp; The Imperial Playbook</h1>
+      <p class="hero-lead">
+        Drawing upon investigative journalism (Johnny Harris’s <em>Every US-Led Coup, Mapped</em>), primary archival releases (Church Committee, FRUS, National Security Archive), and classic historiographical studies (Stephen Kinzer’s <em>Overthrow</em>, Lindsey O'Rourke’s <em>Covert Regime Change</em>).
+      </p>
+      <div style="background: var(--bg-card); border-left: 4px solid var(--text-accent); padding: 1.25rem 1.5rem; border: 1px solid var(--border-light); border-left-width: 4px; border-radius: var(--radius-sm); margin-top: 1rem;">
+        <p style="margin: 0; font-size: var(--font-size-sm); color: var(--text-secondary);">
+          <strong>The Core Definition:</strong> A coup d’état is an unconstitutional, illegal seizure of power removing a sovereign head of state or government without popular democratic consent. This dossier traces how the United States transitioned from territorial expansion to mastering covert regime change—subsidizing military conspirators, deploying disinformation, and using economic warfare to topple governments that challenged Western multinational corporations or foreign policy doctrines.
+        </p>
+      </div>
+    </section>
+
+    <!-- The 4-Step Coup Playbook -->
+    <section class="mb-4">
+      <h2 style="border-bottom: 1px solid var(--border-light); padding-bottom: 0.5rem;">The Anatomy of a US Coup: The 4-Step Playbook</h2>
+      <p style="font-size: var(--font-size-sm); color: var(--text-secondary); margin-bottom: 1.5rem;">
+        Across Latin America, the Middle East, Africa, and Asia, declassified CIA post-mortems reveal a remarkably consistent operational sequence:
+      </p>
+      <div class="grid grid-cards" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));">
+        <div class="playbook-step">
+          <h4>Stage 1: Economic Warfare</h4>
+          <p style="font-size: var(--font-size-xs); line-height: 1.5; color: var(--text-secondary);">
+            <strong>"Make the economy scream":</strong> The US cuts off foreign credit lines, freezes central bank assets, boycotts nationalized commodities (sugar, oil, copper), and finances domestic trucker and merchant strikes to manufacture artificial shortages and middle-class panic.
+          </p>
+          <div style="font-size: var(--font-size-xs); color: var(--text-muted); font-style: italic;">Examples: Chile 1970–73, Guatemala 1953–54, Iran 1951–53.</div>
+        </div>
+        <div class="playbook-step">
+          <h4>Stage 2: Information Warfare</h4>
+          <p style="font-size: var(--font-size-xs); line-height: 1.5; color: var(--text-secondary);">
+            <strong>Psychological Operations:</strong> The CIA buys local newspaper editors, plants sensational disinformation, broadcasts propaganda on pirate transmitters (Radio Swan, Radio Liberación), and finances provocateurs to stage violent clashes blamed on the government.
+          </p>
+          <div style="font-size: var(--font-size-xs); color: var(--text-muted); font-style: italic;">Examples: Guatemala (PBSuccess), Iran (Operation Ajax).</div>
+        </div>
+        <div class="playbook-step">
+          <h4>Stage 3: Cultivating Generals</h4>
+          <p style="font-size: var(--font-size-xs); line-height: 1.5; color: var(--text-secondary);">
+            <strong>The Military Ultimatum:</strong> Clandestine officers deliver cash disbursements, tactical radios, and explicit White House security guarantees to senior army generals, providing "kill lists" and ensuring that loyalist resistance is neutralized.
+          </p>
+          <div style="font-size: var(--font-size-xs); color: var(--text-muted); font-style: italic;">Examples: Brazil (Brother Sam), Indonesia (1965), South Vietnam (1963).</div>
+        </div>
+        <div class="playbook-step">
+          <h4>Stage 4: Restitution &amp; Dictatorship</h4>
+          <p style="font-size: var(--font-size-xs); line-height: 1.5; color: var(--text-secondary);">
+            <strong>Corporate &amp; Geopolitical Payout:</strong> Washington grants emergency diplomatic recognition within hours. The new military junta dissolves congress, bans trade unions, privatizes national resources, and restores concessions to American multinationals.
+          </p>
+          <div style="font-size: var(--font-size-xs); color: var(--text-muted); font-style: italic;">Examples: United Fruit, Freeport Sulphur, ITT, British Petroleum.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Three Historical Epochs -->
+    <section class="mb-4">
+      <h2 style="border-bottom: 1px solid var(--border-light); padding-bottom: 0.5rem;">Three Epochs of American Regime Change</h2>
+      <div class="grid grid-3">
+        <div style="background: var(--bg-card); border: 1px solid var(--border-medium); border-radius: var(--radius-sm); padding: 1.25rem;">
+          <span class="coup-meta-badge">1893–1945</span>
+          <h3 style="margin: 0.5rem 0; font-size: var(--font-size-md);">The Corporate Frontier</h3>
+          <p style="font-size: var(--font-size-xs); color: var(--text-secondary); line-height: 1.5;">
+            Direct corporate coups in the Americas and Pacific. Private sugar barons, banana monopolies (United Fruit, Cuyamel), and railroad syndicates recruited mercenaries and petitioned the US Navy and Marines to unseat uncooperative sovereigns in Hawaii, Nicaragua, and Honduras.
+          </p>
+        </div>
+        <div style="background: var(--bg-card); border: 1px solid var(--border-medium); border-radius: var(--radius-sm); padding: 1.25rem;">
+          <span class="coup-meta-badge">1947–1979</span>
+          <h3 style="margin: 0.5rem 0; font-size: var(--font-size-md);">The CIA Golden Age</h3>
+          <p style="font-size: var(--font-size-xs); color: var(--text-secondary); line-height: 1.5;">
+            Following the National Security Act of 1947, covert regime change became institutionalized statecraft. Under Allen Dulles and Henry Kissinger, covert ops toppled democracies in Iran, Guatemala, Congo, South Vietnam, Brazil, and Chile, frequently installing military dictatorships.
+          </p>
+        </div>
+        <div style="background: var(--bg-card); border: 1px solid var(--border-medium); border-radius: var(--radius-sm); padding: 1.25rem;">
+          <span class="coup-meta-badge">1980–Present</span>
+          <h3 style="margin: 0.5rem 0; font-size: var(--font-size-md);">Proxy Wars &amp; Overt Invasions</h3>
+          <p style="font-size: var(--font-size-xs); color: var(--text-secondary); line-height: 1.5;">
+            Transition from clandestine surgical coups to vast proxy wars (Chad, Afghanistan), conventional direct invasions (Grenada 1983, Panama 1989, Iraq 2003), and multilateral aerial campaigns (Libya 2011), often leaving collapsed states in their wake.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filter Buttons -->
+    <section class="mb-4">
+      <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--border-light); padding-bottom: 0.5rem;">
+        <h2 style="margin: 0; border: none; padding: 0;">Comprehensive Coup &amp; Regime Change Catalog</h2>
+        <span style="font-size: var(--font-size-xs); font-family: var(--font-mono); color: var(--text-muted);" id="coup-count-display">Showing all 18 documented cases</span>
+      </div>
+
+      <div class="coup-filter-bar">
+        <button class="coup-filter-btn active" data-filter="all">All Operations</button>
+        <button class="coup-filter-btn" data-filter="latin-america">Latin America &amp; Caribbean</button>
+        <button class="coup-filter-btn" data-filter="middle-east">Middle East &amp; North Africa</button>
+        <button class="coup-filter-btn" data-filter="africa">Sub-Saharan Africa</button>
+        <button class="coup-filter-btn" data-filter="asia">Asia &amp; Pacific</button>
+        <button class="coup-filter-btn" data-filter="corporate">Corporate-Driven</button>
+      </div>
+
+      <!-- Coup Grid Cards -->
+      <div class="grid grid-cards" id="coups-grid">
+
+        <!-- 1893 Hawaii -->
+        <article class="card coup-card" data-region="asia" data-tags="corporate">
+          <div class="card-meta">
+            <span class="coup-meta-badge">1893</span>
+            <span>Pacific • Hawaii</span>
+          </div>
+          <h3 class="card-title">
+            <a href="events/?id=hawaii-overthrow-1893">Overthrow of the Hawaiian Kingdom</a>
+          </h3>
+          <p class="card-body">
+            A cabal of 13 white American sugar and pineapple tycoons (led by Sanford Dole and Lorrin Thurston) conspired with US Minister John L. Stevens to overthrow <strong>Queen Liliʻuokalani</strong>. 162 armed US Marines landed from the USS <em>Boston</em> to intimidate loyalists, paving the way for annexation.
+          </p>
+          <a href="events/?id=hawaii-overthrow-1893" class="btn btn-sm">Read Full Account &rarr;</a>
+          <div><span class="blowback-tag">Blowback: Extinction of Native Sovereignty; 1993 US Congressional Apology</span></div>
+        </article>
+
+        <!-- 1909 Nicaragua -->
+        <article class="card coup-card" data-region="latin-america" data-tags="corporate">
+          <div class="card-meta">
+            <span class="coup-meta-badge">1909</span>
+            <span>Central America • Nicaragua</span>
+          </div>
+          <h3 class="card-title">Ouster of José Santos Zelaya</h3>
+          <p class="card-body">
+            Nicaraguan President <strong>José Santos Zelaya</strong> resisted American canal concessions and negotiated with Japan/Britain. Secretary of State Philander Knox (former counsel for US mining companies) issued the "Knox Note" demanding his resignation and dispatched US warships, installing General Juan Estrada.
+          </p>
+          <div style="font-size: var(--font-size-xs); color: var(--text-secondary);">
+            <strong>US Mechanism:</strong> Gunboat diplomacy, Knox Note, landing of 400 Marines.<br>
+            <strong>Blowback:</strong> Decades of continuous US military occupation (1912–1933) and the rise of the Somoza family dictatorship.
+          </div>
+        </article>
+
+        <!-- 1911 Honduras -->
+        <article class="card coup-card" data-region="latin-america" data-tags="corporate">
+          <div class="card-meta">
+            <span class="coup-meta-badge">1911</span>
+            <span>Central America • Honduras</span>
+          </div>
+          <h3 class="card-title">The Cuyamel Fruit Coup (Banana Wars)</h3>
+          <p class="card-body">
+            Banana tycoon <strong>Sam Zemurray</strong> (Cuyamel Fruit Company / United Fruit) financed mercenary general Lee Christmas and armed the gunboat <em>Hornet</em> to overthrow President <strong>Miguel Dávila</strong> after Dávila refused exclusive tax and land concessions.
+          </p>
+          <div style="font-size: var(--font-size-xs); color: var(--text-secondary);">
+            <strong>Corporate Actor:</strong> Cuyamel Fruit &amp; United Fruit Company.<br>
+            <strong>Outcome:</strong> Replaced by Manuel Bonilla, who granted Zemurray 24,700 acres of prime tariff-free land, birthing the term "Banana Republic."
+          </div>
+        </article>
+
+        <!-- 1953 Iran -->
+        <article class="card coup-card" data-region="middle-east" data-tags="corporate">
+          <div class="card-meta">
+            <span class="coup-meta-badge">1953</span>
+            <span>Middle East • Iran</span>
+          </div>
+          <h3 class="card-title">
+            <a href="events/?id=iran-coup-1953">Operation Ajax (TPAJAX)</a>
+          </h3>
+          <p class="card-body">
+            The CIA and British MI6 orchestrated the overthrow of democratically elected Prime Minister <strong>Mohammad Mosaddegh</strong> following his nationalization of the Anglo-Iranian Oil Company (now BP). CIA operative Kermit Roosevelt hired street mobs, bribed military commanders, and restored the autocratic Shah.
+          </p>
+          <a href="events/?id=iran-coup-1953" class="btn btn-sm">Read Full Account &rarr;</a>
+          <div><span class="blowback-tag">Blowback: 1979 Iranian Revolution &amp; 40+ Years Hostility</span></div>
+        </article>
+
+        <!-- 1954 Guatemala -->
+        <article class="card coup-card" data-region="latin-america" data-tags="corporate">
+          <div class="card-meta">
+            <span class="coup-meta-badge">1954</span>
+            <span>Latin America • Guatemala</span>
+          </div>
+          <h3 class="card-title">
+            <a href="events/?id=guatemala-coup-1954">Operation PBSuccess</a>
+          </h3>
+          <p class="card-body">
+            CIA covert operation overthrowing democratically elected President <strong>Jacobo Árbenz</strong> after he enacted Decree 900 land reforms expropriating uncultivated United Fruit Company holdings. Secretary of State John Foster Dulles and CIA Director Allen Dulles held substantial stock and legal ties to United Fruit.
+          </p>
+          <a href="events/?id=guatemala-coup-1954" class="btn btn-sm">Read Full Account &rarr;</a>
+          <div><span class="blowback-tag">Blowback: 36-Year Civil War &amp; 200,000+ Dead (Maya Genocide)</span></div>
+        </article>
+
+        <!-- 1960–1961 DR Congo -->
+        <article class="card coup-card" data-region="africa" data-tags="corporate">
+          <div class="card-meta">
+            <span class="coup-meta-badge">1960–1961</span>
+            <span>Central Africa • DR Congo</span>
+          </div>
+          <h3 class="card-title">
+            <a href="events/?id=congo-coup-1960-1961">Assassination of Patrice Lumumba</a>
+          </h3>
+          <p class="card-body">
+            CIA Director Allen Dulles designated elected Prime Minister <strong>Patrice Lumumba</strong> an "urgent and prime objective." The CIA dispatched biological toxins, funded Colonel Joseph Mobutu's coup, and assisted in delivering Lumumba to a Belgian-supervised firing squad in Katanga to secure Shinkolobwe uranium and copper reserves.
+          </p>
+          <a href="events/?id=congo-coup-1960-1961" class="btn btn-sm">Read Full Account &rarr;</a>
+          <div><span class="blowback-tag">Blowback: 32 Years of Mobutu Kleptocracy &amp; Regional Wars (5M+ Dead)</span></div>
+        </article>
+
+        <!-- 1961 Dominican Republic -->
+        <article class="card coup-card" data-region="latin-america">
+          <div class="card-meta">
+            <span class="coup-meta-badge">1961</span>
+            <span>Caribbean • Dominican Republic</span>
+          </div>
+          <h3 class="card-title">Assassination of Rafael Trujillo</h3>
+          <p class="card-body">
+            Long-time brutal dictator <strong>Rafael Trujillo</strong>, once an ally of Washington, was assassinated by dissident military conspirators who were covertly supplied with firearms and operational support by the CIA, as confirmed in the 1975 Church Committee report.
+          </p>
+          <div style="font-size: var(--font-size-xs); color: var(--text-secondary);">
+            <strong>US Mechanism:</strong> CIA clandestine arms drops, diplomatic distancing.<br>
+            <strong>Outcome:</strong> Subsequent 1965 direct US military invasion (Operation Power Pack) to block the return of democratically elected leftist President Juan Bosch.
+          </div>
+        </article>
+
+        <!-- 1963 South Vietnam -->
+        <article class="card coup-card" data-region="asia">
+          <div class="card-meta">
+            <span class="coup-meta-badge">1963</span>
+            <span>Southeast Asia • South Vietnam</span>
+          </div>
+          <h3 class="card-title">
+            <a href="events/?id=south-vietnam-coup-1963">Assassination of Ngo Dinh Diem</a>
+          </h3>
+          <p class="card-body">
+            Frustrated by the Buddhist Crisis and authoritarian paralysis, the Kennedy administration authorized Cable 243, instructing Ambassador Henry Cabot Lodge Jr. and CIA operative Lucien Conein to greenlight an ARVN generals' coup against President <strong>Ngo Dinh Diem</strong>, resulting in his execution.
+          </p>
+          <a href="events/?id=south-vietnam-coup-1963" class="btn btn-sm">Read Full Account &rarr;</a>
+          <div><span class="blowback-tag">Blowback: Total US Political Ownership &amp; 500,000 Troops Deployed</span></div>
+        </article>
+
+        <!-- 1964 Brazil -->
+        <article class="card coup-card" data-region="latin-america" data-tags="corporate">
+          <div class="card-meta">
+            <span class="coup-meta-badge">1964</span>
+            <span>South America • Brazil</span>
+          </div>
+          <h3 class="card-title">
+            <a href="events/?id=brazil-coup-1964">Operation Brother Sam</a>
+          </h3>
+          <p class="card-body">
+            Overthrow of reformist President <strong>João Goulart</strong> by right-wing generals. President Lyndon B. Johnson ordered a US Navy aircraft carrier battle group, tear gas, and ammunition to Brazilian shores. Installed a 21-year military dictatorship that institutionalized torture and inspired Operation Condor.
+          </p>
+          <a href="events/?id=brazil-coup-1964" class="btn btn-sm">Read Full Account &rarr;</a>
+          <div><span class="blowback-tag">Blowback: 21 Years of Military Dictatorship &amp; Torture Doctrine</span></div>
+        </article>
+
+        <!-- 1965 Indonesia -->
+        <article class="card coup-card" data-region="asia" data-tags="corporate">
+          <div class="card-meta">
+            <span class="coup-meta-badge">1965–1966</span>
+            <span>Southeast Asia • Indonesia</span>
+          </div>
+          <h3 class="card-title">
+            <a href="events/?id=indonesia-killings-1965">Purge of Sukarno &amp; The Jakarta Method</a>
+          </h3>
+          <p class="card-body">
+            General <strong>Suharto</strong> sidelined anti-imperialist founding President <strong>Sukarno</strong>, using covert US communication equipment, funding, and US Embassy execution lists containing thousands of names to exterminate an estimated 500,000 to 1,000,000 suspected leftists and trade unionists.
+          </p>
+          <a href="events/?id=indonesia-killings-1965" class="btn btn-sm">Read Full Account &rarr;</a>
+          <div><span class="blowback-tag">Blowback: 500,000+ Civilians Murdered; "Jakarta Method" Exported Globally</span></div>
+        </article>
+
+        <!-- 1973 Chile -->
+        <article class="card coup-card" data-region="latin-america" data-tags="corporate">
+          <div class="card-meta">
+            <span class="coup-meta-badge">1973</span>
+            <span>South America • Chile</span>
+          </div>
+          <h3 class="card-title">
+            <a href="events/?id=chile-coup-1973">Project FUBELT &amp; Fall of Allende</a>
+          </h3>
+          <p class="card-body">
+            Violent military overthrow of democratically elected socialist President <strong>Salvador Allende</strong> on September 11, 1973. Directed by Richard Nixon, Henry Kissinger, the CIA, and ITT Corporation. General Augusto Pinochet established a 17-year dictatorship characterized by concentration camps, torture, and Operation Condor.
+          </p>
+          <a href="events/?id=chile-coup-1973" class="btn btn-sm">Read Full Account &rarr;</a>
+          <div><span class="blowback-tag">Blowback: 3,200+ Executed/Disappeared; Transnational State Terror</span></div>
+        </article>
+
+        <!-- 1982 Chad -->
+        <article class="card coup-card" data-region="africa">
+          <div class="card-meta">
+            <span class="coup-meta-badge">1982</span>
+            <span>Sahel / Central Africa • Chad</span>
+          </div>
+          <h3 class="card-title">CIA Backing of Hissène Habré</h3>
+          <p class="card-body">
+            To "bloody Muammar Gaddafi's nose" in neighboring Libya, the Reagan administration and CIA covertly funneled weapons and cash via Sudan to warlord <strong>Hissène Habré</strong>, toppling the government of Goukouni Oueddei. Habré's secret police (DDS) subsequently slaughtered an estimated 40,000 political opponents.
+          </p>
+          <div style="font-size: var(--font-size-xs); color: var(--text-secondary);">
+            <strong>US Agency:</strong> CIA Station Khartoum &amp; Reagan Administration.<br>
+            <strong>Outcome:</strong> Habré convicted of crimes against humanity and torture by a special African tribunal in 2016.
+          </div>
+        </article>
+
+        <!-- 1983 Grenada -->
+        <article class="card coup-card" data-region="latin-america">
+          <div class="card-meta">
+            <span class="coup-meta-badge">1983</span>
+            <span>Caribbean • Grenada</span>
+          </div>
+          <h3 class="card-title">Operation Urgent Fury</h3>
+          <p class="card-body">
+            Following the internal coup and execution of socialist Prime Minister <strong>Maurice Bishop</strong> by a rival military faction, President Ronald Reagan deployed nearly 2,000 US troops to invade the Caribbean island, citing the protection of American medical students and eliminating Cuban construction engineers.
+          </p>
+          <div style="font-size: var(--font-size-xs); color: var(--text-secondary);">
+            <strong>US Mechanism:</strong> Direct conventional military airborne and amphibious assault.<br>
+            <strong>Blowback:</strong> Condemned by the UN General Assembly (108–9) as a flagrant violation of international law.
+          </div>
+        </article>
+
+        <!-- 1989 Panama -->
+        <article class="card coup-card" data-region="latin-america">
+          <div class="card-meta">
+            <span class="coup-meta-badge">1989</span>
+            <span>Central America • Panama</span>
+          </div>
+          <h3 class="card-title">
+            <a href="events/?id=panama-invasion-1989">Operation Just Cause (Invasion of Panama)</a>
+          </h3>
+          <p class="card-body">
+            President George H.W. Bush deployed 27,000 US troops to invade Panama and overthrow former CIA asset and military dictator General <strong>Manuel Noriega</strong>. Intense aerial and artillery bombardment leveled the El Chorrillo neighborhood, killing hundreds to thousands of civilians before Noriega was captured and extradited.
+          </p>
+          <a href="events/?id=panama-invasion-1989" class="btn btn-sm">Read Full Account &rarr;</a>
+          <div><span class="blowback-tag">Blowback: UN General Assembly Condemnation &amp; 2018 OAS Liability Ruling</span></div>
+        </article>
+
+        <!-- 1979–1992 Afghanistan -->
+        <article class="card coup-card" data-region="middle-east">
+          <div class="card-meta">
+            <span class="coup-meta-badge">1979–1992</span>
+            <span>Central / South Asia • Afghanistan</span>
+          </div>
+          <h3 class="card-title">Operation Cyclone &amp; Fall of Najibullah</h3>
+          <p class="card-body">
+            The largest covert operation in CIA history, funneling over $6 billion in arms and cash through Pakistan's ISI to radical Islamist Mujahideen commanders against Soviet forces and the government of <strong>Mohammad Najibullah</strong>, which collapsed in 1992.
+          </p>
+          <div style="font-size: var(--font-size-xs); color: var(--text-secondary);">
+            <strong>Key Actors:</strong> CIA, Pakistan ISI, Charlie Wilson, Osama bin Laden's Maktab al-Khidamat.<br>
+            <strong>Blowback:</strong> Devastating civil war, rise of the Taliban in 1996, sanctuary for Al-Qaeda, and the 2001–2021 US War in Afghanistan.
+          </div>
+        </article>
+
+        <!-- 2002 Venezuela -->
+        <article class="card coup-card" data-region="latin-america" data-tags="corporate">
+          <div class="card-meta">
+            <span class="coup-meta-badge">2002</span>
+            <span>South America • Venezuela</span>
+          </div>
+          <h3 class="card-title">
+            <a href="events/?id=venezuela-interventions-2002-present">The 2002 Coup Attempt Against Hugo Chávez</a>
+          </h3>
+          <p class="card-body">
+            A short-lived military coup kidnapping elected President <strong>Hugo Chávez</strong> and installing business chamber chief Pedro Carmona. The Bush administration had funded opposition groups through the NED and immediately endorsed the coup government before popular uprisings and loyalist soldiers restored Chávez.
+          </p>
+          <a href="events/?id=venezuela-interventions-2002-present" class="btn btn-sm">Read Full Account &rarr;</a>
+          <div><span class="blowback-tag">Blowback: Consolidation of Bolivarian Revolution &amp; Radical Polarization</span></div>
+        </article>
+
+        <!-- 2003 Iraq -->
+        <article class="card coup-card" data-region="middle-east" data-tags="corporate">
+          <div class="card-meta">
+            <span class="coup-meta-badge">2003</span>
+            <span>Middle East • Iraq</span>
+          </div>
+          <h3 class="card-title">
+            <a href="events/?id=iraq-invasion-2003">Operation Iraqi Freedom</a>
+          </h3>
+          <p class="card-body">
+            Conventional invasion by US and UK forces overthrowing <strong>Saddam Hussein</strong> under fabricated intelligence alleging weapons of mass destruction. Replaced state institutions with the Coalition Provisional Authority, dismantling the army and civil administration under Paul Bremer.
+          </p>
+          <a href="events/?id=iraq-invasion-2003" class="btn btn-sm">Read Full Account &rarr;</a>
+          <div><span class="blowback-tag">Blowback: 150,000–600,000+ Deaths; Regional Sectarian War &amp; Rise of ISIS</span></div>
+        </article>
+
+        <!-- 2011 Libya -->
+        <article class="card coup-card" data-region="middle-east">
+          <div class="card-meta">
+            <span class="coup-meta-badge">2011</span>
+            <span>North Africa • Libya</span>
+          </div>
+          <h3 class="card-title">
+            <a href="events/?id=libya-intervention-2011">Operation Unified Protector &amp; Gaddafi Ouster</a>
+          </h3>
+          <p class="card-body">
+            NATO aerial bombardment campaign and covert special forces operations converting a UN civilian protection mandate into an unprincipled regime change operation, killing <strong>Muammar Gaddafi</strong> and leaving the country divided among warring militias and slave-trading cartels.
+          </p>
+          <a href="events/?id=libya-intervention-2011" class="btn btn-sm">Read Full Account &rarr;</a>
+          <div><span class="blowback-tag">Blowback: Complete State Collapse, Weapons Proliferation, Sahel Destabilization</span></div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Historiographical & Research Library Sources -->
+    <section class="mb-4">
+      <div style="background: var(--bg-card); border: 1px solid var(--border-medium); border-radius: var(--radius-sm); padding: 1.5rem;">
+        <h3 style="margin-top: 0;">Verified Historiographical &amp; Video Research Sources</h3>
+        <p style="font-size: var(--font-size-sm); color: var(--text-secondary); margin-bottom: 1rem;">
+          This analysis is grounded in peer-reviewed historical monographs, official congressional inquiries, and declassified intelligence files highlighted in Johnny Harris's video project:
+        </p>
+        <ul style="font-size: var(--font-size-xs); line-height: 1.8; color: var(--text-secondary); padding-left: 1.25rem;">
+          <li><strong>Johnny Harris</strong>: <em>American-Backed Coups, Mapped</em> (YouTube Documentary &amp; Research Archive, 2023).</li>
+          <li><strong>Stephen Kinzer</strong>: <em>Overthrow: America's Century of Regime Change from Hawaii to Iraq</em> (Times Books / Henry Holt, 2006).</li>
+          <li><strong>Lindsey A. O'Rourke</strong>: <em>Covert Regime Change: America's Secret Cold War</em> (Cornell University Press, 2018).</li>
+          <li><strong>Ludo De Witte</strong>: <em>The Assassination of Lumumba</em> (Verso Books, 2001).</li>
+          <li><strong>US Senate Select Committee (Church Committee)</strong>: <em>Alleged Assassination Plots Involving Foreign Leaders</em> (Report No. 94-465, 1975).</li>
+          <li><strong>National Security Archive (GWU)</strong>: Declassified Electronic Briefing Books on Brazil (EBB 465), Chile (EBB 8), Indonesia (EBB 62), and Iran (FRUS).</li>
+          <li><strong>House of Commons Foreign Affairs Committee</strong>: <em>Libya: Examination of Intervention and UK Foreign Policy</em> (HC 119, 2016).</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h5>History of Intervention</h5>
+          <p style="font-size: var(--font-size-xs); line-height: 1.5; color: var(--text-muted);">
+            A public reference archive published under open educational licenses. Designed to work completely offline as a Progressive Web App on desktop, mobile, and low-bandwidth connections.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="coups.html">Coups &amp; Regime Change</a></li>
+            <li><a href="oligarchy.html">Oligarchy State</a></li>
+            <li><a href="military-industrial-complex.html">The War Machine</a></li>
+            <li><a href="regions.html">Regional Index</a></li>
+            <li><a href="countries.html">Country Dossiers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Research &amp; Data</h5>
+          <ul>
+            <li><a href="companies.html">Corporate Accountability</a></li>
+            <li><a href="sources.html">Research Library</a></li>
+            <li><a href="search.html">Offline Full-Text Search</a></li>
+            <li><a href="about.html">Editorial Standards</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Governance</h5>
+          <ul>
+            <li><a href="about.html#contact">Report an Error</a></li>
+            <li><a href="about.html#sources">Verification Criteria</a></li>
+            <li><a href="about.html#privacy">Zero-Tracking Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 History of Intervention Project. Public Historical Education.</div>
+        <div>No cookies • No user tracking • Zero external frameworks</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+  <script>
+    // Interactive Coup Filter Logic
+    document.addEventListener('DOMContentLoaded', () => {
+      const filterBtns = document.querySelectorAll('.coup-filter-btn');
+      const coupCards = document.querySelectorAll('.coup-card');
+      const countDisplay = document.getElementById('coup-count-display');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          const filter = btn.dataset.filter;
+          let visibleCount = 0;
+
+          coupCards.forEach(card => {
+            if (filter === 'all') {
+              card.style.display = 'block';
+              visibleCount++;
+            } else if (filter === 'corporate') {
+              if (card.dataset.tags && card.dataset.tags.includes('corporate')) {
+                card.style.display = 'block';
+                visibleCount++;
+              } else {
+                card.style.display = 'none';
+              }
+            } else {
+              if (card.dataset.region === filter) {
+                card.style.display = 'block';
+                visibleCount++;
+              } else {
+                card.style.display = 'none';
+              }
+            }
+          });
+
+          countDisplay.textContent = `Showing ${visibleCount} of ${coupCards.length} documented cases`;
+        });
+      });
+    });
+  </script>
+</body>
+</html>

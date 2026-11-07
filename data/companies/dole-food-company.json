@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/company.schema.json",
+  "id": "dole-food-company",
+  "name": "Dole Food Company / Hawaiian Pineapple Co.",
+  "historical_names": [
+    "Castle & Cooke (1851–present)",
+    "Hawaiian Pineapple Company (1901–1991)",
+    "Dole Food Company (1991–present)"
+  ],
+  "headquarters": "Honolulu, Hawaii / Westlake Village, California, United States",
+  "industry": "Agriculture & Commodity Extraction",
+  "active_period": "1851–present",
+  "operational_role": "Dominant agricultural and landholding syndicate established by descendants of American Protestant missionaries in the Kingdom of Hawaii, dominating sugar cane and pineapple production and controlling key island shipping, banking, and commercial infrastructure.",
+  "government_liaisons": [
+    "United States Legation in Honolulu (Minister John L. Stevens)",
+    "United States Navy (USS Boston commanding officers)",
+    "United States Congress (Annexation Club lobbyists)"
+  ],
+  "documented_activities": "In January 1893, American planter and lawyer Sanford Ballard Dole joined the 13-member 'Committee of Safety' representing American commercial and sugar interests threatened by Queen Liliʻuokalani's proposed constitution restoring voting rights to native Hawaiians. Conspiring with US diplomatic minister John L. Stevens, the committee summoned 162 armed US Marines and sailors from the cruiser USS Boston to take up tactical positions facing the Iolani Palace, forcing Queen Liliʻuokalani to surrender her executive authority under formal protest to avoid bloodshed. Dole was immediately named President of the Provisional Government and subsequently the Republic of Hawaii, successfully lobbying for unilateral US annexation in 1898 under President William McKinley.",
+  "documented_consequences": "Extinguished the sovereign independence of the indigenous Kingdom of Hawaii, expropriated 1.8 million acres of crown and government lands without compensation to native Hawaiians, and cemented corporate plantation hegemony culminating in Sanford Dole's cousin James Dole founding the Hawaiian Pineapple Company (later Dole Food Company). Formally acknowledged and condemned by the US Congress in the 1993 Apology Resolution (Public Law 103-150).",
+  "associated_events": ["hawaii-overthrow-1893"],
+  "sources": [
+    "source-us-congress-apology-resolution-1993",
+    "source-kinzer-overthrow-2006"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "east-timor-genocide-1975-1999",
+  "title": "The 1975–1999 East Timor Genocide and Western Complicity",
+  "date_start": "1975-12-07",
+  "date_end": "1999-10-25",
+  "era": "Cold War & Post-Cold War",
+  "region": "Southeast Asia",
+  "countries": ["East Timor", "Indonesia", "United States"],
+  "topics": [
+    "Genocide & Atrocities",
+    "Military Invasion",
+    "Complicity",
+    "Weapons Pipelines",
+    "Cold War"
+  ],
+  "summary": "The 24-year military invasion, occupation, and genocidal campaign waged by the Indonesian Armed Forces against the population of Timor-Leste (East Timor) between December 1975 and late 1999. The invasion was initiated hours after US President Gerald Ford and Secretary of State Henry Kissinger met with Indonesian dictator Suharto in Jakarta, giving explicit advance approval. The United States provided approximately 90% of the weaponry used in the initial assault—including OV-10 Bronco counter-insurgency aircraft, M16 rifles, and naval support—while utilizing diplomatic influence in the United Nations Security Council to obstruct enforcement of international resolutions calling for Indonesia's withdrawal.",
+  "background": "Following the April 1974 Carnation Revolution in Lisbon, Portugal initiated the rapid decolonization of its overseas territories. In East Timor, the progressive nationalist movement Fretilin gained widespread popular support, implemented literacy programs, and declared independence as the Democratic Republic of East Timor on November 28, 1975. Neighboring Indonesia, governed by General Suharto's Western-aligned military dictatorship, viewed an independent leftist state on its border as unacceptable. On December 6, 1975, Ford and Kissinger visited Jakarta; declassified transcripts show Suharto requested understanding for military action in East Timor, to which Ford replied, 'We will understand and will not press you on the issue.' The full-scale invasion began the following morning.",
+  "chronology": [
+    {
+      "date": "1975-12-06",
+      "headline": "Ford and Kissinger Greenlight the Invasion in Jakarta",
+      "detail": "During bilateral talks at Merdeka Palace, Suharto explicitly outlines plans for 'drastic action' in East Timor. Ford pledges understanding, and Kissinger asks only that the military assault begin after the American delegation departs Indonesian airspace."
+    },
+    {
+      "date": "1975-12-07",
+      "headline": "Operation Seroja (Lotus) Commences",
+      "detail": "Indonesian paratroopers and naval forces storm Dili. Soldiers carry out widespread public executions of civilians, Chinese residents, and journalists on the Dili wharf, using American-supplied weapons and landing craft."
+    },
+    {
+      "date": "1977-05-01",
+      "headline": "Encirclement, Annihilation, and OV-10 Bronco Bombings",
+      "detail": "The Carter administration approves the sale of additional OV-10 Bronco counter-insurgency aircraft and specialized munitions to Jakarta. The Indonesian military uses the aircraft to systematically carpet-bomb mountainous redoubts where hundreds of thousands of civilians took refuge, deliberately destroying crops and creating mass artificial famine."
+    },
+    {
+      "date": "1991-11-12",
+      "headline": "Santa Cruz Cemetery Massacre in Dili",
+      "detail": "Indonesian troops open fire on thousands of peaceful pro-independence mourners at Santa Cruz cemetery, killing over 250 youths. British cameraman Max Stahl smuggles videotape footage out of the country, sparking international public outrage and revitalizing global solidarity movements."
+    },
+    {
+      "date": "1999-08-30",
+      "headline": "Popular Referendum for Independence",
+      "detail": "In a UN-supervised popular consultation, 78.5% of East Timorese vote overwhelmingly for full independence. Indonesian-backed military militias launch a scorched-earth retribution campaign, burning 80% of infrastructure."
+    },
+    {
+      "date": "1999-09-20",
+      "headline": "Interfet International Peacekeeping Force Deployed",
+      "detail": "Under mounting international and domestic pressure, the Clinton administration suspends military relations with Jakarta, forcing the Indonesian military to withdraw and paving the way for UN-administered transition to full sovereignty."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "The White House (Ford and Carter Administrations)",
+      "Department of State (Secretary Henry Kissinger)",
+      "National Security Council",
+      "United States Mission to the United Nations (Ambassador Daniel Patrick Moynihan)"
+    ],
+    "foreign_institutions": [
+      "Indonesian National Armed Forces (ABRI / Kopassus)",
+      "Presidential Cabinet of Suharto",
+      "Fretilin / Falintil Resistance Forces",
+      "United Nations Mission in East Timor (UNAMET)"
+    ],
+    "key_figures": [
+      "General Suharto (President of Indonesia)",
+      "Gerald Ford (President of the United States)",
+      "Henry Kissinger (US Secretary of State)",
+      "Daniel Patrick Moynihan (US Ambassador to the UN)",
+      "Xanana Gusmão (Falintil Commander and First President of Timor-Leste)",
+      "Bishop Carlos Belo & José Ramos-Horta (Nobel Peace Prize Laureates)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "24-year illegal occupation of East Timor characterized by forced assimilation and demographic re-engineering; eventual triumphant birth of the democratic Democratic Republic of Timor-Leste in 2002; collapse of Suharto's dictatorship in 1998 partly triggered by economic crisis and East Timor fallout.",
+    "civilian_toll": "The independent Commission for Reception, Truth and Reconciliation in Timor-Leste (CAVR) documented that between 102,800 and 183,000 East Timorese civilians died from killings, disappearances, and artificial starvation between 1975 and 1999—amounting to roughly 20% to 30% of the entire pre-invasion population.",
+    "long_term": "US Ambassador to the UN Daniel Patrick Moynihan acknowledged in his memoirs that his instructions were to render the UN Security Council 'utterly ineffective in whatever measures it undertook' to end the invasion. The episode stands as one of the most comprehensively documented instances of Western material and diplomatic complicity in modern genocide."
+  },
+  "disputed_aspects": [
+    "Exact overall death toll: CAVR's statistical demographic analysis verified a minimum of 102,800 conflict-related deaths, while demographic surveys by Father Francisco Maria Fernandes and Gabriel Defert estimate up to 200,000 deaths.",
+    "US weapons usage legality: US military assistance to Indonesia was legally restricted by the US Foreign Assistance Act to 'legitimate self-defense.' Kissinger instructed legal advisers to bury internal reviews pointing out that the invasion violated bilateral arms sales treaties."
+  ],
+  "corporate_involvement": [],
+  "related_events": [
+    "indonesia-killings-1965",
+    "vietnam-war-1964-1975",
+    "bangladesh-genocide-1971"
+  ],
+  "sources": [
+    "source-cavr-chega-east-timor-2005",
+    "source-nsa-ford-kissinger-east-timor-1975"
+  ],
+  "last_updated": "2026-11-06"
+}

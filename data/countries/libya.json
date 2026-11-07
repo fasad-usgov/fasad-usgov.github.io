@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/country.schema.json",
+  "id": "libya",
+  "name": "Libya",
+  "region": "North Africa",
+  "summary": "North African petro-state subjected to the 2011 NATO military intervention that toppled the government of Muammar Gaddafi, precipitating catastrophic state collapse, regional destabilization, and ongoing militia conflicts.",
+  "historical_context": "Following the 1969 overthrow of the pro-Western monarchy by Muammar Gaddafi, Libya nationalized its vast, low-sulfur oil reserves and pursued an assertive, pan-African and anti-imperialist foreign policy, leading to decades of hostility, sanctions, and US aerial strikes (Operation El Dorado Canyon in 1986). In February 2011, amid regional Arab Spring demonstrations, armed uprisings broke out in Benghazi. On March 17, 2011, the UN Security Council passed Resolution 1973 authorizing a no-fly zone to protect civilians. However, NATO forces led by the United States, France, and the UK rapidly converted the mandate into an overt regime-change air campaign, executing over 9,600 strike sorties, providing covert special forces and intelligence on the ground, and destroying the loyalist armed forces. On October 20, 2011, a NATO drone and jet strike disabled Gaddafi's fleeing convoy in Sirte, leading to his capture and lynching. The intervention obliterated central governance, transforming Libya into a fragmented, failed state overrun by rival warlords, human trafficking cartels, and jihadist franchises.",
+  "key_operations": ["libya-intervention-2011"],
+  "primary_institutions_involved": [
+    "North Atlantic Treaty Organization (NATO Operation Unified Protector)",
+    "United States Department of Defense (US Africa Command / AFRICOM)",
+    "Central Intelligence Agency (Special Activities Division)",
+    "National Transitional Council of Libya (NTC)"
+  ],
+  "corporate_presence": [
+    "ConocoPhillips",
+    "Marathon Oil",
+    "Occidental Petroleum",
+    "Eni (Italy)",
+    "TotalEnergies (France)"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "hawaii-overthrow-1893",
+  "title": "Overthrow of the Hawaiian Kingdom",
+  "date_start": "1893-01-14",
+  "date_end": "1898-08-12",
+  "era": "Corporate Frontier & Pacific Annexation",
+  "region": "Global",
+  "countries": ["united-states"],
+  "topics": [
+    "Coup d'État",
+    "Corporate Imperialism",
+    "Indigenous Sovereignty",
+    "Naval Gunboat Diplomacy",
+    "Colonial Annexation"
+  ],
+  "summary": "The illegal overthrow of Queen Liliʻuokalani and the sovereign constitutional monarchy of the Hawaiian Kingdom by a syndicate of American sugar barons and corporate elites, executed with the direct complicity of US diplomatic minister John L. Stevens and 162 armed US Marines and sailors from the USS Boston, establishing the foundational prototype for 20th-century American regime change operations.",
+  "background": "In the late 19th century, descendants of American Christian missionaries and wealthy foreign merchants accumulated vast sugar plantations across the Hawaiian Islands, dominating commercial life and seeking tariff-free access to American markets through the 1875 Reciprocity Treaty. In 1887, an armed militia of white businessmen (the Honolulu Rifles) forced King Kalākaua at gunpoint to sign the 'Bayonet Constitution', stripping the monarch of executive power, disenfranchising two-thirds of native Hawaiians through exorbitant property requirements, and giving voting privileges to non-citizen American and European residents. When King Kalākaua died and his sister, Queen Liliʻuokalani, ascended the throne in 1891, she responded to massive petitions from native subjects demanding a new constitution restoring voting rights and indigenous sovereignty.",
+  "chronology": [
+    {
+      "date": "1893-01-14",
+      "headline": "Queen Liliʻuokalani introduces new constitution",
+      "detail": "Queen Liliʻuokalani informs her cabinet that she intends to promulgate a new constitution restoring royal prerogatives and extending voting rights to Native Hawaiians while revoking privileges for non-citizen foreign planters."
+    },
+    {
+      "date": "1893-01-15",
+      "headline": "Annexationist 'Committee of Safety' organizes coup",
+      "detail": "A cabal of 13 American and European business tycoons, led by lawyer Sanford B. Dole and publisher Lorrin A. Thurston, convenes secretly to plot the armed overthrow of the constitutional monarchy."
+    },
+    {
+      "date": "1893-01-16",
+      "headline": "US Marines land from the USS Boston",
+      "detail": "At the direct written request of US Minister John L. Stevens, 162 armed US Navy sailors and Marines disembark from the cruiser USS Boston in Honolulu harbor, marching with Gatling guns and heavy artillery to take up fortified positions directly across from the royal palace."
+    },
+    {
+      "date": "1893-01-17",
+      "headline": "Queen yields executive power under formal protest",
+      "detail": "Faced with overwhelming US military force and seeking to prevent civilian bloodshed, Queen Liliʻuokalani surrenders her authority conditionally to the President of the United States, appealing for an impartial investigation."
+    },
+    {
+      "date": "1893-07-17",
+      "headline": "Blount Report exposes illegal US intervention",
+      "detail": "Special US Commissioner James Blount, sent by incoming President Grover Cleveland, conducts an extensive investigation and concludes that the overthrow was an act of war engineered by Minister Stevens without constitutional authority."
+    },
+    {
+      "date": "1894-07-04",
+      "headline": "Sanford Dole proclaims the Republic of Hawaii",
+      "detail": "Defying President Cleveland's demands to restore Queen Liliʻuokalani, the planter oligarchy convenes an unelected constitutional assembly and proclaims Sanford Dole President of the Republic of Hawaii."
+    },
+    {
+      "date": "1898-07-07",
+      "headline": "Annexation by United States under President McKinley",
+      "detail": "Using the Spanish-American War and the strategic naval value of Pearl Harbor as justification, President William McKinley signs the Newlands Resolution annexing Hawaii as a US territory despite petitions signed by 95% of native Hawaiians (Kūʻē Petitions)."
+    },
+    {
+      "date": "1993-11-23",
+      "headline": "US Congress passes Apology Resolution (Public Law 103-150)",
+      "detail": "President Bill Clinton signs joint congressional resolution formally apologizing for the illegal overthrow and acknowledging that the indigenous people of Hawaii never directly relinquished their claims to inherent sovereignty."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "United States Legation in Honolulu (Minister John L. Stevens)",
+      "United States Navy (USS Boston landing force)",
+      "Executive Office of the President (William McKinley Administration)",
+      "United States Congress"
+    ],
+    "foreign_institutions": [
+      "Kingdom of Hawaii Constitutional Government",
+      "The Committee of Safety (Annexation Club)",
+      "Provisional Government of Hawaii / Republic of Hawaii"
+    ],
+    "key_figures": [
+      "Queen Liliʻuokalani (Monarch of the Kingdom of Hawaii)",
+      "Sanford Ballard Dole (President of Provisional Government)",
+      "Lorrin A. Thurston (Committee of Safety leader)",
+      "John L. Stevens (US Diplomatic Minister to Hawaii)",
+      "Grover Cleveland (US President opposing the coup)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Complete extinction of Hawaiian national sovereignty; suppression of the Hawaiian language in schools; corporate oligarchic rule by the 'Big Five' merchant companies.",
+    "civilian_toll": "Expropriation of 1.8 million acres of crown and public lands; severe demographic and political disenfranchisement of native Kanaka Maoli population.",
+    "long_term": "Permanent incorporation of the archipelago into the American imperial defense architecture (US Indo-Pacific Command headquarters at Pearl Harbor); generation-long indigenous sovereignty and cultural resurgence movements."
+  },
+  "disputed_aspects": [
+    "Planter oligarchs claimed the Queen was establishing an autocratic dictatorship, whereas archival evidence indicates her proposed constitution mirrored the widely supported 1864 Constitution.",
+    "US Minister Stevens claimed Marines were deployed solely to protect American lives and property, a pretext refuted by the official 1893 Blount Commission report."
+  ],
+  "corporate_involvement": [
+    "dole-food-company"
+  ],
+  "related_events": [
+    "guatemala-coup-1954",
+    "iran-coup-1953"
+  ],
+  "sources": [
+    "source-us-congress-apology-resolution-1993",
+    "source-kinzer-overthrow-2006"
+  ],
+  "last_updated": "2026-11-06"
+}

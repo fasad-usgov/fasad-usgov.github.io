@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/country.schema.json",
+  "id": "mauritius",
+  "name": "Mauritius (Chagos Archipelago)",
+  "region": "Sub-Saharan Africa",
+  "summary": "Island nation in the Indian Ocean whose Chagos Archipelago was unlawfully detached by the British colonial administration in 1965 to construct the US strategic military installation on Diego Garcia, resulting in the forced expulsion of the entire native Chagossian population.",
+  "historical_context": "In 1965, as a condition for granting independence to Mauritius, the British government severed the Chagos Archipelago to create the 'British Indian Ocean Territory' (BIOT). Under a secret 1966 bilateral agreement, the UK agreed to clear the territory of its indigenous inhabitants and lease Diego Garcia to the United States for military basing in exchange for an undisclosed $14 million discount on Polaris submarine nuclear missiles. Between 1968 and 1973, the entire Chagossian community was forcibly removed and abandoned in Mauritius and the Seychelles. Diego Garcia was subsequently transformed into one of the US military's most vital forward strategic air and naval bases, heavily utilized for bombing operations across Iraq and Afghanistan.",
+  "key_operations": ["chagos-expulsion-1968-1973"],
+  "primary_institutions_involved": [
+    "United States Department of Defense (US Navy)",
+    "United Kingdom Foreign and Commonwealth Office (FCO)",
+    "British Indian Ocean Territory (BIOT) Administration",
+    "Chagossian Refugee Group (Olivier Bancoult)"
+  ],
+  "corporate_presence": [
+    "KBR / Halliburton (base maintenance and support services)",
+    "Lockheed Martin (fleet ballistic missile programs)"
+  ]
+}

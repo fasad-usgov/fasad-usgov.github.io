@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "operation-condor-1975-1983",
+  "title": "Operation Condor: The Transnational State Terror Network",
+  "date_start": "1975-11-25",
+  "date_end": "1983-12-10",
+  "era": "Cold War",
+  "region": "Latin America",
+  "countries": [
+    "Chile",
+    "Argentina",
+    "United States"
+  ],
+  "topics": [
+    "Covert Operations",
+    "Transnational State Terror",
+    "Assassinations",
+    "CIA Intelligence Sharing",
+    "Dirty War"
+  ],
+  "summary": "A covert, formalized campaign of transnational political repression, cross-border abductions, systematic torture, and extrajudicial assassinations coordinated by the military intelligence agencies of South America's Southern Cone (Chile, Argentina, Uruguay, Paraguay, Bolivia, and Brazil) between 1975 and the mid-1980s. The network operated with technical telecommunications infrastructure (the Condortel encrypted communications network based in the US Panama Canal Zone), surveillance data sharing, and high-level diplomatic shielding provided by the United States Central Intelligence Agency (CIA) and Secretary of State Henry Kissinger. Condor operatives deployed specialized hit squads ('Phase III') to eliminate prominent political exiles, constitutionalist military officers, and human rights defenders across Latin America, North America, and Europe.",
+  "background": "By the mid-1970s, a succession of CIA-backed and right-wing military coups had replaced constitutional democracies across South America with repressive military juntas: Paraguay (1954), Brazil (1964), Bolivia (1971), Uruguay (1973), Chile (1973), and Argentina (1976). Facing domestic and international exile resistance, Chilean DINA chief Manuel Contreras convened a secret founding conference of military intelligence chiefs in Santiago on November 25, 1975, establishing Operation Condor. The system featured three operational tiers: centralized intelligence databanks tracking dissidents; joint cross-border snatch-and-grab operations where foreign security agents abducted refugees in neighboring countries; and international assassination teams targeting high-profile figures globally.",
+  "chronology": [
+    {
+      "date": "1975-11-25",
+      "headline": "Founding Intelligence Conference in Santiago",
+      "detail": "Chilean DINA Director Manuel Contreras hosts intelligence chiefs from Argentina, Uruguay, Paraguay, and Bolivia in Santiago, formally signing the bilateral agreements establishing the Operation Condor network."
+    },
+    {
+      "date": "1976-06-10",
+      "headline": "Kissinger Gives Green Light to Argentine Junta",
+      "detail": "At an OAS meeting in Santiago, US Secretary of State Henry Kissinger meets privately with Argentine Foreign Minister Admiral César Guzzetti. When Guzzetti describes military counter-subversion efforts, Kissinger advises: 'If there are things that have to be done, you should do them quickly. But you should get back quickly to normal procedures.'"
+    },
+    {
+      "date": "1976-09-21",
+      "headline": "Assassination of Orlando Letelier in Washington, D.C.",
+      "detail": "Condor hit men working for Chilean DINA and anti-Castro Cuban exiles detonate a remote-controlled car bomb on Embassy Row in Washington, D.C., murdering former Chilean Defense Minister Orlando Letelier and American colleague Ronni Moffitt—the first foreign state-sponsored terrorist attack in the US capital."
+    },
+    {
+      "date": "1976-09-28",
+      "headline": "FBI Attaché Confirms Operation Condor Structure",
+      "detail": "FBI Legal Attaché in Buenos Aires Robert Scherrer cables Washington with a comprehensive intelligence breakdown of Operation Condor's Phase III assassination operations across Europe and the Americas."
+    },
+    {
+      "date": "1992-12-22",
+      "headline": "Discovery of the 'Archives of Terror' in Paraguay",
+      "detail": "Lawyer and former political prisoner Martín Almada and Judge José Agustín Fernández discover 700,000 pages of secret police files in Lambaré, Paraguay, providing incontrovertible documentary evidence of Condor's transnational executions, disappearances, and US intelligence liaisons."
+    },
+    {
+      "date": "2016-05-27",
+      "headline": "Argentine Federal Court Convicts Condor Conspirators",
+      "detail": "Following a landmark 16-year trial in Buenos Aires, an Argentine federal tribunal sentences former junta leader Reynaldo Bignone and 14 other senior officers to prison for criminal conspiracy in the forced disappearance of 105 people under Operation Condor."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "Central Intelligence Agency (CIA)",
+      "Department of State (Secretary Henry Kissinger)",
+      "Federal Bureau of Investigation (Legal Attaché Buenos Aires)",
+      "United States Southern Command (USSOUTHCOM, Panama Canal Zone)"
+    ],
+    "foreign_institutions": [
+      "DINA (National Intelligence Directorate of Chile / General Manuel Contreras)",
+      "Batallón de Inteligencia 601 (Argentine Army Intelligence)",
+      "SID (Defense Information Service of Uruguay)",
+      "Departamento de Investigaciones (Paraguayan Secret Police)"
+    ],
+    "key_figures": [
+      "General Augusto Pinochet (Dictator of Chile)",
+      "General Jorge Rafael Videla (Dictator of Argentina)",
+      "Manuel Contreras (Chief of Chilean DINA / Condor Coordinator)",
+      "Henry Kissinger (US Secretary of State)",
+      "Orlando Letelier (Former Chilean Foreign Minister, assassinated in D.C.)",
+      "General Carlos Prats (Former Chilean Army Commander, assassinated in Buenos Aires)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Systematic liquidation of South America's constitutionalist political class, socialist parties, and labor leadership; cross-border normalization of state terrorism; precedent for international universal jurisdiction prosecutions (notably Judge Baltasar Garzón's 1998 arrest warrant for Pinochet in London).",
+    "civilian_toll": "Human rights organizations, truth commissions, and judicial findings estimate that Operation Condor coordinated the murder or forced disappearance of between 60,000 and 80,000 people across South America, the prolonged arbitrary imprisonment and torture of over 400,000 political detainees, and the systematic theft of hundreds of infants born to pregnant disappeared mothers.",
+    "long_term": "Declassified State Department memos revealed that in August 1976, US embassies prepared formal diplomatic demarches warning Condor leaders against planned assassinations in Europe and the US; however, on September 16, 1976—five days before Letelier was murdered in Washington—Kissinger ordered that 'no further action be taken on this matter.'"
+  },
+  "disputed_aspects": [
+    "Extent of direct CIA operational command: While CIA files confirm the agency provided communications and intelligence assistance, US officials argued that Condor assassination operations were conceived and executed autonomously by Southern Cone intelligence agencies without direct US operational direction.",
+    "Kissinger's personal knowledge: Declassified cables show Kissinger personally quashed instructions to deliver demarches to the military juntas warning them against international assassinations just days before the Letelier car bombing in Washington."
+  ],
+  "corporate_involvement": ["itt-corporation"],
+  "related_events": [
+    "chile-coup-1973",
+    "guatemala-coup-1954",
+    "indonesia-killings-1965"
+  ],
+  "sources": [
+    "source-dinges-condor-years-2004",
+    "source-nsa-operation-condor-chile-2001"
+  ],
+  "last_updated": "2026-11-06"
+}

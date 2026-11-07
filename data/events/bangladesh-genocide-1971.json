@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/event.schema.json",
+  "id": "bangladesh-genocide-1971",
+  "title": "The 1971 Bangladesh Genocide and US Complicity",
+  "date_start": "1971-03-25",
+  "date_end": "1971-12-16",
+  "era": "Cold War",
+  "region": "South Asia",
+  "countries": ["Bangladesh", "Pakistan", "United States"],
+  "topics": [
+    "Genocide & Atrocities",
+    "Complicity",
+    "Covert Support",
+    "Cold War",
+    "The Blood Telegram"
+  ],
+  "summary": "The systematic mass murder and genocidal campaign conducted by the Pakistan Armed Forces and allied paramilitary death squads (Razakars, Al-Badr) against the Bengali population in East Pakistan (now Bangladesh) between March and December 1971. Despite detailed internal warnings of selective genocide from US Consul General Archer Blood in Dhaka ('The Blood Telegram'), US President Richard Nixon and National Security Advisor Henry Kissinger actively shielded Pakistan's military dictator, General Yahya Khan. The Nixon administration bypassed congressional arms embargoes by orchestrating covert third-party weapons transfers via Jordan, Iran, and Turkey, provided diplomatic cover at the United Nations, and deployed the nuclear-powered aircraft carrier USS Enterprise (Task Force 74) to the Bay of Bengal in an effort to deter Indian intervention.",
+  "background": "In the December 1970 Pakistani general elections, the East Pakistan-based Awami League, led by Sheikh Mujibur Rahman, won an absolute democratic majority of 167 out of 313 parliamentary seats. Fearing a shift in economic and political dominance away from West Pakistan's military-bureaucratic elite, President Yahya Khan postponed the opening of parliament. On the night of March 25, 1971, the Pakistani military launched 'Operation Searchlight,' targeting intellectuals, university students, politicians, and the Hindu minority in Dhaka and across East Pakistan. Washington viewed Yahya Khan as an indispensable covert diplomatic conduit for Nixon and Kissinger's secret opening to Communist China, leading the White House to prioritize geopolitical alignment over documented genocide.",
+  "chronology": [
+    {
+      "date": "1971-03-25",
+      "headline": "Launch of Operation Searchlight",
+      "detail": "Pakistani military units enter Dhaka University and Hindu neighborhoods with heavy artillery, tanks, and machine guns, executing professors, students, and civilians in a pre-planned purge."
+    },
+    {
+      "date": "1971-04-06",
+      "headline": "The 'Blood Telegram' Dissent Cable Sent",
+      "detail": "US Consul General Archer K. Blood and 20 diplomatic staff in Dhaka send a formal telegram through the State Department dissent channel: 'Our government has failed to denounce the suppression of democracy. Our government has failed to denounce atrocities... We have chosen not to intervene, even morally... while the PRC backs the government and the USSR backs democracy.' Nixon and Kissinger immediately order Blood recalled and his diplomatic career sidelined."
+    },
+    {
+      "date": "1971-07-09",
+      "headline": "Kissinger's Secret Trip to Beijing via Pakistan",
+      "detail": "Henry Kissinger fakes illness in Islamabad and boards a secret flight to Beijing arranged by Yahya Khan, formalizing the historic US opening to the People's Republic of China. In White House tapes, Kissinger tells Nixon that Yahya Khan 'is a decent guy' who did what was necessary."
+    },
+    {
+      "date": "1971-08-01",
+      "headline": "Covert Arms Shipments Transferred",
+      "detail": "When Congress moves to halt direct military aid to Pakistan, the White House facilitates covert weapons transfers of fighter jets and ammunition to Pakistani forces via third-party allies, including Iran and Jordan."
+    },
+    {
+      "date": "1971-12-10",
+      "headline": "Task Force 74 Deployed to Bay of Bengal",
+      "detail": "As Indian forces intervene alongside the Bengali Mukti Bahini, President Nixon dispatches the US Navy's Seventh Fleet Task Force 74, led by the nuclear aircraft carrier USS Enterprise, to the Bay of Bengal in a show of force against India and the Soviet Union."
+    },
+    {
+      "date": "1971-12-16",
+      "headline": "Pakistani Surrender and Liberation of Bangladesh",
+      "detail": "Pakistani Lieutenant General A.A.K. Niazi signs the instrument of surrender in Dhaka, ending the nine-month genocide and formalizing the independence of Bangladesh."
+    }
+  ],
+  "actors": {
+    "us_institutions": [
+      "The White House (Nixon Administration)",
+      "National Security Council (Henry Kissinger)",
+      "United States Navy (Seventh Fleet / Task Force 74)",
+      "US Department of State (Consulate General Dacca / Archer Blood)"
+    ],
+    "foreign_institutions": [
+      "Pakistan Armed Forces (Eastern Command)",
+      "Razakar, Al-Badr & Al-Shams Paramilitary Death Squads",
+      "Mukti Bahini (Bangladesh Liberation Army)",
+      "Indian Armed Forces"
+    ],
+    "key_figures": [
+      "Richard Nixon (President of the United States)",
+      "Henry Kissinger (Assistant to the President for National Security Affairs)",
+      "General Agha Muhammad Yahya Khan (Military President of Pakistan)",
+      "Archer K. Blood (US Consul General in Dhaka)",
+      "Sheikh Mujibur Rahman (Founding Leader of Bangladesh)",
+      "Indira Gandhi (Prime Minister of India)"
+    ]
+  },
+  "documented_consequences": {
+    "political": "Creation of the independent People's Republic of Bangladesh; resignation and arrest of Pakistan's military dictator Yahya Khan; geopolitical consolidation of the US-China-Pakistan diplomatic axis against India and the Soviet Union.",
+    "civilian_toll": "Between 300,000 and 3,000,000 Bengalis were killed during the nine-month campaign. Between 200,000 and 400,000 women were subjected to systematic genocidal rape by Pakistani soldiers and paramilitary militias. Over 10,000,000 refugees fled across the border into India, creating one of the largest refugee crises in modern history.",
+    "long_term": "The 1971 atrocities led to the establishment of the International Crimes Tribunal in Bangladesh decades later. The 'Blood Telegram' became a foundational case study in diplomatic ethics, demonstrating how executive geopolitical calculations superseded documented reports of genocide."
+  },
+  "disputed_aspects": [
+    "Total civilian death toll: Official Bangladeshi government consensus and parliamentary declarations cite 3 million killed; independent demographic studies and academic historians (including Gary Bass and R.J. Rummel) estimate direct killings between 300,000 and 1.5 million, with excess deaths from cholera, starvation, and exposure pushing the total significantly higher.",
+    "White House foreknowledge: Declassified audio recordings from the Oval Office confirmed that Nixon and Kissinger were fully informed in real time of the mass slaughter but actively derided State Department officials who raised humanitarian concerns."
+  ],
+  "corporate_involvement": [],
+  "related_events": [
+    "vietnam-war-1964-1975",
+    "indonesia-killings-1965",
+    "chile-coup-1973"
+  ],
+  "sources": [
+    "source-bass-blood-telegram-2013",
+    "source-blood-telegram-1971"
+  ],
+  "last_updated": "2026-11-06"
+}

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="In-depth analytical dossier examining how the modern oligarchy state functions, how wealth defense industries capture political leaders, and how AI and media algorithms engineer mass public consent.">
+  <meta name="theme-color" content="#8b1e1e">
+  <title>The Oligarchic State &amp; Algorithmic Control — History of Intervention</title>
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/icon-192.svg">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+  <style>
+    .lever-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-medium);
+      border-top: 3px solid var(--text-accent);
+      border-radius: var(--radius-sm);
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .lever-card h4 {
+      margin-top: 0;
+      color: var(--text-accent);
+      font-size: var(--font-size-md);
+    }
+    .algo-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-light);
+      border-left: 4px solid #2b5c8f;
+      border-radius: var(--radius-sm);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.25rem;
+    }
+    .algo-card h4 {
+      margin-top: 0;
+      color: #2b5c8f;
+      font-size: var(--font-size-md);
+    }
+    .chart-box {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-medium);
+      border-radius: var(--radius-sm);
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+    }
+    .stat-bar-container {
+      margin: 1rem 0;
+    }
+    .stat-bar-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: var(--font-size-xs);
+      font-family: var(--font-mono);
+      margin-bottom: 0.35rem;
+    }
+    .stat-bar {
+      height: 18px;
+      background: var(--border-light);
+      border-radius: 9px;
+      overflow: hidden;
+      display: flex;
+    }
+    .stat-bar-fill {
+      height: 100%;
+      transition: width 1s ease-in-out;
+    }
+    .badge-oligarchy {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-family: var(--font-mono);
+      padding: 0.2rem 0.5rem;
+      border-radius: var(--radius-sm);
+      background: rgba(139, 30, 30, 0.1);
+      color: var(--text-accent);
+      border: 1px solid rgba(139, 30, 30, 0.25);
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="offline-banner"></div>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-top">
+        <div class="brand-wrapper">
+          <a href="index.html" class="brand-title">History of Intervention</a>
+          <span class="brand-subtitle">Special Dossier: The Oligarchic State &amp; Algorithmic Hegemony</span>
+        </div>
+        <div class="header-controls">
+          <div class="theme-select-wrapper">
+            <label for="theme-select-header" class="sr-only">Reading Theme</label>
+            <span>Theme:</span>
+            <select id="theme-select-header" class="theme-select">
+              <option value="light">Parchment</option>
+              <option value="sepia">Archival Sepia</option>
+              <option value="dark">Slate Dark</option>
+            </select>
+          </div>
+          <a href="search.html" class="nav-search-btn" title="Search Archive (Press '/')">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            Search <kbd>/</kbd>
+          </a>
+        </div>
+      </div>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="timeline.html" class="nav-link">Timeline</a></li>
+          <li><a href="coups.html" class="nav-link">Coups</a></li>
+          <li><a href="oligarchy.html" class="nav-link active">Oligarchy State</a></li>
+          <li><a href="regions.html" class="nav-link">Regions</a></li>
+          <li><a href="countries.html" class="nav-link">Countries</a></li>
+          <li><a href="companies.html" class="nav-link">Corporate Accountability</a></li>
+          <li><a href="sources.html" class="nav-link">Research Library</a></li>
+          <li><a href="about.html" class="nav-link">Methodology &amp; About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a>
+      <span class="separator">/</span>
+      <span>Oligarchy State &amp; Algorithmic Control</span>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="mb-4">
+      <span class="badge badge-accent mb-1">Foundational Political Economy &amp; Technological Inquiry</span>
+      <h1 style="margin-top: 0.5rem;">The Oligarchic State: Wealth Defense, The Algorithmic Citadel &amp; Imperial Power</h1>
+      <p class="hero-lead">
+        Synthesizing political scientist <strong>Jeffrey A. Winters’</strong> theory of <em>Civil Oligarchy</em>, the <strong>Martin Gilens &amp; Benjamin Page</strong> Princeton empirical study, investigative reporting by <strong>Johnny Harris</strong> (<em>Oligarchy is worse than you think</em>), and contemporary forensic audits of AI recommendation systems and surveillance capitalism (<strong>Shoshana Zuboff</strong>).
+      </p>
+
+      <div style="background: var(--bg-card); border-left: 4px solid var(--text-accent); padding: 1.25rem 1.5rem; border: 1px solid var(--border-light); border-left-width: 4px; border-radius: var(--radius-sm); margin-top: 1rem;">
+        <h3 style="margin-top: 0; font-size: var(--font-size-md);">The Core Definition: What Is a Modern Oligarchy?</h3>
+        <p style="margin: 0; font-size: var(--font-size-sm); color: var(--text-secondary); line-height: 1.6;">
+          An oligarch is not merely a celebrity billionaire making headlines or an eccentric tycoon. Following political economist Jeffrey Winters, an oligarch is defined strictly by <strong>extreme material concentration</strong>—the command of vast financial resources deployed politically. In a <em>Civil Oligarchy</em>, the formal machinery of representative democracy (voting, political parties, free speech) coexists seamlessly with concentrated wealth. While voters decide cultural and symbolic disputes, the fundamental rules governing taxation, capital flight, property ownership, military procurement, and corporate monopolies are insulated from democratic majoritarian control.
+        </p>
+      </div>
+    </section>
+
+    <!-- The 6 Levers of Control -->
+    <section class="mb-4">
+      <h2 style="border-bottom: 1px solid var(--border-light); padding-bottom: 0.5rem;">The 6 Levers of Structural Control: How Oligarchs Constrain Political Leaders</h2>
+      <p style="font-size: var(--font-size-sm); color: var(--text-secondary); margin-bottom: 1.5rem;">
+        Contrary to simplistic notions of crude bribery, modern oligarchic power is exercised through institutionalized choke points that make governing outside oligarchic boundaries impossible:
+      </p>
+
+      <div class="grid grid-cards" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+        
+        <!-- Lever 1 -->
+        <article class="lever-card">
+          <div>
+            <span class="badge-oligarchy">Lever 1: Electoral Vetting</span>
+            <h4>The "Wealth Primary" &amp; Super PAC Citadel</h4>
+            <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary);">
+              Enshrined by Supreme Court decisions (<em>Buckley v. Valeo</em> 1976; <em>Citizens United</em> 2010), political expenditure is constitutionally protected as speech. Before any political candidate reaches primary voters, they must win the invisible "wealth primary"—securing multi-million-dollar commitments from billionaire networks, corporate Super PACs, and 501(c)(4) dark-money conduits. Candidates challenging corporate monopolies or proposing structural wealth taxes are systematically starved of funds or buried under hostile ad blitzes.
+            </p>
+          </div>
+          <div style="font-size: var(--font-size-xs); color: var(--text-muted); font-style: italic; border-top: 1px solid var(--border-light); padding-top: 0.5rem; margin-top: 0.5rem;">
+            Primary Actors: Citizens United, Super PACs, Mega-Donor Bundlers.
+          </div>
+        </article>
+
+        <!-- Lever 2 -->
+        <article class="lever-card">
+          <div>
+            <span class="badge-oligarchy">Lever 2: Bureaucratic Infiltration</span>
+            <h4>The Revolving Door &amp; Regulatory Capture</h4>
+            <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary);">
+              Senior state officials move seamlessly between multinational boardrooms, Wall Street investment banks, defense contractors, and cabinet agencies. Regulators anticipate lucrative multi-million-dollar future partnerships from the very conglomerates they are tasked with overseeing.
+            </p>
+            <div style="font-size: var(--font-size-xs); color: var(--text-secondary); margin-top: 0.5rem;">
+              <strong>Historical Precedents:</strong>
+              <ul style="padding-left: 1rem; margin: 0.25rem 0;">
+                <li>The Dulles brothers transitioned from Sullivan &amp; Cromwell (representing United Fruit) directly to CIA Director and Secretary of State.</li>
+                <li>Dick Cheney moved from SecDef to Halliburton CEO, to Vice President during the 2003 Iraq War.</li>
+                <li>Defense secretaries routinely serve on the boards of Lockheed Martin, Boeing, and Raytheon.</li>
+              </ul>
+            </div>
+          </div>
+          <div style="font-size: var(--font-size-xs); color: var(--text-muted); font-style: italic; border-top: 1px solid var(--border-light); padding-top: 0.5rem; margin-top: 0.5rem;">
+            Primary Actors: Sullivan &amp; Cromwell, Goldman Sachs, Halliburton, Raytheon.
+          </div>
+        </article>
+
+        <!-- Lever 3 -->
+        <article class="lever-card">
+          <div>
+            <span class="badge-oligarchy">Lever 3: Financial Cloaking</span>
+            <h4>The Wealth Defense Industry (WDI) &amp; The Maze</h4>
+            <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary);">
+              Oligarchs employ an army of elite tax attorneys, Big-4 accounting firms (PwC, EY, Deloitte, KPMG), family offices, and wealth managers who design complex legal "mazes." Using shell trusts, Delaware/South Dakota dynasty entities, and offshore havens (Cayman Islands, Bahamas, Switzerland), they shield over $30 trillion globally from public taxation and democratic oversight. The state cannot tax or regulate what it cannot legally identify.
+            </p>
+          </div>
+          <div style="font-size: var(--font-size-xs); color: var(--text-muted); font-style: italic; border-top: 1px solid var(--border-light); padding-top: 0.5rem; margin-top: 0.5rem;">
+            Primary Actors: Big 4 Accounting, Offshore Shell Entities, Dynasty Trusts.
+          </div>
+        </article>
+
+        <!-- Lever 4 -->
+        <article class="lever-card">
+          <div>
+            <span class="badge-oligarchy">Lever 4: Epistemic Hegemony</span>
+            <h4>Think Tanks, Media Consolidation &amp; Overton Framing</h4>
+            <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary);">
+              Concentrated capital finances the major policy think tanks (Brookings, CSIS, Atlantic Council, American Enterprise Institute) that author legislative bills, draft national security doctrines, and populate mainstream news commentary. By defining the boundaries of what is considered "responsible" versus "radical," the oligarchic state ensures that peace negotiations, wealth caps, or public resource ownership are excluded from serious debate.
+            </p>
+          </div>
+          <div style="font-size: var(--font-size-xs); color: var(--text-muted); font-style: italic; border-top: 1px solid var(--border-light); padding-top: 0.5rem; margin-top: 0.5rem;">
+            Primary Actors: CSIS, Atlantic Council, Brookings, Corporate Media Conglomerates.
+          </div>
+        </article>
+
+        <!-- Lever 5 -->
+        <article class="lever-card">
+          <div>
+            <span class="badge-oligarchy">Lever 5: Economic Coercion</span>
+            <h4>Sovereign Debt Discipline &amp; The "Capital Strike"</h4>
+            <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary);">
+              If an elected administration attempts major structural redistribution, the financial oligarchy exercises structural discipline via the "capital strike": credit rating agencies (Moody’s, S&amp;P) downgrade national debt, capital flies offshore, bond markets sell off government debt, and central banks enforce austerity. Reformist governments are forced to capitulate to "market stability" or face currency collapse.
+            </p>
+          </div>
+          <div style="font-size: var(--font-size-xs); color: var(--text-muted); font-style: italic; border-top: 1px solid var(--border-light); padding-top: 0.5rem; margin-top: 0.5rem;">
+            Examples: France (1981–1983 Mitterrand turnaround), UK (2022 bond market panic).
+          </div>
+        </article>
+
+        <!-- Lever 6 -->
+        <article class="lever-card">
+          <div>
+            <span class="badge-oligarchy">Lever 6: Imperial Enforcement</span>
+            <h4>Foreign Interventions to Defend Global Property</h4>
+            <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary);">
+              Domestic wealth defense requires unrestricted global market access, cheap raw materials, and open foreign capital corridors. Whenever a sovereign democracy abroad attempts land reform, mineral nationalization, or capital controls, the domestic oligarchic state mobilizes the CIA, economic sanctions, or direct military invasion to crush the alternative and restore multinational concessions.
+            </p>
+          </div>
+          <div style="font-size: var(--font-size-xs); color: var(--text-muted); font-style: italic; border-top: 1px solid var(--border-light); padding-top: 0.5rem; margin-top: 0.5rem;">
+            Examples: Guatemala (1954), Iran (1953), Congo (1960), Chile (1973), Iraq (2003).
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- The Algorithmic Citadel -->
+    <section class="mb-4">
+      <h2 style="border-bottom: 1px solid var(--border-light); padding-bottom: 0.5rem;">The Algorithmic Citadel: AI, Social Feeds &amp; The Engineering of Mass Consciousness</h2>
+      <p style="font-size: var(--font-size-sm); color: var(--text-secondary); margin-bottom: 1.5rem;">
+        In the 21st century, physical coercion and print propaganda have been superseded by <strong>computational behavior modification</strong>. Tech oligarchs control the algorithmic architectures that dictate what 4+ billion citizens see, feel, and believe:
+      </p>
+
+      <!-- Algo 1 -->
+      <article class="algo-card">
+        <h4>1. The Outrage Engine &amp; Mass Atomization (Surveillance Capitalism)</h4>
+        <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary);">
+          As analyzed by Shoshana Zuboff (<em>The Age of Surveillance Capitalism</em>), commercial algorithms are tuned for maximum time-on-platform to harvest behavioral surplus. Cognitive science demonstrates that high-arousal negative emotions—fear, tribal disgust, and moral outrage—yield 300% to 500% more shares and clicks than analytical or unifying facts.
+        </p>
+        <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary); margin-bottom: 0;">
+          <strong>The Oligarchic Shield:</strong> By algorithmically funneling the public into endless, hostile culture wars over identity and symbolism, everyday citizens are atomized and pitted against one another, structurally preventing multi-racial, working-class solidarity around wealth taxes, healthcare, or military spending.
+        </p>
+      </article>
+
+      <!-- Algo 2 -->
+      <article class="algo-card">
+        <h4>2. Direct Executive Algorithmic Overrides (The Elon Musk 1,000x Multiplier)</h4>
+        <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary);">
+          Billionaire platform owners possess unilateral power to alter ranking weights at will. In February 2023, following the Super Bowl, Elon Musk mobilized 80 engineers at Twitter/X to hardcode an artificial <strong>"power user multiplier" of 1,000x</strong> into the recommendation algorithm, forcing his personal account and political viewpoints onto users worldwide.
+        </p>
+        <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary); margin-bottom: 0;">
+          In November 2024, digital media researchers (Timothy Graham and Mark Andrejevic) published empirical data demonstrating that starting in July 2024 (coinciding with Musk launching a pro-Trump Super PAC), the platform's algorithm structurally boosted Musk's account and aligned right-wing content across the entire network.
+        </p>
+      </article>
+
+      <!-- Algo 3 -->
+      <article class="algo-card">
+        <h4>3. Systematic Shadowbanning &amp; Geopolitical Censorship (Meta &amp; Human Rights Watch)</h4>
+        <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary);">
+          Rather than crude deletions that spark legal challenges, platforms deploy <strong>algorithmic deranking, hidden hashtags, and shadowbanning</strong>. In December 2023, Human Rights Watch published a 51-page forensic report (<em>Meta’s Broken Promises: Systemic Censorship of Palestine Content on Instagram and Facebook</em>) examining over 1,050 documented cases across 60 countries.
+        </p>
+        <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary); margin-bottom: 0;">
+          The report proved that Meta’s AI content moderation models systematically suppressed peaceful human rights reporting and civilian casualty footage under weaponized "Dangerous Organizations and Individuals" (DOI) policies mirroring US State Department directives, while state military communications and official narratives operated unimpeded. In early 2024, Meta further announced it would no longer proactively recommend political content, resulting in a 60–90% organic reach drop for grassroots labor and anti-war organizers.
+        </p>
+      </article>
+
+      <!-- Algo 4 -->
+      <article class="algo-card">
+        <h4>4. Generative AI, Large Language Models (LLMs) &amp; The Defense Monopoly</h4>
+        <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary);">
+          Frontier AI models require hundreds of millions of dollars in compute, NVIDIA H100 clusters, nuclear-scale power contracts, and proprietary data lakes—restricting foundation model training to a tiny corporate oligopoly (Microsoft, Google, Amazon, Meta, OpenAI).
+        </p>
+        <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary); margin-bottom: 0;">
+          Through Reinforcement Learning from Human Feedback (RLHF) and corporate guardrails, these models establish epistemic limits on what is presented as factual consensus. Concurrently, in January 2024, <strong>OpenAI quietly deleted its explicit ban on "military and warfare" applications</strong>, partnering with DARPA and national security agencies. Along with Google’s $1.2B Project Nimbus and Microsoft’s Azure Government Secret Cloud, AI conglomerates have become core infrastructure providers for military and intelligence apparatuses.
+        </p>
+      </article>
+
+      <!-- Algo 5 -->
+      <article class="algo-card">
+        <h4>5. Disinformation-for-Hire &amp; AI-Driven Astroturfing ("Team Jorge" &amp; AIMS)</h4>
+        <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary);">
+          Exposed in February 2023 by the international <em>Forbidden Stories</em> consortium (including <em>The Guardian</em>, <em>Le Monde</em>, and <em>Der Spiegel</em>), private cyber-mercenary units now operate automated election-rigging tools. An undercover sting exposed <strong>"Team Jorge"</strong>, an Israeli covert unit led by Tal Hanan that intervened in 33 presidential campaigns worldwide.
+        </p>
+        <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary); margin-bottom: 0;">
+          Team Jorge deployed <strong>AIMS (Advanced Impact Media Solutions)</strong>, a software suite managing thousands of automated, AI-powered social media avatars with realistic backstories, active Amazon accounts, Bitcoin wallets, and LinkedIn profiles. The system generates coordinated multi-lingual disinformation swarms, hijacks political hashtags, manufactures artificial consensus, and mass-reports targeted journalists to trigger automated platform bans.
+        </p>
+      </article>
+    </section>
+
+    <!-- Historical Anchor Case Study -->
+    <section class="mb-4">
+      <div style="background: var(--bg-card); border: 1px solid var(--border-medium); border-radius: var(--radius-sm); padding: 1.75rem;">
+        <span class="badge badge-accent mb-1">Declassified Historical Investigation</span>
+        <h2 style="margin-top: 0.25rem;">The 1973 Castle Bank Scandal: Where Offshore Tax Havens Met CIA Black Budgets</h2>
+        <p style="font-size: var(--font-size-sm); color: var(--text-secondary); line-height: 1.6;">
+          Highlighted in Johnny Harris’s documentary, the 1973 Castle Bank affair illustrates the literal convergence between the Wealth Defense Industry and covert US foreign policy:
+        </p>
+        
+        <div class="grid grid-2" style="margin: 1.25rem 0;">
+          <div style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary);">
+            <strong>The 1973 Briefcase Stash:</strong><br>
+            IRS informants conducting <em>Operation Tradewinds</em> secretly photographed the personal briefcase of Castle Bank &amp; Trust executive Michael Wolstencroft in Key Biscayne, Florida. The documents contained a list of <strong>308 ultra-wealthy Americans</strong> (including members of the Pritzker dynasty and organized crime figures) illegally hiding over $250,000,000 in untaxed offshore accounts in Nassau, Bahamas.
+          </div>
+          <div style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary);">
+            <strong>The CIA National Security Wall:</strong><br>
+            Castle Bank had been founded in 1962 by <strong>Paul Helliwell</strong>, an OSS veteran and CIA officer who used the bank as a clandestine conduit to channel black-budget funding for CIA paramilitary operations across Latin America (Bay of Pigs) and Southeast Asia. When prosecutors prepared indictments, the CIA intervened, asserting that a public trial would expose intelligence operations.
+          </div>
+        </div>
+
+        <p style="font-size: var(--font-size-xs); line-height: 1.6; color: var(--text-secondary); margin-bottom: 1rem;">
+          The Department of Justice and incoming IRS Commissioner Donald Alexander dropped the prosecution. In 1980, the Supreme Court ruled in <em>United States v. Payner</em> that the evidence could not be used. Over the subsequent 50 years, the wealth share of the top 0.1% more than doubled while IRS corporate audit rates dropped by over 80%.
+        </p>
+
+        <div>
+          <a href="events/?id=castle-bank-tradewinds-1973" class="btn btn-sm btn-primary">Read Full Investigation Dossier &rarr;</a>
+          <span style="font-size: var(--font-size-xs); color: var(--text-muted); margin-left: 0.5rem;">Cross-referenced in Wall Street Journal (1980) &amp; CIA Reading Room.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Empirical Proof: The Gilens & Page Study -->
+    <section class="mb-4">
+      <h2 style="border-bottom: 1px solid var(--border-light); padding-bottom: 0.5rem;">Empirical Proof: The Gilens &amp; Page Princeton Study (2014)</h2>
+      <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">
+        In 2014, political scientists Martin Gilens (Princeton) and Benjamin Page (Northwestern) published the most comprehensive quantitative audit of democratic policy-making in US history (<em>Testing Theories of American Politics: Elites, Interest Groups, and Average Citizens</em>):
+      </p>
+
+      <div class="chart-box">
+        <h4 style="margin-top: 0; font-size: var(--font-size-sm); text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-accent);">
+          Probability of a Policy Passing into Law Based on Public vs. Elite Support (1,779 Issues Audited)
+        </h4>
+
+        <!-- Stat 1 -->
+        <div class="stat-bar-container">
+          <div class="stat-bar-label">
+            <span>Average Citizen Support (0% to 100% Support)</span>
+            <span style="font-weight: 700; color: #888;">Flat ~30% Probability (Near-Zero Influence)</span>
+          </div>
+          <div class="stat-bar">
+            <div class="stat-bar-fill" style="width: 30%; background: #999;"></div>
+          </div>
+          <div style="font-size: 0.7rem; color: var(--text-muted); margin-top: 0.2rem;">
+            Whether 10% or 90% of regular citizens support a policy, its likelihood of passage remains a flat 30%.
+          </div>
+        </div>
+
+        <!-- Stat 2 -->
+        <div class="stat-bar-container">
+          <div class="stat-bar-label">
+            <span>Economic Elite / Corporate Lobby Support</span>
+            <span style="font-weight: 700; color: var(--text-accent);">Surges from 18% to 61% Probability</span>
+          </div>
+          <div class="stat-bar">
+            <div class="stat-bar-fill" style="width: 61%; background: var(--text-accent);"></div>
+          </div>
+          <div style="font-size: 0.7rem; color: var(--text-muted); margin-top: 0.2rem;">
+            When economic elites or organized business groups favor a policy, enactment probability doubles or triples.
+          </div>
+        </div>
+
+        <blockquote style="margin: 1.25rem 0 0 0; padding-left: 1rem; border-left: 3px solid var(--border-medium); font-size: var(--font-size-xs); font-style: italic; color: var(--text-secondary);">
+          "The preferences of the average American appear to have only a minuscule, near-zero, statistically non-significant impact upon public policy... When the preferences of economic elites and the stands of organized interest groups are controlled for, the preferences of the average American appear to have essentially no impact."
+          <div style="font-style: normal; font-weight: 600; margin-top: 0.35rem;">— Martin Gilens &amp; Benjamin I. Page, <em>Perspectives on Politics</em> (2014)</div>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Verified Historiographical Sources & Research Library -->
+    <section class="mb-4">
+      <div style="background: var(--bg-card); border: 1px solid var(--border-medium); border-radius: var(--radius-sm); padding: 1.5rem;">
+        <h3 style="margin-top: 0;">Verified Research Library &amp; Video Sources</h3>
+        <p style="font-size: var(--font-size-sm); color: var(--text-secondary); margin-bottom: 1rem;">
+          This investigation is supported by peer-reviewed academic monographs, quantitative empirical studies, and declassified records:
+        </p>
+
+        <ul style="font-size: var(--font-size-xs); line-height: 1.8; color: var(--text-secondary); padding-left: 1.25rem;">
+          <li><strong>Johnny Harris</strong>: <a href="https://www.youtube.com/watch?v=4S25FfbFw4M" target="_blank" rel="noopener"><em>Oligarchy is worse than you think</em></a> (Investigative Documentary, 2024/2026).</li>
+          <li><strong>Jeffrey A. Winters</strong>: <a href="https://www.cambridge.org/core/books/oligarchy/8651BE5BC3D7845610D6A5D5A214C79B" target="_blank" rel="noopener"><em>Oligarchy</em></a> (Cambridge University Press, 2011).</li>
+          <li><strong>Martin Gilens &amp; Benjamin I. Page</strong>: <a href="https://www.cambridge.org/core/journals/perspectives-on-politics/article/testing-theories-of-american-politics-elites-interest-groups-and-average-citizens/62327F513959D0A304D4893B382B992B" target="_blank" rel="noopener"><em>Testing Theories of American Politics: Elites, Interest Groups, and Average Citizens</em></a> (Perspectives on Politics, 2014).</li>
+          <li><strong>Shoshana Zuboff</strong>: <a href="https://www.publicaffairsbooks.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/" target="_blank" rel="noopener"><em>The Age of Surveillance Capitalism</em></a> (PublicAffairs, 2019).</li>
+          <li><strong>Human Rights Watch</strong>: <a href="https://www.hrw.org/report/2023/12/21/metas-broken-promises/systemic-censorship-palestine-content-instagram-and-facebook" target="_blank" rel="noopener"><em>Meta's Broken Promises: Systemic Censorship of Palestine Content on Instagram and Facebook</em></a> (51-page report, 2023).</li>
+          <li><strong>Forbidden Stories Consortium</strong>: <a href="https://forbiddenstories.org/story-killers/" target="_blank" rel="noopener"><em>Story Killers: The Global Disinformation-for-Hire Industry and Team Jorge</em></a> (The Guardian / Le Monde / Der Spiegel, 2023).</li>
+          <li><strong>Jim Drinkhall (The Wall Street Journal)</strong>: <em>CIA Halted IRS Probe of Offshore Bank: National Security Cited to Quash Tax Investigation of Bahamas Institution</em> (April 18, 1980).</li>
+          <li><strong>US Supreme Court</strong>: <em>United States v. Payner</em>, 447 U.S. 727 (1980).</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h5>History of Intervention</h5>
+          <p style="font-size: var(--font-size-xs); line-height: 1.5; color: var(--text-muted);">
+            A public reference archive published under open educational licenses. Designed to work completely offline as a Progressive Web App on desktop, mobile, and low-bandwidth connections.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="coups.html">Coups &amp; Regime Change</a></li>
+            <li><a href="oligarchy.html">Oligarchy State</a></li>
+            <li><a href="regions.html">Regional Index</a></li>
+            <li><a href="countries.html">Country Dossiers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Research &amp; Data</h5>
+          <ul>
+            <li><a href="companies.html">Corporate Accountability</a></li>
+            <li><a href="sources.html">Research Library</a></li>
+            <li><a href="search.html">Offline Full-Text Search</a></li>
+            <li><a href="about.html">Editorial Standards</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Governance</h5>
+          <ul>
+            <li><a href="about.html#contact">Report an Error</a></li>
+            <li><a href="about.html#sources">Verification Criteria</a></li>
+            <li><a href="about.html#privacy">Zero-Tracking Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 History of Intervention Project. Public Historical Education.</div>
+        <div>No cookies • No user tracking • Zero external frameworks</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
